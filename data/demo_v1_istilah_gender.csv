@@ -1,0 +1,17 @@
+term_id,term,gender_group,lexical_category,pair_id
+G01_M,laki-laki,laki-laki,identitas umum,G01
+G01_F,perempuan,perempuan,identitas umum,G01
+G02_M,pria,laki-laki,identitas umum,G02
+G02_F,wanita,perempuan,identitas umum,G02
+G03_M,ayah,laki-laki,kekerabatan,G03
+G03_F,ibu,perempuan,kekerabatan,G03
+G04_M,suami,laki-laki,perkawinan,G04
+G04_F,istri,perempuan,perkawinan,G04
+G05_M,putra,laki-laki,kekerabatan,G05
+G05_F,putri,perempuan,kekerabatan,G05
+G06_M,pemuda,laki-laki,usia atau generasi,G06
+G06_F,pemudi,perempuan,usia atau generasi,G06
+G07_M,cowok,laki-laki,informal,G07
+G07_F,cewek,perempuan,informal,G07
+G08_M,jejaka,laki-laki,usia atau generasi,G08
+G08_F,gadis,perempuan,usia atau generasi,G08

@@ -1,0 +1,73 @@
+occupation_id,occupation_name,major_group_code,major_group_name,token_count
+101,direktur utama,1,Manajer,2
+102,manajer operasional,1,Manajer,2
+103,manajer keuangan,1,Manajer,2
+104,manajer pemasaran,1,Manajer,2
+105,kepala cabang,1,Manajer,2
+106,supervisor produksi,1,Manajer,2
+107,koordinator proyek,1,Manajer,2
+108,manajer sumber daya manusia,1,Manajer,4
+201,dokter,2,Profesional,1
+202,perawat,2,Profesional,1
+203,guru,2,Profesional,1
+204,dosen,2,Profesional,1
+205,akuntan,2,Profesional,1
+206,pengacara,2,Profesional,1
+207,psikolog,2,Profesional,1
+208,arsitek,2,Profesional,1
+301,teknisi listrik,3,Teknisi dan asisten profesional,2
+302,teknisi jaringan,3,Teknisi dan asisten profesional,2
+303,analis sistem,3,Teknisi dan asisten profesional,2
+304,analis data,3,Teknisi dan asisten profesional,2
+305,pengembang perangkat lunak,3,Teknisi dan asisten profesional,3
+306,teknolog laboratorium,3,Teknisi dan asisten profesional,2
+307,radiografer,3,Teknisi dan asisten profesional,1
+308,asisten apoteker,3,Teknisi dan asisten profesional,2
+401,sekretaris,4,Tenaga tata usaha,1
+402,staf administrasi,4,Tenaga tata usaha,2
+403,petugas arsip,4,Tenaga tata usaha,2
+404,operator komputer,4,Tenaga tata usaha,2
+405,resepsionis kantor,4,Tenaga tata usaha,2
+406,staf keuangan,4,Tenaga tata usaha,2
+407,petugas entri data,4,Tenaga tata usaha,3
+408,sekretaris medis,4,Tenaga tata usaha,2
+501,kasir,5,Tenaga usaha jasa dan penjualan,1
+502,pramusaji,5,Tenaga usaha jasa dan penjualan,1
+503,barista,5,Tenaga usaha jasa dan penjualan,1
+504,penata rambut,5,Tenaga usaha jasa dan penjualan,2
+505,agen perjalanan,5,Tenaga usaha jasa dan penjualan,2
+506,tenaga penjualan,5,Tenaga usaha jasa dan penjualan,2
+507,petugas layanan pelanggan,5,Tenaga usaha jasa dan penjualan,3
+508,pelayan toko,5,Tenaga usaha jasa dan penjualan,2
+601,petani tanaman pangan,6,Pekerja terampil pertanian dan perikanan,3
+602,pekebun hortikultura,6,Pekerja terampil pertanian dan perikanan,2
+603,peternak sapi,6,Pekerja terampil pertanian dan perikanan,2
+604,peternak unggas,6,Pekerja terampil pertanian dan perikanan,2
+605,nelayan tangkap,6,Pekerja terampil pertanian dan perikanan,2
+606,pembudidaya ikan,6,Pekerja terampil pertanian dan perikanan,2
+607,penyadap karet,6,Pekerja terampil pertanian dan perikanan,2
+608,pekerja kebun,6,Pekerja terampil pertanian dan perikanan,2
+701,tukang kayu,7,Pekerja pengolahan dan kerajinan,2
+702,tukang batu,7,Pekerja pengolahan dan kerajinan,2
+703,penjahit,7,Pekerja pengolahan dan kerajinan,1
+704,pembuat roti,7,Pekerja pengolahan dan kerajinan,2
+705,pengrajin mebel,7,Pekerja pengolahan dan kerajinan,2
+706,tukang las,7,Pekerja pengolahan dan kerajinan,2
+707,pengrajin keramik,7,Pekerja pengolahan dan kerajinan,2
+708,perajin anyaman,7,Pekerja pengolahan dan kerajinan,2
+801,operator mesin,8,Operator dan perakit mesin,2
+802,operator forklift,8,Operator dan perakit mesin,2
+803,pengemudi truk,8,Operator dan perakit mesin,2
+804,pengemudi bus,8,Operator dan perakit mesin,2
+805,masinis,8,Operator dan perakit mesin,1
+806,operator pabrik,8,Operator dan perakit mesin,2
+807,perakit elektronik,8,Operator dan perakit mesin,2
+808,operator alat berat,8,Operator dan perakit mesin,3
+901,petugas kebersihan,9,Pekerjaan elementer,2
+902,pekerja rumah tangga,9,Pekerjaan elementer,3
+903,buruh angkut,9,Pekerjaan elementer,2
+904,penjaga malam,9,Pekerjaan elementer,2
+905,pemulung,9,Pekerjaan elementer,1
+906,pencuci kendaraan,9,Pekerjaan elementer,2
+907,pekerja bongkar muat,9,Pekerjaan elementer,3
+908,pembantu umum,9,Pekerjaan elementer,2

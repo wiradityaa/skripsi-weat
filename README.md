@@ -1,73 +1,95 @@
-# Analisis Asosiasi Gender pada Jabatan KBJI 2014 Menggunakan SC-WEAT
+# Analisis Asosiasi Gender–Jabatan dengan SC-WEAT
 
-Repository ini mengimplementasikan analisis asosiasi relatif gender-pekerjaan pada representasi embedding Bahasa Indonesia. Fokus implementasi adalah Golongan Pokok 2, Profesional, dari PDF KBJI 2014 yang tersedia lokal. Targetnya adalah nama Jabatan berkode enam digit; hasil dibaca sebagai asosiasi intrinsik dalam ruang embedding.
+Repository ini memuat implementasi bertahap analisis asosiasi intrinsik gender–jabatan berbahasa Indonesia menggunakan embedding fastText. Sumber target terbaru adalah PDF KBJI 2014 yang tersedia di repository, dengan ruang lingkup Golongan Pokok 2 Profesional.
 
 ## Pertanyaan analisis
 
-1. Bagaimana arah dan effect size SC-WEAT pada setiap nama Jabatan?
-2. Bagaimana pola tersebut tersebar pada Subgolongan Pokok dan Golongan?
-3. Seberapa stabil peringkat dan arah hasil ketika satu pasangan istilah gender dikeluarkan?
+1. Bagaimana arah association difference dan effect size SC-WEAT pada setiap Jabatan enam digit?
+2. Seberapa stabil hasil terhadap penghapusan satu pasangan lexical set gender?
+3. Seberapa besar perubahan hasil ketika parenthetical pada nama Jabatan dihilangkan atau ketika Jabatan dengan token OOV dipisahkan?
 
-Skor positif berarti relatif lebih dekat ke istilah laki-laki, skor negatif berarti relatif lebih dekat ke istilah perempuan, dan nilai mendekati nol menunjukkan perbedaan asosiasi relatif yang kecil dalam konfigurasi pengujian. Tanda skor bukan label normatif dan bukan label pekerjaan untuk gender tertentu.
+Hasil hanya menyatakan pola asosiasi relatif dalam ruang embedding. Positif berarti lebih dekat relatif ke atribut laki-laki, negatif berarti lebih dekat relatif ke atribut perempuan. Association difference mentah dan effect size harus dibaca bersama. Hasil ini bukan bukti diskriminasi, komposisi gender tenaga kerja, atau fakta tentang masyarakat.
 
-## Notebook dan data
+## Notebook aktif
 
-Urutan utama:
+1. `test1_v2_processing_data_kbji.ipynb` mengekstrak dan mengaudit PDF, membuat data lengkap/analisis, serta menulis satu-satunya sumber lexical set `data/test_v2_istilah_gender.csv`.
+2. `test2_v2_pipeline_scweat_fasttext.ipynb` membaca data tersebut, menghitung provenance model, embedding frasa, SC-WEAT, exact permutation, FDR, leave-one-pair-out, audit semantik, sensitivitas frasa, dan sensitivitas OOV.
 
-1. test1_v1_processing_data_kbji.ipynb membaca data/KBJI 2014.pdf, mengekstrak hierarki Golongan Pokok 2 sampai sebelum Golongan Pokok 3, menormalisasi nama secara konservatif, dan menyimpan data lengkap serta data analisis.
-2. test2_v1_pipeline_scweat_fasttext.ipynb memuat data/test_kbji_profesional_analysis.csv, membangun representasi frasa dari token fastText, menghitung SC-WEAT, exact permutation, FDR, leave-one-pair-out, dan ringkasan kelompok.
+Notebook dan output `test_v1` dipertahankan sebagai riwayat. `test_v2` tidak menimpa artefak tersebut.
 
-Data lengkap data/test_kbji_profesional_all.csv mempertahankan baris residual, audit validitas, lexical leakage, dan alasan eksklusi. Data/test_kbji_profesional_analysis.csv hanya memuat baris dengan include_analysis == True.
+## Data dan kelompok
 
-Hierarki KBJI disimpan pada kolom major_group_code, major_group_name, submajor_group_code, submajor_group_name, group_code, group_name, subgroup_code, subgroup_name, occupation_code, occupation_name_raw, dan occupation_text. PDF yang digunakan adalah berkas lokal KBJI 2014; dataset keluaran bukan dataset yang diklaim berasal dari referensi metodologis.
+Ekstraksi aktual menghasilkan 501 Jabatan mentah, 6 Subgolongan Pokok, 27 Golongan, 92 Subgolongan, 85 kategori residual, 1 lexical leakage, dan 415 Jabatan analisis. Analisis utama memakai enam Subgolongan Pokok 21–26. Golongan 211–265 hanya analisis tambahan eksploratif dan tidak diberi bobot pembahasan yang sama.
 
-## Model fastText
+Nama asli disimpan pada `occupation_name_raw`. `occupation_text` adalah representasi baseline; `occupation_text_without_parenthetical` hanya digunakan sebagai pembanding. Normalisasi deterministik tidak memakai stemming atau stopword removal agresif.
 
-Notebook 2 menggunakan cc.id.300.bin, model binary pretrained Bahasa Indonesia dari fastText yang dilatih pada Common Crawl dan Wikipedia, dimensi 300. Eksekusi tervalidasi menggunakan fasttext-community 0.11.7 yang diimpor sebagai fasttext. Sumber resmi dan URL unduhan:
+Lexical set berisi delapan pasangan operasional: `laki-laki–perempuan`, `pria–wanita`, `ayah–ibu`, `suami–istri`, `putra–putri`, `pemuda–pemudi`, `cowok–cewek`, dan `jejaka–gadis`. CSV mencatat kategori, register, status validasi, dan catatan; pasangan ini belum dianggap tervalidasi linguistik final.
 
-https://fasttext.cc/docs/en/crawl-vectors
+## Model dan metode
 
-Unduh dan ekstrak cc.id.300.bin.gz menjadi models/cc.id.300.bin. Model yang digunakan pada eksekusi berukuran 7,236,808,873 byte dengan SHA-256 46E6E4C3975C2386F76C608C896CB36FA9C90F9D7F8212988C7EEB5FF41D235F. File model dan arsip terkompresi tidak dimasukkan ke Git. Notebook memeriksa keberadaan, ukuran minimum, dan dimensi model; tidak ada random vector atau model pengganti.
+Model utama adalah `models/cc.id.300.bin`, pretrained fastText Bahasa Indonesia dari Common Crawl dan Wikipedia, dimensi 300. Sumber resmi model: https://fasttext.cc/docs/en/crawl-vectors. File model lokal tidak dimasukkan ke Git karena ukurannya sangat besar.
 
-Nama jabatan multi-kata ditokenisasi, setiap token diberi vektor fastText, lalu dirata-ratakan dan dinormalisasi L2. Status in-vocabulary dan subword OOV dicatat pada outputs/test_v1_audit_embedding.csv. Pendekatan rata-rata token adalah keputusan operasional dan memiliki keterbatasan semantik.
+Nama Jabatan multi-kata direpresentasikan dengan rata-rata vektor token lalu normalisasi L2. fastText tetap dapat menghasilkan subword vector untuk token OOV; karena itu OOV diaudit, bukan otomatis dibuang.
 
-## Metode
+SC-WEAT memakai delapan istilah per atribut, simpangan baku sampel (`ddof=1`), exact two-sided permutation seluruh C(16, 8) = 12.870 pembagian label, dan koreksi Benjamini–Hochberg FDR. Permutation test adalah keputusan operasional untuk menguji pengacakan label atribut pada satu target Jabatan.
 
-SC-WEAT menghitung rata-rata cosine nama Jabatan terhadap delapan istilah laki-laki dan delapan istilah perempuan, selisih rata-rata, dan effect size dengan sample standard deviation (ddof=1). Exact two-sided permutation mengevaluasi seluruh C(16, 8) = 12.870 pembagian atribut. P-value dikoreksi dengan Benjamini-Hochberg FDR.
+## Hasil `test_v2` dari eksekusi aktual
 
-Lexical set awal terdiri dari pasangan laki-laki–perempuan, pria–wanita, ayah–ibu, suami–istri, putra–putri, pemuda–pemudi, cowok–cewek, dan jejaka–gadis. Daftar ini bersifat operasional dan masih memerlukan validasi akademik/linguistik.
+- 415 Jabatan dianalisis; 303 effect size negatif dan 112 positif.
+- Mean effect size -0,1594, median -0,1605, minimum -0,9062, maksimum 0,8768.
+- Tidak ada hasil signifikan pada p-value mentah maupun setelah FDR.
+- Leave-one-pair-out menghasilkan 3.320 baris Jabatan × 8 pasangan. Korelasi Spearman terendah 0,9283, mean absolute change terbesar 0,2551, dan perubahan tanda terbanyak 149.
+- Sensitivitas parenthetical mencakup 43 Jabatan: korelasi Spearman 0,9878 pada perbandingan seluruh representasi, mean absolute change 0,0893, dan 5 perubahan tanda.
+- Audit vocabulary menemukan 16/16 istilah gender masuk vocabulary dan 5 token OOV pada Jabatan; seluruh vektor valid.
+- Audit coherence: mean cosine antarterm laki-laki 0,4311 dan perempuan 0,4875; mean cosine antarpasangan 0,8175. Angka ini adalah audit deskriptif, bukan validasi semantik final.
+- Keputusan operasional: fastText layak sebagai model utama untuk baseline ini, dengan keterbatasan satu model, korpus/usia model, lexical set operasional, dan kebutuhan inspeksi nearest neighbors.
 
-Leave-one-pair-out mengeluarkan satu pasangan pada setiap iterasi dan membandingkan korelasi, perubahan absolut, kesesuaian arah, serta perubahan tanda. Analisis ini adalah quality control terhadap pilihan leksikal, bukan bukti ketergantungan sosial nyata.
+Hasil `test_v1` sebelumnya juga tidak menghasilkan signifikansi; `test_v2` ditujukan untuk menelusuri sumber ketidakstabilan, bukan untuk mencari hasil yang lebih kuat.
 
 ## Output
 
-- outputs/test_v1_hasil_scweat.csv
-- outputs/test_v1_hasil_permutasi.csv
-- outputs/test_v1_hasil_sensitivitas.csv
-- outputs/test_v1_ringkasan_subgolongan_pokok.csv
-- outputs/test_v1_ringkasan_golongan.csv
-- outputs/test_v1_audit_embedding.csv
-- outputs/test_v1_validasi_pipeline.csv
+Data:
 
-Visualisasi ditampilkan langsung di notebook dan tidak disimpan sebagai file gambar.
+- `data/test_v2_kbji_profesional_all.csv`
+- `data/test_v2_kbji_profesional_analysis.csv`
+- `data/test_v2_istilah_gender.csv`
+
+Hasil dan audit:
+
+- `outputs/test_v2_hasil_scweat.csv`
+- `outputs/test_v2_hasil_permutasi.csv`
+- `outputs/test_v2_hasil_sensitivitas_per_jabatan.csv`
+- `outputs/test_v2_ringkasan_sensitivitas_pasangan.csv`
+- `outputs/test_v2_kontribusi_pasangan_gender.csv`
+- `outputs/test_v2_sensitivitas_representasi_frasa.csv`
+- `outputs/test_v2_sensitivitas_oov.csv`
+- `outputs/test_v2_ringkasan_subgolongan_pokok.csv`
+- `outputs/test_v2_ringkasan_golongan.csv`
+- `outputs/test_v2_audit_embedding.csv`
+- `outputs/test_v2_audit_model.csv`
+- `outputs/test_v2_audit_istilah_gender.csv`
+- `outputs/test_v2_nearest_neighbors.csv`
+- `outputs/test_v2_validasi_pipeline.csv`
 
 ## Menjalankan
 
-Gunakan Python yang kompatibel dengan paket fastText, sebaiknya Python 3.11–3.13 pada Windows atau lingkungan Linux dengan compiler C++:
+Pasang dependensi dari `requirements.txt`, letakkan `cc.id.300.bin` di `models/`, lalu jalankan notebook secara berurutan dari root repository. Gunakan Python 3.11–3.13 pada Windows atau lingkungan Linux yang kompatibel dengan `fasttext-community`.
 
-python -m venv .venv
+```powershell
 pip install -r requirements.txt
+jupyter notebook
+```
 
-Letakkan PDF di data/KBJI 2014.pdf, letakkan model di models/cc.id.300.bin, lalu jalankan Notebook 1 dan Notebook 2 dari root repository. Model lebih besar dari file biasa dan tidak dikelola Git.
+Notebook terakhir setiap pipeline harus menyimpan output dan tabel status validasi. Visualisasi tampil langsung dan tidak disimpan sebagai gambar.
 
 ## Batas interpretasi
 
-SC-WEAT mengukur asosiasi intrinsik dalam satu ruang embedding. Hasil tidak membuktikan komposisi gender tenaga kerja, diskriminasi perekrutan, kesesuaian pekerjaan untuk gender tertentu, atau fairness aplikasi downstream. Satu model fastText dan satu lexical set tidak mewakili seluruh model, bahasa, masyarakat, atau konteks penggunaan. Status residual, lexical leakage, dan kualitas embedding OOV perlu ditinjau sebelum menarik kesimpulan akademik.
+SC-WEAT mengukur asosiasi intrinsik pada satu ruang embedding. Effect size besar tidak otomatis berarti association difference mentah besar atau dampak sosial besar. Tidak signifikan tidak berarti embedding bebas dari seluruh asosiasi gender. Satu model fastText, satu sumber PDF, dan delapan pasangan operasional tidak mewakili seluruh bahasa, model, masyarakat, atau konteks downstream. Validitas lexical set dan penilaian nearest neighbors masih memerlukan tinjauan linguistik/akademik.
 
 ## Referensi konseptual
 
-- Caliskan, Bryson, dan Narayanan (2017), Semantics derived automatically from language corpora contain human-like biases, https://doi.org/10.1126/science.aal4230
-- Caliskan et al. (2022), Gender bias in word embeddings: A comprehensive analysis of frequency, syntax, and semantics, https://doi.org/10.1145/3514094.3534162
-- Rakivnenko et al. (2024), Bias in text embedding models, https://arxiv.org/abs/2406.12138
-- fastText, Word vectors for 157 languages, https://fasttext.cc/docs/en/crawl-vectors
-- BPS dan Kementerian Ketenagakerjaan, KBJI 2014, sebagai sumber klasifikasi pada berkas PDF lokal dan dasar struktur hierarki tahap ini.
+- Caliskan, Bryson, dan Narayanan (2017), *Semantics derived automatically from language corpora contain human-like biases*, Science. https://doi.org/10.1126/science.aal4230
+- Caliskan et al. (2022), *Gender bias in word embeddings: A comprehensive analysis of frequency, syntax, and semantics*. https://doi.org/10.1145/3514094.3534162
+- Rakivnenko et al. (2024), *Bias in text embedding models*. https://arxiv.org/abs/2406.12138
+- fastText, *Word vectors for 157 languages*. https://fasttext.cc/docs/en/crawl-vectors
+- BPS, KBJI 2014 sebagai rencana rujukan klasifikasi tahap berikutnya; PDF yang dianalisis di notebook tetap diperlakukan sebagai sumber lokal yang perlu diaudit.

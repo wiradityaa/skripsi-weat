@@ -1,0 +1,16 @@
+metric,value,denominator,notes
+model_name,cc.id.300.bin,,provenance model
+model_sha256,46e6e4c3975c2386f76c608c896cb36fa9c90f9d7f8212988c7eeb5ff41d235f,,SHA-256 streaming
+model_size_bytes,7236808873,,ukuran file
+model_dimension,300,,dimensi fastText
+python_version,3.13.15,,runtime provenance
+fasttext_community_version,0.11.7,,package provenance
+vocabulary_count,2000000,,model.get_words()
+gender_terms_in_vocabulary,16,16.0,coverage vocabulary; bukan validitas semantik
+gender_terms_with_valid_vector,16,16.0,finite vector
+mean_male_coherence,0.4310987591743469,28.0,cosine antarterm laki-laki
+median_male_coherence,0.41630059480667114,28.0,cosine antarterm laki-laki
+mean_female_coherence,0.4874822497367859,28.0,cosine antarterm perempuan
+median_female_coherence,0.49064117670059204,28.0,cosine antarterm perempuan
+mean_pair_cosine,0.8174594044685364,8.0,cosine antarpasangan
+nearest_neighbor_rows,155,31.0,5 nearest neighbors per query

@@ -191,3 +191,23 @@ Leave-one-pair-out menghasilkan 8 iterasi. Korelasi Spearman terendah 0,9283, me
 Seluruh 10 pemeriksaan quality control Notebook 2 berstatus PASS, termasuk dimensi, finite vector, cosine valid, exact partitions, p-value/FDR, invariansi urutan istilah, jumlah iterasi, dan kesamaan jumlah output dengan data analisis. Seluruh tujuh output CSV test_v1_ terbentuk.
 
 Keterbatasan yang tersisa: model sangat besar, lexical set masih operasional, 5 token OOV memerlukan kehati-hatian, representasi frasa memakai rata-rata token, PDF merupakan edisi KBJI 2014, dan hasil satu model tidak mewakili seluruh embedding atau konteks penggunaan.
+
+## Implementasi `test_v2`: revisi menyeluruh dan hasil aktual
+
+Tanggal pengerjaan: 2026-09-08.
+
+`test1_v2_processing_data_kbji.ipynb` mempertahankan parser PDF yang telah diperiksa pada v1, tetapi menambahkan audit `has_parenthetical_text`, `has_english_or_foreign_term`, `contains_slash`, `representation_notes`, dan `occupation_text_without_parenthetical`. Notebook ini juga membuat `data/test_v2_istilah_gender.csv` sebagai satu-satunya sumber lexical set untuk pipeline berikutnya. Eksekusi menghasilkan 501 Jabatan mentah, 6 Subgolongan Pokok, 27 Golongan, 92 Subgolongan, 85 residual, 1 lexical leakage, dan 415 Jabatan analisis. Quality control hierarchy, prefix mapping, konflik kode-nama, duplikasi teks, nama kosong, dan read-back CSV lulus.
+
+`test2_v2_pipeline_scweat_fasttext.ipynb` membaca data dan lexical set v2, lalu menghitung provenance model langsung. Eksekusi menggunakan Python 3.13.15, `fasttext-community` 0.11.7, model `cc.id.300.bin` berukuran 7.236.808.873 byte, dimensi 300, dan SHA-256 `46E6E4C3975C2386F76C608C896CB36FA9C90F9D7F8212988C7EEB5FF41D235F`. Vocabulary model yang terbaca adalah 2.000.000 token.
+
+SC-WEAT menghasilkan 415 baris utama: mean effect size -0,1594, median -0,1605, minimum -0,9062, maksimum 0,8768, dengan 303 arah negatif dan 112 positif. Exact permutation menjalankan 12.870 partisi untuk setiap Jabatan. Tidak ada hasil signifikan pada p-value mentah maupun setelah FDR.
+
+Bug sign agreement diperbaiki dengan menyimpan 3.320 baris long-format Jabatan × 8 pasangan pada `outputs/test_v2_hasil_sensitivitas_per_jabatan.csv`. Ringkasan per Jabatan menghitung proporsi sign agreement, median dan maksimum absolute change, rentang LOO effect, serta jumlah perubahan tanda. Ringkasan kelompok mengambil median dari nilai Jabatan dalam kelompok; tidak ada scalar global yang disalin. Korelasi Spearman LOO terendah adalah 0,9283, mean absolute change terbesar 0,2551, dan perubahan tanda terbanyak 149.
+
+Audit kontribusi pasangan mempertahankan seluruh delapan pasangan dan memberi penanda khusus untuk `pemuda–pemudi` serta `jejaka–gadis`. Sensitivitas representasi mencakup 43 Jabatan dengan parenthetical, menghasilkan korelasi Spearman 0,9878, mean absolute change 0,0893, dan 5 perubahan tanda. Audit OOV menemukan 5 token OOV pada Jabatan; ringkasan memisahkan 415 Jabatan, 410 tanpa OOV, dan 5 dengan OOV.
+
+Audit model menemukan 16/16 istilah gender memiliki vocabulary ID dan vektor valid, 155 baris nearest-neighbor untuk istilah gender, contoh Jabatan satu kata, dan token penting frasa multi-kata. Mean coherence istilah laki-laki adalah 0,4311, perempuan 0,4875, dan mean cosine antarpasangan 0,8175. Coverage vocabulary tidak dipakai sebagai satu-satunya dasar validitas semantik.
+
+Notebook v2 menghasilkan 14 CSV berawalan `test_v2_`, termasuk hasil utama, permutation, LOO per Jabatan, ringkasan pasangan, kontribusi lexical pair, sensitivitas frasa/OOV, ringkasan kelompok, audit embedding/model/istilah, nearest neighbors, dan validasi. Quality control akhir berisi 15 pemeriksaan dan seluruhnya berstatus PASS. Keputusan operasional: fastText layak sebagai model utama untuk baseline ini, dengan kebutuhan tinjauan linguistik lexical set, inspeksi nearest neighbors, satu-model limitation, dan keterbatasan korpus/usia model.
+
+Keterbatasan v2: lexical set belum tervalidasi final, parenthetical dan foreign-term audit memakai aturan deterministik operasional, fastText subword membuat OOV tidak identik dengan vektor gagal, hasil tidak membuktikan diskriminasi atau komposisi gender tenaga kerja, dan model pembanding belum dijalankan.

@@ -1,0 +1,9 @@
+pair_id,male_term,female_term,lexical_category,register,mean_male_term_similarity,mean_female_term_similarity,mean_pair_difference,median_pair_difference,mean_shift_after_pair_excluded,sign_change_count,most_affected_submajor_group,special_attention
+1,laki-laki,perempuan,identitas umum,netral,0.29723638,0.32257107,-0.02533469,-0.023664594,0.059980122321283094,35,Profesional teknologi informasi dan komunikasi,False
+2,pria,wanita,identitas umum,netral,0.33056325,0.3559973,-0.025434012,-0.025362253,0.06327756009732421,35,Profesional pendidikan,False
+3,ayah,ibu,kekerabatan,netral,0.30204016,0.31615695,-0.014116809,-0.0134812,0.06453516088857802,35,Profesional kesehatan,False
+4,suami,istri,perkawinan,netral,0.2899035,0.29505056,-0.005147055,-0.004555315,0.045548992827831036,25,"Profesional hukum, sosial dan budaya",False
+5,putra,putri,kekerabatan,netral,0.24162869,0.2413842,0.00024449223,0.00034584105,0.05669477591608486,24,Profesional teknologi informasi dan komunikasi,False
+6,pemuda,pemudi,usia/generasi,netral,0.33526394,0.2554727,0.07979124,0.08348334,0.2551265555451182,82,Profesional teknologi informasi dan komunikasi,True
+7,cowok,cewek,identitas umum,informal,0.26960012,0.26062402,0.008976086,0.011016935,0.04983730902444613,26,Profesional kesehatan,False
+8,jejaka,gadis,usia/status,netral,0.19853358,0.2883192,-0.08978562,-0.08898592,0.2266348788798333,149,Profesional teknologi informasi dan komunikasi,True

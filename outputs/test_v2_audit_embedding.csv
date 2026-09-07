@@ -1,0 +1,416 @@
+occupation_code,occupation_name_raw,occupation_text,tokens,n_tokens,n_in_vocabulary,n_subword_oov,oov_ratio,contains_oov,embedding_dimension,embedding_valid
+2111.01,Ahli Fisika (Umum),ahli fisika,"['ahli', 'fisika']",2,2,0,0.0,False,300,True
+2111.02,Ahli Fisika Nuklir,ahli fisika nuklir,"['ahli', 'fisika', 'nuklir']",3,3,0,0.0,False,300,True
+2111.03,Ahli Fisika Mekanika,ahli fisika mekanika,"['ahli', 'fisika', 'mekanika']",3,3,0,0.0,False,300,True
+2111.04,Ahli Fisika Panas,ahli fisika panas,"['ahli', 'fisika', 'panas']",3,3,0,0.0,False,300,True
+2111.05,Ahli Fisika Sinar,ahli fisika sinar,"['ahli', 'fisika', 'sinar']",3,3,0,0.0,False,300,True
+2111.06,Ahli Fisika Suara,ahli fisika suara,"['ahli', 'fisika', 'suara']",3,3,0,0.0,False,300,True
+2111.07,Ahli Fisika Listrik Dan Magnit,ahli fisika listrik dan magnit,"['ahli', 'fisika', 'listrik', 'dan', 'magnit']",5,5,0,0.0,False,300,True
+2111.08,Ahli Fisika Elektronika,ahli fisika elektronika,"['ahli', 'fisika', 'elektronika']",3,3,0,0.0,False,300,True
+2111.09,Ahli Fisika Medis,ahli fisika medis,"['ahli', 'fisika', 'medis']",3,3,0,0.0,False,300,True
+2111.1,Ahli Astronomi,ahli astronomi,"['ahli', 'astronomi']",2,2,0,0.0,False,300,True
+2112.01,Ahli Meteorologi (Umum),ahli meteorologi,"['ahli', 'meteorologi']",2,2,0,0.0,False,300,True
+2112.02,Ahli Klimatologi,ahli klimatologi,"['ahli', 'klimatologi']",2,2,0,0.0,False,300,True
+2112.03,Ahli Prakiraan Cuaca,ahli prakiraan cuaca,"['ahli', 'prakiraan', 'cuaca']",3,3,0,0.0,False,300,True
+2112.04,Ahli Hidrometeorologi,ahli hidrometeorologi,"['ahli', 'hidrometeorologi']",2,2,0,0.0,False,300,True
+2113.01,Ahli Kimia (Umum),ahli kimia,"['ahli', 'kimia']",2,2,0,0.0,False,300,True
+2113.02,Ahli Kimia Organik,ahli kimia organik,"['ahli', 'kimia', 'organik']",3,3,0,0.0,False,300,True
+2113.03,Ahli Kimia Anorganik,ahli kimia anorganik,"['ahli', 'kimia', 'anorganik']",3,3,0,0.0,False,300,True
+2113.04,Ahli Kimia Fisika,ahli kimia fisika,"['ahli', 'kimia', 'fisika']",3,3,0,0.0,False,300,True
+2113.05,Ahli Kimia Analitik,ahli kimia analitik,"['ahli', 'kimia', 'analitik']",3,3,0,0.0,False,300,True
+2114.01,Ahli Geologi (Umum),ahli geologi,"['ahli', 'geologi']",2,2,0,0.0,False,300,True
+2114.02,Ahli Geologi Kelautan,ahli geologi kelautan,"['ahli', 'geologi', 'kelautan']",3,3,0,0.0,False,300,True
+2114.03,Ahli Geologi Pertambangan,ahli geologi pertambangan,"['ahli', 'geologi', 'pertambangan']",3,3,0,0.0,False,300,True
+2114.04,Ahli Geofisika (Umum),ahli geofisika,"['ahli', 'geofisika']",2,2,0,0.0,False,300,True
+2114.05,Ahli Geofisika Kelautan,ahli geofisika kelautan,"['ahli', 'geofisika', 'kelautan']",3,3,0,0.0,False,300,True
+2120.01,Ahli Matematika Murni,ahli matematika murni,"['ahli', 'matematika', 'murni']",3,3,0,0.0,False,300,True
+2120.02,Ahli Matematika Terapan,ahli matematika terapan,"['ahli', 'matematika', 'terapan']",3,3,0,0.0,False,300,True
+2120.03,Ahli Analisis Riset Operasi (Quality Control Management),ahli analisis riset operasi quality control management,"['ahli', 'analisis', 'riset', 'operasi', 'quality', 'control', 'management']",7,7,0,0.0,False,300,True
+2120.04,Aktuaris,aktuaris,['aktuaris'],1,1,0,0.0,False,300,True
+2120.05,Ahli Statistika (Umum),ahli statistika,"['ahli', 'statistika']",2,2,0,0.0,False,300,True
+2120.06,Ahli Statistika Matematika,ahli statistika matematika,"['ahli', 'statistika', 'matematika']",3,3,0,0.0,False,300,True
+2120.07,Ahli Statistika (Terapan),ahli statistika terapan,"['ahli', 'statistika', 'terapan']",3,3,0,0.0,False,300,True
+2131.01,Ahli Perilaku Hewan,ahli perilaku hewan,"['ahli', 'perilaku', 'hewan']",3,3,0,0.0,False,300,True
+2131.02,Ahli Bakteriologi,ahli bakteriologi,"['ahli', 'bakteriologi']",2,2,0,0.0,False,300,True
+2131.03,Ahli Biologi (Umum),ahli biologi,"['ahli', 'biologi']",2,2,0,0.0,False,300,True
+2131.04,Ahli Biologi Kelautan,ahli biologi kelautan,"['ahli', 'biologi', 'kelautan']",3,3,0,0.0,False,300,True
+2131.05,Ahli Biologi Molekuler,ahli biologi molekuler,"['ahli', 'biologi', 'molekuler']",3,3,0,0.0,False,300,True
+2131.06,Ahli Botani,ahli botani,"['ahli', 'botani']",2,2,0,0.0,False,300,True
+2131.07,Ahli Zoologi,ahli zoologi,"['ahli', 'zoologi']",2,2,0,0.0,False,300,True
+2131.08,Ahli Biokimia,ahli biokimia,"['ahli', 'biokimia']",2,2,0,0.0,False,300,True
+2131.09,Ahli Anatomi,ahli anatomi,"['ahli', 'anatomi']",2,2,0,0.0,False,300,True
+2131.1,Ahli Fisiologi,ahli fisiologi,"['ahli', 'fisiologi']",2,2,0,0.0,False,300,True
+2131.11,Ahli Patologis Medis,ahli patologis medis,"['ahli', 'patologis', 'medis']",3,3,0,0.0,False,300,True
+2131.12,Ahli Patologi Hewan,ahli patologi hewan,"['ahli', 'patologi', 'hewan']",3,3,0,0.0,False,300,True
+2131.13,Ahli Farmakologi,ahli farmakologi,"['ahli', 'farmakologi']",2,2,0,0.0,False,300,True
+2132.01,Ahli Agronomi,ahli agronomi,"['ahli', 'agronomi']",2,2,0,0.0,False,300,True
+2132.02,Ahli Kehutanan,ahli kehutanan,"['ahli', 'kehutanan']",2,2,0,0.0,False,300,True
+2132.03,Ahli Penelitian Tanah,ahli penelitian tanah,"['ahli', 'penelitian', 'tanah']",3,3,0,0.0,False,300,True
+2132.04,Ahli Hortikultura,ahli hortikultura,"['ahli', 'hortikultura']",2,2,0,0.0,False,300,True
+2132.05,"Konsultan Pertanian, Kehutanan dan Perikanan",konsultan pertanian kehutanan dan perikanan,"['konsultan', 'pertanian', 'kehutanan', 'dan', 'perikanan']",5,5,0,0.0,False,300,True
+2133.01,Ahli Ekologi,ahli ekologi,"['ahli', 'ekologi']",2,2,0,0.0,False,300,True
+2133.02,Analis Polusi Udara,analis polusi udara,"['analis', 'polusi', 'udara']",3,3,0,0.0,False,300,True
+2133.03,Ahli Konservasi,ahli konservasi,"['ahli', 'konservasi']",2,2,0,0.0,False,300,True
+2133.04,Auditor Lingkungan,auditor lingkungan,"['auditor', 'lingkungan']",2,2,0,0.0,False,300,True
+2133.05,Ilmuwan Lingkungan,ilmuwan lingkungan,"['ilmuwan', 'lingkungan']",2,2,0,0.0,False,300,True
+2133.06,Analis Mutu Air,analis mutu air,"['analis', 'mutu', 'air']",3,3,0,0.0,False,300,True
+2133.07,Konsultan Lingkungan,konsultan lingkungan,"['konsultan', 'lingkungan']",2,2,0,0.0,False,300,True
+2141.01,Ahli Teknik Efisiensi Industri,ahli teknik efisiensi industri,"['ahli', 'teknik', 'efisiensi', 'industri']",4,4,0,0.0,False,300,True
+2141.02,Ahli Teknik Sistem dan Metoda Kerja Industri,ahli teknik sistem dan metoda kerja industri,"['ahli', 'teknik', 'sistem', 'dan', 'metoda', 'kerja', 'industri']",7,7,0,0.0,False,300,True
+2141.03,Ahli Teknik Pengukuran Kerja Industri,ahli teknik pengukuran kerja industri,"['ahli', 'teknik', 'pengukuran', 'kerja', 'industri']",5,5,0,0.0,False,300,True
+2141.04,Ahli Teknik Mesin Industri,ahli teknik mesin industri,"['ahli', 'teknik', 'mesin', 'industri']",4,4,0,0.0,False,300,True
+2141.05,Ahli Teknik Produksi Industri,ahli teknik produksi industri,"['ahli', 'teknik', 'produksi', 'industri']",4,4,0,0.0,False,300,True
+2142.01,Ahli Teknik Sipil (Umum),ahli teknik sipil,"['ahli', 'teknik', 'sipil']",3,3,0,0.0,False,300,True
+2142.02,Ahli Teknik Konstruksi Bangunan,ahli teknik konstruksi bangunan,"['ahli', 'teknik', 'konstruksi', 'bangunan']",4,4,0,0.0,False,300,True
+2142.03,Ahli Teknik Konstruksi Jalan,ahli teknik konstruksi jalan,"['ahli', 'teknik', 'konstruksi', 'jalan']",4,4,0,0.0,False,300,True
+2142.04,Ahli Teknik Konstruksi Landasan Pesawat Udara.,ahli teknik konstruksi landasan pesawat udara,"['ahli', 'teknik', 'konstruksi', 'landasan', 'pesawat', 'udara']",6,6,0,0.0,False,300,True
+2142.05,Ahli Teknik Konstruksi Jalan Kereta Api,ahli teknik konstruksi jalan kereta api,"['ahli', 'teknik', 'konstruksi', 'jalan', 'kereta', 'api']",6,6,0,0.0,False,300,True
+2142.06,Ahli Teknik Konstruksi Jembatan,ahli teknik konstruksi jembatan,"['ahli', 'teknik', 'konstruksi', 'jembatan']",4,4,0,0.0,False,300,True
+2142.07,Ahli Teknik Penyehatan Lingkungan,ahli teknik penyehatan lingkungan,"['ahli', 'teknik', 'penyehatan', 'lingkungan']",4,4,0,0.0,False,300,True
+2142.08,Ahli Teknik Pengairan,ahli teknik pengairan,"['ahli', 'teknik', 'pengairan']",3,3,0,0.0,False,300,True
+2142.09,Ahli Teknik Mekanika Tanah,ahli teknik mekanika tanah,"['ahli', 'teknik', 'mekanika', 'tanah']",4,4,0,0.0,False,300,True
+2143.01,Ahli Teknik Lingkungan,ahli teknik lingkungan,"['ahli', 'teknik', 'lingkungan']",3,3,0,0.0,False,300,True
+2143.02,Analis Lingkungan,analis lingkungan,"['analis', 'lingkungan']",2,2,0,0.0,False,300,True
+2143.03,Spesialis Rehabilitasi Lingkungan,spesialis rehabilitasi lingkungan,"['spesialis', 'rehabilitasi', 'lingkungan']",3,3,0,0.0,False,300,True
+2144.01,Ahli Teknik Mesin (Umum),ahli teknik mesin,"['ahli', 'teknik', 'mesin']",3,3,0,0.0,False,300,True
+2144.02,Ahli Teknik Mesin Dan Peralatan Industri,ahli teknik mesin dan peralatan industri,"['ahli', 'teknik', 'mesin', 'dan', 'peralatan', 'industri']",6,6,0,0.0,False,300,True
+2144.03,Ahli Teknik Mesin Motor Penggerak (Selain Mesin Kapal),ahli teknik mesin motor penggerak selain mesin kapal,"['ahli', 'teknik', 'mesin', 'motor', 'penggerak', 'selain', 'mesin', 'kapal']",8,8,0,0.0,False,300,True
+2144.04,Ahli Teknik Mesin Kapal,ahli teknik mesin kapal,"['ahli', 'teknik', 'mesin', 'kapal']",4,4,0,0.0,False,300,True
+2144.05,Ahli Teknik Konstruksi Kapal,ahli teknik konstruksi kapal,"['ahli', 'teknik', 'konstruksi', 'kapal']",4,4,0,0.0,False,300,True
+2144.06,Ahli Teknik Industri Pesawat Terbang,ahli teknik industri pesawat terbang,"['ahli', 'teknik', 'industri', 'pesawat', 'terbang']",5,5,0,0.0,False,300,True
+2144.07,Ahli Teknik Mobil,ahli teknik mobil,"['ahli', 'teknik', 'mobil']",3,3,0,0.0,False,300,True
+2144.08,"Ahli Teknik Pemanasan, Ventilasi dan Pendinginan",ahli teknik pemanasan ventilasi dan pendinginan,"['ahli', 'teknik', 'pemanasan', 'ventilasi', 'dan', 'pendinginan']",6,6,0,0.0,False,300,True
+2144.09,Ahli Teknik Mesin Tenaga Atom,ahli teknik mesin tenaga atom,"['ahli', 'teknik', 'mesin', 'tenaga', 'atom']",5,5,0,0.0,False,300,True
+2145.01,Ahli Teknik Kimia (Umum),ahli teknik kimia,"['ahli', 'teknik', 'kimia']",3,3,0,0.0,False,300,True
+2145.02,Ahli Teknik Kimia Bahan Bakar,ahli teknik kimia bahan bakar,"['ahli', 'teknik', 'kimia', 'bahan', 'bakar']",5,5,0,0.0,False,300,True
+2145.03,Ahli Teknik Kimia Plastik,ahli teknik kimia plastik,"['ahli', 'teknik', 'kimia', 'plastik']",4,4,0,0.0,False,300,True
+2146.01,Ahli Teknik Pertambangan (Umum),ahli teknik pertambangan,"['ahli', 'teknik', 'pertambangan']",3,3,0,0.0,False,300,True
+2146.02,Ahli Teknik Pertambangan Batu Bara,ahli teknik pertambangan batu bara,"['ahli', 'teknik', 'pertambangan', 'batu', 'bara']",5,5,0,0.0,False,300,True
+2146.03,Ahli Teknik Pertambangan Logam,ahli teknik pertambangan logam,"['ahli', 'teknik', 'pertambangan', 'logam']",4,4,0,0.0,False,300,True
+2146.04,Ahli Teknik Pertambangan Minyak Bumi dan Gas Alam,ahli teknik pertambangan minyak bumi dan gas alam,"['ahli', 'teknik', 'pertambangan', 'minyak', 'bumi', 'dan', 'gas', 'alam']",8,8,0,0.0,False,300,True
+2146.05,Ahli Metalurgi Ekstraksi,ahli metalurgi ekstraksi,"['ahli', 'metalurgi', 'ekstraksi']",3,3,0,0.0,False,300,True
+2146.06,Ahli Metalurgi Fisika,ahli metalurgi fisika,"['ahli', 'metalurgi', 'fisika']",3,3,0,0.0,False,300,True
+2149.01,Ahli Teknik Keramik Dan Kaca,ahli teknik keramik dan kaca,"['ahli', 'teknik', 'keramik', 'dan', 'kaca']",5,5,0,0.0,False,300,True
+2149.02,Ahli Teknik Pertanian,ahli teknik pertanian,"['ahli', 'teknik', 'pertanian']",3,3,0,0.0,False,300,True
+2149.03,Ahli Teknik Bahan Makanan dan Minuman,ahli teknik bahan makanan dan minuman,"['ahli', 'teknik', 'bahan', 'makanan', 'dan', 'minuman']",6,6,0,0.0,False,300,True
+2149.04,Ahli Teknik Tekstil,ahli teknik tekstil,"['ahli', 'teknik', 'tekstil']",3,3,0,0.0,False,300,True
+2149.05,Ahli Teknik Perencanaan Sistem Lalu-Lintas,ahli teknik perencanaan sistem lalu-lintas,"['ahli', 'teknik', 'perencanaan', 'sistem', 'lalu-lintas']",5,5,0,0.0,False,300,True
+2149.06,Ahli Teknik Biomedis,ahli teknik biomedis,"['ahli', 'teknik', 'biomedis']",3,3,0,0.0,False,300,True
+2149.07,Ahli Teknik Bahan Peledak,ahli teknik bahan peledak,"['ahli', 'teknik', 'bahan', 'peledak']",4,4,0,0.0,False,300,True
+2149.08,Ahli Teknik Salvage (Penyelamatan Laut),ahli teknik salvage penyelamatan laut,"['ahli', 'teknik', 'salvage', 'penyelamatan', 'laut']",5,5,0,0.0,False,300,True
+2149.09,Ahli Teknik Keselamatan,ahli teknik keselamatan,"['ahli', 'teknik', 'keselamatan']",3,3,0,0.0,False,300,True
+2149.1,Ahli Teknik Optikal,ahli teknik optikal,"['ahli', 'teknik', 'optikal']",3,3,0,0.0,False,300,True
+2151.01,Ahli Teknik Listrik (Umum),ahli teknik listrik,"['ahli', 'teknik', 'listrik']",3,3,0,0.0,False,300,True
+2151.02,Ahli Teknik Pembangkit Tenaga Listrik,ahli teknik pembangkit tenaga listrik,"['ahli', 'teknik', 'pembangkit', 'tenaga', 'listrik']",5,5,0,0.0,False,300,True
+2151.03,Ahli Teknik Distribusi dan Transmisi Tenaga Listrik,ahli teknik distribusi dan transmisi tenaga listrik,"['ahli', 'teknik', 'distribusi', 'dan', 'transmisi', 'tenaga', 'listrik']",7,7,0,0.0,False,300,True
+2151.04,Ahli Teknik Elektromekanik,ahli teknik elektromekanik,"['ahli', 'teknik', 'elektromekanik']",3,3,0,0.0,False,300,True
+2152.01,Ahli Teknik Elektronik (Umum),ahli teknik elektronik,"['ahli', 'teknik', 'elektronik']",3,3,0,0.0,False,300,True
+2152.02,Ahli Teknik Perangkat Keras Komputer,ahli teknik perangkat keras komputer,"['ahli', 'teknik', 'perangkat', 'keras', 'komputer']",5,5,0,0.0,False,300,True
+2152.03,Ahli Teknik Instrumentasi (Alat Ukur),ahli teknik instrumentasi alat ukur,"['ahli', 'teknik', 'instrumentasi', 'alat', 'ukur']",5,5,0,0.0,False,300,True
+2153.01,Ahli Teknik Telekomunikasi,ahli teknik telekomunikasi,"['ahli', 'teknik', 'telekomunikasi']",3,3,0,0.0,False,300,True
+2153.02,Ahli Teknik Penyiaran dan Audio Visual,ahli teknik penyiaran dan audio visual,"['ahli', 'teknik', 'penyiaran', 'dan', 'audio', 'visual']",6,6,0,0.0,False,300,True
+2153.03,Ahli Teknologi Rekayasa Telekomunikasi,ahli teknologi rekayasa telekomunikasi,"['ahli', 'teknologi', 'rekayasa', 'telekomunikasi']",4,4,0,0.0,False,300,True
+2161.01,Arsitek Bangunan,arsitek bangunan,"['arsitek', 'bangunan']",2,2,0,0.0,False,300,True
+2161.02,Arsitek Interior,arsitek interior,"['arsitek', 'interior']",2,2,0,0.0,False,300,True
+2162.0,Arsitek Pertamanan/Lansekap,arsitek pertamanan lansekap,"['arsitek', 'pertamanan', 'lansekap']",3,3,0,0.0,False,300,True
+2163.01,Perancang Kostum,perancang kostum,"['perancang', 'kostum']",2,2,0,0.0,False,300,True
+2163.02,Perancang Busana,perancang busana,"['perancang', 'busana']",2,2,0,0.0,False,300,True
+2163.03,Perancang Perhiasan,perancang perhiasan,"['perancang', 'perhiasan']",2,2,0,0.0,False,300,True
+2163.04,Perancang Produk Industri,perancang produk industri,"['perancang', 'produk', 'industri']",3,3,0,0.0,False,300,True
+2164.01,Perencana Lahan,perencana lahan,"['perencana', 'lahan']",2,2,0,0.0,False,300,True
+2164.02,Perencana Tata Kota,perencana tata kota,"['perencana', 'tata', 'kota']",3,3,0,0.0,False,300,True
+2164.03,Perencana Lalu Lintas,perencana lalu lintas,"['perencana', 'lalu', 'lintas']",3,3,0,0.0,False,300,True
+2165.01,Surveyor Tanah,surveyor tanah,"['surveyor', 'tanah']",2,2,0,0.0,False,300,True
+2165.02,Surveyor Pertambangan,surveyor pertambangan,"['surveyor', 'pertambangan']",2,2,0,0.0,False,300,True
+2165.03,Surveyor Hidrografi,surveyor hidrografi,"['surveyor', 'hidrografi']",2,2,0,0.0,False,300,True
+2165.04,Surveyor Topografi,surveyor topografi,"['surveyor', 'topografi']",2,2,0,0.0,False,300,True
+2165.05,Surveyor Aerial,surveyor aerial,"['surveyor', 'aerial']",2,2,0,0.0,False,300,True
+2165.06,Surveyor Kadastral,surveyor kadastral,"['surveyor', 'kadastral']",2,2,0,0.0,False,300,True
+2165.07,Ahli Pemetaan (Kartografer),ahli pemetaan kartografer,"['ahli', 'pemetaan', 'kartografer']",3,3,0,0.0,False,300,True
+2166.01,Animator,animator,['animator'],1,1,0,0.0,False,300,True
+2166.02,Seniman Digital,seniman digital,"['seniman', 'digital']",2,2,0,0.0,False,300,True
+2166.03,Perancang Grafis,perancang grafis,"['perancang', 'grafis']",2,2,0,0.0,False,300,True
+2166.04,Ilustrator Teknik,ilustrator teknik,"['ilustrator', 'teknik']",2,2,0,0.0,False,300,True
+2166.05,Perancang Permainan Interaktif,perancang permainan interaktif,"['perancang', 'permainan', 'interaktif']",3,3,0,0.0,False,300,True
+2166.06,Ilustrator,ilustrator,['ilustrator'],1,1,0,0.0,False,300,True
+2166.07,Seniman Lithografi,seniman lithografi,"['seniman', 'lithografi']",2,2,0,0.0,False,300,True
+2166.08,Desainer Multimedia,desainer multimedia,"['desainer', 'multimedia']",2,2,0,0.0,False,300,True
+2166.09,Desainer Publikasi,desainer publikasi,"['desainer', 'publikasi']",2,2,0,0.0,False,300,True
+2166.1,Desainer Website,desainer website,"['desainer', 'website']",2,2,0,0.0,False,300,True
+2211.01,Dokter Umum,dokter umum,"['dokter', 'umum']",2,2,0,0.0,False,300,True
+2211.02,Dokter Keluarga,dokter keluarga,"['dokter', 'keluarga']",2,2,0,0.0,False,300,True
+2212.01,Dokter Spesialis Anestesi,dokter spesialis anestesi,"['dokter', 'spesialis', 'anestesi']",3,3,0,0.0,False,300,True
+2212.02,Dokter Spesialis Jantung,dokter spesialis jantung,"['dokter', 'spesialis', 'jantung']",3,3,0,0.0,False,300,True
+2212.03,Dokter Spesialis Kulit dan Kelamin,dokter spesialis kulit dan kelamin,"['dokter', 'spesialis', 'kulit', 'dan', 'kelamin']",5,5,0,0.0,False,300,True
+2212.04,"Dokter Spesialis Telinga, Hidung dan Tenggorokan",dokter spesialis telinga hidung dan tenggorokan,"['dokter', 'spesialis', 'telinga', 'hidung', 'dan', 'tenggorokan']",6,6,0,0.0,False,300,True
+2212.05,Dokter Spesialis Kandungan,dokter spesialis kandungan,"['dokter', 'spesialis', 'kandungan']",3,3,0,0.0,False,300,True
+2212.06,Dokter Spesialis Mata,dokter spesialis mata,"['dokter', 'spesialis', 'mata']",3,3,0,0.0,False,300,True
+2212.07,Dokter Spesialis Anak,dokter spesialis anak,"['dokter', 'spesialis', 'anak']",3,3,0,0.0,False,300,True
+2212.08,Psikiater,psikiater,['psikiater'],1,1,0,0.0,False,300,True
+2212.09,Dokter Spesialis Penyakit Dalam,dokter spesialis penyakit dalam,"['dokter', 'spesialis', 'penyakit', 'dalam']",4,4,0,0.0,False,300,True
+2212.1,Dokter Spesialis Saraf,dokter spesialis saraf,"['dokter', 'spesialis', 'saraf']",3,3,0,0.0,False,300,True
+2212.11,Dokter Spesialis Patologi,dokter spesialis patologi,"['dokter', 'spesialis', 'patologi']",3,3,0,0.0,False,300,True
+2212.12,Dokter Spesialis Paru,dokter spesialis paru,"['dokter', 'spesialis', 'paru']",3,3,0,0.0,False,300,True
+2212.13,Dokter Spesialis Radiologi,dokter spesialis radiologi,"['dokter', 'spesialis', 'radiologi']",3,3,0,0.0,False,300,True
+2212.14,Dokter Spesialis Bedah Umum,dokter spesialis bedah umum,"['dokter', 'spesialis', 'bedah', 'umum']",4,4,0,0.0,False,300,True
+2212.15,Dokter Spesialis Bedah Digestif,dokter spesialis bedah digestif,"['dokter', 'spesialis', 'bedah', 'digestif']",4,4,0,0.0,False,300,True
+2212.16,Dokter Spesialis Bedah Syaraf,dokter spesialis bedah syaraf,"['dokter', 'spesialis', 'bedah', 'syaraf']",4,4,0,0.0,False,300,True
+2212.17,Dokter Spesialis Bedah Orthopedi dan Traumatologi,dokter spesialis bedah orthopedi dan traumatologi,"['dokter', 'spesialis', 'bedah', 'orthopedi', 'dan', 'traumatologi']",6,6,0,0.0,False,300,True
+2212.18,Dokter Spesialis Bedah Onkologi,dokter spesialis bedah onkologi,"['dokter', 'spesialis', 'bedah', 'onkologi']",4,4,0,0.0,False,300,True
+2221.01,Perawat Ahli,perawat ahli,"['perawat', 'ahli']",2,2,0,0.0,False,300,True
+2221.02,Perawat Spesialis,perawat spesialis,"['perawat', 'spesialis']",2,2,0,0.0,False,300,True
+2221.03,Perawat Kesehatan Masyarakat,perawat kesehatan masyarakat,"['perawat', 'kesehatan', 'masyarakat']",3,3,0,0.0,False,300,True
+2221.04,Perawat Kesehatan Kerja,perawat kesehatan kerja,"['perawat', 'kesehatan', 'kerja']",3,3,0,0.0,False,300,True
+2221.05,Perawat,perawat,['perawat'],1,1,0,0.0,False,300,True
+2221.06,Perawat Anastesi,perawat anastesi,"['perawat', 'anastesi']",2,2,0,0.0,False,300,True
+2222.01,Bidan,bidan,['bidan'],1,1,0,0.0,False,300,True
+2230.01,Ahli Akupuntur,ahli akupuntur,"['ahli', 'akupuntur']",2,2,0,0.0,False,300,True
+2230.02,Ahli Pengobatan Herbal Cina,ahli pengobatan herbal cina,"['ahli', 'pengobatan', 'herbal', 'cina']",4,4,0,0.0,False,300,True
+2230.03,Praktisi Ayurvedic,praktisi ayurvedic,"['praktisi', 'ayurvedic']",2,2,0,0.0,False,300,True
+2230.04,Ahli Homeopati,ahli homeopati,"['ahli', 'homeopati']",2,2,0,0.0,False,300,True
+2230.05,Ahli Naturopati,ahli naturopati,"['ahli', 'naturopati']",2,2,0,0.0,False,300,True
+2230.06,Praktisi Unani,praktisi unani,"['praktisi', 'unani']",2,1,1,0.5,True,300,True
+2240.01,Asisten Medik,asisten medik,"['asisten', 'medik']",2,2,0,0.0,False,300,True
+2240.02,Paramedis,paramedis,['paramedis'],1,1,0,0.0,False,300,True
+2240.03,Teknisi Bedah,teknisi bedah,"['teknisi', 'bedah']",2,2,0,0.0,False,300,True
+2250.01,Dokter Hewan (Umum),dokter hewan,"['dokter', 'hewan']",2,2,0,0.0,False,300,True
+2250.02,Dokter Hewan Kesehatan Masyarakat,dokter hewan kesehatan masyarakat,"['dokter', 'hewan', 'kesehatan', 'masyarakat']",4,4,0,0.0,False,300,True
+2250.03,Dokter Bedah Hewan,dokter bedah hewan,"['dokter', 'bedah', 'hewan']",3,3,0,0.0,False,300,True
+2250.04,Ahli Penyakit Hewan (Patologi),ahli penyakit hewan patologi,"['ahli', 'penyakit', 'hewan', 'patologi']",4,4,0,0.0,False,300,True
+2250.05,Ahli Epidemiologi Hewan,ahli epidemiologi hewan,"['ahli', 'epidemiologi', 'hewan']",3,3,0,0.0,False,300,True
+2261.01,Dokter Gigi (Umum),dokter gigi,"['dokter', 'gigi']",2,2,0,0.0,False,300,True
+2261.02,Dokter Gigi Kesehatan Masyarakat,dokter gigi kesehatan masyarakat,"['dokter', 'gigi', 'kesehatan', 'masyarakat']",4,4,0,0.0,False,300,True
+2261.03,Asisten Bedah Gigi,asisten bedah gigi,"['asisten', 'bedah', 'gigi']",3,3,0,0.0,False,300,True
+2261.04,Ahli Kesehatan Gigi,ahli kesehatan gigi,"['ahli', 'kesehatan', 'gigi']",3,3,0,0.0,False,300,True
+2261.05,Endodontist,endodontist,['endodontist'],1,0,1,1.0,True,300,True
+2261.06,Ahli Bedah Mulut dan Maxillofacial,ahli bedah mulut dan maxillofacial,"['ahli', 'bedah', 'mulut', 'dan', 'maxillofacial']",5,5,0,0.0,False,300,True
+2261.07,Ahli Penyakit Mulut,ahli penyakit mulut,"['ahli', 'penyakit', 'mulut']",3,3,0,0.0,False,300,True
+2261.08,Ortodontis,ortodontis,['ortodontis'],1,1,0,0.0,False,300,True
+2261.09,Paedodontist,paedodontist,['paedodontist'],1,0,1,1.0,True,300,True
+2261.1,Periodontist,periodontist,['periodontist'],1,1,0,0.0,False,300,True
+2261.11,Prosthodontist,prosthodontist,['prosthodontist'],1,0,1,1.0,True,300,True
+2262.01,Apoteker,apoteker,['apoteker'],1,1,0,0.0,False,300,True
+2263.01,Petugas Kesehatan Lingkungan,petugas kesehatan lingkungan,"['petugas', 'kesehatan', 'lingkungan']",3,3,0,0.0,False,300,True
+2263.02,Penasihat Kesehatan dan Keselamatan Kerja,penasihat kesehatan dan keselamatan kerja,"['penasihat', 'kesehatan', 'dan', 'keselamatan', 'kerja']",5,5,0,0.0,False,300,True
+2263.03,Ahli Proteksi Radiasi,ahli proteksi radiasi,"['ahli', 'proteksi', 'radiasi']",3,3,0,0.0,False,300,True
+2264.01,Ahli Fisioterapi,ahli fisioterapi,"['ahli', 'fisioterapi']",2,2,0,0.0,False,300,True
+2264.02,Ahli Terapi Rehabilitasi,ahli terapi rehabilitasi,"['ahli', 'terapi', 'rehabilitasi']",3,3,0,0.0,False,300,True
+2264.03,Terapis Geriatri (Terapis Lansia),terapis geriatri terapis lansia,"['terapis', 'geriatri', 'terapis', 'lansia']",4,4,0,0.0,False,300,True
+2264.04,Terapis Pediatri (Terapis Anak),terapis pediatri terapis anak,"['terapis', 'pediatri', 'terapis', 'anak']",4,4,0,0.0,False,300,True
+2264.05,Terapis Ortopedi (Terapis Alat Gerak),terapis ortopedi terapis alat gerak,"['terapis', 'ortopedi', 'terapis', 'alat', 'gerak']",5,5,0,0.0,False,300,True
+2265.01,Ahli Diet (Umum),ahli diet,"['ahli', 'diet']",2,2,0,0.0,False,300,True
+2265.02,Ahli Gizi Klinis,ahli gizi klinis,"['ahli', 'gizi', 'klinis']",3,3,0,0.0,False,300,True
+2265.03,Ahli Gizi Layanan Makanan,ahli gizi layanan makanan,"['ahli', 'gizi', 'layanan', 'makanan']",4,4,0,0.0,False,300,True
+2265.04,Ahli Gizi Masyarakat,ahli gizi masyarakat,"['ahli', 'gizi', 'masyarakat']",3,3,0,0.0,False,300,True
+2265.05,Ahli Gizi Olahraga,ahli gizi olahraga,"['ahli', 'gizi', 'olahraga']",3,3,0,0.0,False,300,True
+2266.01,Ahli Terapi Pendengaran,ahli terapi pendengaran,"['ahli', 'terapi', 'pendengaran']",3,3,0,0.0,False,300,True
+2266.02,Ahli Terapi Bicara,ahli terapi bicara,"['ahli', 'terapi', 'bicara']",3,3,0,0.0,False,300,True
+2267.01,Optometrist,optometrist,['optometrist'],1,1,0,0.0,False,300,True
+2267.02,Orthoptist,orthoptist,['orthoptist'],1,1,0,0.0,False,300,True
+2269.01,Terapis Seni,terapis seni,"['terapis', 'seni']",2,2,0,0.0,False,300,True
+2269.02,Terapis Tari dan Gerakan,terapis tari dan gerakan,"['terapis', 'tari', 'dan', 'gerakan']",4,4,0,0.0,False,300,True
+2269.03,Okupasi Terapis,okupasi terapis,"['okupasi', 'terapis']",2,2,0,0.0,False,300,True
+2269.04,Ahli Podiatri (Penyakit Kaki),ahli podiatri penyakit kaki,"['ahli', 'podiatri', 'penyakit', 'kaki']",4,4,0,0.0,False,300,True
+2310.01,Dosen Ilmu Fisika,dosen ilmu fisika,"['dosen', 'ilmu', 'fisika']",3,3,0,0.0,False,300,True
+2310.02,Dosen Ilmu Teknik dan Arsitektur,dosen ilmu teknik dan arsitektur,"['dosen', 'ilmu', 'teknik', 'dan', 'arsitektur']",5,5,0,0.0,False,300,True
+2310.03,Dosen Ilmu Kedokteran dan Ilmu Hayati,dosen ilmu kedokteran dan ilmu hayati,"['dosen', 'ilmu', 'kedokteran', 'dan', 'ilmu', 'hayati']",6,6,0,0.0,False,300,True
+2310.04,Dosen Ilmu Matematika,dosen ilmu matematika,"['dosen', 'ilmu', 'matematika']",3,3,0,0.0,False,300,True
+2310.05,Dosen Ilmu Statistika,dosen ilmu statistika,"['dosen', 'ilmu', 'statistika']",3,3,0,0.0,False,300,True
+2310.06,Dosen Ilmu Ekonomi dan Administrasi Niaga,dosen ilmu ekonomi dan administrasi niaga,"['dosen', 'ilmu', 'ekonomi', 'dan', 'administrasi', 'niaga']",6,6,0,0.0,False,300,True
+2310.07,Dosen Ilmu Hukum,dosen ilmu hukum,"['dosen', 'ilmu', 'hukum']",3,3,0,0.0,False,300,True
+2310.08,Dosen Ilmu Pendidikan,dosen ilmu pendidikan,"['dosen', 'ilmu', 'pendidikan']",3,3,0,0.0,False,300,True
+2310.09,Dosen Ilmu Pertanian,dosen ilmu pertanian,"['dosen', 'ilmu', 'pertanian']",3,3,0,0.0,False,300,True
+2310.1,Dosen Ilmu Sosial dan Politik,dosen ilmu sosial dan politik,"['dosen', 'ilmu', 'sosial', 'dan', 'politik']",5,5,0,0.0,False,300,True
+2310.11,"Dosen Ilmu Bahasa, Sastra, Budaya dan Sejarah",dosen ilmu bahasa sastra budaya dan sejarah,"['dosen', 'ilmu', 'bahasa', 'sastra', 'budaya', 'dan', 'sejarah']",7,7,0,0.0,False,300,True
+2310.12,Dosen Ilmu Keagamaan,dosen ilmu keagamaan,"['dosen', 'ilmu', 'keagamaan']",3,3,0,0.0,False,300,True
+2310.13,Dosen Ilmu Kesehatan Masyarakat,dosen ilmu kesehatan masyarakat,"['dosen', 'ilmu', 'kesehatan', 'masyarakat']",4,4,0,0.0,False,300,True
+2310.14,"Dosen Ilmu Terapi Kesehatan, Kebidanan dan Yang Sejenis",dosen ilmu terapi kesehatan kebidanan dan yang sejenis,"['dosen', 'ilmu', 'terapi', 'kesehatan', 'kebidanan', 'dan', 'yang', 'sejenis']",8,8,0,0.0,False,300,True
+2310.15,Dosen Ilmu Olahraga,dosen ilmu olahraga,"['dosen', 'ilmu', 'olahraga']",3,3,0,0.0,False,300,True
+2310.16,Dosen Ilmu Teknologi Industri,dosen ilmu teknologi industri,"['dosen', 'ilmu', 'teknologi', 'industri']",4,4,0,0.0,False,300,True
+2310.17,Dosen Ilmu Komputer,dosen ilmu komputer,"['dosen', 'ilmu', 'komputer']",3,3,0,0.0,False,300,True
+2320.01,Instruktur Teknik Otomotif,instruktur teknik otomotif,"['instruktur', 'teknik', 'otomotif']",3,3,0,0.0,False,300,True
+2320.02,Instruktur Tata Rias,instruktur tata rias,"['instruktur', 'tata', 'rias']",3,3,0,0.0,False,300,True
+2320.03,Guru Pendidikan Kejuruan Menengah Pertama,guru pendidikan kejuruan menengah pertama,"['guru', 'pendidikan', 'kejuruan', 'menengah', 'pertama']",5,5,0,0.0,False,300,True
+2320.04,Guru Pendidikan Kejuruan Menengah Atas,guru pendidikan kejuruan menengah atas,"['guru', 'pendidikan', 'kejuruan', 'menengah', 'atas']",5,5,0,0.0,False,300,True
+2330.01,Guru Pendidikan Menengah Pertama,guru pendidikan menengah pertama,"['guru', 'pendidikan', 'menengah', 'pertama']",4,4,0,0.0,False,300,True
+2330.02,Guru Pendidikan Menengah Atas,guru pendidikan menengah atas,"['guru', 'pendidikan', 'menengah', 'atas']",4,4,0,0.0,False,300,True
+2341.0,Guru Sekolah Dasar,guru sekolah dasar,"['guru', 'sekolah', 'dasar']",3,3,0,0.0,False,300,True
+2342.01,Guru Taman Kanak-Kanak,guru taman kanak-kanak,"['guru', 'taman', 'kanak-kanak']",3,3,0,0.0,False,300,True
+2342.02,Guru Pendidikan Anak Usia Dini,guru pendidikan anak usia dini,"['guru', 'pendidikan', 'anak', 'usia', 'dini']",5,5,0,0.0,False,300,True
+2351.01,Koordinator Kurikulum,koordinator kurikulum,"['koordinator', 'kurikulum']",2,2,0,0.0,False,300,True
+2351.02,Spesialis Metode Pendidikan,spesialis metode pendidikan,"['spesialis', 'metode', 'pendidikan']",3,3,0,0.0,False,300,True
+2351.03,Pengawas Sekolah,pengawas sekolah,"['pengawas', 'sekolah']",2,2,0,0.0,False,300,True
+2352.01,Guru Tunadaksa,guru tunadaksa,"['guru', 'tunadaksa']",2,2,0,0.0,False,300,True
+2352.02,Guru Tuna Rungu,guru tuna rungu,"['guru', 'tuna', 'rungu']",3,3,0,0.0,False,300,True
+2352.03,Guru Tuna Netra,guru tuna netra,"['guru', 'tuna', 'netra']",3,3,0,0.0,False,300,True
+2354.01,Guru Gitar,guru gitar,"['guru', 'gitar']",2,2,0,0.0,False,300,True
+2354.02,Guru Piano,guru piano,"['guru', 'piano']",2,2,0,0.0,False,300,True
+2354.03,Guru Vokal,guru vokal,"['guru', 'vokal']",2,2,0,0.0,False,300,True
+2354.04,Guru Biola,guru biola,"['guru', 'biola']",2,2,0,0.0,False,300,True
+2355.01,Guru Tari,guru tari,"['guru', 'tari']",2,2,0,0.0,False,300,True
+2355.02,Guru Teater/Drama,guru teater drama,"['guru', 'teater', 'drama']",3,3,0,0.0,False,300,True
+2355.03,Guru Lukis,guru lukis,"['guru', 'lukis']",2,2,0,0.0,False,300,True
+2355.04,Guru Pahat/Ukir,guru pahat ukir,"['guru', 'pahat', 'ukir']",3,3,0,0.0,False,300,True
+2356.01,Pengajar Komputer,pengajar komputer,"['pengajar', 'komputer']",2,2,0,0.0,False,300,True
+2356.02,Pengajar Software,pengajar software,"['pengajar', 'software']",2,2,0,0.0,False,300,True
+2411.01,Akuntan,akuntan,['akuntan'],1,1,0,0.0,False,300,True
+2411.02,Auditor,auditor,['auditor'],1,1,0,0.0,False,300,True
+2411.03,Pengawas Keuangan,pengawas keuangan,"['pengawas', 'keuangan']",2,2,0,0.0,False,300,True
+2411.04,Akuntan Manajemen,akuntan manajemen,"['akuntan', 'manajemen']",2,2,0,0.0,False,300,True
+2411.05,Akuntan Pajak,akuntan pajak,"['akuntan', 'pajak']",2,2,0,0.0,False,300,True
+2412.01,Perencana Estate/Investasi Fisik,perencana estate investasi fisik,"['perencana', 'estate', 'investasi', 'fisik']",4,4,0,0.0,False,300,True
+2412.02,Perencana Keuangan,perencana keuangan,"['perencana', 'keuangan']",2,2,0,0.0,False,300,True
+2413.01,Analis Obligasi,analis obligasi,"['analis', 'obligasi']",2,2,0,0.0,False,300,True
+2413.02,Konsultan Investasi,konsultan investasi,"['konsultan', 'investasi']",2,2,0,0.0,False,300,True
+2421.01,Analis Organisasi dan Metode,analis organisasi dan metode,"['analis', 'organisasi', 'dan', 'metode']",4,4,0,0.0,False,300,True
+2421.02,Konsultan Bisnis,konsultan bisnis,"['konsultan', 'bisnis']",2,2,0,0.0,False,300,True
+2421.03,Konsultan Manajemen,konsultan manajemen,"['konsultan', 'manajemen']",2,2,0,0.0,False,300,True
+2422.01,Analis Kebijakan,analis kebijakan,"['analis', 'kebijakan']",2,2,0,0.0,False,300,True
+2423.01,Penasihat Karir,penasihat karir,"['penasihat', 'karir']",2,2,0,0.0,False,300,True
+2423.02,Analis Pekerjaan,analis pekerjaan,"['analis', 'pekerjaan']",2,2,0,0.0,False,300,True
+2423.03,Analis Jabatan,analis jabatan,"['analis', 'jabatan']",2,2,0,0.0,False,300,True
+2423.04,Konselor Bimbingan Kejuruan,konselor bimbingan kejuruan,"['konselor', 'bimbingan', 'kejuruan']",3,3,0,0.0,False,300,True
+2423.05,Pakar Sumber Daya Manusia,pakar sumber daya manusia,"['pakar', 'sumber', 'daya', 'manusia']",4,4,0,0.0,False,300,True
+2423.06,Ahli Penempatan Kerja,ahli penempatan kerja,"['ahli', 'penempatan', 'kerja']",3,3,0,0.0,False,300,True
+2424.01,Petugas Pelatihan,petugas pelatihan,"['petugas', 'pelatihan']",2,2,0,0.0,False,300,True
+2424.02,Spesialis Pengembangan Tenaga Kerja,spesialis pengembangan tenaga kerja,"['spesialis', 'pengembangan', 'tenaga', 'kerja']",4,4,0,0.0,False,300,True
+2431.01,Spesialis periklanan,spesialis periklanan,"['spesialis', 'periklanan']",2,2,0,0.0,False,300,True
+2431.02,Analis Penelitian Pasar,analis penelitian pasar,"['analis', 'penelitian', 'pasar']",3,3,0,0.0,False,300,True
+2431.03,Spesialis Pemasaran,spesialis pemasaran,"['spesialis', 'pemasaran']",2,2,0,0.0,False,300,True
+2432.0,Profesional Hubungan Masyarakat,profesional hubungan masyarakat,"['profesional', 'hubungan', 'masyarakat']",3,3,0,0.0,False,300,True
+2433.01,Perwakilan Penjualan (Produk Industri),perwakilan penjualan produk industri,"['perwakilan', 'penjualan', 'produk', 'industri']",4,4,0,0.0,False,300,True
+2433.02,Perwakilan Penjualan (Produk Medis dan Farmasi),perwakilan penjualan produk medis dan farmasi,"['perwakilan', 'penjualan', 'produk', 'medis', 'dan', 'farmasi']",6,6,0,0.0,False,300,True
+2433.03,Perwakilan Penjualan Produk Teknik,perwakilan penjualan produk teknik,"['perwakilan', 'penjualan', 'produk', 'teknik']",4,4,0,0.0,False,300,True
+2434.0,Profesional Penjualan Produk Teknologi Komunikasi dan Informasi,profesional penjualan produk teknologi komunikasi dan informasi,"['profesional', 'penjualan', 'produk', 'teknologi', 'komunikasi', 'dan', 'informasi']",7,7,0,0.0,False,300,True
+2511.01,Analis Bisnis (TI),analis bisnis ti,"['analis', 'bisnis', 'ti']",3,3,0,0.0,False,300,True
+2511.02,Konsultan Sistem,konsultan sistem,"['konsultan', 'sistem']",2,2,0,0.0,False,300,True
+2511.03,Desainer Sistem (TI),desainer sistem ti,"['desainer', 'sistem', 'ti']",3,3,0,0.0,False,300,True
+2512.01,Analis Programer,analis programer,"['analis', 'programer']",2,2,0,0.0,False,300,True
+2512.02,Desainer Software,desainer software,"['desainer', 'software']",2,2,0,0.0,False,300,True
+2512.03,Pengembang Software,pengembang software,"['pengembang', 'software']",2,2,0,0.0,False,300,True
+2512.04,Teknisi Perangkat Lunak,teknisi perangkat lunak,"['teknisi', 'perangkat', 'lunak']",3,3,0,0.0,False,300,True
+2513.01,Programmer Animasi,programmer animasi,"['programmer', 'animasi']",2,2,0,0.0,False,300,True
+2513.02,Programmer Game Komputer,programmer game komputer,"['programmer', 'game', 'komputer']",3,3,0,0.0,False,300,True
+2513.03,Pengembang Internet,pengembang internet,"['pengembang', 'internet']",2,2,0,0.0,False,300,True
+2513.04,Programmer Multimedia,programmer multimedia,"['programmer', 'multimedia']",2,2,0,0.0,False,300,True
+2513.05,Arsitek Web,arsitek web,"['arsitek', 'web']",2,2,0,0.0,False,300,True
+2513.06,Pengembang Web,pengembang web,"['pengembang', 'web']",2,2,0,0.0,False,300,True
+2514.0,Pemrogram Aplikasi,pemrogram aplikasi,"['pemrogram', 'aplikasi']",2,2,0,0.0,False,300,True
+2519.01,Analis Jaminan Kualitas (Komputer),analis jaminan kualitas komputer,"['analis', 'jaminan', 'kualitas', 'komputer']",4,4,0,0.0,False,300,True
+2519.02,Tester Software,tester software,"['tester', 'software']",2,2,0,0.0,False,300,True
+2519.03,Tester Sistem,tester sistem,"['tester', 'sistem']",2,2,0,0.0,False,300,True
+2521.01,Administrator Database,administrator database,"['administrator', 'database']",2,2,0,0.0,False,300,True
+2521.02,Analis Database,analis database,"['analis', 'database']",2,2,0,0.0,False,300,True
+2521.03,Arsitek Database,arsitek database,"['arsitek', 'database']",2,2,0,0.0,False,300,True
+2522.01,Administrator Sistem,administrator sistem,"['administrator', 'sistem']",2,2,0,0.0,False,300,True
+2522.02,Administrator Jaringan,administrator jaringan,"['administrator', 'jaringan']",2,2,0,0.0,False,300,True
+2523.01,Analis Komunikasi (Komputer),analis komunikasi komputer,"['analis', 'komunikasi', 'komputer']",3,3,0,0.0,False,300,True
+2523.02,Analis Jaringan,analis jaringan,"['analis', 'jaringan']",2,2,0,0.0,False,300,True
+2529.01,Spesialis Forensik Digital,spesialis forensik digital,"['spesialis', 'forensik', 'digital']",3,3,0,0.0,False,300,True
+2529.02,Spesialis Keamanan (TIK),spesialis keamanan tik,"['spesialis', 'keamanan', 'tik']",3,3,0,0.0,False,300,True
+2611.01,Pengacara,pengacara,['pengacara'],1,1,0,0.0,False,300,True
+2611.02,Jaksa,jaksa,['jaksa'],1,1,0,0.0,False,300,True
+2611.03,Penuntut Umum,penuntut umum,"['penuntut', 'umum']",2,2,0,0.0,False,300,True
+2611.04,Penasihat Hukum,penasihat hukum,"['penasihat', 'hukum']",2,2,0,0.0,False,300,True
+2612.0,Hakim,hakim,['hakim'],1,1,0,0.0,False,300,True
+2619.01,Ahli Hukum (Selain Pengacara dan Hakim),ahli hukum selain pengacara dan hakim,"['ahli', 'hukum', 'selain', 'pengacara', 'dan', 'hakim']",6,6,0,0.0,False,300,True
+2619.02,Notaris,notaris,['notaris'],1,1,0,0.0,False,300,True
+2621.01,Pengarsip,pengarsip,['pengarsip'],1,1,0,0.0,False,300,True
+2621.02,Kurator Galeri Seni,kurator galeri seni,"['kurator', 'galeri', 'seni']",3,3,0,0.0,False,300,True
+2621.03,Kurator Museum,kurator museum,"['kurator', 'museum']",2,2,0,0.0,False,300,True
+2622.01,Ahli Bibliografi,ahli bibliografi,"['ahli', 'bibliografi']",2,2,0,0.0,False,300,True
+2622.02,Juru Katalog,juru katalog,"['juru', 'katalog']",2,2,0,0.0,False,300,True
+2622.03,Pustakawan,pustakawan,['pustakawan'],1,1,0,0.0,False,300,True
+2631.01,Ahli Ekonomi,ahli ekonomi,"['ahli', 'ekonomi']",2,2,0,0.0,False,300,True
+2631.02,Ahli Ekonometrik,ahli ekonometrik,"['ahli', 'ekonometrik']",2,2,0,0.0,False,300,True
+2631.03,Penasehat Ekonomi,penasehat ekonomi,"['penasehat', 'ekonomi']",2,2,0,0.0,False,300,True
+2631.04,Analis Ekonomi,analis ekonomi,"['analis', 'ekonomi']",2,2,0,0.0,False,300,True
+2631.05,Ahli Ekonomi Perburuhan,ahli ekonomi perburuhan,"['ahli', 'ekonomi', 'perburuhan']",3,3,0,0.0,False,300,True
+2632.01,Ahli Antropologi,ahli antropologi,"['ahli', 'antropologi']",2,2,0,0.0,False,300,True
+2632.02,Ahli Arkeologi,ahli arkeologi,"['ahli', 'arkeologi']",2,2,0,0.0,False,300,True
+2632.03,Ahi Etnologi,ahi etnologi,"['ahi', 'etnologi']",2,2,0,0.0,False,300,True
+2632.04,Ahli Geografi,ahli geografi,"['ahli', 'geografi']",2,2,0,0.0,False,300,True
+2632.05,Ahli Sosiologi,ahli sosiologi,"['ahli', 'sosiologi']",2,2,0,0.0,False,300,True
+2633.01,Ahli Filsafat,ahli filsafat,"['ahli', 'filsafat']",2,2,0,0.0,False,300,True
+2633.02,Ahli Sejarah,ahli sejarah,"['ahli', 'sejarah']",2,2,0,0.0,False,300,True
+2633.03,Ahli Politik,ahli politik,"['ahli', 'politik']",2,2,0,0.0,False,300,True
+2633.04,Ahli Genealogi (Ahli Silsilah),ahli genealogi ahli silsilah,"['ahli', 'genealogi', 'ahli', 'silsilah']",4,4,0,0.0,False,300,True
+2634.01,Psikolog Klinis,psikolog klinis,"['psikolog', 'klinis']",2,2,0,0.0,False,300,True
+2634.02,Psikolog Pendidikan,psikolog pendidikan,"['psikolog', 'pendidikan']",2,2,0,0.0,False,300,True
+2634.03,Psikolog Organisasi,psikolog organisasi,"['psikolog', 'organisasi']",2,2,0,0.0,False,300,True
+2634.04,Psikoterapis,psikoterapis,['psikoterapis'],1,1,0,0.0,False,300,True
+2634.05,Psikolog Olahraga,psikolog olahraga,"['psikolog', 'olahraga']",2,2,0,0.0,False,300,True
+2635.01,Konselor Kecanduan,konselor kecanduan,"['konselor', 'kecanduan']",2,2,0,0.0,False,300,True
+2635.02,Konselor Dukacita,konselor dukacita,"['konselor', 'dukacita']",2,2,0,0.0,False,300,True
+2635.03,Konselor Anak dan Remaja,konselor anak dan remaja,"['konselor', 'anak', 'dan', 'remaja']",4,4,0,0.0,False,300,True
+2635.04,Konselor Keluarga,konselor keluarga,"['konselor', 'keluarga']",2,2,0,0.0,False,300,True
+2635.05,Konselor Pernikahan,konselor pernikahan,"['konselor', 'pernikahan']",2,2,0,0.0,False,300,True
+2635.06,Petugas Parole (Pembebasan Bersyarat),petugas parole pembebasan bersyarat,"['petugas', 'parole', 'pembebasan', 'bersyarat']",4,4,0,0.0,False,300,True
+2635.07,Petugas Masa Percobaan,petugas masa percobaan,"['petugas', 'masa', 'percobaan']",3,3,0,0.0,False,300,True
+2635.08,Pekerja Sosial,pekerja sosial,"['pekerja', 'sosial']",2,2,0,0.0,False,300,True
+2636.01,Imam Muslim,imam muslim,"['imam', 'muslim']",2,2,0,0.0,False,300,True
+2636.02,Pendeta Katolik,pendeta katolik,"['pendeta', 'katolik']",2,2,0,0.0,False,300,True
+2636.03,Pendeta Kristen,pendeta kristen,"['pendeta', 'kristen']",2,2,0,0.0,False,300,True
+2636.04,Pendeta Hindu,pendeta hindu,"['pendeta', 'hindu']",2,2,0,0.0,False,300,True
+2636.05,Pendeta Budha,pendeta budha,"['pendeta', 'budha']",2,2,0,0.0,False,300,True
+2636.06,Pendeta Kong Hu Cu,pendeta kong hu cu,"['pendeta', 'kong', 'hu', 'cu']",4,4,0,0.0,False,300,True
+2641.01,Penulis,penulis,['penulis'],1,1,0,0.0,False,300,True
+2641.02,Editor Buku,editor buku,"['editor', 'buku']",2,2,0,0.0,False,300,True
+2641.03,Penulis Esai,penulis esai,"['penulis', 'esai']",2,2,0,0.0,False,300,True
+2641.04,Penulis Media Interaktif,penulis media interaktif,"['penulis', 'media', 'interaktif']",3,3,0,0.0,False,300,True
+2641.05,Novelis,novelis,['novelis'],1,1,0,0.0,False,300,True
+2641.06,Penulis Drama,penulis drama,"['penulis', 'drama']",2,2,0,0.0,False,300,True
+2641.07,Penulis Puisi (Penyair),penulis puisi penyair,"['penulis', 'puisi', 'penyair']",3,3,0,0.0,False,300,True
+2641.08,Penulis Script,penulis script,"['penulis', 'script']",2,2,0,0.0,False,300,True
+2641.09,Penulis Pidato,penulis pidato,"['penulis', 'pidato']",2,2,0,0.0,False,300,True
+2641.1,Penulis Teknis,penulis teknis,"['penulis', 'teknis']",2,2,0,0.0,False,300,True
+2642.01,Wartawan,wartawan,['wartawan'],1,1,0,0.0,False,300,True
+2642.02,Editor Copy,editor copy,"['editor', 'copy']",2,2,0,0.0,False,300,True
+2642.03,Editor Surat Kabar,editor surat kabar,"['editor', 'surat', 'kabar']",3,3,0,0.0,False,300,True
+2642.04,Reporter Surat Kabar,reporter surat kabar,"['reporter', 'surat', 'kabar']",3,3,0,0.0,False,300,True
+2642.05,Wartawan Olahraga,wartawan olahraga,"['wartawan', 'olahraga']",2,2,0,0.0,False,300,True
+2642.06,Sub Editor,sub editor,"['sub', 'editor']",2,2,0,0.0,False,300,True
+2642.07,Reporter Berita TV/Radio,reporter berita tv radio,"['reporter', 'berita', 'tv', 'radio']",4,4,0,0.0,False,300,True
+2643.01,Interpreter,interpreter,['interpreter'],1,1,0,0.0,False,300,True
+2643.02,Leksikograf (Ahli Perkamusan),leksikograf ahli perkamusan,"['leksikograf', 'ahli', 'perkamusan']",3,3,0,0.0,False,300,True
+2643.03,Ahli Filologi (Manuskrip),ahli filologi manuskrip,"['ahli', 'filologi', 'manuskrip']",3,3,0,0.0,False,300,True
+2643.04,Juru Bahasa Isyarat (Sign Language Interpreter),juru bahasa isyarat sign language interpreter,"['juru', 'bahasa', 'isyarat', 'sign', 'language', 'interpreter']",6,6,0,0.0,False,300,True
+2643.05,Subtitler,subtitler,['subtitler'],1,0,1,1.0,True,300,True
+2643.06,Penerjemah (Translator),penerjemah translator,"['penerjemah', 'translator']",2,2,0,0.0,False,300,True
+2651.01,Kartunis,kartunis,['kartunis'],1,1,0,0.0,False,300,True
+2651.02,Seniman Keramik,seniman keramik,"['seniman', 'keramik']",2,2,0,0.0,False,300,True
+2651.03,Pemulih Gambar,pemulih gambar,"['pemulih', 'gambar']",2,2,0,0.0,False,300,True
+2651.04,Pelukis Potret,pelukis potret,"['pelukis', 'potret']",2,2,0,0.0,False,300,True
+2651.05,Pematung,pematung,['pematung'],1,1,0,0.0,False,300,True
+2652.01,Pemimpin Band,pemimpin band,"['pemimpin', 'band']",2,2,0,0.0,False,300,True
+2652.02,Komposer,komposer,['komposer'],1,1,0,0.0,False,300,True
+2652.03,Pemain Musik,pemain musik,"['pemain', 'musik']",2,2,0,0.0,False,300,True
+2652.04,Konduktor Musik,konduktor musik,"['konduktor', 'musik']",2,2,0,0.0,False,300,True
+2652.05,Orchestrator,orchestrator,['orchestrator'],1,1,0,0.0,False,300,True
+2652.06,Penyanyi,penyanyi,['penyanyi'],1,1,0,0.0,False,300,True
+2653.01,Koreografer,koreografer,['koreografer'],1,1,0,0.0,False,300,True
+2653.02,Penari Balet,penari balet,"['penari', 'balet']",2,2,0,0.0,False,300,True
+2653.03,Penari Klub Malam,penari klub malam,"['penari', 'klub', 'malam']",3,3,0,0.0,False,300,True
+2653.04,Penari Jalan,penari jalan,"['penari', 'jalan']",2,2,0,0.0,False,300,True
+2654.01,Sutradara Film Dokumenter,sutradara film dokumenter,"['sutradara', 'film', 'dokumenter']",3,3,0,0.0,False,300,True
+2654.02,Editor Film,editor film,"['editor', 'film']",2,2,0,0.0,False,300,True
+2654.03,Sutradara Film,sutradara film,"['sutradara', 'film']",2,2,0,0.0,False,300,True
+2654.04,Pengarah Fotografi,pengarah fotografi,"['pengarah', 'fotografi']",2,2,0,0.0,False,300,True
+2654.05,Sutradara Panggung,sutradara panggung,"['sutradara', 'panggung']",2,2,0,0.0,False,300,True
+2654.06,Pengarah Teknis,pengarah teknis,"['pengarah', 'teknis']",2,2,0,0.0,False,300,True
+2654.07,Produser,produser,['produser'],1,1,0,0.0,False,300,True
+2655.01,Aktor,aktor,['aktor'],1,1,0,0.0,False,300,True
+2655.02,Artis Pantomim,artis pantomim,"['artis', 'pantomim']",2,2,0,0.0,False,300,True
+2655.03,Pencerita,pencerita,['pencerita'],1,1,0,0.0,False,300,True
+2656.01,Penyiar Radio,penyiar radio,"['penyiar', 'radio']",2,2,0,0.0,False,300,True
+2656.02,Penyiar Televisi,penyiar televisi,"['penyiar', 'televisi']",2,2,0,0.0,False,300,True
+2656.03,Pembaca Berita,pembaca berita,"['pembaca', 'berita']",2,2,0,0.0,False,300,True
+2656.04,Penyiar Olahraga,penyiar olahraga,"['penyiar', 'olahraga']",2,2,0,0.0,False,300,True
+2659.01,Pemain Akrobat,pemain akrobat,"['pemain', 'akrobat']",2,2,0,0.0,False,300,True
+2659.02,Pemain Akrobat Udara,pemain akrobat udara,"['pemain', 'akrobat', 'udara']",3,3,0,0.0,False,300,True
+2659.03,Badut,badut,['badut'],1,1,0,0.0,False,300,True
+2659.04,Ahli Hipnotis,ahli hipnotis,"['ahli', 'hipnotis']",2,2,0,0.0,False,300,True
+2659.05,Pesulap,pesulap,['pesulap'],1,1,0,0.0,False,300,True
+2659.06,Dalang,dalang,['dalang'],1,1,0,0.0,False,300,True
+2659.07,Stand Up Komedian (Pelawak Tunggal),stand up komedian pelawak tunggal,"['stand', 'up', 'komedian', 'pelawak', 'tunggal']",5,5,0,0.0,False,300,True
+2659.08,Ventriloquist,ventriloquist,['ventriloquist'],1,1,0,0.0,False,300,True

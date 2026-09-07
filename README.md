@@ -15,7 +15,7 @@ Skor positif berarti relatif lebih dekat ke istilah laki-laki, skor negatif bera
 Urutan utama:
 
 1. test1_v1_processing_data_kbji.ipynb membaca data/KBJI 2014.pdf, mengekstrak hierarki Golongan Pokok 2 sampai sebelum Golongan Pokok 3, menormalisasi nama secara konservatif, dan menyimpan data lengkap serta data analisis.
-2. test2_v2_pipeline_scweat_fasttext.ipynb memuat data/test_kbji_profesional_analysis.csv, membangun representasi frasa dari token fastText, menghitung SC-WEAT, exact permutation, FDR, leave-one-pair-out, dan ringkasan kelompok.
+2. test2_v1_pipeline_scweat_fasttext.ipynb memuat data/test_kbji_profesional_analysis.csv, membangun representasi frasa dari token fastText, menghitung SC-WEAT, exact permutation, FDR, leave-one-pair-out, dan ringkasan kelompok.
 
 Data lengkap data/test_kbji_profesional_all.csv mempertahankan baris residual, audit validitas, lexical leakage, dan alasan eksklusi. Data/test_kbji_profesional_analysis.csv hanya memuat baris dengan include_analysis == True.
 
@@ -29,7 +29,7 @@ https://fasttext.cc/docs/en/crawl-vectors
 
 Unduh dan ekstrak cc.id.300.bin.gz menjadi models/cc.id.300.bin. Model yang digunakan pada eksekusi berukuran 7,236,808,873 byte dengan SHA-256 46E6E4C3975C2386F76C608C896CB36FA9C90F9D7F8212988C7EEB5FF41D235F. File model dan arsip terkompresi tidak dimasukkan ke Git. Notebook memeriksa keberadaan, ukuran minimum, dan dimensi model; tidak ada random vector atau model pengganti.
 
-Nama jabatan multi-kata ditokenisasi, setiap token diberi vektor fastText, lalu dirata-ratakan dan dinormalisasi L2. Status in-vocabulary dan subword OOV dicatat pada outputs/test_audit_embedding.csv. Pendekatan rata-rata token adalah keputusan operasional dan memiliki keterbatasan semantik.
+Nama jabatan multi-kata ditokenisasi, setiap token diberi vektor fastText, lalu dirata-ratakan dan dinormalisasi L2. Status in-vocabulary dan subword OOV dicatat pada outputs/test_v1_audit_embedding.csv. Pendekatan rata-rata token adalah keputusan operasional dan memiliki keterbatasan semantik.
 
 ## Metode
 
@@ -41,13 +41,13 @@ Leave-one-pair-out mengeluarkan satu pasangan pada setiap iterasi dan membanding
 
 ## Output
 
-- outputs/test_hasil_scweat.csv
-- outputs/test_hasil_permutasi.csv
-- outputs/test_hasil_sensitivitas.csv
-- outputs/test_ringkasan_subgolongan_pokok.csv
-- outputs/test_ringkasan_golongan.csv
-- outputs/test_audit_embedding.csv
-- outputs/test_validasi_pipeline.csv
+- outputs/test_v1_hasil_scweat.csv
+- outputs/test_v1_hasil_permutasi.csv
+- outputs/test_v1_hasil_sensitivitas.csv
+- outputs/test_v1_ringkasan_subgolongan_pokok.csv
+- outputs/test_v1_ringkasan_golongan.csv
+- outputs/test_v1_audit_embedding.csv
+- outputs/test_v1_validasi_pipeline.csv
 
 Visualisasi ditampilkan langsung di notebook dan tidak disimpan sebagai file gambar.
 

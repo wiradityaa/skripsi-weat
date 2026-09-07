@@ -170,7 +170,7 @@ Eksekusi Notebook 1 menghasilkan 501 Jabatan mentah, 6 Subgolongan Pokok, 27 Gol
 
 Kolom occupation_name_raw mempertahankan nama dari PDF. Kolom occupation_text dinormalisasi secara konservatif dengan lowercase, perapian spasi, penghapusan penanda (Umum), serta normalisasi tanda baca tanpa stemming atau penghapusan stopword agresif. File data lengkap dan data analisis telah terbentuk di folder data dengan awalan test_.
 
-Notebook kedua, test2_v2_pipeline_scweat_fasttext.ipynb, telah disiapkan untuk model binary pretrained fastText Bahasa Indonesia cc.id.300.bin dari Common Crawl dan Wikipedia. Metode yang digunakan adalah agregasi rata-rata token untuk nama Jabatan multi-kata, normalisasi L2, SC-WEAT, exact permutation C(16,8)=12.870, FDR Benjamini-Hochberg, serta leave-one-pair-out.
+Notebook kedua, test2_v1_pipeline_scweat_fasttext.ipynb, telah disiapkan untuk model binary pretrained fastText Bahasa Indonesia cc.id.300.bin dari Common Crawl dan Wikipedia. Metode yang digunakan adalah agregasi rata-rata token untuk nama Jabatan multi-kata, normalisasi L2, SC-WEAT, exact permutation C(16,8)=12.870, FDR Benjamini-Hochberg, serta leave-one-pair-out.
 
 Status saat pembaruan ini: pemrosesan KBJI lulus eksekusi dan validasi. Pipeline fastText belum dinyatakan selesai sebelum package fastText dan model binary berhasil dimuat pada kernel bersih serta seluruh CSV output dan quality control terbentuk.
 
@@ -188,6 +188,6 @@ Ringkasan awal SC-WEAT pada satu model: mean effect size -0,1594, median -0,1605
 
 Leave-one-pair-out menghasilkan 8 iterasi. Korelasi Spearman terendah 0,9283, mean absolute change terbesar 0,2551, dan perubahan tanda terbanyak 149 pada satu kondisi. Hasil ini dipakai sebagai quality control sensitivitas lexical set, bukan sebagai kesimpulan sosial.
 
-Seluruh 10 pemeriksaan quality control Notebook 2 berstatus PASS, termasuk dimensi, finite vector, cosine valid, exact partitions, p-value/FDR, invariansi urutan istilah, jumlah iterasi, dan kesamaan jumlah output dengan data analisis. Seluruh tujuh output CSV test_ terbentuk.
+Seluruh 10 pemeriksaan quality control Notebook 2 berstatus PASS, termasuk dimensi, finite vector, cosine valid, exact partitions, p-value/FDR, invariansi urutan istilah, jumlah iterasi, dan kesamaan jumlah output dengan data analisis. Seluruh tujuh output CSV test_v1_ terbentuk.
 
 Keterbatasan yang tersisa: model sangat besar, lexical set masih operasional, 5 token OOV memerlukan kehati-hatian, representasi frasa memakai rata-rata token, PDF merupakan edisi KBJI 2014, dan hasil satu model tidak mewakili seluruh embedding atau konteks penggunaan.

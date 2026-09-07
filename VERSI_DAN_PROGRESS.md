@@ -159,3 +159,35 @@ Caliskan, A., Bryson, J. J., & Narayanan, A. (2017). Semantics derived automatic
 Caliskan, A., Ajay, P. P., Charlesworth, T., Wolfe, R., & Banaji, M. R. (2022). Gender bias in word embeddings: A comprehensive analysis of frequency, syntax, and semantics. *Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society*, 156-170. https://doi.org/10.1145/3514094.3534162
 
 Rakivnenko, V., Maslej, N., Cervi, J., & Zhukov, V. (2024). Bias in text embedding models. arXiv:2406.12138.
+
+## Implementasi terbaru: pemrosesan KBJI 2014
+
+Tanggal pengerjaan: 2026-09-07.
+
+Implementasi baru memindahkan sumber target dari data pekerjaan yang dibentuk secara programatis ke PDF KBJI 2014 yang tersedia di data/KBJI 2014.pdf. Notebook test1_v1_processing_data_kbji.ipynb mengekstrak bagian isi Golongan Pokok 2 Profesional sampai sebelum Golongan Pokok 3, mempertahankan hierarki resmi pada tingkat Golongan Pokok, Subgolongan Pokok, Golongan, Subgolongan, dan Jabatan.
+
+Eksekusi Notebook 1 menghasilkan 501 Jabatan mentah, 6 Subgolongan Pokok, 27 Golongan, dan 92 Subgolongan. Sebanyak 415 Jabatan masuk data analisis. Eksklusi terdiri dari 85 kategori residual dan 1 lexical leakage atribut gender. Tidak ada kode Jabatan duplikat dan tidak ada kode tidak valid pada hasil ekstraksi.
+
+Kolom occupation_name_raw mempertahankan nama dari PDF. Kolom occupation_text dinormalisasi secara konservatif dengan lowercase, perapian spasi, penghapusan penanda (Umum), serta normalisasi tanda baca tanpa stemming atau penghapusan stopword agresif. File data lengkap dan data analisis telah terbentuk di folder data dengan awalan test_.
+
+Notebook kedua, test2_v2_pipeline_scweat_fasttext.ipynb, telah disiapkan untuk model binary pretrained fastText Bahasa Indonesia cc.id.300.bin dari Common Crawl dan Wikipedia. Metode yang digunakan adalah agregasi rata-rata token untuk nama Jabatan multi-kata, normalisasi L2, SC-WEAT, exact permutation C(16,8)=12.870, FDR Benjamini-Hochberg, serta leave-one-pair-out.
+
+Status saat pembaruan ini: pemrosesan KBJI lulus eksekusi dan validasi. Pipeline fastText belum dinyatakan selesai sebelum package fastText dan model binary berhasil dimuat pada kernel bersih serta seluruh CSV output dan quality control terbentuk.
+
+Kendala: lingkungan Python yang tersedia adalah Python 3.14 pada Windows; package fasttext dari PyPI membutuhkan kompilasi Microsoft Visual C++ dan belum dapat dipasang pada lingkungan ini. Arsip model resmi sedang dipersiapkan secara lokal dan tidak akan dimasukkan ke Git.
+
+Hal yang masih memerlukan validasi akademik: kelayakan lexical set Bahasa Indonesia, keputusan normalisasi frasa, dampak token OOV, dan batas inferensi dari asosiasi intrinsik embedding ke konteks sosial.
+
+## Hasil eksekusi pipeline fastText
+
+Notebook 2 berhasil dijalankan dari awal sampai akhir menggunakan Python 3.13.15, fasttext-community 0.11.7, dan model resmi cc.id.300.bin berukuran 7.236.808.873 byte dengan dimensi 300. SHA-256 model adalah 46E6E4C3975C2386F76C608C896CB36FA9C90F9D7F8212988C7EEB5FF41D235F. Model berasal dari URL Common Crawl + Wikipedia fastText dan disimpan di luar Git.
+
+Data analisis berisi 415 Jabatan. Agregasi embedding menghasilkan 1.152 token in-vocabulary dan 5 token subword OOV. Seluruh vektor finite dan bukan zero vector. Exact permutation menjalankan 12.870 partisi untuk setiap Jabatan; 0 hasil signifikan pada p-value mentah dan 0 setelah FDR Benjamini-Hochberg.
+
+Ringkasan awal SC-WEAT pada satu model: mean effect size -0,1594, median -0,1605, minimum -0,9062, maksimum 0,8768; 303 Jabatan bertanda negatif dan 112 bertanda positif. Angka ini hanya menunjukkan pola asosiasi relatif intrinsik pada ruang embedding yang diuji.
+
+Leave-one-pair-out menghasilkan 8 iterasi. Korelasi Spearman terendah 0,9283, mean absolute change terbesar 0,2551, dan perubahan tanda terbanyak 149 pada satu kondisi. Hasil ini dipakai sebagai quality control sensitivitas lexical set, bukan sebagai kesimpulan sosial.
+
+Seluruh 10 pemeriksaan quality control Notebook 2 berstatus PASS, termasuk dimensi, finite vector, cosine valid, exact partitions, p-value/FDR, invariansi urutan istilah, jumlah iterasi, dan kesamaan jumlah output dengan data analisis. Seluruh tujuh output CSV test_ terbentuk.
+
+Keterbatasan yang tersisa: model sangat besar, lexical set masih operasional, 5 token OOV memerlukan kehati-hatian, representasi frasa memakai rata-rata token, PDF merupakan edisi KBJI 2014, dan hasil satu model tidak mewakili seluruh embedding atau konteks penggunaan.

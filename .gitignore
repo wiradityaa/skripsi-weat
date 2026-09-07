@@ -2,3 +2,8 @@
 __pycache__/
 *.pyc
 .DS_Store
+models/
+*.bin
+*.bin.gz
+.jupyter-config/
+.jupyter-runtime/

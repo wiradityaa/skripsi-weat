@@ -4,10 +4,12 @@
 
 Proyek ini menganalisis asosiasi intrinsik gender–jabatan berbahasa Indonesia menggunakan SC-WEAT pada ruang embedding fastText. Sumber jabatan adalah PDF KBJI 2014 yang tersedia di repository; ruang lingkup aktif hanya Golongan Pokok 2 Profesional dan target utama adalah Jabatan berkode enam digit. Klasifikasi hasil tidak boleh diklaim sebagai salinan resmi KBJI tanpa pemeriksaan sumber tambahan.
 
-Implementasi aktif terdiri atas dua notebook linear:
+Implementasi aktif mencakup notebook linear v2 sebagai baseline dan notebook v3 sebagai perbandingan model:
 
 1. `test1_v2_processing_data_kbji.ipynb` untuk ekstraksi dan audit data KBJI serta pembuatan satu CSV lexical set.
 2. `test2_v2_pipeline_scweat_fasttext.ipynb` untuk provenance model, embedding, SC-WEAT, permutation exact, FDR, analisis sensitivitas, dan quality control.
+3. `test1_v3_processing_data_kbji.ipynb` untuk checkpoint data dengan awalan `test_v3_`.
+4. `test2_v3_pipeline_scweat_model_comparison.ipynb` untuk membandingkan `cc.id.300.bin` dengan `wiki.id.bin` menggunakan seluruh input dan prosedur yang sama.
 
 File `test_v1` adalah riwayat dan tidak boleh dihapus atau ditimpa. Data sintetis dan arah lama hanya dicatat sebagai sejarah di `VERSI_DAN_PROGRESS.md`, bukan sebagai fokus aktif.
 
@@ -37,6 +39,9 @@ File `test_v1` adalah riwayat dan tidak boleh dihapus atau ditimpa. Data sinteti
 - SC-WEAT memakai delapan istilah laki-laki, delapan istilah perempuan, cosine, association difference, effect size dengan `ddof=1`, exact two-sided permutation dengan 12.870 partisi, dan Benjamini–Hochberg FDR.
 - Positif berarti lebih dekat relatif ke atribut laki-laki; negatif berarti lebih dekat relatif ke atribut perempuan. Gunakan hanya label `positif`, `negatif`, atau `nol`.
 - Jangan mengganti model atau memilih hasil hanya karena menghasilkan temuan lebih menarik.
+- Model v3 ditetapkan a priori: `cc.id.300.bin` sebagai baseline dan `wiki.id.bin` sebagai pembanding. Keduanya sama-sama fastText, sehingga v3 tidak boleh ditulis sebagai uji arsitektur murni.
+- FDR v3 diterapkan pada seluruh pengujian Jabatan × model sebagai satu keluarga pengujian.
+- Perbandingan model harus menyimpan agreement, perbedaan skor berpasangan, Wilcoxon, sign-flip permutation, dan cluster bootstrap; jangan menjadikan jumlah p-value signifikan sebagai kriteria pemilihan model.
 - Hasil adalah asosiasi intrinsik pada embedding, bukan bukti diskriminasi, komposisi gender tenaga kerja, atau fakta tentang masyarakat.
 
 ## Sensitivitas dan quality control wajib

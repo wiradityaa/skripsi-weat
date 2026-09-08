@@ -211,3 +211,27 @@ Audit model menemukan 16/16 istilah gender memiliki vocabulary ID dan vektor val
 Notebook v2 menghasilkan 14 CSV berawalan `test_v2_`, termasuk hasil utama, permutation, LOO per Jabatan, ringkasan pasangan, kontribusi lexical pair, sensitivitas frasa/OOV, ringkasan kelompok, audit embedding/model/istilah, nearest neighbors, dan validasi. Quality control akhir berisi 15 pemeriksaan dan seluruhnya berstatus PASS. Keputusan operasional: fastText layak sebagai model utama untuk baseline ini, dengan kebutuhan tinjauan linguistik lexical set, inspeksi nearest neighbors, satu-model limitation, dan keterbatasan korpus/usia model.
 
 Keterbatasan v2: lexical set belum tervalidasi final, parenthetical dan foreign-term audit memakai aturan deterministik operasional, fastText subword membuat OOV tidak identik dengan vektor gagal, hasil tidak membuktikan diskriminasi atau komposisi gender tenaga kerja, dan model pembanding belum dijalankan.
+
+## Rancangan `test_v3`: perbandingan model fastText
+
+Tanggal pembaruan: 2026-09-08.
+
+V3 menambahkan model pembanding nyata tanpa mengubah data, lexical set, representasi Jabatan, formula SC-WEAT single-target, atau exact permutation dari baseline. `cc.id.300.bin` ditetapkan sebagai baseline dan `wiki.id.bin` ditetapkan sebagai pembanding sebelum hasil dijalankan. Keduanya adalah fastText Bahasa Indonesia berdimensi 300, tetapi `cc.id.300.bin` berasal dari Common Crawl + Wikipedia dengan konfigurasi CBOW position-weighted, sedangkan `wiki.id.bin` berasal dari Wikipedia dengan konfigurasi skip-gram. Karena itu, v3 menguji sensitivitas terhadap model/korpus fastText yang dibandingkan, bukan pengaruh arsitektur secara murni.
+
+Notebook baru:
+
+- `test1_v3_processing_data_kbji.ipynb` mempertahankan proses ekstraksi dan audit PDF, lalu menggunakan awalan output `test_v3_`.
+- `test2_v3_pipeline_scweat_model_comparison.ipynb` memuat dua model, menyimpan provenance, menghitung skor tingkat Jabatan, exact permutation 12.870 partisi, FDR global untuk seluruh pengujian Jabatan × model, ringkasan enam Subgolongan Pokok, leave-one-pair-out, dan audit OOV.
+
+Analisis komparatif v3 menambahkan:
+
+- `model_difference = d_wiki - d_cc` untuk setiap Jabatan;
+- kesamaan arah, Spearman rho, dan Kendall tau;
+- mean/median absolute model difference;
+- Wilcoxon signed-rank;
+- paired sign-flip permutation;
+- cluster bootstrap 5.000 replikasi dengan `group_code` sebagai unit pengelompokan.
+
+Status: notebook dan checkpoint data v3 telah disiapkan, tetapi belum dieksekusi penuh karena kedua file model biner tidak tersedia di lingkungan pembangunan ini. Tidak ada hasil signifikansi v3 yang boleh ditulis ke dokumentasi sebelum notebook dijalankan dengan kedua model dan seluruh CSV output terbentuk.
+
+Keputusan metodologis: model tidak boleh dipilih atau dikeluarkan setelah melihat p-value. Jika kedua model konsisten, hasilnya mendukung robustness terhadap perubahan korpus; jika berbeda, hasilnya menunjukkan sensitivitas pengukuran terhadap model/korpus. Keduanya merupakan temuan yang sah.

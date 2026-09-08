@@ -14,8 +14,10 @@ Hasil hanya menyatakan pola asosiasi relatif dalam ruang embedding. Positif bera
 
 1. `test1_v2_processing_data_kbji.ipynb` mengekstrak dan mengaudit PDF, membuat data lengkap/analisis, serta menulis satu-satunya sumber lexical set `data/test_v2_istilah_gender.csv`.
 2. `test2_v2_pipeline_scweat_fasttext.ipynb` membaca data tersebut, menghitung provenance model, embedding frasa, SC-WEAT, exact permutation, FDR, leave-one-pair-out, audit semantik, sensitivitas frasa, dan sensitivitas OOV.
+3. `test1_v3_processing_data_kbji.ipynb` mengulang checkpoint pemrosesan KBJI dengan identifier `test_v3_`.
+4. `test2_v3_pipeline_scweat_model_comparison.ipynb` membandingkan `cc.id.300.bin` dengan `wiki.id.bin` menggunakan data, lexical set, representasi, formula, dan exact permutation yang sama. Notebook ini menambahkan perbandingan skor berpasangan, agreement, uji sign-flip, Wilcoxon, dan cluster bootstrap.
 
-Notebook dan output `test_v1` dipertahankan sebagai riwayat. `test_v2` tidak menimpa artefak tersebut.
+Notebook dan output `test_v1` dipertahankan sebagai riwayat. `test_v2` dan `test_v3` menggunakan prefix masing-masing sehingga tidak menimpa artefak versi sebelumnya.
 
 ## Data dan kelompok
 
@@ -27,7 +29,9 @@ Lexical set berisi delapan pasangan operasional: `laki-laki–perempuan`, `pria�
 
 ## Model dan metode
 
-Model utama adalah `models/cc.id.300.bin`, pretrained fastText Bahasa Indonesia dari Common Crawl dan Wikipedia, dimensi 300. Sumber resmi model: https://fasttext.cc/docs/en/crawl-vectors. File model lokal tidak dimasukkan ke Git karena ukurannya sangat besar.
+Model baseline adalah `models/cc.id.300.bin`, pretrained fastText Bahasa Indonesia dari Common Crawl dan Wikipedia, dimensi 300. Sumber resmi model: https://fasttext.cc/docs/en/crawl-vectors.html. Untuk `test_v3`, model pembanding yang ditetapkan sebelum eksekusi adalah `models/wiki.id.bin`, pretrained fastText Bahasa Indonesia dari Wikipedia, dimensi 300, sumber resmi https://fasttext.cc/docs/en/pretrained-vectors.html. File model lokal tidak dimasukkan ke Git karena ukurannya sangat besar.
+
+Perbandingan v3 bukan uji arsitektur murni. Kedua model sama-sama fastText, tetapi berbeda pada sumber korpus dan objective pelatihan. Oleh karena itu, interpretasi v3 dibatasi sebagai sensitivitas asosiasi terhadap model/korpus fastText yang dibandingkan.
 
 Nama Jabatan multi-kata direpresentasikan dengan rata-rata vektor token lalu normalisasi L2. fastText tetap dapat menghasilkan subword vector untuk token OOV; karena itu OOV diaudit, bukan otomatis dibuang.
 
@@ -45,6 +49,14 @@ SC-WEAT memakai delapan istilah per atribut, simpangan baku sampel (`ddof=1`), e
 - Keputusan operasional: fastText layak sebagai model utama untuk baseline ini, dengan keterbatasan satu model, korpus/usia model, lexical set operasional, dan kebutuhan inspeksi nearest neighbors.
 
 Hasil `test_v1` sebelumnya juga tidak menghasilkan signifikansi; `test_v2` ditujukan untuk menelusuri sumber ketidakstabilan, bukan untuk mencari hasil yang lebih kuat.
+
+## Rancangan `test_v3`
+
+`test1_v3_processing_data_kbji.ipynb` mempertahankan proses ekstraksi KBJI v2 dan menulis checkpoint data dengan awalan `test_v3_`. `test2_v3_pipeline_scweat_model_comparison.ipynb` menjalankan pipeline yang sama pada dua model statis yang ditetapkan a priori.
+
+Outcome utama v3 bukan jumlah p-value signifikan. Notebook menyimpan effect size dan p-value exact per Jabatan × model, FDR global untuk seluruh pengujian tersebut, perbedaan skor `wiki - cc`, kesamaan arah, korelasi Spearman/Kendall, median absolute difference, Wilcoxon, paired sign-flip permutation, dan cluster bootstrap berbasis `group_code`.
+
+Model tidak boleh dipilih atau dihapus berdasarkan hasil. Jika kedua model konsisten, temuan utamanya adalah robustness terhadap sumber korpus; jika berbeda, temuan utamanya adalah sensitivitas pengukuran terhadap model/korpus. Keduanya adalah hasil yang sah. Signifikansi tidak dapat dijanjikan sebelum notebook dijalankan dengan kedua file model.
 
 ## Output
 
@@ -71,9 +83,25 @@ Hasil dan audit:
 - `outputs/test_v2_nearest_neighbors.csv`
 - `outputs/test_v2_validasi_pipeline.csv`
 
+Output v3 terbentuk setelah notebook model dijalankan dengan kedua model:
+
+- `outputs/test_v3_hasil_scweat_per_model.csv`
+- `outputs/test_v3_hasil_permutasi_per_model.csv`
+- `outputs/test_v3_ringkasan_model.csv`
+- `outputs/test_v3_inferensi_perbedaan_model.csv`
+- `outputs/test_v3_kesepakatan_model.csv`
+- `outputs/test_v3_perbandingan_model_per_jabatan.csv`
+- `outputs/test_v3_ringkasan_subgolongan_per_model.csv`
+- `outputs/test_v3_sensitivitas_pasangan_per_model.csv`
+- `outputs/test_v3_ringkasan_sensitivitas_pasangan_per_model.csv`
+- `outputs/test_v3_audit_model.csv`
+- `outputs/test_v3_audit_istilah_gender.csv`
+- `outputs/test_v3_audit_target_oov.csv`
+- `outputs/test_v3_validasi_pipeline.csv`
+
 ## Menjalankan
 
-Pasang dependensi dari `requirements.txt`, letakkan `cc.id.300.bin` di `models/`, lalu jalankan notebook secara berurutan dari root repository. Gunakan Python 3.11–3.13 pada Windows atau lingkungan Linux yang kompatibel dengan `fasttext-community`.
+Pasang dependensi dari `requirements.txt`, letakkan `cc.id.300.bin` dan `wiki.id.bin` di `models/`, lalu jalankan notebook v3 secara berurutan dari root repository. Model tersedia dari halaman resmi fastText; gunakan URL dan lisensi yang didokumentasikan di halaman tersebut. Gunakan Python 3.11–3.13 pada Windows atau lingkungan Linux yang kompatibel dengan `fasttext-community`.
 
 ```powershell
 pip install -r requirements.txt

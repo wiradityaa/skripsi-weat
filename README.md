@@ -16,6 +16,7 @@ Hasil hanya menyatakan pola asosiasi relatif dalam ruang embedding. Positif bera
 2. `test2_v2_pipeline_scweat_fasttext.ipynb` membaca data tersebut, menghitung provenance model, embedding frasa, SC-WEAT, exact permutation, FDR, leave-one-pair-out, audit semantik, sensitivitas frasa, dan sensitivitas OOV.
 3. `test1_v3_processing_data_kbji.ipynb` mengulang checkpoint pemrosesan KBJI dengan identifier `test_v3_`.
 4. `test2_v3_pipeline_scweat_model_comparison.ipynb` membandingkan `cc.id.300.bin` dengan `wiki.id.bin` menggunakan data, lexical set, representasi, formula, dan exact permutation yang sama. Notebook ini menambahkan perbandingan skor berpasangan, agreement, uji sign-flip, Wilcoxon, dan cluster bootstrap.
+5. `test2_v4_indobert_lpbs_pipeline.ipynb` mengukur perubahan probabilitas istilah gender dalam konteks nama jabatan menggunakan IndoBERT dan Log-Probability Bias Score (LPBS).
 
 Notebook dan output `test_v1` dipertahankan sebagai riwayat. `test_v2` dan `test_v3` menggunakan prefix masing-masing sehingga tidak menimpa artefak versi sebelumnya.
 
@@ -121,3 +122,19 @@ SC-WEAT mengukur asosiasi intrinsik pada satu ruang embedding. Effect size besar
 - Rakivnenko et al. (2024), *Bias in text embedding models*. https://arxiv.org/abs/2406.12138
 - fastText, *Word vectors for 157 languages*. https://fasttext.cc/docs/en/crawl-vectors
 - BPS, KBJI 2014 sebagai rencana rujukan klasifikasi tahap berikutnya; PDF yang dianalisis di notebook tetap diperlakukan sebagai sumber lokal yang perlu diaudit.
+
+## test2_v4: IndoBERT dan LPBS
+
+Analisis ini dibuat untuk nama jabatan profesional KBJI 2014 yang didominasi frasa multi-kata. Model utama adalah `indobenchmark/indobert-base-p1`; LPBS membandingkan perubahan log-probability istilah gender pada kalimat yang memuat jabatan dengan baseline template yang sama. Ini melengkapi fastText/SC-WEAT sebelumnya, yang memakai rata-rata vektor token. IndoBERT dipakai sebagai masked language model dalam konteks kalimat, bukan sebagai sentence-embedding model dan bukan dengan WEAT pada `[CLS]`.
+
+Notebook: `test2_v4_indobert_lpbs_pipeline.ipynb`. Data dibaca langsung dari `data/test_v3_kbji_profesional_analysis.csv`, `data/test_v3_kbji_profesional_all.csv`, dan `data/test_v3_istilah_gender.csv`; file input tidak ditimpa. Unit utama adalah Subgolongan Pokok 21–26, dengan kode tiga digit `group_code` sebagai cluster bootstrap. Kondisi utama `pria–wanita` dan sensitivitas `laki-laki–perempuan` ditetapkan sebelum hasil; pasangan kedua memakai pseudo-log-likelihood karena `laki-laki` menjadi tiga subtoken, sedangkan tiga istilah lainnya satu token.
+
+Pipeline mencakup audit data, tokenisasi, empat template dan empat baseline, scoring LPBS batched dengan `torch.no_grad()`, agregasi median lintas-template, cluster bootstrap 5.000 replikasi, Kruskal–Wallis dan epsilon-squared eksploratif, sensitivitas template, sensitivitas istilah gender, perbandingan baseline fastText, visualisasi langsung, dan QC final. Dependency yang digunakan sudah tersedia pada environment repository: pandas, numpy, scipy, statsmodels, matplotlib, seaborn, torch, transformers, tqdm, dan Jupyter. Jalankan dari root repository dengan `python -m jupyter nbconvert --to notebook --execute --inplace test2_v4_indobert_lpbs_pipeline.ipynb` atau buka notebook secara interaktif setelah model Hugging Face dapat diakses.
+
+Output aktual berada di `outputs/`: `test_v4_lpbs_scores_long.csv`, `test_v4_lpbs_occupation_summary.csv`, `test_v4_lpbs_group_summary.csv`, `test_v4_lpbs_template_stability.csv`, `test_v4_lpbs_lexical_sensitivity.csv`, `test_v4_lpbs_tokenization_audit.csv`, `test_v4_lpbs_statistical_tests.csv`, `test_v4_lpbs_fasttext_comparison.csv`, `test_v4_lpbs_fasttext_group_comparison.csv`, `test_v4_lpbs_quality_control.csv`, dan `test_v4_run_metadata.json`.
+
+Hasil eksekusi aktual: 415 jabatan analisis dan 501 nama pada CSV lengkap. Median LPBS per kelompok adalah 21 = -0,0834, 22 = 0,0711, 23 = -0,1704, 24 = 0,1094, 25 = 0,0419, dan 26 = 0,1053. Interval bootstrap masing-masing adalah [-0,1390; 0,0116], [0,0124; 0,1174], [-0,2502; -0,0804], [0,0733; 0,1721], [0,0229; 0,0573], dan [-0,0570; 0,1780]. Kruskal–Wallis eksploratif menghasilkan H = 125,0193, p = 2,71 × 10⁻²⁵, dan epsilon-squared = 0,2934; hasil ini harus dibaca hati-hati karena struktur hierarkis KBJI.
+
+Stabilitas template tidak seragam: Spearman antartemplate berkisar 0,2404–0,9200, agreement tanda 0,3108–0,8410, dan median agreement tingkat jabatan 0,7500. Sensitivitas istilah menghasilkan Spearman 0,2468, median absolute difference 0,1636, agreement 0,6024, dan 165 sign flip. Perbandingan fastText tersedia untuk 401 jabatan, dengan Spearman -0,0890, agreement 0,4788, dan 209 sign flip. Angka tersebut menunjukkan sensitivitas pengukuran terhadap konteks, istilah, dan model; LPBS dan SC-WEAT tidak dibandingkan berdasarkan magnitudo.
+
+Status eksekusi: selesai; seluruh 18 cell kode berhasil dijalankan, semua pemeriksaan pada `test_v4_lpbs_quality_control.csv` berstatus True, dan CSV input tetap memiliki SHA-256 yang sama sebelum dan sesudah. Metadata aktual mencatat revision model `c2cd0b51ddce6580eb35263b39b0a1e5fb0a39e2` dan durasi 163,02 detik pada CPU. Keterbatasan utama adalah satu model IndoBERT, template buatan, lexical set operasional yang belum tervalidasi final, dependensi hierarki jabatan, serta batas antara asosiasi intrinsic dan bias downstream. Referensi tambahan: Wilie et al. (2020) IndoNLU, Kurita et al. (2019) LPBS, Husse dan Spitz (2022), serta Goldfarb-Tarrant et al. (2021).

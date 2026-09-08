@@ -9,3 +9,5 @@ pdfplumber
 fasttext-community==0.11.7
 jupyter
 nbconvert
+torch
+transformers

@@ -235,3 +235,23 @@ Analisis komparatif v3 menambahkan:
 Status: notebook dan checkpoint data v3 telah disiapkan, tetapi belum dieksekusi penuh karena kedua file model biner tidak tersedia di lingkungan pembangunan ini. Tidak ada hasil signifikansi v3 yang boleh ditulis ke dokumentasi sebelum notebook dijalankan dengan kedua model dan seluruh CSV output terbentuk.
 
 Keputusan metodologis: model tidak boleh dipilih atau dikeluarkan setelah melihat p-value. Jika kedua model konsisten, hasilnya mendukung robustness terhadap perubahan korpus; jika berbeda, hasilnya menunjukkan sensitivitas pengukuran terhadap model/korpus. Keduanya merupakan temuan yang sah.
+
+## Implementasi `test2_v4`: IndoBERT LPBS
+
+Tanggal pengerjaan: 2026-09-08.
+
+Tujuan versi ini adalah memakai model masked language yang lebih sesuai untuk nama jabatan profesional multi-kata. Notebook `test2_v4_indobert_lpbs_pipeline.ipynb` membaca kembali `data/test_v3_kbji_profesional_analysis.csv`, `data/test_v3_kbji_profesional_all.csv`, dan `data/test_v3_istilah_gender.csv` tanpa ekstraksi PDF baru dan tanpa menimpa CSV. Model aktual yang digunakan adalah `indobenchmark/indobert-base-p1` dari Hugging Face, revision `c2cd0b51ddce6580eb35263b39b0a1e5fb0a39e2`, vocabulary 30.521, mask token `[MASK]` dengan ID 4, dan device CPU. Eksekusi memakai Python 3.14.0, PyTorch 2.12.1+cpu, Transformers 4.57.6, dan seed 42.
+
+Metode utama adalah Log-Probability Bias Score. Kondisi utama `pria–wanita` ditetapkan a priori dan keduanya menjadi satu token IndoBERT. Sensitivitas `laki-laki–perempuan` juga dihitung a priori; `laki-laki` menjadi tiga subtoken, sehingga diproses dengan pseudo-log-likelihood per subtoken. Empat template jabatan dan empat baseline template yang sama digunakan. Skor utama per jabatan adalah median lintas-template.
+
+Data aktual terdiri dari 501 nama pada CSV lengkap dan 415 jabatan analisis pada enam kelompok 21–26. Output long-format berisi 3.320 baris, yaitu 415 × 4 template × 2 kondisi gender. Cluster bootstrap memakai `group_code` tiga digit dengan 5.000 repetitions dan seed tetap.
+
+Hasil kelompok aktual: median LPBS kode 21 = -0,0834 (CI95% -0,1390 sampai 0,0116), kode 22 = 0,0711 (0,0124 sampai 0,1174), kode 23 = -0,1704 (-0,2502 sampai -0,0804), kode 24 = 0,1094 (0,0733 sampai 0,1721), kode 25 = 0,0419 (0,0229 sampai 0,0573), dan kode 26 = 0,1053 (-0,0570 sampai 0,1780). Kruskal–Wallis eksploratif menghasilkan H 125,0193, p 2,71 × 10⁻²⁵, dan epsilon-squared 0,2934. Ini bukan bukti bahwa profesi di masyarakat diperuntukkan bagi gender tertentu.
+
+Sensitivitas template menunjukkan Spearman 0,2404–0,9200, agreement tanda 0,3108–0,8410, dan median agreement tingkat jabatan 0,7500. Sensitivitas istilah menghasilkan Spearman 0,2468, median absolute difference 0,1636, agreement 0,6024, dan 165 perubahan tanda. Perbandingan dengan fastText/SC-WEAT tersedia untuk 401 jabatan: Spearman -0,0890, agreement 0,4788, dan 209 perubahan tanda. Skala LPBS dan SC-WEAT berbeda, sehingga perbandingan dibatasi pada arah, peringkat, dan agreement.
+
+Output yang dihasilkan: `outputs/test_v4_lpbs_scores_long.csv`, `test_v4_lpbs_occupation_summary.csv`, `test_v4_lpbs_group_summary.csv`, `test_v4_lpbs_template_stability.csv`, `test_v4_lpbs_lexical_sensitivity.csv`, `test_v4_lpbs_tokenization_audit.csv`, `test_v4_lpbs_statistical_tests.csv`, `test_v4_lpbs_fasttext_comparison.csv`, `test_v4_lpbs_fasttext_group_comparison.csv`, `test_v4_lpbs_quality_control.csv`, dan `test_v4_run_metadata.json`.
+
+Quality control lulus: seluruh cell kode berhasil, jumlah baris sesuai, empat template tersedia untuk setiap jabatan, semua probabilitas berada pada rentang 0–1, tidak ada NaN/tak hingga pada skor numerik, tidak ada observasi duplikat, baseline tiap template tersedia, dan SHA-256 tiga CSV input tidak berubah. Durasi eksekusi final 163,02 detik pada CPU. Tidak ada masalah inferensi yang tersisa; peringatan Jupyter hanya terkait environment Windows dan metadata ID cell.
+
+Keputusan metodologis: tidak ada template atau istilah yang dihapus berdasarkan p-value atau besar asosiasi. LPBS diperlakukan sebagai asosiasi model dalam konteks kalimat. Keterbatasan meliputi satu model, dua kondisi gender operasional, template buatan, struktur hierarkis KBJI, dan perbedaan intrinsic dengan downstream. Tahap berikutnya yang disarankan adalah validasi linguistik lexical set dan replikasi pada model kontekstual Indonesia kedua dengan protokol yang sama.

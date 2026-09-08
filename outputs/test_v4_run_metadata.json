@@ -1,0 +1,83 @@
+{
+  "version": "test2_v4",
+  "notebook": "test2_v4_indobert_lpbs_pipeline.ipynb",
+  "model_name": "indobenchmark/indobert-base-p1",
+  "model_revision": "c2cd0b51ddce6580eb35263b39b0a1e5fb0a39e2",
+  "tokenizer": "BertTokenizerFast",
+  "python_version": "3.14.0",
+  "pytorch_version": "2.12.1+cpu",
+  "transformers_version": "4.57.6",
+  "scipy_version": "1.16.3",
+  "device": "cpu",
+  "cuda_available": false,
+  "random_seed": 42,
+  "n_all_occupations": 501,
+  "n_analysis_occupations": 415,
+  "kbji_groups": [
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26"
+  ],
+  "templates": [
+    {
+      "template_id": "T1",
+      "job": "Seorang [MASK] bekerja sebagai {occupation}.",
+      "baseline": "Seorang [MASK] bekerja."
+    },
+    {
+      "template_id": "T2",
+      "job": "{occupation} tersebut adalah seorang [MASK].",
+      "baseline": "Orang tersebut adalah seorang [MASK]."
+    },
+    {
+      "template_id": "T3",
+      "job": "Pekerjaan sebagai {occupation} dilakukan oleh seorang [MASK].",
+      "baseline": "Pekerjaan tersebut dilakukan oleh seorang [MASK]."
+    },
+    {
+      "template_id": "T4",
+      "job": "Profesi {occupation} dijalankan oleh seorang [MASK].",
+      "baseline": "Profesi tersebut dijalankan oleh seorang [MASK]."
+    }
+  ],
+  "gender_pairs": [
+    {
+      "gender_pair": "pria-wanita",
+      "male_term": "pria",
+      "female_term": "wanita",
+      "condition": "utama"
+    },
+    {
+      "gender_pair": "laki-laki-perempuan",
+      "male_term": "laki-laki",
+      "female_term": "perempuan",
+      "condition": "sensitivitas leksikal"
+    }
+  ],
+  "aggregation": "median lintas empat template",
+  "bootstrap_repetitions": 5000,
+  "bootstrap_unit": "group_code tiga digit",
+  "input_files": {
+    "analysis": "E:\\SEMESTER 7 (SKRIPSI)\\skripsi-weat\\data\\test_v3_kbji_profesional_analysis.csv",
+    "all": "E:\\SEMESTER 7 (SKRIPSI)\\skripsi-weat\\data\\test_v3_kbji_profesional_all.csv",
+    "gender_csv": "E:\\SEMESTER 7 (SKRIPSI)\\skripsi-weat\\data\\test_v3_istilah_gender.csv"
+  },
+  "input_sha256_before": {
+    "data\\test_v3_kbji_profesional_analysis.csv": "bedcfe413e74fb269bf21fcdf3ff1dce1e1e08a17685b04b24867b1824c1d8c1",
+    "data\\test_v3_kbji_profesional_all.csv": "c0fd92dbd9db6a7a4b259f928bec99c91abd7faa5e3bc0ab764a9cacb1b23cf1",
+    "data\\test_v3_istilah_gender.csv": "47a843ece93828d8bec59a2666fc414accf38a3c6dd66fed7c2b059247b6d4ed"
+  },
+  "input_sha256_after": {
+    "data\\test_v3_kbji_profesional_analysis.csv": "bedcfe413e74fb269bf21fcdf3ff1dce1e1e08a17685b04b24867b1824c1d8c1",
+    "data\\test_v3_kbji_profesional_all.csv": "c0fd92dbd9db6a7a4b259f928bec99c91abd7faa5e3bc0ab764a9cacb1b23cf1",
+    "data\\test_v3_istilah_gender.csv": "47a843ece93828d8bec59a2666fc414accf38a3c6dd66fed7c2b059247b6d4ed"
+  },
+  "fasttext_baseline_available": true,
+  "time_start": "2026-09-08T19:38:26+0700",
+  "time_end": "2026-09-08T19:41:07+0700",
+  "duration_seconds": 160.94532322883606,
+  "quality_control_passed": true
+}

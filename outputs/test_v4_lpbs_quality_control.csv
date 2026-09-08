@@ -1,0 +1,10 @@
+check,status,observed
+model sesuai,True,indobenchmark/indobert-base-p1
+kelompok 21-26 tercakup,True,"['21', '22', '23', '24', '25', '26']"
+empat template per jabatan,True,{4: 415}
+jumlah baris long sesuai,True,3320
+tidak ada NaN atau tak hingga,True,0
+probabilitas 0 sampai 1,True,checked
+tidak ada duplikat observasi,True,0
+baseline tiap template tersedia,True,4
+CSV input tidak berubah,True,"{'data\\test_v3_kbji_profesional_analysis.csv': 'bedcfe413e74fb269bf21fcdf3ff1dce1e1e08a17685b04b24867b1824c1d8c1', 'data\\test_v3_kbji_profesional_all.csv': 'c0fd92dbd9db6a7a4b259f928bec99c91abd7faa5e3bc0ab764a9cacb1b23cf1', 'data\\test_v3_istilah_gender.csv': '47a843ece93828d8bec59a2666fc414accf38a3c6dd66fed7c2b059247b6d4ed'}"

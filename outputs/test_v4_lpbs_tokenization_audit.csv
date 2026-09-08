@@ -1,0 +1,5 @@
+gender_pair,gender,term,token_ids,tokens,token_count,status
+pria-wanita,laki-laki,pria,[1380],pria,1,satu token
+pria-wanita,perempuan,wanita,[922],wanita,1,satu token
+laki-laki-perempuan,laki-laki,laki-laki,"[7041, 30469, 7041]",laki | - | laki,3,pseudo-log-likelihood multi-token
+laki-laki-perempuan,perempuan,perempuan,[1747],perempuan,1,satu token

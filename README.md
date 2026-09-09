@@ -17,6 +17,7 @@ Hasil hanya menyatakan pola asosiasi relatif dalam ruang embedding. Positif bera
 3. `test1_v3_processing_data_kbji.ipynb` mengulang checkpoint pemrosesan KBJI dengan identifier `test_v3_`.
 4. `test2_v3_pipeline_scweat_model_comparison.ipynb` membandingkan `cc.id.300.bin` dengan `wiki.id.bin` menggunakan data, lexical set, representasi, formula, dan exact permutation yang sama. Notebook ini menambahkan perbandingan skor berpasangan, agreement, uji sign-flip, Wilcoxon, dan cluster bootstrap.
 5. `test2_v4_indobert_lpbs_pipeline.ipynb` mengukur perubahan probabilitas istilah gender dalam konteks nama jabatan menggunakan IndoBERT dan Log-Probability Bias Score (LPBS).
+6. `test1_v5_kbji_data_preprocessing.ipynb` mengaudit tanda petik dan normalisasi konservatif dari PDF KBJI, lalu `test2_v5_indobert_wseat_pipeline.ipynb` menghitung w-SEAT berbasis contextual phrase embedding IndoBERT.
 
 Notebook dan output `test_v1` dipertahankan sebagai riwayat. `test_v2` dan `test_v3` menggunakan prefix masing-masing sehingga tidak menimpa artefak versi sebelumnya.
 
@@ -122,6 +123,31 @@ SC-WEAT mengukur asosiasi intrinsik pada satu ruang embedding. Effect size besar
 - Rakivnenko et al. (2024), *Bias in text embedding models*. https://arxiv.org/abs/2406.12138
 - fastText, *Word vectors for 157 languages*. https://fasttext.cc/docs/en/crawl-vectors
 - BPS, KBJI 2014 sebagai rencana rujukan klasifikasi tahap berikutnya; PDF yang dianalisis di notebook tetap diperlakukan sebagai sumber lokal yang perlu diaudit.
+
+## test1_v5 dan test2_v5: IndoBERT w-SEAT
+
+Test v5 menambahkan pipeline **word-level Sentence Encoder Association Test (w-SEAT)**, yaitu adaptasi logika SC-WEAT pada contextual phrase embedding IndoBERT. Model utama `indobenchmark/indobert-base-p1` memproses jabatan multi-kata dalam konteks kalimat. Representasi utama adalah mean pooling subtoken target pada hidden state layer terakhir; mean empat layer terakhir menjadi sensitivitas. LPBS v4 dipertahankan sebagai eksperimen pembanding.
+
+`test1_v5_kbji_data_preprocessing.ipynb` membaca bagian Profesional dari PDF KBJI 2014, mengaudit lima jenis tanda petik, menerapkan NFKC dan normalisasi whitespace/nonprinting secara konservatif, serta menyimpan raw/clean audit. `test2_v5_indobert_wseat_pipeline.ipynb` membaca CSV v5, menyusun lima kondisi leksikal (`core_identity`, `kinship`, `age_status`, `informal`, `existing_full`), empat template semantically bleached, alignment subtoken dengan offset mapping, cosine, association difference, effect size, exact permutation, FDR, agregasi median, bootstrap cluster 5.000 kali, Kruskal–Wallis, Dunn BH, sensitivitas template/pooling/lexical pair, dan perbandingan fastText.
+
+Eksekusi aktual menghasilkan 501 baris raw, 415 jabatan analisis, 42 nama satu kata dan 373 multi-kata. Tidak ada quote literal, whitespace berulang, atau karakter nonprinting tersisa. Pipeline menghasilkan 16.600 baris skor w-SEAT, 3.448 baris audit embedding, 415 ringkasan jabatan, 6 ringkasan kelompok, dan 401 jabatan yang dapat dipadankan dengan baseline fastText.
+
+Hasil utama aktual pada core identity/last layer: median kelompok 21 = -0,9787, 22 = -1,2933, 23 = -0,9560, 24 = -0,9298, 25 = -1,0398, dan 26 = -0,9853. Kruskal–Wallis menghasilkan H = 58,5818, p = 2,39 × 10⁻¹¹, dan epsilon-squared = 0,1310. Leave-one-template-out memiliki Spearman 0,9493–0,9573 dengan 3–6 sign flip. Pooling last layer versus empat layer memiliki median -1,0225 dan -1,0711. Perbandingan fastText tersedia untuk 401 jabatan, dengan Spearman 0,0810, Kendall 0,0552, dan sign agreement 0,7082. Semua angka tersebut hanya menggambarkan asosiasi model intrinsik.
+
+Output v5 berada di `outputs/tables/`: `test1_v5_data_cleaning_audit.csv`, `test1_v5_data_quality_summary.csv`, `test1_v5_gender_lexicon_audit.csv`, `test1_v5_permutation_resolution.csv`, `test2_v5_contextual_embedding_audit.csv`, `test2_v5_wseat_scores_long.csv`, `test2_v5_occupation_summary.csv`, `test2_v5_group_summary.csv`, `test2_v5_template_stability.csv`, `test2_v5_leave_one_template_out.csv`, `test2_v5_leave_one_pair_out.csv`, `test2_v5_lexical_condition_comparison.csv`, `test2_v5_pooling_comparison.csv`, `test2_v5_fasttext_comparison.csv`, `test2_v5_statistical_tests.csv`, `test2_v5_posthoc_dunn.csv`, `test2_v5_quality_control.csv`, dan `test2_v5_run_metadata.json`.
+
+Jalankan dari root repository:
+
+```powershell
+python -m jupyter nbconvert --to notebook --execute --inplace test1_v5_kbji_data_preprocessing.ipynb
+python -m jupyter nbconvert --to notebook --execute --inplace test2_v5_indobert_wseat_pipeline.ipynb
+```
+
+Quality control v5 lulus 8 pemeriksaan; model revision `c2cd0b51ddce6580eb35263b39b0a1e5fb0a39e2`, Python 3.14.0, PyTorch 2.12.1+cpu, Transformers 4.57.6, device CPU, seed 42, dan durasi pipeline 69,78 detik. Dependency `torch` dan `transformers` tercantum di `requirements.txt`.
+
+Batas utama: core identity hanya memiliki dua pasangan dan resolusi exact enam pembagian; kondisi extended membawa makna kekerabatan/usia/status/register; template belum divalidasi ahli manusia; KBJI bersifat hierarkis; fastText dan w-SEAT memiliki skala berbeda; dan asosiasi intrinsic tidak identik dengan bias downstream atau diskriminasi nyata.
+
+Referensi v5: [Caliskan et al. (2017)](https://doi.org/10.1126/science.aal4230), [May et al. (2019)](https://aclanthology.org/N19-1063/), Steinhauer (2010), [Antoniak dan Mimno (2021)](https://aclanthology.org/2021.acl-long.148/), [Husse dan Spitz (2022)](https://aclanthology.org/2022.findings-emnlp.311/), [Steinborn et al. (2022)](https://aclanthology.org/2022.findings-naacl.69/), [Wilie et al. (2020)](https://aclanthology.org/2020.aacl-main.85/), dan [model IndoBERT](https://huggingface.co/indobenchmark/indobert-base-p1).
 
 ## test2_v4: IndoBERT dan LPBS
 

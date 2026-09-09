@@ -1,0 +1,502 @@
+﻿occupation_code,occupation_name_raw,occupation_name,cleaning_actions,changed,reason,source_page_pdf,source_page_printed
+2111.01,Ahli Fisika (Umum),Ahli Fisika (Umum),tidak ada perubahan,False,tidak ada artefak terdeteksi,161,121
+2111.02,Ahli Fisika Nuklir,Ahli Fisika Nuklir,tidak ada perubahan,False,tidak ada artefak terdeteksi,161,121
+2111.03,Ahli Fisika Mekanika,Ahli Fisika Mekanika,tidak ada perubahan,False,tidak ada artefak terdeteksi,161,121
+2111.04,Ahli Fisika Panas,Ahli Fisika Panas,tidak ada perubahan,False,tidak ada artefak terdeteksi,161,121
+2111.05,Ahli Fisika Sinar,Ahli Fisika Sinar,tidak ada perubahan,False,tidak ada artefak terdeteksi,162,122
+2111.06,Ahli Fisika Suara,Ahli Fisika Suara,tidak ada perubahan,False,tidak ada artefak terdeteksi,162,122
+2111.07,Ahli Fisika Listrik Dan Magnit,Ahli Fisika Listrik Dan Magnit,tidak ada perubahan,False,tidak ada artefak terdeteksi,162,122
+2111.08,Ahli Fisika Elektronika,Ahli Fisika Elektronika,tidak ada perubahan,False,tidak ada artefak terdeteksi,162,122
+2111.09,Ahli Fisika Medis,Ahli Fisika Medis,tidak ada perubahan,False,tidak ada artefak terdeteksi,163,123
+2111.10,Ahli Astronomi,Ahli Astronomi,tidak ada perubahan,False,tidak ada artefak terdeteksi,163,123
+2111.99,Ahli Fisika dan Astronomi Lainnya,Ahli Fisika dan Astronomi Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,163,123
+2112.01,Ahli Meteorologi (Umum),Ahli Meteorologi (Umum),tidak ada perubahan,False,tidak ada artefak terdeteksi,164,124
+2112.02,Ahli Klimatologi,Ahli Klimatologi,tidak ada perubahan,False,tidak ada artefak terdeteksi,164,124
+2112.03,Ahli Prakiraan Cuaca,Ahli Prakiraan Cuaca,tidak ada perubahan,False,tidak ada artefak terdeteksi,164,124
+2112.04,Ahli Hidrometeorologi,Ahli Hidrometeorologi,tidak ada perubahan,False,tidak ada artefak terdeteksi,164,124
+2112.99,Ahli Meteorologi dan Klimatologi Lainnya,Ahli Meteorologi dan Klimatologi Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,164,124
+2113.01,Ahli Kimia (Umum),Ahli Kimia (Umum),tidak ada perubahan,False,tidak ada artefak terdeteksi,165,125
+2113.02,Ahli Kimia Organik,Ahli Kimia Organik,tidak ada perubahan,False,tidak ada artefak terdeteksi,165,125
+2113.03,Ahli Kimia Anorganik,Ahli Kimia Anorganik,tidak ada perubahan,False,tidak ada artefak terdeteksi,165,125
+2113.04,Ahli Kimia Fisika,Ahli Kimia Fisika,tidak ada perubahan,False,tidak ada artefak terdeteksi,166,126
+2113.05,Ahli Kimia Analitik,Ahli Kimia Analitik,tidak ada perubahan,False,tidak ada artefak terdeteksi,166,126
+2113.99,Ahli Kimia Lainnya,Ahli Kimia Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,166,126
+2114.01,Ahli Geologi (Umum),Ahli Geologi (Umum),tidak ada perubahan,False,tidak ada artefak terdeteksi,167,127
+2114.02,Ahli Geologi Kelautan,Ahli Geologi Kelautan,tidak ada perubahan,False,tidak ada artefak terdeteksi,167,127
+2114.03,Ahli Geologi Pertambangan,Ahli Geologi Pertambangan,tidak ada perubahan,False,tidak ada artefak terdeteksi,168,128
+2114.04,Ahli Geofisika (Umum),Ahli Geofisika (Umum),tidak ada perubahan,False,tidak ada artefak terdeteksi,168,128
+2114.05,Ahli Geofisika Kelautan,Ahli Geofisika Kelautan,tidak ada perubahan,False,tidak ada artefak terdeteksi,168,128
+2114.99,Ahli Geologi Dan Geofisika Lainnya,Ahli Geologi Dan Geofisika Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,169,129
+2120.01,Ahli Matematika Murni,Ahli Matematika Murni,tidak ada perubahan,False,tidak ada artefak terdeteksi,170,130
+2120.02,Ahli Matematika Terapan,Ahli Matematika Terapan,tidak ada perubahan,False,tidak ada artefak terdeteksi,170,130
+2120.03,Ahli Analisis Riset Operasi (Quality Control Management),Ahli Analisis Riset Operasi (Quality Control Management),tidak ada perubahan,False,tidak ada artefak terdeteksi,170,130
+2120.04,Aktuaris,Aktuaris,tidak ada perubahan,False,tidak ada artefak terdeteksi,171,131
+2120.05,Ahli Statistika (Umum),Ahli Statistika (Umum),tidak ada perubahan,False,tidak ada artefak terdeteksi,171,131
+2120.06,Ahli Statistika Matematika,Ahli Statistika Matematika,tidak ada perubahan,False,tidak ada artefak terdeteksi,171,131
+2120.07,Ahli Statistika (Terapan),Ahli Statistika (Terapan),tidak ada perubahan,False,tidak ada artefak terdeteksi,172,132
+2120.99,"Ahli Matematika, Aktuaria Dan Statistika Lainnya","Ahli Matematika, Aktuaria Dan Statistika Lainnya",tidak ada perubahan,False,tidak ada artefak terdeteksi,172,132
+2131.01,Ahli Perilaku Hewan,Ahli Perilaku Hewan,tidak ada perubahan,False,tidak ada artefak terdeteksi,173,133
+2131.02,Ahli Bakteriologi,Ahli Bakteriologi,tidak ada perubahan,False,tidak ada artefak terdeteksi,173,133
+2131.03,Ahli Biologi (Umum),Ahli Biologi (Umum),tidak ada perubahan,False,tidak ada artefak terdeteksi,174,134
+2131.04,Ahli Biologi Kelautan,Ahli Biologi Kelautan,tidak ada perubahan,False,tidak ada artefak terdeteksi,174,134
+2131.05,Ahli Biologi Molekuler,Ahli Biologi Molekuler,tidak ada perubahan,False,tidak ada artefak terdeteksi,174,134
+2131.06,Ahli Botani,Ahli Botani,tidak ada perubahan,False,tidak ada artefak terdeteksi,174,134
+2131.07,Ahli Zoologi,Ahli Zoologi,tidak ada perubahan,False,tidak ada artefak terdeteksi,174,134
+2131.08,Ahli Biokimia,Ahli Biokimia,tidak ada perubahan,False,tidak ada artefak terdeteksi,175,135
+2131.09,Ahli Anatomi,Ahli Anatomi,tidak ada perubahan,False,tidak ada artefak terdeteksi,175,135
+2131.10,Ahli Fisiologi,Ahli Fisiologi,tidak ada perubahan,False,tidak ada artefak terdeteksi,175,135
+2131.11,Ahli Patologis Medis,Ahli Patologis Medis,tidak ada perubahan,False,tidak ada artefak terdeteksi,175,135
+2131.12,Ahli Patologi Hewan,Ahli Patologi Hewan,tidak ada perubahan,False,tidak ada artefak terdeteksi,176,136
+2131.13,Ahli Farmakologi,Ahli Farmakologi,tidak ada perubahan,False,tidak ada artefak terdeteksi,176,136
+2131.99,"Ahli Biologi, Botani, Zoologi dan YBDI Lainnya","Ahli Biologi, Botani, Zoologi dan YBDI Lainnya",tidak ada perubahan,False,tidak ada artefak terdeteksi,176,136
+2132.01,Ahli Agronomi,Ahli Agronomi,tidak ada perubahan,False,tidak ada artefak terdeteksi,177,137
+2132.02,Ahli Kehutanan,Ahli Kehutanan,tidak ada perubahan,False,tidak ada artefak terdeteksi,177,137
+2132.03,Ahli Penelitian Tanah,Ahli Penelitian Tanah,tidak ada perubahan,False,tidak ada artefak terdeteksi,178,138
+2132.04,Ahli Hortikultura,Ahli Hortikultura,tidak ada perubahan,False,tidak ada artefak terdeteksi,178,138
+2132.05,"Konsultan Pertanian, Kehutanan dan Perikanan","Konsultan Pertanian, Kehutanan dan Perikanan",tidak ada perubahan,False,tidak ada artefak terdeteksi,178,138
+2132.99,"Penasihat Pertanian, Kehutanan dan Perikanan Lainnya","Penasihat Pertanian, Kehutanan dan Perikanan Lainnya",tidak ada perubahan,False,tidak ada artefak terdeteksi,178,138
+2133.01,Ahli Ekologi,Ahli Ekologi,tidak ada perubahan,False,tidak ada artefak terdeteksi,179,139
+2133.02,Analis Polusi Udara,Analis Polusi Udara,tidak ada perubahan,False,tidak ada artefak terdeteksi,180,140
+2133.03,Ahli Konservasi,Ahli Konservasi,tidak ada perubahan,False,tidak ada artefak terdeteksi,180,140
+2133.04,Auditor Lingkungan,Auditor Lingkungan,tidak ada perubahan,False,tidak ada artefak terdeteksi,180,140
+2133.05,Ilmuwan Lingkungan,Ilmuwan Lingkungan,tidak ada perubahan,False,tidak ada artefak terdeteksi,180,140
+2133.06,Analis Mutu Air,Analis Mutu Air,tidak ada perubahan,False,tidak ada artefak terdeteksi,180,140
+2133.07,Konsultan Lingkungan,Konsultan Lingkungan,tidak ada perubahan,False,tidak ada artefak terdeteksi,181,141
+2133.99,Ahli Perlindungan Lingkungan Lainnya,Ahli Perlindungan Lingkungan Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,181,141
+2141.01,Ahli Teknik Efisiensi Industri,Ahli Teknik Efisiensi Industri,tidak ada perubahan,False,tidak ada artefak terdeteksi,182,142
+2141.02,Ahli Teknik Sistem dan Metoda Kerja Industri,Ahli Teknik Sistem dan Metoda Kerja Industri,tidak ada perubahan,False,tidak ada artefak terdeteksi,182,142
+2141.03,Ahli Teknik Pengukuran Kerja Industri,Ahli Teknik Pengukuran Kerja Industri,tidak ada perubahan,False,tidak ada artefak terdeteksi,183,143
+2141.04,Ahli Teknik Mesin Industri,Ahli Teknik Mesin Industri,tidak ada perubahan,False,tidak ada artefak terdeteksi,183,143
+2141.05,Ahli Teknik Produksi Industri,Ahli Teknik Produksi Industri,tidak ada perubahan,False,tidak ada artefak terdeteksi,183,143
+2141.99,Ahli Teknik Industri dan Produksi Lainnya,Ahli Teknik Industri dan Produksi Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,183,143
+2142.01,Ahli Teknik Sipil (Umum),Ahli Teknik Sipil (Umum),tidak ada perubahan,False,tidak ada artefak terdeteksi,184,144
+2142.02,Ahli Teknik Konstruksi Bangunan,Ahli Teknik Konstruksi Bangunan,tidak ada perubahan,False,tidak ada artefak terdeteksi,184,144
+2142.03,Ahli Teknik Konstruksi Jalan,Ahli Teknik Konstruksi Jalan,tidak ada perubahan,False,tidak ada artefak terdeteksi,184,144
+2142.04,Ahli Teknik Konstruksi Landasan Pesawat Udara.,Ahli Teknik Konstruksi Landasan Pesawat Udara.,tidak ada perubahan,False,tidak ada artefak terdeteksi,185,145
+2142.05,Ahli Teknik Konstruksi Jalan Kereta Api,Ahli Teknik Konstruksi Jalan Kereta Api,tidak ada perubahan,False,tidak ada artefak terdeteksi,185,145
+2142.06,Ahli Teknik Konstruksi Jembatan,Ahli Teknik Konstruksi Jembatan,tidak ada perubahan,False,tidak ada artefak terdeteksi,185,145
+2142.07,Ahli Teknik Penyehatan Lingkungan,Ahli Teknik Penyehatan Lingkungan,tidak ada perubahan,False,tidak ada artefak terdeteksi,185,145
+2142.08,Ahli Teknik Pengairan,Ahli Teknik Pengairan,tidak ada perubahan,False,tidak ada artefak terdeteksi,186,146
+2142.09,Ahli Teknik Mekanika Tanah,Ahli Teknik Mekanika Tanah,tidak ada perubahan,False,tidak ada artefak terdeteksi,186,146
+2142.99,Ahli Teknik Sipil Lainnya,Ahli Teknik Sipil Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,186,146
+2143.01,Ahli Teknik Lingkungan,Ahli Teknik Lingkungan,tidak ada perubahan,False,tidak ada artefak terdeteksi,187,147
+2143.02,Analis Lingkungan,Analis Lingkungan,tidak ada perubahan,False,tidak ada artefak terdeteksi,187,147
+2143.03,Spesialis Rehabilitasi Lingkungan,Spesialis Rehabilitasi Lingkungan,tidak ada perubahan,False,tidak ada artefak terdeteksi,187,147
+2143.99,Ahli Teknik Lingkungan Lainnya,Ahli Teknik Lingkungan Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,187,147
+2144.01,Ahli Teknik Mesin (Umum),Ahli Teknik Mesin (Umum),tidak ada perubahan,False,tidak ada artefak terdeteksi,188,148
+2144.02,Ahli Teknik Mesin Dan Peralatan Industri,Ahli Teknik Mesin Dan Peralatan Industri,tidak ada perubahan,False,tidak ada artefak terdeteksi,188,148
+2144.03,Ahli Teknik Mesin Motor Penggerak (Selain Mesin Kapal),Ahli Teknik Mesin Motor Penggerak (Selain Mesin Kapal),tidak ada perubahan,False,tidak ada artefak terdeteksi,188,148
+2144.04,Ahli Teknik Mesin Kapal,Ahli Teknik Mesin Kapal,tidak ada perubahan,False,tidak ada artefak terdeteksi,189,149
+2144.05,Ahli Teknik Konstruksi Kapal,Ahli Teknik Konstruksi Kapal,tidak ada perubahan,False,tidak ada artefak terdeteksi,189,149
+2144.06,Ahli Teknik Industri Pesawat Terbang,Ahli Teknik Industri Pesawat Terbang,tidak ada perubahan,False,tidak ada artefak terdeteksi,189,149
+2144.07,Ahli Teknik Mobil,Ahli Teknik Mobil,tidak ada perubahan,False,tidak ada artefak terdeteksi,189,149
+2144.08,"Ahli Teknik Pemanasan, Ventilasi dan Pendinginan","Ahli Teknik Pemanasan, Ventilasi dan Pendinginan",tidak ada perubahan,False,tidak ada artefak terdeteksi,189,149
+2144.09,Ahli Teknik Mesin Tenaga Atom,Ahli Teknik Mesin Tenaga Atom,tidak ada perubahan,False,tidak ada artefak terdeteksi,190,150
+2144.99,Ahli Teknik Mekanikal Lainnya,Ahli Teknik Mekanikal Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,190,150
+2145.01,Ahli Teknik Kimia (Umum),Ahli Teknik Kimia (Umum),tidak ada perubahan,False,tidak ada artefak terdeteksi,191,151
+2145.02,Ahli Teknik Kimia Bahan Bakar,Ahli Teknik Kimia Bahan Bakar,tidak ada perubahan,False,tidak ada artefak terdeteksi,191,151
+2145.03,Ahli Teknik Kimia Plastik,Ahli Teknik Kimia Plastik,tidak ada perubahan,False,tidak ada artefak terdeteksi,191,151
+2145.99,Ahli Teknik Kimia Lainnya,Ahli Teknik Kimia Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,191,151
+2146.01,Ahli Teknik Pertambangan (Umum),Ahli Teknik Pertambangan (Umum),tidak ada perubahan,False,tidak ada artefak terdeteksi,192,152
+2146.02,Ahli Teknik Pertambangan Batu Bara,Ahli Teknik Pertambangan Batu Bara,tidak ada perubahan,False,tidak ada artefak terdeteksi,192,152
+2146.03,Ahli Teknik Pertambangan Logam,Ahli Teknik Pertambangan Logam,tidak ada perubahan,False,tidak ada artefak terdeteksi,193,153
+2146.04,Ahli Teknik Pertambangan Minyak Bumi dan Gas Alam,Ahli Teknik Pertambangan Minyak Bumi dan Gas Alam,tidak ada perubahan,False,tidak ada artefak terdeteksi,193,153
+2146.05,Ahli Metalurgi Ekstraksi,Ahli Metalurgi Ekstraksi,tidak ada perubahan,False,tidak ada artefak terdeteksi,193,153
+2146.06,Ahli Metalurgi Fisika,Ahli Metalurgi Fisika,tidak ada perubahan,False,tidak ada artefak terdeteksi,193,153
+2146.99,"Ahli Teknik Pertambangan, Metalurgi dan YBDI Lainnya","Ahli Teknik Pertambangan, Metalurgi dan YBDI Lainnya",tidak ada perubahan,False,tidak ada artefak terdeteksi,194,154
+2149.01,Ahli Teknik Keramik Dan Kaca,Ahli Teknik Keramik Dan Kaca,tidak ada perubahan,False,tidak ada artefak terdeteksi,195,155
+2149.02,Ahli Teknik Pertanian,Ahli Teknik Pertanian,tidak ada perubahan,False,tidak ada artefak terdeteksi,195,155
+2149.03,Ahli Teknik Bahan Makanan dan Minuman,Ahli Teknik Bahan Makanan dan Minuman,tidak ada perubahan,False,tidak ada artefak terdeteksi,195,155
+2149.04,Ahli Teknik Tekstil,Ahli Teknik Tekstil,tidak ada perubahan,False,tidak ada artefak terdeteksi,196,156
+2149.05,Ahli Teknik Perencanaan Sistem Lalu-Lintas,Ahli Teknik Perencanaan Sistem Lalu-Lintas,tidak ada perubahan,False,tidak ada artefak terdeteksi,196,156
+2149.06,Ahli Teknik Biomedis,Ahli Teknik Biomedis,tidak ada perubahan,False,tidak ada artefak terdeteksi,196,156
+2149.07,Ahli Teknik Bahan Peledak,Ahli Teknik Bahan Peledak,tidak ada perubahan,False,tidak ada artefak terdeteksi,196,156
+2149.08,Ahli Teknik Salvage (Penyelamatan Laut),Ahli Teknik Salvage (Penyelamatan Laut),tidak ada perubahan,False,tidak ada artefak terdeteksi,196,156
+2149.09,Ahli Teknik Keselamatan,Ahli Teknik Keselamatan,tidak ada perubahan,False,tidak ada artefak terdeteksi,197,157
+2149.10,Ahli Teknik Optikal,Ahli Teknik Optikal,tidak ada perubahan,False,tidak ada artefak terdeteksi,197,157
+2149.99,Ahli Teknik Lain YTDL,Ahli Teknik Lain YTDL,tidak ada perubahan,False,tidak ada artefak terdeteksi,197,157
+2151.01,Ahli Teknik Listrik (Umum),Ahli Teknik Listrik (Umum),tidak ada perubahan,False,tidak ada artefak terdeteksi,198,158
+2151.02,Ahli Teknik Pembangkit Tenaga Listrik,Ahli Teknik Pembangkit Tenaga Listrik,tidak ada perubahan,False,tidak ada artefak terdeteksi,198,158
+2151.03,Ahli Teknik Distribusi dan Transmisi Tenaga Listrik,Ahli Teknik Distribusi dan Transmisi Tenaga Listrik,tidak ada perubahan,False,tidak ada artefak terdeteksi,198,158
+2151.04,Ahli Teknik Elektromekanik,Ahli Teknik Elektromekanik,tidak ada perubahan,False,tidak ada artefak terdeteksi,199,159
+2151.99,Ahli Teknik Listrik Lainnya,Ahli Teknik Listrik Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,199,159
+2152.01,Ahli Teknik Elektronik (Umum),Ahli Teknik Elektronik (Umum),tidak ada perubahan,False,tidak ada artefak terdeteksi,199,159
+2152.02,Ahli Teknik Perangkat Keras Komputer,Ahli Teknik Perangkat Keras Komputer,tidak ada perubahan,False,tidak ada artefak terdeteksi,200,160
+2152.03,Ahli Teknik Instrumentasi (Alat Ukur),Ahli Teknik Instrumentasi (Alat Ukur),tidak ada perubahan,False,tidak ada artefak terdeteksi,200,160
+2152.99,Ahli Teknik Elektronik Lainnya,Ahli Teknik Elektronik Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,200,160
+2153.01,Ahli Teknik Telekomunikasi,Ahli Teknik Telekomunikasi,tidak ada perubahan,False,tidak ada artefak terdeteksi,201,161
+2153.02,Ahli Teknik Penyiaran dan Audio Visual,Ahli Teknik Penyiaran dan Audio Visual,tidak ada perubahan,False,tidak ada artefak terdeteksi,201,161
+2153.03,Ahli Teknologi Rekayasa Telekomunikasi,Ahli Teknologi Rekayasa Telekomunikasi,tidak ada perubahan,False,tidak ada artefak terdeteksi,201,161
+2153.99,Ahli Teknik Telekomunikasi Lainnya,Ahli Teknik Telekomunikasi Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,201,161
+2161.01,Arsitek Bangunan,Arsitek Bangunan,tidak ada perubahan,False,tidak ada artefak terdeteksi,203,163
+2161.02,Arsitek Interior,Arsitek Interior,tidak ada perubahan,False,tidak ada artefak terdeteksi,203,163
+2161.99,Arsitek Bangunan Lainnya,Arsitek Bangunan Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,203,163
+2162.00,Arsitek Pertamanan/Lansekap,Arsitek Pertamanan/Lansekap,tidak ada perubahan,False,tidak ada artefak terdeteksi,204,164
+2163.01,Perancang Kostum,Perancang Kostum,tidak ada perubahan,False,tidak ada artefak terdeteksi,205,165
+2163.02,Perancang Busana,Perancang Busana,tidak ada perubahan,False,tidak ada artefak terdeteksi,205,165
+2163.03,Perancang Perhiasan,Perancang Perhiasan,tidak ada perubahan,False,tidak ada artefak terdeteksi,205,165
+2163.04,Perancang Produk Industri,Perancang Produk Industri,tidak ada perubahan,False,tidak ada artefak terdeteksi,206,166
+2163.99,Perancang Produk dan Pakaian Jadi Lainnya,Perancang Produk dan Pakaian Jadi Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,206,166
+2164.01,Perencana Lahan,Perencana Lahan,tidak ada perubahan,False,tidak ada artefak terdeteksi,207,167
+2164.02,Perencana Tata Kota,Perencana Tata Kota,tidak ada perubahan,False,tidak ada artefak terdeteksi,207,167
+2164.03,Perencana Lalu Lintas,Perencana Lalu Lintas,tidak ada perubahan,False,tidak ada artefak terdeteksi,207,167
+2164.99,Perencana Tata Kota dan Lalu Lintas Lainnya,Perencana Tata Kota dan Lalu Lintas Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,207,167
+2165.01,Surveyor Tanah,Surveyor Tanah,tidak ada perubahan,False,tidak ada artefak terdeteksi,208,168
+2165.02,Surveyor Pertambangan,Surveyor Pertambangan,tidak ada perubahan,False,tidak ada artefak terdeteksi,208,168
+2165.03,Surveyor Hidrografi,Surveyor Hidrografi,tidak ada perubahan,False,tidak ada artefak terdeteksi,208,168
+2165.04,Surveyor Topografi,Surveyor Topografi,tidak ada perubahan,False,tidak ada artefak terdeteksi,208,168
+2165.05,Surveyor Aerial,Surveyor Aerial,tidak ada perubahan,False,tidak ada artefak terdeteksi,209,169
+2165.06,Surveyor Kadastral,Surveyor Kadastral,tidak ada perubahan,False,tidak ada artefak terdeteksi,209,169
+2165.07,Ahli Pemetaan (Kartografer),Ahli Pemetaan (Kartografer),tidak ada perubahan,False,tidak ada artefak terdeteksi,209,169
+2165.99,Ahli Pemetaan dan Surveyor Lainnya,Ahli Pemetaan dan Surveyor Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,209,169
+2166.01,Animator,Animator,tidak ada perubahan,False,tidak ada artefak terdeteksi,210,170
+2166.02,Seniman Digital,Seniman Digital,tidak ada perubahan,False,tidak ada artefak terdeteksi,210,170
+2166.03,Perancang Grafis,Perancang Grafis,tidak ada perubahan,False,tidak ada artefak terdeteksi,210,170
+2166.04,Ilustrator Teknik,Ilustrator Teknik,tidak ada perubahan,False,tidak ada artefak terdeteksi,210,170
+2166.05,Perancang Permainan Interaktif,Perancang Permainan Interaktif,tidak ada perubahan,False,tidak ada artefak terdeteksi,211,171
+2166.06,Ilustrator,Ilustrator,tidak ada perubahan,False,tidak ada artefak terdeteksi,211,171
+2166.07,Seniman Lithografi,Seniman Lithografi,tidak ada perubahan,False,tidak ada artefak terdeteksi,211,171
+2166.08,Desainer Multimedia,Desainer Multimedia,tidak ada perubahan,False,tidak ada artefak terdeteksi,211,171
+2166.09,Desainer Publikasi,Desainer Publikasi,tidak ada perubahan,False,tidak ada artefak terdeteksi,212,172
+2166.10,Desainer Website,Desainer Website,tidak ada perubahan,False,tidak ada artefak terdeteksi,212,172
+2166.99,Perancang Grafis dan Multimedia Lainnya,Perancang Grafis dan Multimedia Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,212,172
+2211.01,Dokter Umum,Dokter Umum,tidak ada perubahan,False,tidak ada artefak terdeteksi,214,174
+2211.02,Dokter Keluarga,Dokter Keluarga,tidak ada perubahan,False,tidak ada artefak terdeteksi,214,174
+2211.99,Praktisi Dokter Umum Lainnya,Praktisi Dokter Umum Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,214,174
+2212.01,Dokter Spesialis Anestesi,Dokter Spesialis Anestesi,tidak ada perubahan,False,tidak ada artefak terdeteksi,216,176
+2212.02,Dokter Spesialis Jantung,Dokter Spesialis Jantung,tidak ada perubahan,False,tidak ada artefak terdeteksi,216,176
+2212.03,Dokter Spesialis Kulit dan Kelamin,Dokter Spesialis Kulit dan Kelamin,tidak ada perubahan,False,tidak ada artefak terdeteksi,216,176
+2212.04,"Dokter Spesialis Telinga, Hidung dan Tenggorokan","Dokter Spesialis Telinga, Hidung dan Tenggorokan",tidak ada perubahan,False,tidak ada artefak terdeteksi,216,176
+2212.05,Dokter Spesialis Kandungan,Dokter Spesialis Kandungan,tidak ada perubahan,False,tidak ada artefak terdeteksi,217,177
+2212.06,Dokter Spesialis Mata,Dokter Spesialis Mata,tidak ada perubahan,False,tidak ada artefak terdeteksi,217,177
+2212.07,Dokter Spesialis Anak,Dokter Spesialis Anak,tidak ada perubahan,False,tidak ada artefak terdeteksi,217,177
+2212.08,Psikiater,Psikiater,tidak ada perubahan,False,tidak ada artefak terdeteksi,217,177
+2212.09,Dokter Spesialis Penyakit Dalam,Dokter Spesialis Penyakit Dalam,tidak ada perubahan,False,tidak ada artefak terdeteksi,218,178
+2212.10,Dokter Spesialis Saraf,Dokter Spesialis Saraf,tidak ada perubahan,False,tidak ada artefak terdeteksi,218,178
+2212.11,Dokter Spesialis Patologi,Dokter Spesialis Patologi,tidak ada perubahan,False,tidak ada artefak terdeteksi,218,178
+2212.12,Dokter Spesialis Paru,Dokter Spesialis Paru,tidak ada perubahan,False,tidak ada artefak terdeteksi,218,178
+2212.13,Dokter Spesialis Radiologi,Dokter Spesialis Radiologi,tidak ada perubahan,False,tidak ada artefak terdeteksi,219,179
+2212.14,Dokter Spesialis Bedah Umum,Dokter Spesialis Bedah Umum,tidak ada perubahan,False,tidak ada artefak terdeteksi,219,179
+2212.15,Dokter Spesialis Bedah Digestif,Dokter Spesialis Bedah Digestif,tidak ada perubahan,False,tidak ada artefak terdeteksi,219,179
+2212.16,Dokter Spesialis Bedah Syaraf,Dokter Spesialis Bedah Syaraf,tidak ada perubahan,False,tidak ada artefak terdeteksi,219,179
+2212.17,Dokter Spesialis Bedah Orthopedi dan Traumatologi,Dokter Spesialis Bedah Orthopedi dan Traumatologi,tidak ada perubahan,False,tidak ada artefak terdeteksi,220,180
+2212.18,Dokter Spesialis Bedah Onkologi,Dokter Spesialis Bedah Onkologi,tidak ada perubahan,False,tidak ada artefak terdeteksi,220,180
+2212.99,Praktisi Dokter Spesialis Lainnya,Praktisi Dokter Spesialis Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,220,180
+2221.01,Perawat Ahli,Perawat Ahli,tidak ada perubahan,False,tidak ada artefak terdeteksi,222,182
+2221.02,Perawat Spesialis,Perawat Spesialis,tidak ada perubahan,False,tidak ada artefak terdeteksi,222,182
+2221.03,Perawat Kesehatan Masyarakat,Perawat Kesehatan Masyarakat,tidak ada perubahan,False,tidak ada artefak terdeteksi,222,182
+2221.04,Perawat Kesehatan Kerja,Perawat Kesehatan Kerja,tidak ada perubahan,False,tidak ada artefak terdeteksi,223,183
+2221.05,Perawat,Perawat,tidak ada perubahan,False,tidak ada artefak terdeteksi,223,183
+2221.06,Perawat Anastesi,Perawat Anastesi,tidak ada perubahan,False,tidak ada artefak terdeteksi,223,183
+2221.99,Profesional Keperawatan Lainnya,Profesional Keperawatan Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,223,183
+2222.01,Bidan,Bidan,tidak ada perubahan,False,tidak ada artefak terdeteksi,224,184
+2222.99,Profesional Kebidanan Lainnya,Profesional Kebidanan Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,225,185
+2230.01,Ahli Akupuntur,Ahli Akupuntur,tidak ada perubahan,False,tidak ada artefak terdeteksi,226,186
+2230.02,Ahli Pengobatan Herbal Cina,Ahli Pengobatan Herbal Cina,tidak ada perubahan,False,tidak ada artefak terdeteksi,226,186
+2230.03,Praktisi Ayurvedic,Praktisi Ayurvedic,tidak ada perubahan,False,tidak ada artefak terdeteksi,226,186
+2230.04,Ahli Homeopati,Ahli Homeopati,tidak ada perubahan,False,tidak ada artefak terdeteksi,227,187
+2230.05,Ahli Naturopati,Ahli Naturopati,tidak ada perubahan,False,tidak ada artefak terdeteksi,227,187
+2230.06,Praktisi Unani,Praktisi Unani,tidak ada perubahan,False,tidak ada artefak terdeteksi,227,187
+2230.99,Profesional Pengobatan Tradisional dan Komplementer Lainnya,Profesional Pengobatan Tradisional dan Komplementer Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,227,187
+2240.01,Asisten Medik,Asisten Medik,tidak ada perubahan,False,tidak ada artefak terdeteksi,229,189
+2240.02,Paramedis,Paramedis,tidak ada perubahan,False,tidak ada artefak terdeteksi,229,189
+2240.03,Teknisi Bedah,Teknisi Bedah,tidak ada perubahan,False,tidak ada artefak terdeteksi,229,189
+2240.99,Praktisi Paramedis Lainnya,Praktisi Paramedis Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,229,189
+2250.01,Dokter Hewan (Umum),Dokter Hewan (Umum),tidak ada perubahan,False,tidak ada artefak terdeteksi,230,190
+2250.02,Dokter Hewan Kesehatan Masyarakat,Dokter Hewan Kesehatan Masyarakat,tidak ada perubahan,False,tidak ada artefak terdeteksi,230,190
+2250.03,Dokter Bedah Hewan,Dokter Bedah Hewan,tidak ada perubahan,False,tidak ada artefak terdeteksi,231,191
+2250.04,Ahli Penyakit Hewan (Patologi),Ahli Penyakit Hewan (Patologi),tidak ada perubahan,False,tidak ada artefak terdeteksi,231,191
+2250.05,Ahli Epidemiologi Hewan,Ahli Epidemiologi Hewan,tidak ada perubahan,False,tidak ada artefak terdeteksi,231,191
+2250.99,Dokter Hewan Lainnya,Dokter Hewan Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,231,191
+2261.01,Dokter Gigi (Umum),Dokter Gigi (Umum),tidak ada perubahan,False,tidak ada artefak terdeteksi,233,193
+2261.02,Dokter Gigi Kesehatan Masyarakat,Dokter Gigi Kesehatan Masyarakat,tidak ada perubahan,False,tidak ada artefak terdeteksi,233,193
+2261.03,Asisten Bedah Gigi,Asisten Bedah Gigi,tidak ada perubahan,False,tidak ada artefak terdeteksi,233,193
+2261.04,Ahli Kesehatan Gigi,Ahli Kesehatan Gigi,tidak ada perubahan,False,tidak ada artefak terdeteksi,233,193
+2261.05,Endodontist,Endodontist,tidak ada perubahan,False,tidak ada artefak terdeteksi,234,194
+2261.06,Ahli Bedah Mulut dan Maxillofacial,Ahli Bedah Mulut dan Maxillofacial,tidak ada perubahan,False,tidak ada artefak terdeteksi,234,194
+2261.07,Ahli Penyakit Mulut,Ahli Penyakit Mulut,tidak ada perubahan,False,tidak ada artefak terdeteksi,234,194
+2261.08,Ortodontis,Ortodontis,tidak ada perubahan,False,tidak ada artefak terdeteksi,234,194
+2261.09,Paedodontist,Paedodontist,tidak ada perubahan,False,tidak ada artefak terdeteksi,234,194
+2261.10,Periodontist,Periodontist,tidak ada perubahan,False,tidak ada artefak terdeteksi,234,194
+2261.11,Prosthodontist,Prosthodontist,tidak ada perubahan,False,tidak ada artefak terdeteksi,234,194
+2261.99,Dokter Gigi Lainnya,Dokter Gigi Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,234,194
+2262.01,Apoteker,Apoteker,tidak ada perubahan,False,tidak ada artefak terdeteksi,235,195
+2262.99,Apoteker Lainnya,Apoteker Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,236,196
+2263.01,Petugas Kesehatan Lingkungan,Petugas Kesehatan Lingkungan,tidak ada perubahan,False,tidak ada artefak terdeteksi,237,197
+2263.02,Penasihat Kesehatan dan Keselamatan Kerja,Penasihat Kesehatan dan Keselamatan Kerja,tidak ada perubahan,False,tidak ada artefak terdeteksi,237,197
+2263.03,Ahli Proteksi Radiasi,Ahli Proteksi Radiasi,tidak ada perubahan,False,tidak ada artefak terdeteksi,237,197
+2263.99,Ahli Kesehatan dan Kebersihan Lingkungan Lainnya,Ahli Kesehatan dan Kebersihan Lingkungan Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,238,198
+2264.01,Ahli Fisioterapi,Ahli Fisioterapi,tidak ada perubahan,False,tidak ada artefak terdeteksi,239,199
+2264.02,Ahli Terapi Rehabilitasi,Ahli Terapi Rehabilitasi,tidak ada perubahan,False,tidak ada artefak terdeteksi,239,199
+2264.03,Terapis Geriatri (Terapis Lansia),Terapis Geriatri (Terapis Lansia),tidak ada perubahan,False,tidak ada artefak terdeteksi,239,199
+2264.04,Terapis Pediatri (Terapis Anak),Terapis Pediatri (Terapis Anak),tidak ada perubahan,False,tidak ada artefak terdeteksi,239,199
+2264.05,Terapis Ortopedi (Terapis Alat Gerak),Terapis Ortopedi (Terapis Alat Gerak),tidak ada perubahan,False,tidak ada artefak terdeteksi,239,199
+2264.99,Ahli Fisioterapi Lainnya,Ahli Fisioterapi Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,239,199
+2265.01,Ahli Diet (Umum),Ahli Diet (Umum),tidak ada perubahan,False,tidak ada artefak terdeteksi,240,200
+2265.02,Ahli Gizi Klinis,Ahli Gizi Klinis,tidak ada perubahan,False,tidak ada artefak terdeteksi,240,200
+2265.03,Ahli Gizi Layanan Makanan,Ahli Gizi Layanan Makanan,tidak ada perubahan,False,tidak ada artefak terdeteksi,240,200
+2265.04,Ahli Gizi Masyarakat,Ahli Gizi Masyarakat,tidak ada perubahan,False,tidak ada artefak terdeteksi,241,201
+2265.05,Ahli Gizi Olahraga,Ahli Gizi Olahraga,tidak ada perubahan,False,tidak ada artefak terdeteksi,241,201
+2265.99,Ahli Diet dan Gizi Lainnya,Ahli Diet dan Gizi Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,241,201
+2266.01,Ahli Terapi Pendengaran,Ahli Terapi Pendengaran,tidak ada perubahan,False,tidak ada artefak terdeteksi,241,201
+2266.02,Ahli Terapi Bicara,Ahli Terapi Bicara,tidak ada perubahan,False,tidak ada artefak terdeteksi,242,202
+2266.99,Ahli Terapi Pendengaran dan Terapis Bicara Lainnya,Ahli Terapi Pendengaran dan Terapis Bicara Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,242,202
+2267.01,Optometrist,Optometrist,tidak ada perubahan,False,tidak ada artefak terdeteksi,243,203
+2267.02,Orthoptist,Orthoptist,tidak ada perubahan,False,tidak ada artefak terdeteksi,243,203
+2267.99,Ahli Optik Optometrik dan Oftalmik Lainnya,Ahli Optik Optometrik dan Oftalmik Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,243,203
+2269.01,Terapis Seni,Terapis Seni,tidak ada perubahan,False,tidak ada artefak terdeteksi,244,204
+2269.02,Terapis Tari dan Gerakan,Terapis Tari dan Gerakan,tidak ada perubahan,False,tidak ada artefak terdeteksi,244,204
+2269.03,Okupasi Terapis,Okupasi Terapis,tidak ada perubahan,False,tidak ada artefak terdeteksi,244,204
+2269.04,Ahli Podiatri (Penyakit Kaki),Ahli Podiatri (Penyakit Kaki),tidak ada perubahan,False,tidak ada artefak terdeteksi,244,204
+2269.99,Ahli Kesehatan YTDL Lainnya,Ahli Kesehatan YTDL Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,244,204
+2310.01,Dosen Ilmu Fisika,Dosen Ilmu Fisika,tidak ada perubahan,False,tidak ada artefak terdeteksi,246,206
+2310.02,Dosen Ilmu Teknik dan Arsitektur,Dosen Ilmu Teknik dan Arsitektur,tidak ada perubahan,False,tidak ada artefak terdeteksi,246,206
+2310.03,Dosen Ilmu Kedokteran dan Ilmu Hayati,Dosen Ilmu Kedokteran dan Ilmu Hayati,tidak ada perubahan,False,tidak ada artefak terdeteksi,247,207
+2310.04,Dosen Ilmu Matematika,Dosen Ilmu Matematika,tidak ada perubahan,False,tidak ada artefak terdeteksi,247,207
+2310.05,Dosen Ilmu Statistika,Dosen Ilmu Statistika,tidak ada perubahan,False,tidak ada artefak terdeteksi,247,207
+2310.06,Dosen Ilmu Ekonomi dan Administrasi Niaga,Dosen Ilmu Ekonomi dan Administrasi Niaga,tidak ada perubahan,False,tidak ada artefak terdeteksi,247,207
+2310.07,Dosen Ilmu Hukum,Dosen Ilmu Hukum,tidak ada perubahan,False,tidak ada artefak terdeteksi,247,207
+2310.08,Dosen Ilmu Pendidikan,Dosen Ilmu Pendidikan,tidak ada perubahan,False,tidak ada artefak terdeteksi,247,207
+2310.09,Dosen Ilmu Pertanian,Dosen Ilmu Pertanian,tidak ada perubahan,False,tidak ada artefak terdeteksi,247,207
+2310.10,Dosen Ilmu Sosial dan Politik,Dosen Ilmu Sosial dan Politik,tidak ada perubahan,False,tidak ada artefak terdeteksi,248,208
+2310.11,"Dosen Ilmu Bahasa, Sastra, Budaya dan Sejarah","Dosen Ilmu Bahasa, Sastra, Budaya dan Sejarah",tidak ada perubahan,False,tidak ada artefak terdeteksi,248,208
+2310.12,Dosen Ilmu Keagamaan,Dosen Ilmu Keagamaan,tidak ada perubahan,False,tidak ada artefak terdeteksi,248,208
+2310.13,Dosen Ilmu Kesehatan Masyarakat,Dosen Ilmu Kesehatan Masyarakat,tidak ada perubahan,False,tidak ada artefak terdeteksi,248,208
+2310.14,"Dosen Ilmu Terapi Kesehatan, Kebidanan dan Yang Sejenis","Dosen Ilmu Terapi Kesehatan, Kebidanan dan Yang Sejenis",tidak ada perubahan,False,tidak ada artefak terdeteksi,248,208
+2310.15,Dosen Ilmu Olahraga,Dosen Ilmu Olahraga,tidak ada perubahan,False,tidak ada artefak terdeteksi,248,208
+2310.16,Dosen Ilmu Teknologi Industri,Dosen Ilmu Teknologi Industri,tidak ada perubahan,False,tidak ada artefak terdeteksi,248,208
+2310.17,Dosen Ilmu Komputer,Dosen Ilmu Komputer,tidak ada perubahan,False,tidak ada artefak terdeteksi,249,209
+2310.99,Dosen Universitas dan Pendidikan Tinggi Lainnya,Dosen Universitas dan Pendidikan Tinggi Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,249,209
+2320.01,Instruktur Teknik Otomotif,Instruktur Teknik Otomotif,tidak ada perubahan,False,tidak ada artefak terdeteksi,250,210
+2320.02,Instruktur Tata Rias,Instruktur Tata Rias,tidak ada perubahan,False,tidak ada artefak terdeteksi,250,210
+2320.03,Guru Pendidikan Kejuruan Menengah Pertama,Guru Pendidikan Kejuruan Menengah Pertama,tidak ada perubahan,False,tidak ada artefak terdeteksi,250,210
+2320.04,Guru Pendidikan Kejuruan Menengah Atas,Guru Pendidikan Kejuruan Menengah Atas,tidak ada perubahan,False,tidak ada artefak terdeteksi,251,211
+2320.99,Pengajar Pendidikan Kejuruan Lainnya,Pengajar Pendidikan Kejuruan Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,251,211
+2330.01,Guru Pendidikan Menengah Pertama,Guru Pendidikan Menengah Pertama,tidak ada perubahan,False,tidak ada artefak terdeteksi,252,212
+2330.02,Guru Pendidikan Menengah Atas,Guru Pendidikan Menengah Atas,tidak ada perubahan,False,tidak ada artefak terdeteksi,252,212
+2341.00,Guru Sekolah Dasar,Guru Sekolah Dasar,tidak ada perubahan,False,tidak ada artefak terdeteksi,253,213
+2342.01,Guru Taman Kanak-Kanak,Guru Taman Kanak-Kanak,tidak ada perubahan,False,tidak ada artefak terdeteksi,254,214
+2342.02,Guru Pendidikan Anak Usia Dini,Guru Pendidikan Anak Usia Dini,tidak ada perubahan,False,tidak ada artefak terdeteksi,254,214
+2342.99,Guru Anak Usia Dini Lainnya,Guru Anak Usia Dini Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,254,214
+2351.01,Koordinator Kurikulum,Koordinator Kurikulum,tidak ada perubahan,False,tidak ada artefak terdeteksi,256,216
+2351.02,Spesialis Metode Pendidikan,Spesialis Metode Pendidikan,tidak ada perubahan,False,tidak ada artefak terdeteksi,256,216
+2351.03,Pengawas Sekolah,Pengawas Sekolah,tidak ada perubahan,False,tidak ada artefak terdeteksi,256,216
+2351.99,Spesialis Metode Pendidikan Lainnya,Spesialis Metode Pendidikan Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,256,216
+2352.01,Guru Tunadaksa,Guru Tunadaksa,tidak ada perubahan,False,tidak ada artefak terdeteksi,257,217
+2352.02,Guru Tuna Rungu,Guru Tuna Rungu,tidak ada perubahan,False,tidak ada artefak terdeteksi,257,217
+2352.03,Guru Tuna Netra,Guru Tuna Netra,tidak ada perubahan,False,tidak ada artefak terdeteksi,257,217
+2352.99,Guru Siswa Berkebutuhan Khusus Lainnya,Guru Siswa Berkebutuhan Khusus Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,258,218
+2353.00,Guru Kursus Bahasa Lainnya,Guru Kursus Bahasa Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,258,218
+2354.01,Guru Gitar,Guru Gitar,tidak ada perubahan,False,tidak ada artefak terdeteksi,259,219
+2354.02,Guru Piano,Guru Piano,tidak ada perubahan,False,tidak ada artefak terdeteksi,260,220
+2354.03,Guru Vokal,Guru Vokal,tidak ada perubahan,False,tidak ada artefak terdeteksi,260,220
+2354.04,Guru Biola,Guru Biola,tidak ada perubahan,False,tidak ada artefak terdeteksi,260,220
+2354.99,Guru Kursus Musik Lainnya,Guru Kursus Musik Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,260,220
+2355.01,Guru Tari,Guru Tari,tidak ada perubahan,False,tidak ada artefak terdeteksi,261,221
+2355.02,Guru Teater/Drama,Guru Teater/Drama,tidak ada perubahan,False,tidak ada artefak terdeteksi,261,221
+2355.03,Guru Lukis,Guru Lukis,tidak ada perubahan,False,tidak ada artefak terdeteksi,261,221
+2355.04,Guru Pahat/Ukir,Guru Pahat/Ukir,tidak ada perubahan,False,tidak ada artefak terdeteksi,261,221
+2355.99,Guru Kursus Seni Lainnya,Guru Kursus Seni Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,262,222
+2356.01,Pengajar Komputer,Pengajar Komputer,tidak ada perubahan,False,tidak ada artefak terdeteksi,262,222
+2356.02,Pengajar Software,Pengajar Software,tidak ada perubahan,False,tidak ada artefak terdeteksi,262,222
+2356.99,Pengajar Teknologi Informasi Lainnya,Pengajar Teknologi Informasi Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,263,223
+2359.00,Profesional Bidang Pendidikan Lainnya YTDL,Profesional Bidang Pendidikan Lainnya YTDL,tidak ada perubahan,False,tidak ada artefak terdeteksi,264,224
+2411.01,Akuntan,Akuntan,tidak ada perubahan,False,tidak ada artefak terdeteksi,265,225
+2411.02,Auditor,Auditor,tidak ada perubahan,False,tidak ada artefak terdeteksi,265,225
+2411.03,Pengawas Keuangan,Pengawas Keuangan,tidak ada perubahan,False,tidak ada artefak terdeteksi,266,226
+2411.04,Akuntan Manajemen,Akuntan Manajemen,tidak ada perubahan,False,tidak ada artefak terdeteksi,266,226
+2411.05,Akuntan Pajak,Akuntan Pajak,tidak ada perubahan,False,tidak ada artefak terdeteksi,266,226
+2411.99,Akuntan Lainnya,Akuntan Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,266,226
+2412.01,Perencana Estate/Investasi Fisik,Perencana Estate/Investasi Fisik,tidak ada perubahan,False,tidak ada artefak terdeteksi,267,227
+2412.02,Perencana Keuangan,Perencana Keuangan,tidak ada perubahan,False,tidak ada artefak terdeteksi,267,227
+2412.99,Konsultan Keuangan dan Investasi Lainnya,Konsultan Keuangan dan Investasi Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,267,227
+2413.01,Analis Obligasi,Analis Obligasi,tidak ada perubahan,False,tidak ada artefak terdeteksi,268,228
+2413.02,Konsultan Investasi,Konsultan Investasi,tidak ada perubahan,False,tidak ada artefak terdeteksi,268,228
+2413.99,Analis Keuangan Lainnya,Analis Keuangan Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,269,229
+2421.01,Analis Organisasi dan Metode,Analis Organisasi dan Metode,tidak ada perubahan,False,tidak ada artefak terdeteksi,269,229
+2421.02,Konsultan Bisnis,Konsultan Bisnis,tidak ada perubahan,False,tidak ada artefak terdeteksi,270,230
+2421.03,Konsultan Manajemen,Konsultan Manajemen,tidak ada perubahan,False,tidak ada artefak terdeteksi,270,230
+2421.99,Analis Manajemen dan Organisasi Lainnya,Analis Manajemen dan Organisasi Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,270,230
+2422.01,Analis Kebijakan,Analis Kebijakan,tidak ada perubahan,False,tidak ada artefak terdeteksi,271,231
+2422.99,Profesional Kebijakan Administrasi Lainnya,Profesional Kebijakan Administrasi Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,271,231
+2423.01,Penasihat Karir,Penasihat Karir,tidak ada perubahan,False,tidak ada artefak terdeteksi,272,232
+2423.02,Analis Pekerjaan,Analis Pekerjaan,tidak ada perubahan,False,tidak ada artefak terdeteksi,272,232
+2423.03,Analis Jabatan,Analis Jabatan,tidak ada perubahan,False,tidak ada artefak terdeteksi,272,232
+2423.04,Konselor Bimbingan Kejuruan,Konselor Bimbingan Kejuruan,tidak ada perubahan,False,tidak ada artefak terdeteksi,272,232
+2423.05,Pakar Sumber Daya Manusia,Pakar Sumber Daya Manusia,tidak ada perubahan,False,tidak ada artefak terdeteksi,273,233
+2423.06,Ahli Penempatan Kerja,Ahli Penempatan Kerja,tidak ada perubahan,False,tidak ada artefak terdeteksi,273,233
+2423.99,Profesional Personalia dan Karir Lainnya,Profesional Personalia dan Karir Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,273,233
+2424.01,Petugas Pelatihan,Petugas Pelatihan,tidak ada perubahan,False,tidak ada artefak terdeteksi,274,234
+2424.02,Spesialis Pengembangan Tenaga Kerja,Spesialis Pengembangan Tenaga Kerja,tidak ada perubahan,False,tidak ada artefak terdeteksi,274,234
+2424.99,Profesional Pelatihan dan Pengembangan Staf Lainnya,Profesional Pelatihan dan Pengembangan Staf Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,274,234
+2431.01,Spesialis periklanan,Spesialis periklanan,tidak ada perubahan,False,tidak ada artefak terdeteksi,275,235
+2431.02,Analis Penelitian Pasar,Analis Penelitian Pasar,tidak ada perubahan,False,tidak ada artefak terdeteksi,275,235
+2431.03,Spesialis Pemasaran,Spesialis Pemasaran,tidak ada perubahan,False,tidak ada artefak terdeteksi,276,236
+2431.99,Profesional Periklanan dan Pemasaran Lainnya,Profesional Periklanan dan Pemasaran Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,276,236
+2432.00,Profesional Hubungan Masyarakat,Profesional Hubungan Masyarakat,tidak ada perubahan,False,tidak ada artefak terdeteksi,276,236
+2433.01,Perwakilan Penjualan (Produk Industri),Perwakilan Penjualan (Produk Industri),tidak ada perubahan,False,tidak ada artefak terdeteksi,277,237
+2433.02,Perwakilan Penjualan (Produk Medis dan Farmasi),Perwakilan Penjualan (Produk Medis dan Farmasi),tidak ada perubahan,False,tidak ada artefak terdeteksi,278,238
+2433.03,Perwakilan Penjualan Produk Teknik,Perwakilan Penjualan Produk Teknik,tidak ada perubahan,False,tidak ada artefak terdeteksi,278,238
+2433.99,Profesional Penjualan Produk Teknik dan Kesehatan (Selain TIK) Lainnya,Profesional Penjualan Produk Teknik dan Kesehatan (Selain TIK) Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,278,238
+2434.00,Profesional Penjualan Produk Teknologi Komunikasi dan Informasi,Profesional Penjualan Produk Teknologi Komunikasi dan Informasi,tidak ada perubahan,False,tidak ada artefak terdeteksi,279,239
+2511.01,Analis Bisnis (TI),Analis Bisnis (TI),tidak ada perubahan,False,tidak ada artefak terdeteksi,280,240
+2511.02,Konsultan Sistem,Konsultan Sistem,tidak ada perubahan,False,tidak ada artefak terdeteksi,280,240
+2511.03,Desainer Sistem (TI),Desainer Sistem (TI),tidak ada perubahan,False,tidak ada artefak terdeteksi,281,241
+2511.99,Analis Sistem Lainnya,Analis Sistem Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,281,241
+2512.01,Analis Programer,Analis Programer,tidak ada perubahan,False,tidak ada artefak terdeteksi,281,241
+2512.02,Desainer Software,Desainer Software,tidak ada perubahan,False,tidak ada artefak terdeteksi,282,242
+2512.03,Pengembang Software,Pengembang Software,tidak ada perubahan,False,tidak ada artefak terdeteksi,282,242
+2512.04,Teknisi Perangkat Lunak,Teknisi Perangkat Lunak,tidak ada perubahan,False,tidak ada artefak terdeteksi,282,242
+2512.99,Pengembang Perangkat Lunak Lainnya,Pengembang Perangkat Lunak Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,282,242
+2513.01,Programmer Animasi,Programmer Animasi,tidak ada perubahan,False,tidak ada artefak terdeteksi,283,243
+2513.02,Programmer Game Komputer,Programmer Game Komputer,tidak ada perubahan,False,tidak ada artefak terdeteksi,283,243
+2513.03,Pengembang Internet,Pengembang Internet,tidak ada perubahan,False,tidak ada artefak terdeteksi,283,243
+2513.04,Programmer Multimedia,Programmer Multimedia,tidak ada perubahan,False,tidak ada artefak terdeteksi,283,243
+2513.05,Arsitek Web,Arsitek Web,tidak ada perubahan,False,tidak ada artefak terdeteksi,283,243
+2513.06,Pengembang Web,Pengembang Web,tidak ada perubahan,False,tidak ada artefak terdeteksi,284,244
+2513.99,Pengembang Web dan Multimedia Lainnya,Pengembang Web dan Multimedia Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,284,244
+2514.00,Pemrogram Aplikasi,Pemrogram Aplikasi,tidak ada perubahan,False,tidak ada artefak terdeteksi,284,244
+2519.01,Analis Jaminan Kualitas (Komputer),Analis Jaminan Kualitas (Komputer),tidak ada perubahan,False,tidak ada artefak terdeteksi,285,245
+2519.02,Tester Software,Tester Software,tidak ada perubahan,False,tidak ada artefak terdeteksi,285,245
+2519.03,Tester Sistem,Tester Sistem,tidak ada perubahan,False,tidak ada artefak terdeteksi,286,246
+2519.99,Analis dan Pengembang Perangkat Lunak dan Aplikasi YTDL,Analis dan Pengembang Perangkat Lunak dan Aplikasi YTDL,tidak ada perubahan,False,tidak ada artefak terdeteksi,286,246
+2521.01,Administrator Database,Administrator Database,tidak ada perubahan,False,tidak ada artefak terdeteksi,287,247
+2521.02,Analis Database,Analis Database,tidak ada perubahan,False,tidak ada artefak terdeteksi,287,247
+2521.03,Arsitek Database,Arsitek Database,tidak ada perubahan,False,tidak ada artefak terdeteksi,287,247
+2521.99,Pengelola dan Perancang Database Lainnya,Pengelola dan Perancang Database Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,287,247
+2522.01,Administrator Sistem,Administrator Sistem,tidak ada perubahan,False,tidak ada artefak terdeteksi,288,248
+2522.02,Administrator Jaringan,Administrator Jaringan,tidak ada perubahan,False,tidak ada artefak terdeteksi,288,248
+2522.99,Pengelola Sistem Lainnya,Pengelola Sistem Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,289,249
+2523.01,Analis Komunikasi (Komputer),Analis Komunikasi (Komputer),tidak ada perubahan,False,tidak ada artefak terdeteksi,289,249
+2523.02,Analis Jaringan,Analis Jaringan,tidak ada perubahan,False,tidak ada artefak terdeteksi,289,249
+2523.99,Profesional Jaringan Komputer Lainnya,Profesional Jaringan Komputer Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,290,250
+2529.01,Spesialis Forensik Digital,Spesialis Forensik Digital,tidak ada perubahan,False,tidak ada artefak terdeteksi,290,250
+2529.02,Spesialis Keamanan (TIK),Spesialis Keamanan (TIK),tidak ada perubahan,False,tidak ada artefak terdeteksi,290,250
+2529.99,Profesional Database dan Jaringan YTDL,Profesional Database dan Jaringan YTDL,tidak ada perubahan,False,tidak ada artefak terdeteksi,291,251
+2611.01,Pengacara,Pengacara,tidak ada perubahan,False,tidak ada artefak terdeteksi,292,252
+2611.02,Jaksa,Jaksa,tidak ada perubahan,False,tidak ada artefak terdeteksi,292,252
+2611.03,Penuntut Umum,Penuntut Umum,tidak ada perubahan,False,tidak ada artefak terdeteksi,293,253
+2611.04,Penasihat Hukum,Penasihat Hukum,tidak ada perubahan,False,tidak ada artefak terdeteksi,293,253
+2611.99,Pengacara Lainnya,Pengacara Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,293,253
+2612.00,Hakim,Hakim,tidak ada perubahan,False,tidak ada artefak terdeteksi,293,253
+2619.01,Ahli Hukum (Selain Pengacara dan Hakim),Ahli Hukum (Selain Pengacara dan Hakim),tidak ada perubahan,False,tidak ada artefak terdeteksi,294,254
+2619.02,Notaris,Notaris,tidak ada perubahan,False,tidak ada artefak terdeteksi,294,254
+2619.99,Profesional Hukum YTDL,Profesional Hukum YTDL,tidak ada perubahan,False,tidak ada artefak terdeteksi,294,254
+2621.01,Pengarsip,Pengarsip,tidak ada perubahan,False,tidak ada artefak terdeteksi,295,255
+2621.02,Kurator Galeri Seni,Kurator Galeri Seni,tidak ada perubahan,False,tidak ada artefak terdeteksi,295,255
+2621.03,Kurator Museum,Kurator Museum,tidak ada perubahan,False,tidak ada artefak terdeteksi,296,256
+2621.99,Arsiparis dan Kurator Lainnya,Arsiparis dan Kurator Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,296,256
+2622.01,Ahli Bibliografi,Ahli Bibliografi,tidak ada perubahan,False,tidak ada artefak terdeteksi,296,256
+2622.02,Juru Katalog,Juru Katalog,tidak ada perubahan,False,tidak ada artefak terdeteksi,297,257
+2622.03,Pustakawan,Pustakawan,tidak ada perubahan,False,tidak ada artefak terdeteksi,297,257
+2622.99,Pustakawan dan Profesional Informasi YBDI,Pustakawan dan Profesional Informasi YBDI,tidak ada perubahan,False,tidak ada artefak terdeteksi,297,257
+2631.01,Ahli Ekonomi,Ahli Ekonomi,tidak ada perubahan,False,tidak ada artefak terdeteksi,298,258
+2631.02,Ahli Ekonometrik,Ahli Ekonometrik,tidak ada perubahan,False,tidak ada artefak terdeteksi,299,259
+2631.03,Penasehat Ekonomi,Penasehat Ekonomi,tidak ada perubahan,False,tidak ada artefak terdeteksi,299,259
+2631.04,Analis Ekonomi,Analis Ekonomi,tidak ada perubahan,False,tidak ada artefak terdeteksi,299,259
+2631.05,Ahli Ekonomi Perburuhan,Ahli Ekonomi Perburuhan,tidak ada perubahan,False,tidak ada artefak terdeteksi,299,259
+2631.99,Ahli Ekonomi Lainnya,Ahli Ekonomi Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,299,259
+2632.01,Ahli Antropologi,Ahli Antropologi,tidak ada perubahan,False,tidak ada artefak terdeteksi,300,260
+2632.02,Ahli Arkeologi,Ahli Arkeologi,tidak ada perubahan,False,tidak ada artefak terdeteksi,300,260
+2632.03,Ahi Etnologi,Ahi Etnologi,tidak ada perubahan,False,tidak ada artefak terdeteksi,301,261
+2632.04,Ahli Geografi,Ahli Geografi,tidak ada perubahan,False,tidak ada artefak terdeteksi,301,261
+2632.05,Ahli Sosiologi,Ahli Sosiologi,tidak ada perubahan,False,tidak ada artefak terdeteksi,301,261
+2632.99,"Ahli Sosiologi, Antropologi dan Profesional YBDI","Ahli Sosiologi, Antropologi dan Profesional YBDI",tidak ada perubahan,False,tidak ada artefak terdeteksi,302,262
+2633.01,Ahli Filsafat,Ahli Filsafat,tidak ada perubahan,False,tidak ada artefak terdeteksi,302,262
+2633.02,Ahli Sejarah,Ahli Sejarah,tidak ada perubahan,False,tidak ada artefak terdeteksi,303,263
+2633.03,Ahli Politik,Ahli Politik,tidak ada perubahan,False,tidak ada artefak terdeteksi,303,263
+2633.04,Ahli Genealogi (Ahli Silsilah),Ahli Genealogi (Ahli Silsilah),tidak ada perubahan,False,tidak ada artefak terdeteksi,303,263
+2633.99,"Ahli Filsafat, Sejarawan dan Ahli Politik Lainnya","Ahli Filsafat, Sejarawan dan Ahli Politik Lainnya",tidak ada perubahan,False,tidak ada artefak terdeteksi,303,263
+2634.01,Psikolog Klinis,Psikolog Klinis,tidak ada perubahan,False,tidak ada artefak terdeteksi,304,264
+2634.02,Psikolog Pendidikan,Psikolog Pendidikan,tidak ada perubahan,False,tidak ada artefak terdeteksi,304,264
+2634.03,Psikolog Organisasi,Psikolog Organisasi,tidak ada perubahan,False,tidak ada artefak terdeteksi,304,264
+2634.04,Psikoterapis,Psikoterapis,tidak ada perubahan,False,tidak ada artefak terdeteksi,305,265
+2634.05,Psikolog Olahraga,Psikolog Olahraga,tidak ada perubahan,False,tidak ada artefak terdeteksi,305,265
+2634.99,Psikolog Lainnya,Psikolog Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,305,265
+2635.01,Konselor Kecanduan,Konselor Kecanduan,tidak ada perubahan,False,tidak ada artefak terdeteksi,306,266
+2635.02,Konselor Dukacita,Konselor Dukacita,tidak ada perubahan,False,tidak ada artefak terdeteksi,306,266
+2635.03,Konselor Anak dan Remaja,Konselor Anak dan Remaja,tidak ada perubahan,False,tidak ada artefak terdeteksi,307,267
+2635.04,Konselor Keluarga,Konselor Keluarga,tidak ada perubahan,False,tidak ada artefak terdeteksi,307,267
+2635.05,Konselor Pernikahan,Konselor Pernikahan,tidak ada perubahan,False,tidak ada artefak terdeteksi,307,267
+2635.06,Petugas Parole (Pembebasan Bersyarat),Petugas Parole (Pembebasan Bersyarat),tidak ada perubahan,False,tidak ada artefak terdeteksi,307,267
+2635.07,Petugas Masa Percobaan,Petugas Masa Percobaan,tidak ada perubahan,False,tidak ada artefak terdeteksi,308,268
+2635.08,Pekerja Sosial,Pekerja Sosial,tidak ada perubahan,False,tidak ada artefak terdeteksi,308,268
+2635.09,Organisator Kesejahteraan Perempuan,Organisator Kesejahteraan Perempuan,tidak ada perubahan,False,tidak ada artefak terdeteksi,309,269
+2635.99,Profesional Konseling dan Pekerja Sosial Lainnya,Profesional Konseling dan Pekerja Sosial Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,309,269
+2636.01,Imam Muslim,Imam Muslim,tidak ada perubahan,False,tidak ada artefak terdeteksi,310,270
+2636.02,Pendeta Katolik,Pendeta Katolik,tidak ada perubahan,False,tidak ada artefak terdeteksi,310,270
+2636.03,Pendeta Kristen,Pendeta Kristen,tidak ada perubahan,False,tidak ada artefak terdeteksi,310,270
+2636.04,Pendeta Hindu,Pendeta Hindu,tidak ada perubahan,False,tidak ada artefak terdeteksi,310,270
+2636.05,Pendeta Budha,Pendeta Budha,tidak ada perubahan,False,tidak ada artefak terdeteksi,310,270
+2636.06,Pendeta Kong Hu Cu,Pendeta Kong Hu Cu,tidak ada perubahan,False,tidak ada artefak terdeteksi,310,270
+2636.99,Profesional Pemimpin Keagamaan Lainnya,Profesional Pemimpin Keagamaan Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,310,270
+2641.01,Penulis,Penulis,tidak ada perubahan,False,tidak ada artefak terdeteksi,311,271
+2641.02,Editor Buku,Editor Buku,tidak ada perubahan,False,tidak ada artefak terdeteksi,312,272
+2641.03,Penulis Esai,Penulis Esai,tidak ada perubahan,False,tidak ada artefak terdeteksi,312,272
+2641.04,Penulis Media Interaktif,Penulis Media Interaktif,tidak ada perubahan,False,tidak ada artefak terdeteksi,312,272
+2641.05,Novelis,Novelis,tidak ada perubahan,False,tidak ada artefak terdeteksi,312,272
+2641.06,Penulis Drama,Penulis Drama,tidak ada perubahan,False,tidak ada artefak terdeteksi,312,272
+2641.07,Penulis Puisi (Penyair),Penulis Puisi (Penyair),tidak ada perubahan,False,tidak ada artefak terdeteksi,313,273
+2641.08,Penulis Script,Penulis Script,tidak ada perubahan,False,tidak ada artefak terdeteksi,313,273
+2641.09,Penulis Pidato,Penulis Pidato,tidak ada perubahan,False,tidak ada artefak terdeteksi,313,273
+2641.10,Penulis Teknis,Penulis Teknis,tidak ada perubahan,False,tidak ada artefak terdeteksi,313,273
+2641.99,Pengarang dan Penulis YBDI Lainnya,Pengarang dan Penulis YBDI Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,313,273
+2642.01,Wartawan,Wartawan,tidak ada perubahan,False,tidak ada artefak terdeteksi,314,274
+2642.02,Editor Copy,Editor Copy,tidak ada perubahan,False,tidak ada artefak terdeteksi,314,274
+2642.03,Editor Surat Kabar,Editor Surat Kabar,tidak ada perubahan,False,tidak ada artefak terdeteksi,314,274
+2642.04,Reporter Surat Kabar,Reporter Surat Kabar,tidak ada perubahan,False,tidak ada artefak terdeteksi,314,274
+2642.05,Wartawan Olahraga,Wartawan Olahraga,tidak ada perubahan,False,tidak ada artefak terdeteksi,315,275
+2642.06,Sub Editor,Sub Editor,tidak ada perubahan,False,tidak ada artefak terdeteksi,315,275
+2642.07,Reporter Berita TV/Radio,Reporter Berita TV/Radio,tidak ada perubahan,False,tidak ada artefak terdeteksi,315,275
+2642.99,Wartawan Lainnya,Wartawan Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,316,276
+2643.01,Interpreter,Interpreter,tidak ada perubahan,False,tidak ada artefak terdeteksi,316,276
+2643.02,Leksikograf (Ahli Perkamusan),Leksikograf (Ahli Perkamusan),tidak ada perubahan,False,tidak ada artefak terdeteksi,317,277
+2643.03,Ahli Filologi (Manuskrip),Ahli Filologi (Manuskrip),tidak ada perubahan,False,tidak ada artefak terdeteksi,317,277
+2643.04,Juru Bahasa Isyarat (Sign Language Interpreter),Juru Bahasa Isyarat (Sign Language Interpreter),tidak ada perubahan,False,tidak ada artefak terdeteksi,317,277
+2643.05,Subtitler,Subtitler,tidak ada perubahan,False,tidak ada artefak terdeteksi,317,277
+2643.06,Penerjemah (Translator),Penerjemah (Translator),tidak ada perubahan,False,tidak ada artefak terdeteksi,317,277
+2643.99,"Penerjemah, Alih Bahasa dan Profesional Bahasa Lainnya","Penerjemah, Alih Bahasa dan Profesional Bahasa Lainnya",tidak ada perubahan,False,tidak ada artefak terdeteksi,317,277
+2651.01,Kartunis,Kartunis,tidak ada perubahan,False,tidak ada artefak terdeteksi,318,278
+2651.02,Seniman Keramik,Seniman Keramik,tidak ada perubahan,False,tidak ada artefak terdeteksi,319,279
+2651.03,Pemulih Gambar,Pemulih Gambar,tidak ada perubahan,False,tidak ada artefak terdeteksi,319,279
+2651.04,Pelukis Potret,Pelukis Potret,tidak ada perubahan,False,tidak ada artefak terdeteksi,319,279
+2651.05,Pematung,Pematung,tidak ada perubahan,False,tidak ada artefak terdeteksi,319,279
+2651.99,Seniman Visual Lainnya,Seniman Visual Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,319,279
+2652.01,Pemimpin Band,Pemimpin Band,tidak ada perubahan,False,tidak ada artefak terdeteksi,320,280
+2652.02,Komposer,Komposer,tidak ada perubahan,False,tidak ada artefak terdeteksi,320,280
+2652.03,Pemain Musik,Pemain Musik,tidak ada perubahan,False,tidak ada artefak terdeteksi,320,280
+2652.04,Konduktor Musik,Konduktor Musik,tidak ada perubahan,False,tidak ada artefak terdeteksi,320,280
+2652.05,Orchestrator,Orchestrator,tidak ada perubahan,False,tidak ada artefak terdeteksi,320,280
+2652.06,Penyanyi,Penyanyi,tidak ada perubahan,False,tidak ada artefak terdeteksi,320,280
+2652.99,"Musisi, Penyanyi dan Komposer Lainnya","Musisi, Penyanyi dan Komposer Lainnya",tidak ada perubahan,False,tidak ada artefak terdeteksi,321,281
+2653.01,Koreografer,Koreografer,tidak ada perubahan,False,tidak ada artefak terdeteksi,321,281
+2653.02,Penari Balet,Penari Balet,tidak ada perubahan,False,tidak ada artefak terdeteksi,321,281
+2653.03,Penari Klub Malam,Penari Klub Malam,tidak ada perubahan,False,tidak ada artefak terdeteksi,321,281
+2653.04,Penari Jalan,Penari Jalan,tidak ada perubahan,False,tidak ada artefak terdeteksi,321,281
+2653.99,Penari dan Koreografer Lainnya,Penari dan Koreografer Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,321,281
+2654.01,Sutradara Film Dokumenter,Sutradara Film Dokumenter,tidak ada perubahan,False,tidak ada artefak terdeteksi,322,282
+2654.02,Editor Film,Editor Film,tidak ada perubahan,False,tidak ada artefak terdeteksi,322,282
+2654.03,Sutradara Film,Sutradara Film,tidak ada perubahan,False,tidak ada artefak terdeteksi,323,283
+2654.04,Pengarah Fotografi,Pengarah Fotografi,tidak ada perubahan,False,tidak ada artefak terdeteksi,323,283
+2654.05,Sutradara Panggung,Sutradara Panggung,tidak ada perubahan,False,tidak ada artefak terdeteksi,323,283
+2654.06,Pengarah Teknis,Pengarah Teknis,tidak ada perubahan,False,tidak ada artefak terdeteksi,323,283
+2654.07,Produser,Produser,tidak ada perubahan,False,tidak ada artefak terdeteksi,323,283
+2654.99,"Produser dan Sutradara Film, Pementasan Dan YBDI","Produser dan Sutradara Film, Pementasan Dan YBDI",tidak ada perubahan,False,tidak ada artefak terdeteksi,323,283
+2655.01,Aktor,Aktor,tidak ada perubahan,False,tidak ada artefak terdeteksi,324,284
+2655.02,Artis Pantomim,Artis Pantomim,tidak ada perubahan,False,tidak ada artefak terdeteksi,324,284
+2655.03,Pencerita,Pencerita,tidak ada perubahan,False,tidak ada artefak terdeteksi,324,284
+2655.99,Aktor Lainnya,Aktor Lainnya,tidak ada perubahan,False,tidak ada artefak terdeteksi,324,284
+2656.01,Penyiar Radio,Penyiar Radio,tidak ada perubahan,False,tidak ada artefak terdeteksi,325,285
+2656.02,Penyiar Televisi,Penyiar Televisi,tidak ada perubahan,False,tidak ada artefak terdeteksi,325,285
+2656.03,Pembaca Berita,Pembaca Berita,tidak ada perubahan,False,tidak ada artefak terdeteksi,325,285
+2656.04,Penyiar Olahraga,Penyiar Olahraga,tidak ada perubahan,False,tidak ada artefak terdeteksi,325,285
+2656.99,"Penyiar Radio, Televisi dan Media Lainnya","Penyiar Radio, Televisi dan Media Lainnya",tidak ada perubahan,False,tidak ada artefak terdeteksi,325,285
+2659.01,Pemain Akrobat,Pemain Akrobat,tidak ada perubahan,False,tidak ada artefak terdeteksi,326,286
+2659.02,Pemain Akrobat Udara,Pemain Akrobat Udara,tidak ada perubahan,False,tidak ada artefak terdeteksi,326,286
+2659.03,Badut,Badut,tidak ada perubahan,False,tidak ada artefak terdeteksi,326,286
+2659.04,Ahli Hipnotis,Ahli Hipnotis,tidak ada perubahan,False,tidak ada artefak terdeteksi,326,286
+2659.05,Pesulap,Pesulap,tidak ada perubahan,False,tidak ada artefak terdeteksi,326,286
+2659.06,Dalang,Dalang,tidak ada perubahan,False,tidak ada artefak terdeteksi,326,286
+2659.07,Stand Up Komedian (Pelawak Tunggal),Stand Up Komedian (Pelawak Tunggal),tidak ada perubahan,False,tidak ada artefak terdeteksi,327,287
+2659.08,Ventriloquist,Ventriloquist,tidak ada perubahan,False,tidak ada artefak terdeteksi,327,287
+2659.99,Seniman Kreatif dan Petunjukan YTDL,Seniman Kreatif dan Petunjukan YTDL,tidak ada perubahan,False,tidak ada artefak terdeteksi,327,287

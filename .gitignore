@@ -7,3 +7,4 @@ models/
 *.bin.gz
 .jupyter-config/
 .jupyter-runtime/
+graphify-out/

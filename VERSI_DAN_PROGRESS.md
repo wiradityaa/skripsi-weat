@@ -255,3 +255,27 @@ Output yang dihasilkan: `outputs/test_v4_lpbs_scores_long.csv`, `test_v4_lpbs_oc
 Quality control lulus: seluruh cell kode berhasil, jumlah baris sesuai, empat template tersedia untuk setiap jabatan, semua probabilitas berada pada rentang 0–1, tidak ada NaN/tak hingga pada skor numerik, tidak ada observasi duplikat, baseline tiap template tersedia, dan SHA-256 tiga CSV input tidak berubah. Durasi eksekusi final 163,02 detik pada CPU. Tidak ada masalah inferensi yang tersisa; peringatan Jupyter hanya terkait environment Windows dan metadata ID cell.
 
 Keputusan metodologis: tidak ada template atau istilah yang dihapus berdasarkan p-value atau besar asosiasi. LPBS diperlakukan sebagai asosiasi model dalam konteks kalimat. Keterbatasan meliputi satu model, dua kondisi gender operasional, template buatan, struktur hierarkis KBJI, dan perbedaan intrinsic dengan downstream. Tahap berikutnya yang disarankan adalah validasi linguistik lexical set dan replikasi pada model kontekstual Indonesia kedua dengan protokol yang sama.
+
+## Implementasi test1_v5 dan test2_v5: IndoBERT w-SEAT
+
+Tanggal pengerjaan: 2026-09-09.
+
+Tujuan versi ini adalah menguji contextual phrase embedding IndoBERT dengan word-level Sentence Encoder Association Test (w-SEAT), bukan menjadikan probabilitas masked token LPBS sebagai skor utama. Versi ditetapkan v5 setelah audit menunjukkan v4 sebagai implementasi resmi terakhir; notebook LPBS v5 yang masih untracked dipertahankan sebagai eksperimen pembanding/uncertain dan tidak ditimpa.
+
+Data dan notebook:
+
+- `test1_v5_kbji_data_preprocessing.ipynb` membaca PDF KBJI 2014 pada ruang lingkup Profesional dan membuat `data/test1_v5_kbji_profesional_clean.csv` serta `data/test1_v5_gender_lexicon.csv`.
+- `test2_v5_indobert_wseat_pipeline.ipynb` membaca CSV tersebut, memakai `indobenchmark/indobert-base-p1`, dan menganalisis Subgolongan Pokok 21–26.
+- Lexical core adalah `pria–wanita` dan `laki-laki–perempuan`; kinship, age/status, informal, dan existing full dipisahkan sebagai sensitivitas. Template dan pooling ditetapkan a priori.
+
+Hasil data aktual: 501 baris raw, 415 jabatan analisis, 42 nama satu kata, 373 nama multi-kata, enam kelompok 21–26, dan tidak ada quote literal, whitespace berulang, atau karakter nonprinting tersisa. Lexical resolution adalah 6 untuk core identity, 20 untuk kinship, 6 untuk age/status, 2 untuk informal, dan 12.870 untuk existing full.
+
+Hasil pipeline aktual: 16.600 baris w-SEAT, 3.448 baris audit contextual embedding, 415 ringkasan jabatan, 6 ringkasan kelompok, 401 padanan fastText, dan bootstrap cluster 5.000 repetisi. Median effect size core/last layer per kelompok adalah 21 -0,9787, 22 -1,2933, 23 -0,9560, 24 -0,9298, 25 -1,0398, dan 26 -0,9853. Kruskal–Wallis menghasilkan H 58,5818, p 2,39 × 10⁻¹¹, epsilon-squared 0,1310; hasil ini eksploratif dan tidak menjadi klaim sosial.
+
+Stabilitas template leave-one-out memiliki Spearman 0,9493–0,9573 dan 3–6 sign flip. Pooling last layer versus mean empat layer memberi median -1,0225 dan -1,0711. FastText matched 401 jabatan; Spearman 0,0810, Kendall 0,0552, sign agreement 0,7082. Perbedaan ruang representasi tidak dibaca berdasarkan magnitudo.
+
+Quality control lulus 8 pemeriksaan: model, jumlah/kelompok jabatan, alignment, finite score, jumlah observasi, template lengkap, partition count, dan duplikasi. Metadata mencatat revision `c2cd0b51ddce6580eb35263b39b0a1e5fb0a39e2`, Python 3.14.0, PyTorch 2.12.1+cpu, Transformers 4.57.6, CPU, seed 42, dan durasi 69,78 detik.
+
+Perubahan repository: menambah dua notebook v5, CSV data/lexical, tabel output `outputs/tables/test1_v5_*` dan `test2_v5_*`, serta `repository_cleanup_manifest.csv`; README dan progress diperbarui. Builder sementara dihapus secara eksplisit. Tidak ada PDF, model/cache, baseline fastText, atau notebook riwayat yang dihapus/diubah. Artefak untracked yang statusnya belum jelas dipertahankan.
+
+Keterbatasan: core identity memiliki resolusi permutation kasar, template belum divalidasi ahli manusia, kategori extended membawa semantik tambahan, KBJI hierarkis, dan w-SEAT/fastText memiliki skala berbeda. Tahap berikutnya adalah tinjauan linguistik lexical/template serta replikasi pada contextual encoder Indonesia kedua dengan protokol yang sama.

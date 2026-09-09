@@ -1,0 +1,2076 @@
+﻿occupation_code,occupation_name,kbji_group_code,lexical_condition,median_effect_size,direction
+2111.01,Ahli Fisika (Umum),21,age_status,-1.348138528125174,negatif
+2111.02,Ahli Fisika Nuklir,21,age_status,-1.0307002060104997,negatif
+2111.03,Ahli Fisika Mekanika,21,age_status,-0.7580320465033961,negatif
+2111.04,Ahli Fisika Panas,21,age_status,-0.7512024932019807,negatif
+2111.05,Ahli Fisika Sinar,21,age_status,-0.9098517311028667,negatif
+2111.06,Ahli Fisika Suara,21,age_status,-0.8320145761168289,negatif
+2111.07,Ahli Fisika Listrik Dan Magnit,21,age_status,-1.503213007615883,negatif
+2111.08,Ahli Fisika Elektronika,21,age_status,-0.8522271831808532,negatif
+2111.09,Ahli Fisika Medis,21,age_status,-1.3459365824852658,negatif
+2111.10,Ahli Astronomi,21,age_status,-0.9169300741320291,negatif
+2112.01,Ahli Meteorologi (Umum),21,age_status,-1.367175367396527,negatif
+2112.02,Ahli Klimatologi,21,age_status,-1.0940090933433244,negatif
+2112.03,Ahli Prakiraan Cuaca,21,age_status,-1.1609668019678439,negatif
+2112.04,Ahli Hidrometeorologi,21,age_status,-1.0649879892835667,negatif
+2113.01,Ahli Kimia (Umum),21,age_status,-1.3139101652411758,negatif
+2113.02,Ahli Kimia Organik,21,age_status,-1.0262626355965068,negatif
+2113.03,Ahli Kimia Anorganik,21,age_status,-0.6526013388214259,negatif
+2113.04,Ahli Kimia Fisika,21,age_status,-1.1132001685465867,negatif
+2113.05,Ahli Kimia Analitik,21,age_status,-1.2067562073028808,negatif
+2114.01,Ahli Geologi (Umum),21,age_status,-1.464779660539722,negatif
+2114.02,Ahli Geologi Kelautan,21,age_status,-0.5969768300110275,negatif
+2114.03,Ahli Geologi Pertambangan,21,age_status,-0.7423390671384115,negatif
+2114.04,Ahli Geofisika (Umum),21,age_status,-1.4884871472981347,negatif
+2114.05,Ahli Geofisika Kelautan,21,age_status,-1.1796260614505765,negatif
+2120.01,Ahli Matematika Murni,21,age_status,-1.3755620611801067,negatif
+2120.02,Ahli Matematika Terapan,21,age_status,-1.2223976273539225,negatif
+2120.03,Ahli Analisis Riset Operasi (Quality Control Management),21,age_status,0.32889622398383755,positif
+2120.04,Aktuaris,21,age_status,-0.37531139860697704,negatif
+2120.05,Ahli Statistika (Umum),21,age_status,-1.3748740850284715,negatif
+2120.06,Ahli Statistika Matematika,21,age_status,-1.2598549692122858,negatif
+2120.07,Ahli Statistika (Terapan),21,age_status,-1.1917025622322779,negatif
+2131.01,Ahli Perilaku Hewan,21,age_status,-0.7260115006829212,negatif
+2131.02,Ahli Bakteriologi,21,age_status,-1.2645708277386793,negatif
+2131.03,Ahli Biologi (Umum),21,age_status,-1.3848245504719967,negatif
+2131.04,Ahli Biologi Kelautan,21,age_status,-0.6702095341405934,negatif
+2131.05,Ahli Biologi Molekuler,21,age_status,-0.13722099227645884,negatif
+2131.06,Ahli Botani,21,age_status,-1.6270177706821136,negatif
+2131.07,Ahli Zoologi,21,age_status,-1.1082952280028986,negatif
+2131.08,Ahli Biokimia,21,age_status,-0.9113579514318066,negatif
+2131.09,Ahli Anatomi,21,age_status,-0.6126589434364758,negatif
+2131.10,Ahli Fisiologi,21,age_status,-0.592414854974991,negatif
+2131.11,Ahli Patologis Medis,21,age_status,-1.5156195253045244,negatif
+2131.12,Ahli Patologi Hewan,21,age_status,-1.2529906129438464,negatif
+2131.13,Ahli Farmakologi,21,age_status,-1.354757795215694,negatif
+2132.01,Ahli Agronomi,21,age_status,-1.269159924692941,negatif
+2132.02,Ahli Kehutanan,21,age_status,-0.7451077187335962,negatif
+2132.03,Ahli Penelitian Tanah,21,age_status,-0.4837072550088326,negatif
+2132.04,Ahli Hortikultura,21,age_status,-0.6048136976485619,negatif
+2132.05,"Konsultan Pertanian, Kehutanan dan Perikanan",21,age_status,-0.8734513538342301,negatif
+2133.01,Ahli Ekologi,21,age_status,-0.3807457642143155,negatif
+2133.02,Analis Polusi Udara,21,age_status,-0.21475443434866345,negatif
+2133.03,Ahli Konservasi,21,age_status,-0.4734996777349888,negatif
+2133.04,Auditor Lingkungan,21,age_status,-0.043696649034449954,negatif
+2133.05,Ilmuwan Lingkungan,21,age_status,-0.3903032614030236,negatif
+2133.06,Analis Mutu Air,21,age_status,-0.8292810265627574,negatif
+2133.07,Konsultan Lingkungan,21,age_status,0.13876426299456182,positif
+2141.01,Ahli Teknik Efisiensi Industri,21,age_status,-0.919081048236321,negatif
+2141.02,Ahli Teknik Sistem dan Metoda Kerja Industri,21,age_status,-0.9128493678025773,negatif
+2141.03,Ahli Teknik Pengukuran Kerja Industri,21,age_status,-1.0540820263603852,negatif
+2141.04,Ahli Teknik Mesin Industri,21,age_status,-0.915756268689708,negatif
+2141.05,Ahli Teknik Produksi Industri,21,age_status,-0.911315950944957,negatif
+2142.01,Ahli Teknik Sipil (Umum),21,age_status,-1.1713396946629646,negatif
+2142.02,Ahli Teknik Konstruksi Bangunan,21,age_status,-0.818799381697993,negatif
+2142.03,Ahli Teknik Konstruksi Jalan,21,age_status,-0.14892784029145137,negatif
+2142.04,Ahli Teknik Konstruksi Landasan Pesawat Udara.,21,age_status,-0.3960245960620432,negatif
+2142.05,Ahli Teknik Konstruksi Jalan Kereta Api,21,age_status,-0.15007596296538758,negatif
+2142.06,Ahli Teknik Konstruksi Jembatan,21,age_status,-0.5326699115891231,negatif
+2142.07,Ahli Teknik Penyehatan Lingkungan,21,age_status,-1.5361077738311955,negatif
+2142.08,Ahli Teknik Pengairan,21,age_status,-1.0241373389383797,negatif
+2142.09,Ahli Teknik Mekanika Tanah,21,age_status,-1.269493284877457,negatif
+2143.01,Ahli Teknik Lingkungan,21,age_status,-0.6342120800660143,negatif
+2143.02,Analis Lingkungan,21,age_status,-0.4837671766308613,negatif
+2143.03,Spesialis Rehabilitasi Lingkungan,21,age_status,-0.3454694722710892,negatif
+2144.01,Ahli Teknik Mesin (Umum),21,age_status,-1.2878535628287393,negatif
+2144.02,Ahli Teknik Mesin Dan Peralatan Industri,21,age_status,-0.7481429593788433,negatif
+2144.03,Ahli Teknik Mesin Motor Penggerak (Selain Mesin Kapal),21,age_status,-1.4410108422384449,negatif
+2144.04,Ahli Teknik Mesin Kapal,21,age_status,-1.1605097919038543,negatif
+2144.05,Ahli Teknik Konstruksi Kapal,21,age_status,-0.8016868281496714,negatif
+2144.06,Ahli Teknik Industri Pesawat Terbang,21,age_status,-1.0295538437420415,negatif
+2144.07,Ahli Teknik Mobil,21,age_status,-0.878330213426121,negatif
+2144.08,"Ahli Teknik Pemanasan, Ventilasi dan Pendinginan",21,age_status,-1.0120687183362178,negatif
+2144.09,Ahli Teknik Mesin Tenaga Atom,21,age_status,-0.80895012561678,negatif
+2145.01,Ahli Teknik Kimia (Umum),21,age_status,-1.3651738562758235,negatif
+2145.02,Ahli Teknik Kimia Bahan Bakar,21,age_status,-0.9756271401521595,negatif
+2145.03,Ahli Teknik Kimia Plastik,21,age_status,-1.303191258571756,negatif
+2146.01,Ahli Teknik Pertambangan (Umum),21,age_status,-1.148527385456156,negatif
+2146.02,Ahli Teknik Pertambangan Batu Bara,21,age_status,-1.3131825659138072,negatif
+2146.03,Ahli Teknik Pertambangan Logam,21,age_status,-0.8809671671451885,negatif
+2146.04,Ahli Teknik Pertambangan Minyak Bumi dan Gas Alam,21,age_status,-1.0940136524805766,negatif
+2146.05,Ahli Metalurgi Ekstraksi,21,age_status,-0.9929822597206074,negatif
+2146.06,Ahli Metalurgi Fisika,21,age_status,-0.9916246571941578,negatif
+2149.01,Ahli Teknik Keramik Dan Kaca,21,age_status,-0.9326445374245405,negatif
+2149.02,Ahli Teknik Pertanian,21,age_status,-1.00903461372379,negatif
+2149.03,Ahli Teknik Bahan Makanan dan Minuman,21,age_status,-1.3185212603283172,negatif
+2149.04,Ahli Teknik Tekstil,21,age_status,-1.0198935465537589,negatif
+2149.05,Ahli Teknik Perencanaan Sistem Lalu-Lintas,21,age_status,0.0873445465469285,positif
+2149.06,Ahli Teknik Biomedis,21,age_status,-0.9054358099884381,negatif
+2149.07,Ahli Teknik Bahan Peledak,21,age_status,-0.752392942161708,negatif
+2149.08,Ahli Teknik Salvage (Penyelamatan Laut),21,age_status,-1.1869027235108953,negatif
+2149.09,Ahli Teknik Keselamatan,21,age_status,-0.7947405806240326,negatif
+2149.10,Ahli Teknik Optikal,21,age_status,-0.3772870031686122,negatif
+2151.01,Ahli Teknik Listrik (Umum),21,age_status,-1.2899327362810826,negatif
+2151.02,Ahli Teknik Pembangkit Tenaga Listrik,21,age_status,-1.3499261417647694,negatif
+2151.03,Ahli Teknik Distribusi dan Transmisi Tenaga Listrik,21,age_status,-1.0476772593650832,negatif
+2151.04,Ahli Teknik Elektromekanik,21,age_status,-1.052739016419999,negatif
+2152.01,Ahli Teknik Elektronik (Umum),21,age_status,-1.2935950397291116,negatif
+2152.02,Ahli Teknik Perangkat Keras Komputer,21,age_status,-0.49174980463065227,negatif
+2152.03,Ahli Teknik Instrumentasi (Alat Ukur),21,age_status,-0.7195263488581192,negatif
+2153.01,Ahli Teknik Telekomunikasi,21,age_status,-1.0239964168225175,negatif
+2153.02,Ahli Teknik Penyiaran dan Audio Visual,21,age_status,-1.1478820148704418,negatif
+2153.03,Ahli Teknologi Rekayasa Telekomunikasi,21,age_status,-0.9325626593508114,negatif
+2161.01,Arsitek Bangunan,21,age_status,-0.2934278919584644,negatif
+2161.02,Arsitek Interior,21,age_status,-0.8738324854949412,negatif
+2162.00,Arsitek Pertamanan/Lansekap,21,age_status,-0.2106627326954793,negatif
+2163.01,Perancang Kostum,21,age_status,-0.8313582110441256,negatif
+2163.02,Perancang Busana,21,age_status,-1.2062635762618696,negatif
+2163.03,Perancang Perhiasan,21,age_status,-0.7033730492176824,negatif
+2163.04,Perancang Produk Industri,21,age_status,-0.790083315419249,negatif
+2164.01,Perencana Lahan,21,age_status,-0.1307326175570798,negatif
+2164.02,Perencana Tata Kota,21,age_status,-0.8247763870810091,negatif
+2164.03,Perencana Lalu Lintas,21,age_status,-0.1847729027011945,negatif
+2165.01,Surveyor Tanah,21,age_status,-0.27896695191271975,negatif
+2165.02,Surveyor Pertambangan,21,age_status,-0.4896733885362261,negatif
+2165.03,Surveyor Hidrografi,21,age_status,0.6165869604443511,positif
+2165.04,Surveyor Topografi,21,age_status,-0.33318175999680516,negatif
+2165.05,Surveyor Aerial,21,age_status,-0.777509280386852,negatif
+2165.06,Surveyor Kadastral,21,age_status,0.514296201601466,positif
+2165.07,Ahli Pemetaan (Kartografer),21,age_status,0.1949604097508359,positif
+2166.01,Animator,21,age_status,-0.9573663319688943,negatif
+2166.02,Seniman Digital,21,age_status,-0.40216276707958054,negatif
+2166.03,Perancang Grafis,21,age_status,-0.839027999155575,negatif
+2166.04,Ilustrator Teknik,21,age_status,-1.3969017031704722,negatif
+2166.05,Perancang Permainan Interaktif,21,age_status,-0.5905312260524027,negatif
+2166.06,Ilustrator,21,age_status,-1.2148428028231855,negatif
+2166.07,Seniman Lithografi,21,age_status,1.0041749751914093,positif
+2166.08,Desainer Multimedia,21,age_status,-0.6615235818000689,negatif
+2166.09,Desainer Publikasi,21,age_status,-0.2690156368332649,negatif
+2166.10,Desainer Website,21,age_status,-0.8429361718047379,negatif
+2211.01,Dokter Umum,22,age_status,-0.6654084298760141,negatif
+2211.02,Dokter Keluarga,22,age_status,-0.6630979352160971,negatif
+2212.01,Dokter Spesialis Anestesi,22,age_status,-1.0354680419396494,negatif
+2212.02,Dokter Spesialis Jantung,22,age_status,-1.607820320895805,negatif
+2212.03,Dokter Spesialis Kulit dan Kelamin,22,age_status,-1.1435562974160254,negatif
+2212.04,"Dokter Spesialis Telinga, Hidung dan Tenggorokan",22,age_status,-1.3345146345889303,negatif
+2212.05,Dokter Spesialis Kandungan,22,age_status,-1.2751184876912953,negatif
+2212.06,Dokter Spesialis Mata,22,age_status,-1.2988795873403327,negatif
+2212.07,Dokter Spesialis Anak,22,age_status,-0.7756216140067012,negatif
+2212.08,Psikiater,22,age_status,-0.7060811754531626,negatif
+2212.09,Dokter Spesialis Penyakit Dalam,22,age_status,-1.4583314583655422,negatif
+2212.10,Dokter Spesialis Saraf,22,age_status,-0.8828427072008915,negatif
+2212.11,Dokter Spesialis Patologi,22,age_status,-1.6222349398977716,negatif
+2212.12,Dokter Spesialis Paru,22,age_status,-1.3178982422147296,negatif
+2212.13,Dokter Spesialis Radiologi,22,age_status,-1.1105346818584871,negatif
+2212.14,Dokter Spesialis Bedah Umum,22,age_status,-1.1906369934672782,negatif
+2212.15,Dokter Spesialis Bedah Digestif,22,age_status,-1.3383674670528658,negatif
+2212.16,Dokter Spesialis Bedah Syaraf,22,age_status,-0.8455585468181847,negatif
+2212.17,Dokter Spesialis Bedah Orthopedi dan Traumatologi,22,age_status,-1.0478043341567629,negatif
+2212.18,Dokter Spesialis Bedah Onkologi,22,age_status,-0.8734250396269665,negatif
+2221.01,Perawat Ahli,22,age_status,-0.5342928967284222,negatif
+2221.02,Perawat Spesialis,22,age_status,-0.8269407949532672,negatif
+2221.03,Perawat Kesehatan Masyarakat,22,age_status,-1.058188191907043,negatif
+2221.04,Perawat Kesehatan Kerja,22,age_status,-1.0238783144926202,negatif
+2221.05,Perawat,22,age_status,-0.24401155238130723,negatif
+2221.06,Perawat Anastesi,22,age_status,-1.5483516733655698,negatif
+2222.01,Bidan,22,age_status,-0.34548384977756347,negatif
+2230.01,Ahli Akupuntur,22,age_status,-1.5219158123143948,negatif
+2230.02,Ahli Pengobatan Herbal Cina,22,age_status,-1.6950082769228405,negatif
+2230.03,Praktisi Ayurvedic,22,age_status,0.29475444504331766,positif
+2230.04,Ahli Homeopati,22,age_status,-0.13352091660558577,negatif
+2230.05,Ahli Naturopati,22,age_status,-0.5277266042358922,negatif
+2230.06,Praktisi Unani,22,age_status,-0.8714516140589705,negatif
+2240.01,Asisten Medik,22,age_status,-0.3982426498839433,negatif
+2240.02,Paramedis,22,age_status,-0.5270186307786334,negatif
+2240.03,Teknisi Bedah,22,age_status,-0.28886543099509754,negatif
+2250.01,Dokter Hewan (Umum),22,age_status,-1.1633541974129147,negatif
+2250.02,Dokter Hewan Kesehatan Masyarakat,22,age_status,-1.2971056487147918,negatif
+2250.03,Dokter Bedah Hewan,22,age_status,-0.7016512908571093,negatif
+2250.04,Ahli Penyakit Hewan (Patologi),22,age_status,-0.9464348422496212,negatif
+2250.05,Ahli Epidemiologi Hewan,22,age_status,-1.0936395943869097,negatif
+2261.01,Dokter Gigi (Umum),22,age_status,-1.11971490020505,negatif
+2261.02,Dokter Gigi Kesehatan Masyarakat,22,age_status,-1.254372663093907,negatif
+2261.03,Asisten Bedah Gigi,22,age_status,-0.9260043899296109,negatif
+2261.04,Ahli Kesehatan Gigi,22,age_status,-1.0988926364445488,negatif
+2261.05,Endodontist,22,age_status,-0.741280067533512,negatif
+2261.06,Ahli Bedah Mulut dan Maxillofacial,22,age_status,-1.6419263388229721,negatif
+2261.07,Ahli Penyakit Mulut,22,age_status,-1.5422415260906013,negatif
+2261.08,Ortodontis,22,age_status,-0.3072389157112649,negatif
+2261.09,Paedodontist,22,age_status,-0.21483787953009265,negatif
+2261.10,Periodontist,22,age_status,0.46422532587899923,positif
+2261.11,Prosthodontist,22,age_status,-0.44595051961351306,negatif
+2262.01,Apoteker,22,age_status,-0.05372069773218623,negatif
+2263.01,Petugas Kesehatan Lingkungan,22,age_status,-1.069583820813535,negatif
+2263.02,Penasihat Kesehatan dan Keselamatan Kerja,22,age_status,0.38470559309231767,positif
+2263.03,Ahli Proteksi Radiasi,22,age_status,-0.8446550541916991,negatif
+2264.01,Ahli Fisioterapi,22,age_status,-1.3581035842124314,negatif
+2264.02,Ahli Terapi Rehabilitasi,22,age_status,-1.4139419632404526,negatif
+2264.03,Terapis Geriatri (Terapis Lansia),22,age_status,-1.299801461609263,negatif
+2264.04,Terapis Pediatri (Terapis Anak),22,age_status,-1.5468726150352032,negatif
+2264.05,Terapis Ortopedi (Terapis Alat Gerak),22,age_status,-0.5671252640769114,negatif
+2265.01,Ahli Diet (Umum),22,age_status,-1.6043437131228815,negatif
+2265.02,Ahli Gizi Klinis,22,age_status,-1.2958929307094955,negatif
+2265.03,Ahli Gizi Layanan Makanan,22,age_status,-1.309732955860934,negatif
+2265.04,Ahli Gizi Masyarakat,22,age_status,-1.2492794251825003,negatif
+2265.05,Ahli Gizi Olahraga,22,age_status,-1.1584102615261451,negatif
+2266.01,Ahli Terapi Pendengaran,22,age_status,-1.4879597996377734,negatif
+2266.02,Ahli Terapi Bicara,22,age_status,-1.3666985478074394,negatif
+2267.01,Optometrist,22,age_status,-0.822624832250519,negatif
+2267.02,Orthoptist,22,age_status,-0.22525064512335385,negatif
+2269.01,Terapis Seni,22,age_status,-0.13180794872053483,negatif
+2269.02,Terapis Tari dan Gerakan,22,age_status,-1.1158228618396984,negatif
+2269.03,Okupasi Terapis,22,age_status,-1.5305365021057316,negatif
+2269.04,Ahli Podiatri (Penyakit Kaki),22,age_status,-0.7475614133423305,negatif
+2310.01,Dosen Ilmu Fisika,23,age_status,-0.9432316304006765,negatif
+2310.02,Dosen Ilmu Teknik dan Arsitektur,23,age_status,-0.8357440964074567,negatif
+2310.03,Dosen Ilmu Kedokteran dan Ilmu Hayati,23,age_status,-0.85290194395899,negatif
+2310.04,Dosen Ilmu Matematika,23,age_status,-0.9729976803862218,negatif
+2310.05,Dosen Ilmu Statistika,23,age_status,-0.9464769976168366,negatif
+2310.06,Dosen Ilmu Ekonomi dan Administrasi Niaga,23,age_status,-1.0433427583917103,negatif
+2310.07,Dosen Ilmu Hukum,23,age_status,-0.26561111707937723,negatif
+2310.08,Dosen Ilmu Pendidikan,23,age_status,-0.40003362664417874,negatif
+2310.09,Dosen Ilmu Pertanian,23,age_status,-0.7259136747115342,negatif
+2310.10,Dosen Ilmu Sosial dan Politik,23,age_status,-0.23953009716568247,negatif
+2310.11,"Dosen Ilmu Bahasa, Sastra, Budaya dan Sejarah",23,age_status,-0.48420494079794985,negatif
+2310.12,Dosen Ilmu Keagamaan,23,age_status,-0.4784276529168917,negatif
+2310.13,Dosen Ilmu Kesehatan Masyarakat,23,age_status,-0.9511237736503082,negatif
+2310.14,"Dosen Ilmu Terapi Kesehatan, Kebidanan dan Yang Sejenis",23,age_status,-1.3819735435038631,negatif
+2310.15,Dosen Ilmu Olahraga,23,age_status,-0.5904834898883933,negatif
+2310.16,Dosen Ilmu Teknologi Industri,23,age_status,-0.7547406961593187,negatif
+2310.17,Dosen Ilmu Komputer,23,age_status,-0.663653131243398,negatif
+2320.01,Instruktur Teknik Otomotif,23,age_status,-1.0596453951526414,negatif
+2320.02,Instruktur Tata Rias,23,age_status,-1.1210715179507762,negatif
+2320.03,Guru Pendidikan Kejuruan Menengah Pertama,23,age_status,-1.0424169463441753,negatif
+2320.04,Guru Pendidikan Kejuruan Menengah Atas,23,age_status,-1.1320429802818288,negatif
+2330.01,Guru Pendidikan Menengah Pertama,23,age_status,-1.0352185238928653,negatif
+2330.02,Guru Pendidikan Menengah Atas,23,age_status,-1.1468011093156585,negatif
+2341.00,Guru Sekolah Dasar,23,age_status,-1.003077982169172,negatif
+2342.01,Guru Taman Kanak-Kanak,23,age_status,-1.1460962181753307,negatif
+2342.02,Guru Pendidikan Anak Usia Dini,23,age_status,-0.786131459087565,negatif
+2351.01,Koordinator Kurikulum,23,age_status,-0.5937256259415564,negatif
+2351.02,Spesialis Metode Pendidikan,23,age_status,-0.2622122543135159,negatif
+2351.03,Pengawas Sekolah,23,age_status,-0.5813876376469007,negatif
+2352.01,Guru Tunadaksa,23,age_status,-0.40159565431998445,negatif
+2352.02,Guru Tuna Rungu,23,age_status,-1.2672122324769346,negatif
+2352.03,Guru Tuna Netra,23,age_status,-1.1167121312381405,negatif
+2354.01,Guru Gitar,23,age_status,-0.24274329096751618,negatif
+2354.02,Guru Piano,23,age_status,-0.3815251321165135,negatif
+2354.03,Guru Vokal,23,age_status,0.009637480078397452,positif
+2354.04,Guru Biola,23,age_status,-0.3302402648657694,negatif
+2355.01,Guru Tari,23,age_status,-0.7219884460355337,negatif
+2355.02,Guru Teater/Drama,23,age_status,-0.5333455248225948,negatif
+2355.03,Guru Lukis,23,age_status,-0.5379427792568506,negatif
+2355.04,Guru Pahat/Ukir,23,age_status,-0.014254089753854143,negatif
+2356.01,Pengajar Komputer,23,age_status,-0.30587152957551866,negatif
+2356.02,Pengajar Software,23,age_status,-0.20775826516626855,negatif
+2411.01,Akuntan,24,age_status,0.0227855343614925,positif
+2411.02,Auditor,24,age_status,0.17389016091983805,positif
+2411.03,Pengawas Keuangan,24,age_status,0.31503496607327697,positif
+2411.04,Akuntan Manajemen,24,age_status,-0.5190055690256771,negatif
+2411.05,Akuntan Pajak,24,age_status,-0.6620621671120341,negatif
+2412.01,Perencana Estate/Investasi Fisik,24,age_status,0.2029948412041982,positif
+2412.02,Perencana Keuangan,24,age_status,-0.7139069784001459,negatif
+2413.01,Analis Obligasi,24,age_status,-0.727831154328533,negatif
+2413.02,Konsultan Investasi,24,age_status,-0.2804388901812451,negatif
+2421.01,Analis Organisasi dan Metode,24,age_status,-0.41986386092250666,negatif
+2421.02,Konsultan Bisnis,24,age_status,-0.2791925801740511,negatif
+2421.03,Konsultan Manajemen,24,age_status,0.34253584311805224,positif
+2422.01,Analis Kebijakan,24,age_status,-0.6434778071180551,negatif
+2423.01,Penasihat Karir,24,age_status,-0.5678927734141925,negatif
+2423.02,Analis Pekerjaan,24,age_status,-0.7969917549664414,negatif
+2423.03,Analis Jabatan,24,age_status,-0.7644282407006013,negatif
+2423.04,Konselor Bimbingan Kejuruan,24,age_status,-1.0576834189993485,negatif
+2423.05,Pakar Sumber Daya Manusia,24,age_status,-0.41514356808099434,negatif
+2423.06,Ahli Penempatan Kerja,24,age_status,-0.9886076238335397,negatif
+2424.01,Petugas Pelatihan,24,age_status,-0.6041861502711399,negatif
+2424.02,Spesialis Pengembangan Tenaga Kerja,24,age_status,-0.8901869239431137,negatif
+2431.01,Spesialis periklanan,24,age_status,-0.5964727975425592,negatif
+2431.02,Analis Penelitian Pasar,24,age_status,-0.7775127187469515,negatif
+2431.03,Spesialis Pemasaran,24,age_status,-0.6403508205864903,negatif
+2432.00,Profesional Hubungan Masyarakat,24,age_status,-0.5714561236941068,negatif
+2433.01,Perwakilan Penjualan (Produk Industri),24,age_status,-0.8963609459701238,negatif
+2433.02,Perwakilan Penjualan (Produk Medis dan Farmasi),24,age_status,-1.2935551971748578,negatif
+2433.03,Perwakilan Penjualan Produk Teknik,24,age_status,-0.3738246967330138,negatif
+2434.00,Profesional Penjualan Produk Teknologi Komunikasi dan Informasi,24,age_status,-0.8547256855130807,negatif
+2511.01,Analis Bisnis (TI),25,age_status,-0.984665611651791,negatif
+2511.02,Konsultan Sistem,25,age_status,-0.5055878736136515,negatif
+2511.03,Desainer Sistem (TI),25,age_status,-1.138485161586419,negatif
+2512.01,Analis Programer,25,age_status,-1.0769610767611684,negatif
+2512.02,Desainer Software,25,age_status,-0.4785863566078965,negatif
+2512.03,Pengembang Software,25,age_status,-0.3324060483070694,negatif
+2512.04,Teknisi Perangkat Lunak,25,age_status,0.01046455491580793,positif
+2513.01,Programmer Animasi,25,age_status,-0.3893701633992718,negatif
+2513.02,Programmer Game Komputer,25,age_status,-1.0078588109423245,negatif
+2513.03,Pengembang Internet,25,age_status,-0.3879198198012665,negatif
+2513.04,Programmer Multimedia,25,age_status,-0.6503477857831677,negatif
+2513.05,Arsitek Web,25,age_status,-0.7097332870465037,negatif
+2513.06,Pengembang Web,25,age_status,-0.8307942554393165,negatif
+2514.00,Pemrogram Aplikasi,25,age_status,-1.0499505143524805,negatif
+2519.01,Analis Jaminan Kualitas (Komputer),25,age_status,-0.36325719855278216,negatif
+2519.02,Tester Software,25,age_status,0.28750717364845646,positif
+2519.03,Tester Sistem,25,age_status,-0.19778280872271434,negatif
+2521.01,Administrator Database,25,age_status,-0.8990851705113236,negatif
+2521.02,Analis Database,25,age_status,-1.0504455272836413,negatif
+2521.03,Arsitek Database,25,age_status,-0.03958171384216837,negatif
+2522.01,Administrator Sistem,25,age_status,-0.7477278040290218,negatif
+2522.02,Administrator Jaringan,25,age_status,-0.6127532924917264,negatif
+2523.01,Analis Komunikasi (Komputer),25,age_status,-0.6464869891636327,negatif
+2523.02,Analis Jaringan,25,age_status,-0.6319757902532601,negatif
+2529.01,Spesialis Forensik Digital,25,age_status,-1.4134580165385207,negatif
+2529.02,Spesialis Keamanan (TIK),25,age_status,-0.5803089058592661,negatif
+2611.01,Pengacara,26,age_status,0.0014118097982862982,positif
+2611.02,Jaksa,26,age_status,-0.028273365912845235,negatif
+2611.03,Penuntut Umum,26,age_status,-0.6363371710786945,negatif
+2611.04,Penasihat Hukum,26,age_status,-0.15153814909645782,negatif
+2612.00,Hakim,26,age_status,0.1277180552248489,positif
+2619.01,Ahli Hukum (Selain Pengacara dan Hakim),26,age_status,-0.7363452755798519,negatif
+2619.02,Notaris,26,age_status,0.27157096676961345,positif
+2621.01,Pengarsip,26,age_status,-0.9492913882821975,negatif
+2621.02,Kurator Galeri Seni,26,age_status,-0.3634828175349336,negatif
+2621.03,Kurator Museum,26,age_status,-0.2649017675969628,negatif
+2622.01,Ahli Bibliografi,26,age_status,-0.5082588347894168,negatif
+2622.02,Juru Katalog,26,age_status,-0.3994577178241263,negatif
+2622.03,Pustakawan,26,age_status,0.04458077234972377,positif
+2631.01,Ahli Ekonomi,26,age_status,-0.7385492986026199,negatif
+2631.02,Ahli Ekonometrik,26,age_status,-1.1323311874592372,negatif
+2631.03,Penasehat Ekonomi,26,age_status,-0.32693283666737133,negatif
+2631.04,Analis Ekonomi,26,age_status,-0.7912673792643876,negatif
+2631.05,Ahli Ekonomi Perburuhan,26,age_status,-0.6089622635845326,negatif
+2632.01,Ahli Antropologi,26,age_status,-0.28538458256349386,negatif
+2632.02,Ahli Arkeologi,26,age_status,-0.637463990797124,negatif
+2632.03,Ahi Etnologi,26,age_status,-0.3423638751705461,negatif
+2632.04,Ahli Geografi,26,age_status,-0.549722121851752,negatif
+2632.05,Ahli Sosiologi,26,age_status,0.08498653252343827,positif
+2633.01,Ahli Filsafat,26,age_status,-0.2328001406208752,negatif
+2633.02,Ahli Sejarah,26,age_status,0.5658585027779094,positif
+2633.03,Ahli Politik,26,age_status,-0.42902365487550664,negatif
+2633.04,Ahli Genealogi (Ahli Silsilah),26,age_status,0.5305894816049836,positif
+2634.01,Psikolog Klinis,26,age_status,-0.18039931367813575,negatif
+2634.02,Psikolog Pendidikan,26,age_status,-0.4152965878197157,negatif
+2634.03,Psikolog Organisasi,26,age_status,-0.06090337072822974,negatif
+2634.04,Psikoterapis,26,age_status,-0.5395863233800939,negatif
+2634.05,Psikolog Olahraga,26,age_status,-0.53245591016494,negatif
+2635.01,Konselor Kecanduan,26,age_status,-0.47291309244268964,negatif
+2635.02,Konselor Dukacita,26,age_status,0.6970404525494317,positif
+2635.03,Konselor Anak dan Remaja,26,age_status,-0.7454711504706235,negatif
+2635.04,Konselor Keluarga,26,age_status,-0.6266838347308635,negatif
+2635.05,Konselor Pernikahan,26,age_status,-0.6358928356165939,negatif
+2635.06,Petugas Parole (Pembebasan Bersyarat),26,age_status,-1.404791085391337,negatif
+2635.07,Petugas Masa Percobaan,26,age_status,-0.26617865315074396,negatif
+2635.08,Pekerja Sosial,26,age_status,-0.6133540293111243,negatif
+2636.01,Imam Muslim,26,age_status,-0.037810904828855615,negatif
+2636.02,Pendeta Katolik,26,age_status,-0.8385448478269656,negatif
+2636.03,Pendeta Kristen,26,age_status,-0.6543967134028177,negatif
+2636.04,Pendeta Hindu,26,age_status,-0.7571627628438792,negatif
+2636.05,Pendeta Budha,26,age_status,-0.9608885017518778,negatif
+2636.06,Pendeta Kong Hu Cu,26,age_status,-1.0243622116548325,negatif
+2641.01,Penulis,26,age_status,-0.03255729462195887,negatif
+2641.02,Editor Buku,26,age_status,-0.12618929995933548,negatif
+2641.03,Penulis Esai,26,age_status,-0.7881274845967556,negatif
+2641.04,Penulis Media Interaktif,26,age_status,0.12294482710129936,positif
+2641.05,Novelis,26,age_status,-1.0581396503654723,negatif
+2641.06,Penulis Drama,26,age_status,-0.6848551720845538,negatif
+2641.07,Penulis Puisi (Penyair),26,age_status,-1.3225159844321692,negatif
+2641.08,Penulis Script,26,age_status,-0.601823681786706,negatif
+2641.09,Penulis Pidato,26,age_status,-0.6043012549512523,negatif
+2641.10,Penulis Teknis,26,age_status,0.047544395275945874,positif
+2642.01,Wartawan,26,age_status,0.09576867895405657,positif
+2642.02,Editor Copy,26,age_status,-0.48732827394111494,negatif
+2642.03,Editor Surat Kabar,26,age_status,-0.9465074426656583,negatif
+2642.04,Reporter Surat Kabar,26,age_status,-0.7765380336398426,negatif
+2642.05,Wartawan Olahraga,26,age_status,-0.5638758026738293,negatif
+2642.06,Sub Editor,26,age_status,-0.20642009367393008,negatif
+2642.07,Reporter Berita TV/Radio,26,age_status,-1.0648975144480683,negatif
+2643.01,Interpreter,26,age_status,0.5084654309339572,positif
+2643.02,Leksikograf (Ahli Perkamusan),26,age_status,0.29266611341398996,positif
+2643.03,Ahli Filologi (Manuskrip),26,age_status,0.47174286044407454,positif
+2643.04,Juru Bahasa Isyarat (Sign Language Interpreter),26,age_status,0.30999534299868414,positif
+2643.05,Subtitler,26,age_status,0.5220494837296927,positif
+2643.06,Penerjemah (Translator),26,age_status,-0.47130867172905977,negatif
+2651.01,Kartunis,26,age_status,-0.8064610615853518,negatif
+2651.02,Seniman Keramik,26,age_status,-0.48885401214139745,negatif
+2651.03,Pemulih Gambar,26,age_status,-1.6156082185993754,negatif
+2651.04,Pelukis Potret,26,age_status,-0.715102463940472,negatif
+2651.05,Pematung,26,age_status,-0.5362018704549163,negatif
+2652.01,Pemimpin Band,26,age_status,-0.3897373210520696,negatif
+2652.02,Komposer,26,age_status,-0.18124783455172971,negatif
+2652.03,Pemain Musik,26,age_status,-0.6823755932622315,negatif
+2652.04,Konduktor Musik,26,age_status,0.19929753986035972,positif
+2652.05,Orchestrator,26,age_status,-0.72717358566046,negatif
+2652.06,Penyanyi,26,age_status,-0.1771059752598516,negatif
+2653.01,Koreografer,26,age_status,-1.513993973255249,negatif
+2653.02,Penari Balet,26,age_status,-1.403490299873759,negatif
+2653.03,Penari Klub Malam,26,age_status,-1.3335413478121172,negatif
+2653.04,Penari Jalan,26,age_status,-0.8328304206651864,negatif
+2654.01,Sutradara Film Dokumenter,26,age_status,-1.287060166903899,negatif
+2654.02,Editor Film,26,age_status,-0.7082851191261592,negatif
+2654.03,Sutradara Film,26,age_status,-0.6596745270694757,negatif
+2654.04,Pengarah Fotografi,26,age_status,-0.802276470895086,negatif
+2654.05,Sutradara Panggung,26,age_status,-0.1281026063645825,negatif
+2654.06,Pengarah Teknis,26,age_status,0.40196373297460014,positif
+2654.07,Produser,26,age_status,0.06183652932249778,positif
+2655.01,Aktor,26,age_status,0.02576965966241434,positif
+2655.02,Artis Pantomim,26,age_status,-1.4569033231318993,negatif
+2655.03,Pencerita,26,age_status,-0.5247973198490515,negatif
+2656.01,Penyiar Radio,26,age_status,-0.7065858429795149,negatif
+2656.02,Penyiar Televisi,26,age_status,-0.743580853994176,negatif
+2656.03,Pembaca Berita,26,age_status,-0.10583604360956216,negatif
+2656.04,Penyiar Olahraga,26,age_status,-0.6334043180192108,negatif
+2659.01,Pemain Akrobat,26,age_status,-0.5992266654803935,negatif
+2659.02,Pemain Akrobat Udara,26,age_status,-0.666642044136027,negatif
+2659.03,Badut,26,age_status,0.03746383021047364,positif
+2659.04,Ahli Hipnotis,26,age_status,-0.8844801281102708,negatif
+2659.05,Pesulap,26,age_status,-1.340537535416276,negatif
+2659.06,Dalang,26,age_status,0.13504023934263956,positif
+2659.07,Stand Up Komedian (Pelawak Tunggal),26,age_status,-0.7392098466977604,negatif
+2659.08,Ventriloquist,26,age_status,-0.4074522011696388,negatif
+2111.01,Ahli Fisika (Umum),21,core_identity,-0.5555350929144923,negatif
+2111.02,Ahli Fisika Nuklir,21,core_identity,-0.776659647903696,negatif
+2111.03,Ahli Fisika Mekanika,21,core_identity,-0.6670044066361974,negatif
+2111.04,Ahli Fisika Panas,21,core_identity,-0.7157547054681832,negatif
+2111.05,Ahli Fisika Sinar,21,core_identity,-0.7688896051010686,negatif
+2111.06,Ahli Fisika Suara,21,core_identity,-0.5615880159489067,negatif
+2111.07,Ahli Fisika Listrik Dan Magnit,21,core_identity,1.2141288984677514,positif
+2111.08,Ahli Fisika Elektronika,21,core_identity,-0.9518639788157062,negatif
+2111.09,Ahli Fisika Medis,21,core_identity,-1.0740600446645265,negatif
+2111.10,Ahli Astronomi,21,core_identity,-1.0152974582059344,negatif
+2112.01,Ahli Meteorologi (Umum),21,core_identity,-0.697131414259553,negatif
+2112.02,Ahli Klimatologi,21,core_identity,-0.9856914883185767,negatif
+2112.03,Ahli Prakiraan Cuaca,21,core_identity,-0.8541560090420778,negatif
+2112.04,Ahli Hidrometeorologi,21,core_identity,-1.549043795588306,negatif
+2113.01,Ahli Kimia (Umum),21,core_identity,-1.0398503917142454,negatif
+2113.02,Ahli Kimia Organik,21,core_identity,-1.3751104030982666,negatif
+2113.03,Ahli Kimia Anorganik,21,core_identity,-1.310648910124097,negatif
+2113.04,Ahli Kimia Fisika,21,core_identity,-0.9649074895081073,negatif
+2113.05,Ahli Kimia Analitik,21,core_identity,-1.0023019004080929,negatif
+2114.01,Ahli Geologi (Umum),21,core_identity,-0.5351220241951545,negatif
+2114.02,Ahli Geologi Kelautan,21,core_identity,-1.0228513359223073,negatif
+2114.03,Ahli Geologi Pertambangan,21,core_identity,-0.6514149048406772,negatif
+2114.04,Ahli Geofisika (Umum),21,core_identity,-0.8143480688016027,negatif
+2114.05,Ahli Geofisika Kelautan,21,core_identity,-1.2784173933649814,negatif
+2120.01,Ahli Matematika Murni,21,core_identity,-1.4760866319417212,negatif
+2120.02,Ahli Matematika Terapan,21,core_identity,-1.5488184189860355,negatif
+2120.03,Ahli Analisis Riset Operasi (Quality Control Management),21,core_identity,-0.8644499672206305,negatif
+2120.04,Aktuaris,21,core_identity,-1.3904594039803733,negatif
+2120.05,Ahli Statistika (Umum),21,core_identity,-0.9710997519282776,negatif
+2120.06,Ahli Statistika Matematika,21,core_identity,-1.4138371982999725,negatif
+2120.07,Ahli Statistika (Terapan),21,core_identity,-1.208921145324715,negatif
+2131.01,Ahli Perilaku Hewan,21,core_identity,-1.0821191796281988,negatif
+2131.02,Ahli Bakteriologi,21,core_identity,-0.925791169053201,negatif
+2131.03,Ahli Biologi (Umum),21,core_identity,-0.7926780264894409,negatif
+2131.04,Ahli Biologi Kelautan,21,core_identity,-1.2112940306034985,negatif
+2131.05,Ahli Biologi Molekuler,21,core_identity,-1.3011175493972937,negatif
+2131.06,Ahli Botani,21,core_identity,-1.1295314443250264,negatif
+2131.07,Ahli Zoologi,21,core_identity,-1.0769122012042112,negatif
+2131.08,Ahli Biokimia,21,core_identity,-1.0972096984896889,negatif
+2131.09,Ahli Anatomi,21,core_identity,-1.047268912534477,negatif
+2131.10,Ahli Fisiologi,21,core_identity,-1.1833765393671043,negatif
+2131.11,Ahli Patologis Medis,21,core_identity,-1.6445772690256304,negatif
+2131.12,Ahli Patologi Hewan,21,core_identity,-1.5025397827749145,negatif
+2131.13,Ahli Farmakologi,21,core_identity,-1.001122306935283,negatif
+2132.01,Ahli Agronomi,21,core_identity,-0.704101801138861,negatif
+2132.02,Ahli Kehutanan,21,core_identity,-1.0536810048956147,negatif
+2132.03,Ahli Penelitian Tanah,21,core_identity,-1.0888638206930885,negatif
+2132.04,Ahli Hortikultura,21,core_identity,-1.0273893465680968,negatif
+2132.05,"Konsultan Pertanian, Kehutanan dan Perikanan",21,core_identity,-0.33228383031942077,negatif
+2133.01,Ahli Ekologi,21,core_identity,-0.9561586365756956,negatif
+2133.02,Analis Polusi Udara,21,core_identity,-0.9718044891305987,negatif
+2133.03,Ahli Konservasi,21,core_identity,-0.9566505079026784,negatif
+2133.04,Auditor Lingkungan,21,core_identity,-0.9479320520714006,negatif
+2133.05,Ilmuwan Lingkungan,21,core_identity,-0.9537487926421777,negatif
+2133.06,Analis Mutu Air,21,core_identity,-0.9084814574114124,negatif
+2133.07,Konsultan Lingkungan,21,core_identity,-0.9033430955681148,negatif
+2141.01,Ahli Teknik Efisiensi Industri,21,core_identity,-0.726776746459666,negatif
+2141.02,Ahli Teknik Sistem dan Metoda Kerja Industri,21,core_identity,-0.5857820493754083,negatif
+2141.03,Ahli Teknik Pengukuran Kerja Industri,21,core_identity,-0.6974553108624294,negatif
+2141.04,Ahli Teknik Mesin Industri,21,core_identity,-0.49502283220059873,negatif
+2141.05,Ahli Teknik Produksi Industri,21,core_identity,-0.7844802924017051,negatif
+2142.01,Ahli Teknik Sipil (Umum),21,core_identity,-0.544697073527246,negatif
+2142.02,Ahli Teknik Konstruksi Bangunan,21,core_identity,-1.090649249155039,negatif
+2142.03,Ahli Teknik Konstruksi Jalan,21,core_identity,-0.5684594289272211,negatif
+2142.04,Ahli Teknik Konstruksi Landasan Pesawat Udara.,21,core_identity,-0.5411005839783389,negatif
+2142.05,Ahli Teknik Konstruksi Jalan Kereta Api,21,core_identity,-0.47285234287294337,negatif
+2142.06,Ahli Teknik Konstruksi Jembatan,21,core_identity,-0.9644698989705691,negatif
+2142.07,Ahli Teknik Penyehatan Lingkungan,21,core_identity,-1.3319325744853399,negatif
+2142.08,Ahli Teknik Pengairan,21,core_identity,-0.9622127679482482,negatif
+2142.09,Ahli Teknik Mekanika Tanah,21,core_identity,-0.7647705174493968,negatif
+2143.01,Ahli Teknik Lingkungan,21,core_identity,-1.016860881113373,negatif
+2143.02,Analis Lingkungan,21,core_identity,-0.9276311168032445,negatif
+2143.03,Spesialis Rehabilitasi Lingkungan,21,core_identity,-1.329877068612919,negatif
+2144.01,Ahli Teknik Mesin (Umum),21,core_identity,0.18737654754529803,positif
+2144.02,Ahli Teknik Mesin Dan Peralatan Industri,21,core_identity,0.10386750160907657,positif
+2144.03,Ahli Teknik Mesin Motor Penggerak (Selain Mesin Kapal),21,core_identity,0.10295871458916861,positif
+2144.04,Ahli Teknik Mesin Kapal,21,core_identity,-0.7773788604596659,negatif
+2144.05,Ahli Teknik Konstruksi Kapal,21,core_identity,-1.015171250143081,negatif
+2144.06,Ahli Teknik Industri Pesawat Terbang,21,core_identity,-0.2638321249839351,negatif
+2144.07,Ahli Teknik Mobil,21,core_identity,-0.3499585368617803,negatif
+2144.08,"Ahli Teknik Pemanasan, Ventilasi dan Pendinginan",21,core_identity,0.5064541545048674,positif
+2144.09,Ahli Teknik Mesin Tenaga Atom,21,core_identity,1.0389588994769845,positif
+2145.01,Ahli Teknik Kimia (Umum),21,core_identity,-0.9979008123243701,negatif
+2145.02,Ahli Teknik Kimia Bahan Bakar,21,core_identity,0.43539162183476343,positif
+2145.03,Ahli Teknik Kimia Plastik,21,core_identity,-1.2432583452050605,negatif
+2146.01,Ahli Teknik Pertambangan (Umum),21,core_identity,-0.5664596868221609,negatif
+2146.02,Ahli Teknik Pertambangan Batu Bara,21,core_identity,0.3821490366100902,positif
+2146.03,Ahli Teknik Pertambangan Logam,21,core_identity,-0.641484743562505,negatif
+2146.04,Ahli Teknik Pertambangan Minyak Bumi dan Gas Alam,21,core_identity,-1.017568625034206,negatif
+2146.05,Ahli Metalurgi Ekstraksi,21,core_identity,-1.1763188637741906,negatif
+2146.06,Ahli Metalurgi Fisika,21,core_identity,-1.2851844893143225,negatif
+2149.01,Ahli Teknik Keramik Dan Kaca,21,core_identity,-0.6755733726835442,negatif
+2149.02,Ahli Teknik Pertanian,21,core_identity,-1.0045216204043135,negatif
+2149.03,Ahli Teknik Bahan Makanan dan Minuman,21,core_identity,-0.19340242251688047,negatif
+2149.04,Ahli Teknik Tekstil,21,core_identity,-1.0054645301292002,negatif
+2149.05,Ahli Teknik Perencanaan Sistem Lalu-Lintas,21,core_identity,1.0101779779729005,positif
+2149.06,Ahli Teknik Biomedis,21,core_identity,-1.5457495216309143,negatif
+2149.07,Ahli Teknik Bahan Peledak,21,core_identity,-0.2538893989041572,negatif
+2149.08,Ahli Teknik Salvage (Penyelamatan Laut),21,core_identity,-1.236111393172403,negatif
+2149.09,Ahli Teknik Keselamatan,21,core_identity,-0.9108325401880611,negatif
+2149.10,Ahli Teknik Optikal,21,core_identity,-1.3237524756762196,negatif
+2151.01,Ahli Teknik Listrik (Umum),21,core_identity,-0.5561909125641685,negatif
+2151.02,Ahli Teknik Pembangkit Tenaga Listrik,21,core_identity,-0.2667573814892531,negatif
+2151.03,Ahli Teknik Distribusi dan Transmisi Tenaga Listrik,21,core_identity,0.2893422251232778,positif
+2151.04,Ahli Teknik Elektromekanik,21,core_identity,-1.4537929496796775,negatif
+2152.01,Ahli Teknik Elektronik (Umum),21,core_identity,-0.6106707512809559,negatif
+2152.02,Ahli Teknik Perangkat Keras Komputer,21,core_identity,-0.8472649354310374,negatif
+2152.03,Ahli Teknik Instrumentasi (Alat Ukur),21,core_identity,0.8220633496455623,positif
+2153.01,Ahli Teknik Telekomunikasi,21,core_identity,-1.3460912378606276,negatif
+2153.02,Ahli Teknik Penyiaran dan Audio Visual,21,core_identity,-0.6876543441048253,negatif
+2153.03,Ahli Teknologi Rekayasa Telekomunikasi,21,core_identity,-1.5278954474844064,negatif
+2161.01,Arsitek Bangunan,21,core_identity,-1.2061371490210635,negatif
+2161.02,Arsitek Interior,21,core_identity,-1.0969185230053893,negatif
+2162.00,Arsitek Pertamanan/Lansekap,21,core_identity,-1.4233819139280188,negatif
+2163.01,Perancang Kostum,21,core_identity,-1.0944349887880183,negatif
+2163.02,Perancang Busana,21,core_identity,-1.3519473127376045,negatif
+2163.03,Perancang Perhiasan,21,core_identity,-1.1854558824922448,negatif
+2163.04,Perancang Produk Industri,21,core_identity,-1.2308107786755715,negatif
+2164.01,Perencana Lahan,21,core_identity,-0.9904483582472867,negatif
+2164.02,Perencana Tata Kota,21,core_identity,-1.3585742983004772,negatif
+2164.03,Perencana Lalu Lintas,21,core_identity,-1.0755301160838808,negatif
+2165.01,Surveyor Tanah,21,core_identity,-0.9472664908062209,negatif
+2165.02,Surveyor Pertambangan,21,core_identity,-0.841900119324434,negatif
+2165.03,Surveyor Hidrografi,21,core_identity,-1.3004810293622486,negatif
+2165.04,Surveyor Topografi,21,core_identity,-0.8996078479828729,negatif
+2165.05,Surveyor Aerial,21,core_identity,-1.036227846381041,negatif
+2165.06,Surveyor Kadastral,21,core_identity,-0.8089065486542503,negatif
+2165.07,Ahli Pemetaan (Kartografer),21,core_identity,-0.9160988437911993,negatif
+2166.01,Animator,21,core_identity,-1.361825466686229,negatif
+2166.02,Seniman Digital,21,core_identity,-1.099191396066363,negatif
+2166.03,Perancang Grafis,21,core_identity,-1.202275957640439,negatif
+2166.04,Ilustrator Teknik,21,core_identity,-1.4083025376329772,negatif
+2166.05,Perancang Permainan Interaktif,21,core_identity,-1.0784550304795018,negatif
+2166.06,Ilustrator,21,core_identity,-1.2465825971152038,negatif
+2166.07,Seniman Lithografi,21,core_identity,-1.3553687244540154,negatif
+2166.08,Desainer Multimedia,21,core_identity,-1.1151313347369767,negatif
+2166.09,Desainer Publikasi,21,core_identity,-1.0645335035239951,negatif
+2166.10,Desainer Website,21,core_identity,-1.1935023816857901,negatif
+2211.01,Dokter Umum,22,core_identity,-1.2855723549663276,negatif
+2211.02,Dokter Keluarga,22,core_identity,-1.2873230850463875,negatif
+2212.01,Dokter Spesialis Anestesi,22,core_identity,-1.6397731629091306,negatif
+2212.02,Dokter Spesialis Jantung,22,core_identity,-1.678917882474838,negatif
+2212.03,Dokter Spesialis Kulit dan Kelamin,22,core_identity,-0.32427983793361,negatif
+2212.04,"Dokter Spesialis Telinga, Hidung dan Tenggorokan",22,core_identity,0.8633377116926203,positif
+2212.05,Dokter Spesialis Kandungan,22,core_identity,-1.7242685103706787,negatif
+2212.06,Dokter Spesialis Mata,22,core_identity,-1.6240537633671392,negatif
+2212.07,Dokter Spesialis Anak,22,core_identity,-1.2993419244922093,negatif
+2212.08,Psikiater,22,core_identity,-1.3766938707440832,negatif
+2212.09,Dokter Spesialis Penyakit Dalam,22,core_identity,-1.4860625283944575,negatif
+2212.10,Dokter Spesialis Saraf,22,core_identity,-1.5504332703175,negatif
+2212.11,Dokter Spesialis Patologi,22,core_identity,-1.555495422568472,negatif
+2212.12,Dokter Spesialis Paru,22,core_identity,-1.40541439830338,negatif
+2212.13,Dokter Spesialis Radiologi,22,core_identity,-1.5997294212308222,negatif
+2212.14,Dokter Spesialis Bedah Umum,22,core_identity,-1.633666205342705,negatif
+2212.15,Dokter Spesialis Bedah Digestif,22,core_identity,-1.0759211060883167,negatif
+2212.16,Dokter Spesialis Bedah Syaraf,22,core_identity,-1.6879683076370615,negatif
+2212.17,Dokter Spesialis Bedah Orthopedi dan Traumatologi,22,core_identity,-1.0581689195000892,negatif
+2212.18,Dokter Spesialis Bedah Onkologi,22,core_identity,-1.453303338798281,negatif
+2221.01,Perawat Ahli,22,core_identity,-1.272273827729381,negatif
+2221.02,Perawat Spesialis,22,core_identity,-1.4767789918932768,negatif
+2221.03,Perawat Kesehatan Masyarakat,22,core_identity,-1.5049860628527196,negatif
+2221.04,Perawat Kesehatan Kerja,22,core_identity,-1.335166445555642,negatif
+2221.05,Perawat,22,core_identity,-1.016722205337323,negatif
+2221.06,Perawat Anastesi,22,core_identity,-1.3904716616746633,negatif
+2222.01,Bidan,22,core_identity,-1.1624937298199027,negatif
+2230.01,Ahli Akupuntur,22,core_identity,-1.422268386782252,negatif
+2230.02,Ahli Pengobatan Herbal Cina,22,core_identity,-1.1091505770663581,negatif
+2230.03,Praktisi Ayurvedic,22,core_identity,-1.5404769281405482,negatif
+2230.04,Ahli Homeopati,22,core_identity,-1.2411314230299149,negatif
+2230.05,Ahli Naturopati,22,core_identity,-1.3632404925980666,negatif
+2230.06,Praktisi Unani,22,core_identity,-1.0795395738929539,negatif
+2240.01,Asisten Medik,22,core_identity,-1.1020227524064072,negatif
+2240.02,Paramedis,22,core_identity,-1.383234949061591,negatif
+2240.03,Teknisi Bedah,22,core_identity,-1.1176572498327728,negatif
+2250.01,Dokter Hewan (Umum),22,core_identity,-1.00512225010191,negatif
+2250.02,Dokter Hewan Kesehatan Masyarakat,22,core_identity,-1.4345865194226715,negatif
+2250.03,Dokter Bedah Hewan,22,core_identity,-1.399145936684746,negatif
+2250.04,Ahli Penyakit Hewan (Patologi),22,core_identity,-1.201654030231655,negatif
+2250.05,Ahli Epidemiologi Hewan,22,core_identity,-1.1972483517766284,negatif
+2261.01,Dokter Gigi (Umum),22,core_identity,-1.1784439687079944,negatif
+2261.02,Dokter Gigi Kesehatan Masyarakat,22,core_identity,-1.4280084891743554,negatif
+2261.03,Asisten Bedah Gigi,22,core_identity,-1.4056656408177728,negatif
+2261.04,Ahli Kesehatan Gigi,22,core_identity,-1.2800084214891396,negatif
+2261.05,Endodontist,22,core_identity,-0.8725678728677249,negatif
+2261.06,Ahli Bedah Mulut dan Maxillofacial,22,core_identity,-1.5356779366282478,negatif
+2261.07,Ahli Penyakit Mulut,22,core_identity,-1.0552304362828586,negatif
+2261.08,Ortodontis,22,core_identity,-1.477879701727978,negatif
+2261.09,Paedodontist,22,core_identity,-1.4352135791823266,negatif
+2261.10,Periodontist,22,core_identity,-0.5429524632875742,negatif
+2261.11,Prosthodontist,22,core_identity,-0.7792880419536934,negatif
+2262.01,Apoteker,22,core_identity,-0.9175171132597688,negatif
+2263.01,Petugas Kesehatan Lingkungan,22,core_identity,-1.3651262091738285,negatif
+2263.02,Penasihat Kesehatan dan Keselamatan Kerja,22,core_identity,-1.336859063060353,negatif
+2263.03,Ahli Proteksi Radiasi,22,core_identity,-1.0572054115245002,negatif
+2264.01,Ahli Fisioterapi,22,core_identity,-0.9002800934651333,negatif
+2264.02,Ahli Terapi Rehabilitasi,22,core_identity,-1.1510875543193053,negatif
+2264.03,Terapis Geriatri (Terapis Lansia),22,core_identity,-1.3520478812078143,negatif
+2264.04,Terapis Pediatri (Terapis Anak),22,core_identity,-1.3474943878960532,negatif
+2264.05,Terapis Ortopedi (Terapis Alat Gerak),22,core_identity,-0.6598670822149566,negatif
+2265.01,Ahli Diet (Umum),22,core_identity,-1.1422986006812965,negatif
+2265.02,Ahli Gizi Klinis,22,core_identity,-1.3599356865298486,negatif
+2265.03,Ahli Gizi Layanan Makanan,22,core_identity,-0.9790689972800803,negatif
+2265.04,Ahli Gizi Masyarakat,22,core_identity,-1.3620078293110307,negatif
+2265.05,Ahli Gizi Olahraga,22,core_identity,-1.069804988564869,negatif
+2266.01,Ahli Terapi Pendengaran,22,core_identity,-0.9025852049147524,negatif
+2266.02,Ahli Terapi Bicara,22,core_identity,-0.8641525086057209,negatif
+2267.01,Optometrist,22,core_identity,-1.255156630926815,negatif
+2267.02,Orthoptist,22,core_identity,-1.485063070109061,negatif
+2269.01,Terapis Seni,22,core_identity,-1.1685501128034346,negatif
+2269.02,Terapis Tari dan Gerakan,22,core_identity,-1.4291491452293117,negatif
+2269.03,Okupasi Terapis,22,core_identity,-1.113028353285019,negatif
+2269.04,Ahli Podiatri (Penyakit Kaki),22,core_identity,-1.2184899714971786,negatif
+2310.01,Dosen Ilmu Fisika,23,core_identity,-0.9853557578152434,negatif
+2310.02,Dosen Ilmu Teknik dan Arsitektur,23,core_identity,-1.5926605858962044,negatif
+2310.03,Dosen Ilmu Kedokteran dan Ilmu Hayati,23,core_identity,-0.6857099910221633,negatif
+2310.04,Dosen Ilmu Matematika,23,core_identity,-1.3277008205361245,negatif
+2310.05,Dosen Ilmu Statistika,23,core_identity,-1.3067263957756508,negatif
+2310.06,Dosen Ilmu Ekonomi dan Administrasi Niaga,23,core_identity,-0.5277079656048189,negatif
+2310.07,Dosen Ilmu Hukum,23,core_identity,-1.2309088481227837,negatif
+2310.08,Dosen Ilmu Pendidikan,23,core_identity,-1.2773961920861252,negatif
+2310.09,Dosen Ilmu Pertanian,23,core_identity,-1.1410077960741973,negatif
+2310.10,Dosen Ilmu Sosial dan Politik,23,core_identity,-0.8998248899942148,negatif
+2310.11,"Dosen Ilmu Bahasa, Sastra, Budaya dan Sejarah",23,core_identity,1.627117309177232,positif
+2310.12,Dosen Ilmu Keagamaan,23,core_identity,-1.3052004535288706,negatif
+2310.13,Dosen Ilmu Kesehatan Masyarakat,23,core_identity,-1.4923667720446716,negatif
+2310.14,"Dosen Ilmu Terapi Kesehatan, Kebidanan dan Yang Sejenis",23,core_identity,-1.1758497801303118,negatif
+2310.15,Dosen Ilmu Olahraga,23,core_identity,-1.1396520029152826,negatif
+2310.16,Dosen Ilmu Teknologi Industri,23,core_identity,-1.228417463947205,negatif
+2310.17,Dosen Ilmu Komputer,23,core_identity,-1.0438875371450393,negatif
+2320.01,Instruktur Teknik Otomotif,23,core_identity,-0.8206173733599129,negatif
+2320.02,Instruktur Tata Rias,23,core_identity,-1.290883993929984,negatif
+2320.03,Guru Pendidikan Kejuruan Menengah Pertama,23,core_identity,-0.9900700284394605,negatif
+2320.04,Guru Pendidikan Kejuruan Menengah Atas,23,core_identity,-0.9100059655514698,negatif
+2330.01,Guru Pendidikan Menengah Pertama,23,core_identity,-0.9557941294801404,negatif
+2330.02,Guru Pendidikan Menengah Atas,23,core_identity,-0.779521367030424,negatif
+2341.00,Guru Sekolah Dasar,23,core_identity,-0.9330261347035975,negatif
+2342.01,Guru Taman Kanak-Kanak,23,core_identity,0.4493427775601697,positif
+2342.02,Guru Pendidikan Anak Usia Dini,23,core_identity,0.12068046782693093,positif
+2351.01,Koordinator Kurikulum,23,core_identity,-0.9286008456722914,negatif
+2351.02,Spesialis Metode Pendidikan,23,core_identity,-1.043258095725476,negatif
+2351.03,Pengawas Sekolah,23,core_identity,-0.9561144673894408,negatif
+2352.01,Guru Tunadaksa,23,core_identity,-0.19900740149052087,negatif
+2352.02,Guru Tuna Rungu,23,core_identity,-0.3665437253801822,negatif
+2352.03,Guru Tuna Netra,23,core_identity,-1.4664875413008032,negatif
+2354.01,Guru Gitar,23,core_identity,-0.74492092272228,negatif
+2354.02,Guru Piano,23,core_identity,-0.7439318119537743,negatif
+2354.03,Guru Vokal,23,core_identity,-0.8254303581216642,negatif
+2354.04,Guru Biola,23,core_identity,-0.7082952582102968,negatif
+2355.01,Guru Tari,23,core_identity,-1.0950493548921871,negatif
+2355.02,Guru Teater/Drama,23,core_identity,-0.9803071653938232,negatif
+2355.03,Guru Lukis,23,core_identity,-1.0274745913059768,negatif
+2355.04,Guru Pahat/Ukir,23,core_identity,-0.7517388785053427,negatif
+2356.01,Pengajar Komputer,23,core_identity,-0.9469337917424476,negatif
+2356.02,Pengajar Software,23,core_identity,-0.9546424669935274,negatif
+2411.01,Akuntan,24,core_identity,-0.8268621332017627,negatif
+2411.02,Auditor,24,core_identity,-0.8207630986906811,negatif
+2411.03,Pengawas Keuangan,24,core_identity,-0.9862495192802184,negatif
+2411.04,Akuntan Manajemen,24,core_identity,-0.7254104798216638,negatif
+2411.05,Akuntan Pajak,24,core_identity,-0.8587240680924777,negatif
+2412.01,Perencana Estate/Investasi Fisik,24,core_identity,-1.0508855616682178,negatif
+2412.02,Perencana Keuangan,24,core_identity,-0.8047658235711952,negatif
+2413.01,Analis Obligasi,24,core_identity,-0.8222298810298951,negatif
+2413.02,Konsultan Investasi,24,core_identity,-0.7468937713689616,negatif
+2421.01,Analis Organisasi dan Metode,24,core_identity,-0.5462927873302044,negatif
+2421.02,Konsultan Bisnis,24,core_identity,-0.9671690808628368,negatif
+2421.03,Konsultan Manajemen,24,core_identity,-0.7263901383955911,negatif
+2422.01,Analis Kebijakan,24,core_identity,-0.8967000544897488,negatif
+2423.01,Penasihat Karir,24,core_identity,-0.8067203524360196,negatif
+2423.02,Analis Pekerjaan,24,core_identity,-0.9640848695374948,negatif
+2423.03,Analis Jabatan,24,core_identity,-0.9604743942845011,negatif
+2423.04,Konselor Bimbingan Kejuruan,24,core_identity,-1.0264784887886866,negatif
+2423.05,Pakar Sumber Daya Manusia,24,core_identity,0.4302043681869142,positif
+2423.06,Ahli Penempatan Kerja,24,core_identity,-1.1868203635794128,negatif
+2424.01,Petugas Pelatihan,24,core_identity,-1.0992744819191178,negatif
+2424.02,Spesialis Pengembangan Tenaga Kerja,24,core_identity,-1.1722728336464616,negatif
+2431.01,Spesialis periklanan,24,core_identity,-1.2134054034131587,negatif
+2431.02,Analis Penelitian Pasar,24,core_identity,-0.8768782033954443,negatif
+2431.03,Spesialis Pemasaran,24,core_identity,-1.1731183429311334,negatif
+2432.00,Profesional Hubungan Masyarakat,24,core_identity,-1.1642404319759336,negatif
+2433.01,Perwakilan Penjualan (Produk Industri),24,core_identity,-1.1270359670204029,negatif
+2433.02,Perwakilan Penjualan (Produk Medis dan Farmasi),24,core_identity,-1.0417504223230654,negatif
+2433.03,Perwakilan Penjualan Produk Teknik,24,core_identity,-0.9297537413536836,negatif
+2434.00,Profesional Penjualan Produk Teknologi Komunikasi dan Informasi,24,core_identity,-0.5244265155139366,negatif
+2511.01,Analis Bisnis (TI),25,core_identity,-1.0294881666741247,negatif
+2511.02,Konsultan Sistem,25,core_identity,-0.8904231348787519,negatif
+2511.03,Desainer Sistem (TI),25,core_identity,-1.1313559863607447,negatif
+2512.01,Analis Programer,25,core_identity,-0.84467011602162,negatif
+2512.02,Desainer Software,25,core_identity,-1.1157972810176666,negatif
+2512.03,Pengembang Software,25,core_identity,-1.0489479142602143,negatif
+2512.04,Teknisi Perangkat Lunak,25,core_identity,-1.210884502227613,negatif
+2513.01,Programmer Animasi,25,core_identity,-0.9374920682061383,negatif
+2513.02,Programmer Game Komputer,25,core_identity,-0.7685836571225704,negatif
+2513.03,Pengembang Internet,25,core_identity,-1.3083656493933902,negatif
+2513.04,Programmer Multimedia,25,core_identity,-0.9363610986964117,negatif
+2513.05,Arsitek Web,25,core_identity,-1.1403142678278895,negatif
+2513.06,Pengembang Web,25,core_identity,-1.2371256137418145,negatif
+2514.00,Pemrogram Aplikasi,25,core_identity,-1.2754306959176112,negatif
+2519.01,Analis Jaminan Kualitas (Komputer),25,core_identity,-1.2102459068196643,negatif
+2519.02,Tester Software,25,core_identity,-0.7590423035045659,negatif
+2519.03,Tester Sistem,25,core_identity,-0.690774177139854,negatif
+2521.01,Administrator Database,25,core_identity,-1.055526483128895,negatif
+2521.02,Analis Database,25,core_identity,-0.8435035336634775,negatif
+2521.03,Arsitek Database,25,core_identity,-0.9171278750843821,negatif
+2522.01,Administrator Sistem,25,core_identity,-0.9825100584129935,negatif
+2522.02,Administrator Jaringan,25,core_identity,-1.200071005593348,negatif
+2523.01,Analis Komunikasi (Komputer),25,core_identity,-0.721396227301174,negatif
+2523.02,Analis Jaringan,25,core_identity,-1.030585264822687,negatif
+2529.01,Spesialis Forensik Digital,25,core_identity,-1.3453027337368644,negatif
+2529.02,Spesialis Keamanan (TIK),25,core_identity,-1.0564454444012141,negatif
+2611.01,Pengacara,26,core_identity,-0.9383563669867363,negatif
+2611.02,Jaksa,26,core_identity,-0.9495814110904841,negatif
+2611.03,Penuntut Umum,26,core_identity,-1.3100041553255726,negatif
+2611.04,Penasihat Hukum,26,core_identity,-1.0446106773969388,negatif
+2612.00,Hakim,26,core_identity,-0.9589155374475418,negatif
+2619.01,Ahli Hukum (Selain Pengacara dan Hakim),26,core_identity,-0.2714405160353044,negatif
+2619.02,Notaris,26,core_identity,-0.8491329445576801,negatif
+2621.01,Pengarsip,26,core_identity,-1.1299497427946148,negatif
+2621.02,Kurator Galeri Seni,26,core_identity,-1.4088464484940924,negatif
+2621.03,Kurator Museum,26,core_identity,-1.109638484947422,negatif
+2622.01,Ahli Bibliografi,26,core_identity,-1.5719419121650282,negatif
+2622.02,Juru Katalog,26,core_identity,-0.9849426274223725,negatif
+2622.03,Pustakawan,26,core_identity,-0.910920886273742,negatif
+2631.01,Ahli Ekonomi,26,core_identity,-1.0904938902197603,negatif
+2631.02,Ahli Ekonometrik,26,core_identity,-0.8761417336953684,negatif
+2631.03,Penasehat Ekonomi,26,core_identity,-0.8745176932924297,negatif
+2631.04,Analis Ekonomi,26,core_identity,-0.9987886793079053,negatif
+2631.05,Ahli Ekonomi Perburuhan,26,core_identity,-0.6348225795595572,negatif
+2632.01,Ahli Antropologi,26,core_identity,-1.1469628911785086,negatif
+2632.02,Ahli Arkeologi,26,core_identity,-0.8225522621457615,negatif
+2632.03,Ahi Etnologi,26,core_identity,-1.6758462489478554,negatif
+2632.04,Ahli Geografi,26,core_identity,-1.146978677861634,negatif
+2632.05,Ahli Sosiologi,26,core_identity,-1.055242791251107,negatif
+2633.01,Ahli Filsafat,26,core_identity,-1.273015257055301,negatif
+2633.02,Ahli Sejarah,26,core_identity,-1.0271695255251538,negatif
+2633.03,Ahli Politik,26,core_identity,-1.0640444845964414,negatif
+2633.04,Ahli Genealogi (Ahli Silsilah),26,core_identity,0.6454392414507104,positif
+2634.01,Psikolog Klinis,26,core_identity,-1.0454637503095412,negatif
+2634.02,Psikolog Pendidikan,26,core_identity,-0.9464018959581747,negatif
+2634.03,Psikolog Organisasi,26,core_identity,-0.9351155889376767,negatif
+2634.04,Psikoterapis,26,core_identity,-0.8741989956898016,negatif
+2634.05,Psikolog Olahraga,26,core_identity,-0.9112581276346305,negatif
+2635.01,Konselor Kecanduan,26,core_identity,-0.7562899835366879,negatif
+2635.02,Konselor Dukacita,26,core_identity,-0.616431755856432,negatif
+2635.03,Konselor Anak dan Remaja,26,core_identity,-0.11683796206918212,negatif
+2635.04,Konselor Keluarga,26,core_identity,-1.0806954050777788,negatif
+2635.05,Konselor Pernikahan,26,core_identity,-0.9508840167324465,negatif
+2635.06,Petugas Parole (Pembebasan Bersyarat),26,core_identity,-1.360505548287164,negatif
+2635.07,Petugas Masa Percobaan,26,core_identity,-1.0959547515859152,negatif
+2635.08,Pekerja Sosial,26,core_identity,-1.3344738396423017,negatif
+2636.01,Imam Muslim,26,core_identity,-0.9857274317310807,negatif
+2636.02,Pendeta Katolik,26,core_identity,-0.8465384283939839,negatif
+2636.03,Pendeta Kristen,26,core_identity,-0.8381474189790097,negatif
+2636.04,Pendeta Hindu,26,core_identity,-0.7953769817101498,negatif
+2636.05,Pendeta Budha,26,core_identity,-0.888725786382649,negatif
+2636.06,Pendeta Kong Hu Cu,26,core_identity,0.9834885338975896,positif
+2641.01,Penulis,26,core_identity,-1.0224550154275949,negatif
+2641.02,Editor Buku,26,core_identity,-0.8257343371121486,negatif
+2641.03,Penulis Esai,26,core_identity,-1.0329111448013513,negatif
+2641.04,Penulis Media Interaktif,26,core_identity,-0.9421791197755605,negatif
+2641.05,Novelis,26,core_identity,-1.199824657189405,negatif
+2641.06,Penulis Drama,26,core_identity,-0.9973396641787423,negatif
+2641.07,Penulis Puisi (Penyair),26,core_identity,-1.4099869083099972,negatif
+2641.08,Penulis Script,26,core_identity,-1.158114552972331,negatif
+2641.09,Penulis Pidato,26,core_identity,-0.7586841310919643,negatif
+2641.10,Penulis Teknis,26,core_identity,-0.9467442765966297,negatif
+2642.01,Wartawan,26,core_identity,-0.9314251220854495,negatif
+2642.02,Editor Copy,26,core_identity,-0.9842233724137288,negatif
+2642.03,Editor Surat Kabar,26,core_identity,-0.8382006131037334,negatif
+2642.04,Reporter Surat Kabar,26,core_identity,-0.7229490020309923,negatif
+2642.05,Wartawan Olahraga,26,core_identity,-1.1992039770056893,negatif
+2642.06,Sub Editor,26,core_identity,-1.0435848440540236,negatif
+2642.07,Reporter Berita TV/Radio,26,core_identity,-1.0550023122335335,negatif
+2643.01,Interpreter,26,core_identity,-0.9711762154315504,negatif
+2643.02,Leksikograf (Ahli Perkamusan),26,core_identity,-1.207160495019893,negatif
+2643.03,Ahli Filologi (Manuskrip),26,core_identity,1.072402977238047,positif
+2643.04,Juru Bahasa Isyarat (Sign Language Interpreter),26,core_identity,-0.17669283838805666,negatif
+2643.05,Subtitler,26,core_identity,-1.0927868457988135,negatif
+2643.06,Penerjemah (Translator),26,core_identity,-1.0117387704248344,negatif
+2651.01,Kartunis,26,core_identity,-1.310442622406959,negatif
+2651.02,Seniman Keramik,26,core_identity,-1.1037588636890017,negatif
+2651.03,Pemulih Gambar,26,core_identity,-1.3394907842839472,negatif
+2651.04,Pelukis Potret,26,core_identity,-1.0894718602710824,negatif
+2651.05,Pematung,26,core_identity,-1.219592718629979,negatif
+2652.01,Pemimpin Band,26,core_identity,-0.8824687094664168,negatif
+2652.02,Komposer,26,core_identity,-1.2650841392307315,negatif
+2652.03,Pemain Musik,26,core_identity,-1.0006912728149797,negatif
+2652.04,Konduktor Musik,26,core_identity,-0.888894460396644,negatif
+2652.05,Orchestrator,26,core_identity,-1.2992134024694126,negatif
+2652.06,Penyanyi,26,core_identity,-0.9454166415225601,negatif
+2653.01,Koreografer,26,core_identity,-1.3466133810296335,negatif
+2653.02,Penari Balet,26,core_identity,-1.25830575810161,negatif
+2653.03,Penari Klub Malam,26,core_identity,-1.2772854858869849,negatif
+2653.04,Penari Jalan,26,core_identity,-0.9749193408000538,negatif
+2654.01,Sutradara Film Dokumenter,26,core_identity,-0.5724556194530381,negatif
+2654.02,Editor Film,26,core_identity,-0.7772169194666223,negatif
+2654.03,Sutradara Film,26,core_identity,-0.6418680601745065,negatif
+2654.04,Pengarah Fotografi,26,core_identity,-1.2334647898836253,negatif
+2654.05,Sutradara Panggung,26,core_identity,-0.8755746078244576,negatif
+2654.06,Pengarah Teknis,26,core_identity,-1.2119631607194035,negatif
+2654.07,Produser,26,core_identity,-0.8555533666907502,negatif
+2655.01,Aktor,26,core_identity,-0.7722547386977934,negatif
+2655.02,Artis Pantomim,26,core_identity,-1.19470825293846,negatif
+2655.03,Pencerita,26,core_identity,-0.9599581733052199,negatif
+2656.01,Penyiar Radio,26,core_identity,-1.0086250284904483,negatif
+2656.02,Penyiar Televisi,26,core_identity,-1.0885183717186453,negatif
+2656.03,Pembaca Berita,26,core_identity,-1.1058407578953666,negatif
+2656.04,Penyiar Olahraga,26,core_identity,-1.0424139990687356,negatif
+2659.01,Pemain Akrobat,26,core_identity,-0.6132494148677043,negatif
+2659.02,Pemain Akrobat Udara,26,core_identity,-0.7708338665477511,negatif
+2659.03,Badut,26,core_identity,-0.8064798960827927,negatif
+2659.04,Ahli Hipnotis,26,core_identity,-1.0510191864461924,negatif
+2659.05,Pesulap,26,core_identity,-0.9481629460304906,negatif
+2659.06,Dalang,26,core_identity,-0.8636752447343092,negatif
+2659.07,Stand Up Komedian (Pelawak Tunggal),26,core_identity,-0.8287134037318533,negatif
+2659.08,Ventriloquist,26,core_identity,-1.5029764274853017,negatif
+2111.01,Ahli Fisika (Umum),21,existing_full,-0.5887957521291671,negatif
+2111.02,Ahli Fisika Nuklir,21,existing_full,-0.7495326142964285,negatif
+2111.03,Ahli Fisika Mekanika,21,existing_full,-0.25656207813710463,negatif
+2111.04,Ahli Fisika Panas,21,existing_full,-0.39098850085203857,negatif
+2111.05,Ahli Fisika Sinar,21,existing_full,-0.33241890511309846,negatif
+2111.06,Ahli Fisika Suara,21,existing_full,-0.2981962110847423,negatif
+2111.07,Ahli Fisika Listrik Dan Magnit,21,existing_full,-0.10511695288208561,negatif
+2111.08,Ahli Fisika Elektronika,21,existing_full,-0.6080238074643517,negatif
+2111.09,Ahli Fisika Medis,21,existing_full,-0.7438508365077152,negatif
+2111.10,Ahli Astronomi,21,existing_full,-0.7249084583754384,negatif
+2112.01,Ahli Meteorologi (Umum),21,existing_full,-0.8336773303729432,negatif
+2112.02,Ahli Klimatologi,21,existing_full,-0.7957723684782547,negatif
+2112.03,Ahli Prakiraan Cuaca,21,existing_full,-0.5986364156784403,negatif
+2112.04,Ahli Hidrometeorologi,21,existing_full,-0.8886222111995892,negatif
+2113.01,Ahli Kimia (Umum),21,existing_full,-0.9106662926955932,negatif
+2113.02,Ahli Kimia Organik,21,existing_full,-0.7786329832674617,negatif
+2113.03,Ahli Kimia Anorganik,21,existing_full,-0.7223909009004186,negatif
+2113.04,Ahli Kimia Fisika,21,existing_full,-0.7714803132649025,negatif
+2113.05,Ahli Kimia Analitik,21,existing_full,-0.6927316211445432,negatif
+2114.01,Ahli Geologi (Umum),21,existing_full,-0.7842730743935502,negatif
+2114.02,Ahli Geologi Kelautan,21,existing_full,-0.7907332608684254,negatif
+2114.03,Ahli Geologi Pertambangan,21,existing_full,-0.622294502740079,negatif
+2114.04,Ahli Geofisika (Umum),21,existing_full,-0.9640471142070326,negatif
+2114.05,Ahli Geofisika Kelautan,21,existing_full,-1.186042309782804,negatif
+2120.01,Ahli Matematika Murni,21,existing_full,-1.0293467299134533,negatif
+2120.02,Ahli Matematika Terapan,21,existing_full,-1.1891612155520694,negatif
+2120.03,Ahli Analisis Riset Operasi (Quality Control Management),21,existing_full,-0.3451878238391264,negatif
+2120.04,Aktuaris,21,existing_full,-0.7127387730873804,negatif
+2120.05,Ahli Statistika (Umum),21,existing_full,-0.832294463334619,negatif
+2120.06,Ahli Statistika Matematika,21,existing_full,-0.8948389210021495,negatif
+2120.07,Ahli Statistika (Terapan),21,existing_full,-1.080511409632442,negatif
+2131.01,Ahli Perilaku Hewan,21,existing_full,-0.6648745095931349,negatif
+2131.02,Ahli Bakteriologi,21,existing_full,-0.7400691346203558,negatif
+2131.03,Ahli Biologi (Umum),21,existing_full,-0.7501443411315476,negatif
+2131.04,Ahli Biologi Kelautan,21,existing_full,-0.9463007490050681,negatif
+2131.05,Ahli Biologi Molekuler,21,existing_full,-0.5111131901975652,negatif
+2131.06,Ahli Botani,21,existing_full,-0.9932362017752006,negatif
+2131.07,Ahli Zoologi,21,existing_full,-0.7831760366056875,negatif
+2131.08,Ahli Biokimia,21,existing_full,-0.6894556734430999,negatif
+2131.09,Ahli Anatomi,21,existing_full,-0.5853526864732269,negatif
+2131.10,Ahli Fisiologi,21,existing_full,-0.6390156425840741,negatif
+2131.11,Ahli Patologis Medis,21,existing_full,-0.6767603620598518,negatif
+2131.12,Ahli Patologi Hewan,21,existing_full,-0.9122687148352255,negatif
+2131.13,Ahli Farmakologi,21,existing_full,-0.8290841331392759,negatif
+2132.01,Ahli Agronomi,21,existing_full,-0.9493748349986166,negatif
+2132.02,Ahli Kehutanan,21,existing_full,-0.6776120414794065,negatif
+2132.03,Ahli Penelitian Tanah,21,existing_full,-0.6727275768573223,negatif
+2132.04,Ahli Hortikultura,21,existing_full,-0.7346730139267404,negatif
+2132.05,"Konsultan Pertanian, Kehutanan dan Perikanan",21,existing_full,-0.37677229635357745,negatif
+2133.01,Ahli Ekologi,21,existing_full,-0.44751930126491823,negatif
+2133.02,Analis Polusi Udara,21,existing_full,-0.42139920494348926,negatif
+2133.03,Ahli Konservasi,21,existing_full,-0.5143353699944193,negatif
+2133.04,Auditor Lingkungan,21,existing_full,-0.3860229669412317,negatif
+2133.05,Ilmuwan Lingkungan,21,existing_full,-0.5014301683866951,negatif
+2133.06,Analis Mutu Air,21,existing_full,-0.6706180781995543,negatif
+2133.07,Konsultan Lingkungan,21,existing_full,-0.3541908627107734,negatif
+2141.01,Ahli Teknik Efisiensi Industri,21,existing_full,-0.6420661527021438,negatif
+2141.02,Ahli Teknik Sistem dan Metoda Kerja Industri,21,existing_full,-0.6744150596260743,negatif
+2141.03,Ahli Teknik Pengukuran Kerja Industri,21,existing_full,-0.6920421994049009,negatif
+2141.04,Ahli Teknik Mesin Industri,21,existing_full,-0.6179197245705075,negatif
+2141.05,Ahli Teknik Produksi Industri,21,existing_full,-0.6573832070117873,negatif
+2142.01,Ahli Teknik Sipil (Umum),21,existing_full,-0.5833130556950681,negatif
+2142.02,Ahli Teknik Konstruksi Bangunan,21,existing_full,-0.8289561781225392,negatif
+2142.03,Ahli Teknik Konstruksi Jalan,21,existing_full,-0.5427856996761721,negatif
+2142.04,Ahli Teknik Konstruksi Landasan Pesawat Udara.,21,existing_full,-0.3642417013902767,negatif
+2142.05,Ahli Teknik Konstruksi Jalan Kereta Api,21,existing_full,-0.25758356576653807,negatif
+2142.06,Ahli Teknik Konstruksi Jembatan,21,existing_full,-0.8068088132399316,negatif
+2142.07,Ahli Teknik Penyehatan Lingkungan,21,existing_full,-1.3706731583829885,negatif
+2142.08,Ahli Teknik Pengairan,21,existing_full,-0.8120246829448516,negatif
+2142.09,Ahli Teknik Mekanika Tanah,21,existing_full,-0.7125644394213403,negatif
+2143.01,Ahli Teknik Lingkungan,21,existing_full,-0.6510668832047817,negatif
+2143.02,Analis Lingkungan,21,existing_full,-0.5982422524998143,negatif
+2143.03,Spesialis Rehabilitasi Lingkungan,21,existing_full,-0.9416840361338112,negatif
+2144.01,Ahli Teknik Mesin (Umum),21,existing_full,-0.41163692906589133,negatif
+2144.02,Ahli Teknik Mesin Dan Peralatan Industri,21,existing_full,-0.517498167146191,negatif
+2144.03,Ahli Teknik Mesin Motor Penggerak (Selain Mesin Kapal),21,existing_full,-0.37932678186099567,negatif
+2144.04,Ahli Teknik Mesin Kapal,21,existing_full,-0.9229955061923313,negatif
+2144.05,Ahli Teknik Konstruksi Kapal,21,existing_full,-0.8923413965039639,negatif
+2144.06,Ahli Teknik Industri Pesawat Terbang,21,existing_full,-0.5362091823244461,negatif
+2144.07,Ahli Teknik Mobil,21,existing_full,-0.4661139803273807,negatif
+2144.08,"Ahli Teknik Pemanasan, Ventilasi dan Pendinginan",21,existing_full,-0.2896488081039673,negatif
+2144.09,Ahli Teknik Mesin Tenaga Atom,21,existing_full,-0.06738694647374707,negatif
+2145.01,Ahli Teknik Kimia (Umum),21,existing_full,-0.8752265761209393,negatif
+2145.02,Ahli Teknik Kimia Bahan Bakar,21,existing_full,-0.22489537455123637,negatif
+2145.03,Ahli Teknik Kimia Plastik,21,existing_full,-1.1571306553054126,negatif
+2146.01,Ahli Teknik Pertambangan (Umum),21,existing_full,-0.7808450685403742,negatif
+2146.02,Ahli Teknik Pertambangan Batu Bara,21,existing_full,-0.5544281198372608,negatif
+2146.03,Ahli Teknik Pertambangan Logam,21,existing_full,-0.6608425807321792,negatif
+2146.04,Ahli Teknik Pertambangan Minyak Bumi dan Gas Alam,21,existing_full,-0.6881743369230714,negatif
+2146.05,Ahli Metalurgi Ekstraksi,21,existing_full,-0.8449655841289082,negatif
+2146.06,Ahli Metalurgi Fisika,21,existing_full,-0.722446557538682,negatif
+2149.01,Ahli Teknik Keramik Dan Kaca,21,existing_full,-0.7204414655283286,negatif
+2149.02,Ahli Teknik Pertanian,21,existing_full,-0.8496908430181332,negatif
+2149.03,Ahli Teknik Bahan Makanan dan Minuman,21,existing_full,-0.610306372000663,negatif
+2149.04,Ahli Teknik Tekstil,21,existing_full,-0.6873806084536853,negatif
+2149.05,Ahli Teknik Perencanaan Sistem Lalu-Lintas,21,existing_full,0.3295742828059477,positif
+2149.06,Ahli Teknik Biomedis,21,existing_full,-0.723532425648986,negatif
+2149.07,Ahli Teknik Bahan Peledak,21,existing_full,-0.5639837804839762,negatif
+2149.08,Ahli Teknik Salvage (Penyelamatan Laut),21,existing_full,-1.2835928872568094,negatif
+2149.09,Ahli Teknik Keselamatan,21,existing_full,-0.753093456393112,negatif
+2149.10,Ahli Teknik Optikal,21,existing_full,-0.7469668705887458,negatif
+2151.01,Ahli Teknik Listrik (Umum),21,existing_full,-0.5729852462724485,negatif
+2151.02,Ahli Teknik Pembangkit Tenaga Listrik,21,existing_full,-0.4746151427204217,negatif
+2151.03,Ahli Teknik Distribusi dan Transmisi Tenaga Listrik,21,existing_full,-0.19327736008557866,negatif
+2151.04,Ahli Teknik Elektromekanik,21,existing_full,-0.8984219042230593,negatif
+2152.01,Ahli Teknik Elektronik (Umum),21,existing_full,-0.7433377910725263,negatif
+2152.02,Ahli Teknik Perangkat Keras Komputer,21,existing_full,-0.7720323373023099,negatif
+2152.03,Ahli Teknik Instrumentasi (Alat Ukur),21,existing_full,-0.18145343913608816,negatif
+2153.01,Ahli Teknik Telekomunikasi,21,existing_full,-1.0291601703605187,negatif
+2153.02,Ahli Teknik Penyiaran dan Audio Visual,21,existing_full,-0.783860577442012,negatif
+2153.03,Ahli Teknologi Rekayasa Telekomunikasi,21,existing_full,-1.1461839301847263,negatif
+2161.01,Arsitek Bangunan,21,existing_full,-0.8529918606890154,negatif
+2161.02,Arsitek Interior,21,existing_full,-0.7286907326820318,negatif
+2162.00,Arsitek Pertamanan/Lansekap,21,existing_full,-0.5326996027220908,negatif
+2163.01,Perancang Kostum,21,existing_full,-0.7421398292846255,negatif
+2163.02,Perancang Busana,21,existing_full,-1.1262918634647696,negatif
+2163.03,Perancang Perhiasan,21,existing_full,-0.7925792156699223,negatif
+2163.04,Perancang Produk Industri,21,existing_full,-0.9497701991439698,negatif
+2164.01,Perencana Lahan,21,existing_full,-0.4774780725133816,negatif
+2164.02,Perencana Tata Kota,21,existing_full,-0.9497663410807244,negatif
+2164.03,Perencana Lalu Lintas,21,existing_full,-0.4671571151936966,negatif
+2165.01,Surveyor Tanah,21,existing_full,-0.5929868987203356,negatif
+2165.02,Surveyor Pertambangan,21,existing_full,-0.5616715105545789,negatif
+2165.03,Surveyor Hidrografi,21,existing_full,-0.6487898436398188,negatif
+2165.04,Surveyor Topografi,21,existing_full,-0.5510328866541152,negatif
+2165.05,Surveyor Aerial,21,existing_full,-0.63055691075444,negatif
+2165.06,Surveyor Kadastral,21,existing_full,-0.3130355961284777,negatif
+2165.07,Ahli Pemetaan (Kartografer),21,existing_full,-0.6004670712866236,negatif
+2166.01,Animator,21,existing_full,-0.7707817323672532,negatif
+2166.02,Seniman Digital,21,existing_full,-0.5886744212755581,negatif
+2166.03,Perancang Grafis,21,existing_full,-0.8324502173124428,negatif
+2166.04,Ilustrator Teknik,21,existing_full,-0.8643899688874435,negatif
+2166.05,Perancang Permainan Interaktif,21,existing_full,-0.6340756097175257,negatif
+2166.06,Ilustrator,21,existing_full,-0.8659975187041695,negatif
+2166.07,Seniman Lithografi,21,existing_full,-0.44782230715420746,negatif
+2166.08,Desainer Multimedia,21,existing_full,-0.7325347830858855,negatif
+2166.09,Desainer Publikasi,21,existing_full,-0.5577182856971745,negatif
+2166.10,Desainer Website,21,existing_full,-0.9343240752719522,negatif
+2211.01,Dokter Umum,22,existing_full,-0.7474075050609504,negatif
+2211.02,Dokter Keluarga,22,existing_full,-0.5597039284164167,negatif
+2212.01,Dokter Spesialis Anestesi,22,existing_full,-1.125153797573993,negatif
+2212.02,Dokter Spesialis Jantung,22,existing_full,-0.987005008792303,negatif
+2212.03,Dokter Spesialis Kulit dan Kelamin,22,existing_full,-0.5361974408521497,negatif
+2212.04,"Dokter Spesialis Telinga, Hidung dan Tenggorokan",22,existing_full,-0.2568977721157367,negatif
+2212.05,Dokter Spesialis Kandungan,22,existing_full,-1.0750108580779227,negatif
+2212.06,Dokter Spesialis Mata,22,existing_full,-1.2184843391539704,negatif
+2212.07,Dokter Spesialis Anak,22,existing_full,-0.7166366248385396,negatif
+2212.08,Psikiater,22,existing_full,-0.4643769655306389,negatif
+2212.09,Dokter Spesialis Penyakit Dalam,22,existing_full,-0.9519264941923771,negatif
+2212.10,Dokter Spesialis Saraf,22,existing_full,-0.9570903164709706,negatif
+2212.11,Dokter Spesialis Patologi,22,existing_full,-1.081739331510804,negatif
+2212.12,Dokter Spesialis Paru,22,existing_full,-0.7402969601609659,negatif
+2212.13,Dokter Spesialis Radiologi,22,existing_full,-0.9946277841299297,negatif
+2212.14,Dokter Spesialis Bedah Umum,22,existing_full,-0.9962367097238733,negatif
+2212.15,Dokter Spesialis Bedah Digestif,22,existing_full,-0.8695878159335038,negatif
+2212.16,Dokter Spesialis Bedah Syaraf,22,existing_full,-1.0357264616489603,negatif
+2212.17,Dokter Spesialis Bedah Orthopedi dan Traumatologi,22,existing_full,-0.845703291328935,negatif
+2212.18,Dokter Spesialis Bedah Onkologi,22,existing_full,-0.9031233782807725,negatif
+2221.01,Perawat Ahli,22,existing_full,-0.8405512718969886,negatif
+2221.02,Perawat Spesialis,22,existing_full,-1.0537309305944262,negatif
+2221.03,Perawat Kesehatan Masyarakat,22,existing_full,-1.0842341997520324,negatif
+2221.04,Perawat Kesehatan Kerja,22,existing_full,-0.8992571583522071,negatif
+2221.05,Perawat,22,existing_full,-0.4320573362412915,negatif
+2221.06,Perawat Anastesi,22,existing_full,-0.9895321328068917,negatif
+2222.01,Bidan,22,existing_full,-0.6003631777553533,negatif
+2230.01,Ahli Akupuntur,22,existing_full,-1.0505768488076523,negatif
+2230.02,Ahli Pengobatan Herbal Cina,22,existing_full,-1.1024877675217195,negatif
+2230.03,Praktisi Ayurvedic,22,existing_full,-0.8324724413058974,negatif
+2230.04,Ahli Homeopati,22,existing_full,-0.7400310479475406,negatif
+2230.05,Ahli Naturopati,22,existing_full,-0.9270518643507639,negatif
+2230.06,Praktisi Unani,22,existing_full,-0.5457578952267859,negatif
+2240.01,Asisten Medik,22,existing_full,-0.6204933473223087,negatif
+2240.02,Paramedis,22,existing_full,-0.9273698327613402,negatif
+2240.03,Teknisi Bedah,22,existing_full,-0.6633539734576248,negatif
+2250.01,Dokter Hewan (Umum),22,existing_full,-0.7513815251023612,negatif
+2250.02,Dokter Hewan Kesehatan Masyarakat,22,existing_full,-1.005301593369153,negatif
+2250.03,Dokter Bedah Hewan,22,existing_full,-0.8571091117111568,negatif
+2250.04,Ahli Penyakit Hewan (Patologi),22,existing_full,-0.8159123792838634,negatif
+2250.05,Ahli Epidemiologi Hewan,22,existing_full,-0.8480707015454294,negatif
+2261.01,Dokter Gigi (Umum),22,existing_full,-0.9553980394556458,negatif
+2261.02,Dokter Gigi Kesehatan Masyarakat,22,existing_full,-1.0303929186811198,negatif
+2261.03,Asisten Bedah Gigi,22,existing_full,-1.046509432749217,negatif
+2261.04,Ahli Kesehatan Gigi,22,existing_full,-1.0299292391833517,negatif
+2261.05,Endodontist,22,existing_full,-0.6558412470172688,negatif
+2261.06,Ahli Bedah Mulut dan Maxillofacial,22,existing_full,-1.0328925228282682,negatif
+2261.07,Ahli Penyakit Mulut,22,existing_full,-0.9391295347365434,negatif
+2261.08,Ortodontis,22,existing_full,-0.5918756498436151,negatif
+2261.09,Paedodontist,22,existing_full,-0.5224527482698216,negatif
+2261.10,Periodontist,22,existing_full,-0.04170630957722783,negatif
+2261.11,Prosthodontist,22,existing_full,-0.5377181852580172,negatif
+2262.01,Apoteker,22,existing_full,-0.24775996256566302,negatif
+2263.01,Petugas Kesehatan Lingkungan,22,existing_full,-1.1097198281585556,negatif
+2263.02,Penasihat Kesehatan dan Keselamatan Kerja,22,existing_full,-0.45871110410195703,negatif
+2263.03,Ahli Proteksi Radiasi,22,existing_full,-0.7425867518469211,negatif
+2264.01,Ahli Fisioterapi,22,existing_full,-0.6155914815856474,negatif
+2264.02,Ahli Terapi Rehabilitasi,22,existing_full,-0.8427300942778497,negatif
+2264.03,Terapis Geriatri (Terapis Lansia),22,existing_full,-1.1836575993620686,negatif
+2264.04,Terapis Pediatri (Terapis Anak),22,existing_full,-1.2532449897223095,negatif
+2264.05,Terapis Ortopedi (Terapis Alat Gerak),22,existing_full,-0.7480257765128747,negatif
+2265.01,Ahli Diet (Umum),22,existing_full,-0.9815477691942442,negatif
+2265.02,Ahli Gizi Klinis,22,existing_full,-0.9122639565187166,negatif
+2265.03,Ahli Gizi Layanan Makanan,22,existing_full,-0.7819147388635268,negatif
+2265.04,Ahli Gizi Masyarakat,22,existing_full,-0.950886206506894,negatif
+2265.05,Ahli Gizi Olahraga,22,existing_full,-0.80650426663581,negatif
+2266.01,Ahli Terapi Pendengaran,22,existing_full,-0.6476128484224016,negatif
+2266.02,Ahli Terapi Bicara,22,existing_full,-0.48489489026977467,negatif
+2267.01,Optometrist,22,existing_full,-0.6387107811410343,negatif
+2267.02,Orthoptist,22,existing_full,-0.6185183088555621,negatif
+2269.01,Terapis Seni,22,existing_full,-0.5486212290654695,negatif
+2269.02,Terapis Tari dan Gerakan,22,existing_full,-0.9140041956536775,negatif
+2269.03,Okupasi Terapis,22,existing_full,-0.7784530032262815,negatif
+2269.04,Ahli Podiatri (Penyakit Kaki),22,existing_full,-0.8644055343655233,negatif
+2310.01,Dosen Ilmu Fisika,23,existing_full,-0.6338834613467513,negatif
+2310.02,Dosen Ilmu Teknik dan Arsitektur,23,existing_full,-0.8577662522188124,negatif
+2310.03,Dosen Ilmu Kedokteran dan Ilmu Hayati,23,existing_full,-0.683042258892672,negatif
+2310.04,Dosen Ilmu Matematika,23,existing_full,-0.8467589784467875,negatif
+2310.05,Dosen Ilmu Statistika,23,existing_full,-0.8339092306426814,negatif
+2310.06,Dosen Ilmu Ekonomi dan Administrasi Niaga,23,existing_full,-0.7267112949707952,negatif
+2310.07,Dosen Ilmu Hukum,23,existing_full,-0.4419700901965048,negatif
+2310.08,Dosen Ilmu Pendidikan,23,existing_full,-0.6483901624252231,negatif
+2310.09,Dosen Ilmu Pertanian,23,existing_full,-0.8028329938871293,negatif
+2310.10,Dosen Ilmu Sosial dan Politik,23,existing_full,-0.21377716311597628,negatif
+2310.11,"Dosen Ilmu Bahasa, Sastra, Budaya dan Sejarah",23,existing_full,0.5867570142479199,positif
+2310.12,Dosen Ilmu Keagamaan,23,existing_full,-0.7262182189609423,negatif
+2310.13,Dosen Ilmu Kesehatan Masyarakat,23,existing_full,-0.9819594354469365,negatif
+2310.14,"Dosen Ilmu Terapi Kesehatan, Kebidanan dan Yang Sejenis",23,existing_full,-0.9835499643540359,negatif
+2310.15,Dosen Ilmu Olahraga,23,existing_full,-0.7332811052949282,negatif
+2310.16,Dosen Ilmu Teknologi Industri,23,existing_full,-0.9329966924448464,negatif
+2310.17,Dosen Ilmu Komputer,23,existing_full,-0.8315209811993952,negatif
+2320.01,Instruktur Teknik Otomotif,23,existing_full,-0.7819632064881934,negatif
+2320.02,Instruktur Tata Rias,23,existing_full,-1.1757605963554654,negatif
+2320.03,Guru Pendidikan Kejuruan Menengah Pertama,23,existing_full,-0.9715624064880449,negatif
+2320.04,Guru Pendidikan Kejuruan Menengah Atas,23,existing_full,-0.9882991187686041,negatif
+2330.01,Guru Pendidikan Menengah Pertama,23,existing_full,-0.9155855233729013,negatif
+2330.02,Guru Pendidikan Menengah Atas,23,existing_full,-0.9879227194909843,negatif
+2341.00,Guru Sekolah Dasar,23,existing_full,-0.6373571212933252,negatif
+2342.01,Guru Taman Kanak-Kanak,23,existing_full,0.12953597775445566,positif
+2342.02,Guru Pendidikan Anak Usia Dini,23,existing_full,-0.32833998611601045,negatif
+2351.01,Koordinator Kurikulum,23,existing_full,-0.4076942107046466,negatif
+2351.02,Spesialis Metode Pendidikan,23,existing_full,-0.431890901661773,negatif
+2351.03,Pengawas Sekolah,23,existing_full,-0.6102324207448504,negatif
+2352.01,Guru Tunadaksa,23,existing_full,-0.2141666705307197,negatif
+2352.02,Guru Tuna Rungu,23,existing_full,-0.5695825701538085,negatif
+2352.03,Guru Tuna Netra,23,existing_full,-0.9278463626283666,negatif
+2354.01,Guru Gitar,23,existing_full,-0.24975614421538556,negatif
+2354.02,Guru Piano,23,existing_full,-0.3111960205197994,negatif
+2354.03,Guru Vokal,23,existing_full,-0.14141458530557285,negatif
+2354.04,Guru Biola,23,existing_full,-0.2365835679033324,negatif
+2355.01,Guru Tari,23,existing_full,-0.5757296787352825,negatif
+2355.02,Guru Teater/Drama,23,existing_full,-0.44690180246848654,negatif
+2355.03,Guru Lukis,23,existing_full,-0.4513841326670682,negatif
+2355.04,Guru Pahat/Ukir,23,existing_full,-0.32780165742322626,negatif
+2356.01,Pengajar Komputer,23,existing_full,-0.5492334964227206,negatif
+2356.02,Pengajar Software,23,existing_full,-0.41290402748890187,negatif
+2411.01,Akuntan,24,existing_full,-0.16986890714217096,negatif
+2411.02,Auditor,24,existing_full,-0.19668832703725472,negatif
+2411.03,Pengawas Keuangan,24,existing_full,-0.4721415219884141,negatif
+2411.04,Akuntan Manajemen,24,existing_full,-0.405114925430877,negatif
+2411.05,Akuntan Pajak,24,existing_full,-0.49089568543805884,negatif
+2412.01,Perencana Estate/Investasi Fisik,24,existing_full,-0.5985251789926169,negatif
+2412.02,Perencana Keuangan,24,existing_full,-0.5741976049986017,negatif
+2413.01,Analis Obligasi,24,existing_full,-0.5667916063595811,negatif
+2413.02,Konsultan Investasi,24,existing_full,-0.39393939019381574,negatif
+2421.01,Analis Organisasi dan Metode,24,existing_full,-0.27986262382339666,negatif
+2421.02,Konsultan Bisnis,24,existing_full,-0.5775358566420818,negatif
+2421.03,Konsultan Manajemen,24,existing_full,-0.31672484264512885,negatif
+2422.01,Analis Kebijakan,24,existing_full,-0.635730118004049,negatif
+2423.01,Penasihat Karir,24,existing_full,-0.35942078922347653,negatif
+2423.02,Analis Pekerjaan,24,existing_full,-0.8224486325977369,negatif
+2423.03,Analis Jabatan,24,existing_full,-0.8135593830894295,negatif
+2423.04,Konselor Bimbingan Kejuruan,24,existing_full,-0.7488879233847668,negatif
+2423.05,Pakar Sumber Daya Manusia,24,existing_full,0.14091428312161858,positif
+2423.06,Ahli Penempatan Kerja,24,existing_full,-0.6267735211417602,negatif
+2424.01,Petugas Pelatihan,24,existing_full,-0.9116196531999714,negatif
+2424.02,Spesialis Pengembangan Tenaga Kerja,24,existing_full,-0.5413229819697335,negatif
+2431.01,Spesialis periklanan,24,existing_full,-0.7360644539005519,negatif
+2431.02,Analis Penelitian Pasar,24,existing_full,-0.6565927609098783,negatif
+2431.03,Spesialis Pemasaran,24,existing_full,-0.7109143542799583,negatif
+2432.00,Profesional Hubungan Masyarakat,24,existing_full,-0.5190224769328928,negatif
+2433.01,Perwakilan Penjualan (Produk Industri),24,existing_full,-0.7664556075384638,negatif
+2433.02,Perwakilan Penjualan (Produk Medis dan Farmasi),24,existing_full,-0.7338457201473905,negatif
+2433.03,Perwakilan Penjualan Produk Teknik,24,existing_full,-0.43882809367180703,negatif
+2434.00,Profesional Penjualan Produk Teknologi Komunikasi dan Informasi,24,existing_full,-0.610405008240256,negatif
+2511.01,Analis Bisnis (TI),25,existing_full,-1.0326786060025452,negatif
+2511.02,Konsultan Sistem,25,existing_full,-0.5427748504296359,negatif
+2511.03,Desainer Sistem (TI),25,existing_full,-0.9873704853360927,negatif
+2512.01,Analis Programer,25,existing_full,-0.7406487157173789,negatif
+2512.02,Desainer Software,25,existing_full,-0.720922732371585,negatif
+2512.03,Pengembang Software,25,existing_full,-0.5964634063242338,negatif
+2512.04,Teknisi Perangkat Lunak,25,existing_full,-0.7291618294806708,negatif
+2513.01,Programmer Animasi,25,existing_full,-0.5297632504466447,negatif
+2513.02,Programmer Game Komputer,25,existing_full,-0.8416074508943168,negatif
+2513.03,Pengembang Internet,25,existing_full,-0.7698187852594649,negatif
+2513.04,Programmer Multimedia,25,existing_full,-0.6218058098223562,negatif
+2513.05,Arsitek Web,25,existing_full,-0.8597863614928468,negatif
+2513.06,Pengembang Web,25,existing_full,-0.9156240595091476,negatif
+2514.00,Pemrogram Aplikasi,25,existing_full,-0.6575307155541293,negatif
+2519.01,Analis Jaminan Kualitas (Komputer),25,existing_full,-0.6958993989933209,negatif
+2519.02,Tester Software,25,existing_full,-0.46795123164262176,negatif
+2519.03,Tester Sistem,25,existing_full,-0.4357690629951646,negatif
+2521.01,Administrator Database,25,existing_full,-0.7744553224854175,negatif
+2521.02,Analis Database,25,existing_full,-0.7397045908664366,negatif
+2521.03,Arsitek Database,25,existing_full,-0.4334114989633739,negatif
+2522.01,Administrator Sistem,25,existing_full,-0.8028713229471093,negatif
+2522.02,Administrator Jaringan,25,existing_full,-0.8474266851455536,negatif
+2523.01,Analis Komunikasi (Komputer),25,existing_full,-0.6273097209110643,negatif
+2523.02,Analis Jaringan,25,existing_full,-0.735214682160269,negatif
+2529.01,Spesialis Forensik Digital,25,existing_full,-1.1794225422570823,negatif
+2529.02,Spesialis Keamanan (TIK),25,existing_full,-0.7233772455519278,negatif
+2611.01,Pengacara,26,existing_full,-0.23596530736892893,negatif
+2611.02,Jaksa,26,existing_full,-0.27467496666196134,negatif
+2611.03,Penuntut Umum,26,existing_full,-0.7858895375705313,negatif
+2611.04,Penasihat Hukum,26,existing_full,-0.11202743665183748,negatif
+2612.00,Hakim,26,existing_full,-0.21968148714060887,negatif
+2619.01,Ahli Hukum (Selain Pengacara dan Hakim),26,existing_full,-0.13001244489311384,negatif
+2619.02,Notaris,26,existing_full,-0.11539416911579639,negatif
+2621.01,Pengarsip,26,existing_full,-0.31222379497186425,negatif
+2621.02,Kurator Galeri Seni,26,existing_full,-0.658135162132951,negatif
+2621.03,Kurator Museum,26,existing_full,-0.4112883058391167,negatif
+2622.01,Ahli Bibliografi,26,existing_full,-0.28263413006355653,negatif
+2622.02,Juru Katalog,26,existing_full,-0.5746104111607605,negatif
+2622.03,Pustakawan,26,existing_full,-0.22849337879286574,negatif
+2631.01,Ahli Ekonomi,26,existing_full,-0.5716985902983559,negatif
+2631.02,Ahli Ekonometrik,26,existing_full,-0.799947207350787,negatif
+2631.03,Penasehat Ekonomi,26,existing_full,-0.17543385798411318,negatif
+2631.04,Analis Ekonomi,26,existing_full,-0.6341946308835361,negatif
+2631.05,Ahli Ekonomi Perburuhan,26,existing_full,-0.21197901498930194,negatif
+2632.01,Ahli Antropologi,26,existing_full,-0.45363108986596146,negatif
+2632.02,Ahli Arkeologi,26,existing_full,-0.586868326693775,negatif
+2632.03,Ahi Etnologi,26,existing_full,-0.35197953146911515,negatif
+2632.04,Ahli Geografi,26,existing_full,-0.5954385740412742,negatif
+2632.05,Ahli Sosiologi,26,existing_full,-0.18760668216701049,negatif
+2633.01,Ahli Filsafat,26,existing_full,-0.4286181964736847,negatif
+2633.02,Ahli Sejarah,26,existing_full,-0.09847390169690524,negatif
+2633.03,Ahli Politik,26,existing_full,-0.4803329816363923,negatif
+2633.04,Ahli Genealogi (Ahli Silsilah),26,existing_full,0.2849140104840099,positif
+2634.01,Psikolog Klinis,26,existing_full,-0.45566527285031383,negatif
+2634.02,Psikolog Pendidikan,26,existing_full,-0.38596239211470307,negatif
+2634.03,Psikolog Organisasi,26,existing_full,-0.27523144150254714,negatif
+2634.04,Psikoterapis,26,existing_full,-0.28771425653571114,negatif
+2634.05,Psikolog Olahraga,26,existing_full,-0.5150244599753682,negatif
+2635.01,Konselor Kecanduan,26,existing_full,-0.33274614339532627,negatif
+2635.02,Konselor Dukacita,26,existing_full,0.29488478914111504,positif
+2635.03,Konselor Anak dan Remaja,26,existing_full,-0.3550974362991228,negatif
+2635.04,Konselor Keluarga,26,existing_full,-0.4346740776760363,negatif
+2635.05,Konselor Pernikahan,26,existing_full,-0.4903638386959198,negatif
+2635.06,Petugas Parole (Pembebasan Bersyarat),26,existing_full,-1.0660169677866627,negatif
+2635.07,Petugas Masa Percobaan,26,existing_full,-0.627542660287469,negatif
+2635.08,Pekerja Sosial,26,existing_full,-0.654131919928568,negatif
+2636.01,Imam Muslim,26,existing_full,-0.29428611689734546,negatif
+2636.02,Pendeta Katolik,26,existing_full,-0.6427099341156941,negatif
+2636.03,Pendeta Kristen,26,existing_full,-0.5959882917060975,negatif
+2636.04,Pendeta Hindu,26,existing_full,-0.5003449134278536,negatif
+2636.05,Pendeta Budha,26,existing_full,-0.7628158642194898,negatif
+2636.06,Pendeta Kong Hu Cu,26,existing_full,-0.26445511358379264,negatif
+2641.01,Penulis,26,existing_full,-0.26908026742839886,negatif
+2641.02,Editor Buku,26,existing_full,-0.29848413012938013,negatif
+2641.03,Penulis Esai,26,existing_full,-0.5331432842707156,negatif
+2641.04,Penulis Media Interaktif,26,existing_full,-0.5073652772375328,negatif
+2641.05,Novelis,26,existing_full,-0.8152748839086894,negatif
+2641.06,Penulis Drama,26,existing_full,-0.5356589420990204,negatif
+2641.07,Penulis Puisi (Penyair),26,existing_full,-1.0481026564211315,negatif
+2641.08,Penulis Script,26,existing_full,-0.7000826543237038,negatif
+2641.09,Penulis Pidato,26,existing_full,-0.3892366667570102,negatif
+2641.10,Penulis Teknis,26,existing_full,-0.32131495794672493,negatif
+2642.01,Wartawan,26,existing_full,-0.18521311957156594,negatif
+2642.02,Editor Copy,26,existing_full,-0.5991049760773761,negatif
+2642.03,Editor Surat Kabar,26,existing_full,-0.7014199221939084,negatif
+2642.04,Reporter Surat Kabar,26,existing_full,-0.6825637665600681,negatif
+2642.05,Wartawan Olahraga,26,existing_full,-0.7727009080339245,negatif
+2642.06,Sub Editor,26,existing_full,-0.23152031521086147,negatif
+2642.07,Reporter Berita TV/Radio,26,existing_full,-0.7751244978272689,negatif
+2643.01,Interpreter,26,existing_full,0.1012194648327613,positif
+2643.02,Leksikograf (Ahli Perkamusan),26,existing_full,-0.16154496301143328,negatif
+2643.03,Ahli Filologi (Manuskrip),26,existing_full,0.2590987212824551,positif
+2643.04,Juru Bahasa Isyarat (Sign Language Interpreter),26,existing_full,-0.20264591649831173,negatif
+2643.05,Subtitler,26,existing_full,-0.481626916164562,negatif
+2643.06,Penerjemah (Translator),26,existing_full,-0.405851909938414,negatif
+2651.01,Kartunis,26,existing_full,-0.671740375412329,negatif
+2651.02,Seniman Keramik,26,existing_full,-0.6824290298115492,negatif
+2651.03,Pemulih Gambar,26,existing_full,-0.8998452696920513,negatif
+2651.04,Pelukis Potret,26,existing_full,-0.7001589916395989,negatif
+2651.05,Pematung,26,existing_full,-0.815418791880801,negatif
+2652.01,Pemimpin Band,26,existing_full,-0.3474995343463547,negatif
+2652.02,Komposer,26,existing_full,-0.3726794342936245,negatif
+2652.03,Pemain Musik,26,existing_full,-0.619760118338538,negatif
+2652.04,Konduktor Musik,26,existing_full,-0.1951802649847817,negatif
+2652.05,Orchestrator,26,existing_full,-0.8433845605660659,negatif
+2652.06,Penyanyi,26,existing_full,-0.30357514649024464,negatif
+2653.01,Koreografer,26,existing_full,-1.1178128435779158,negatif
+2653.02,Penari Balet,26,existing_full,-1.1338467366562415,negatif
+2653.03,Penari Klub Malam,26,existing_full,-1.2020606203819861,negatif
+2653.04,Penari Jalan,26,existing_full,-0.7564163644082074,negatif
+2654.01,Sutradara Film Dokumenter,26,existing_full,-0.7561335184627216,negatif
+2654.02,Editor Film,26,existing_full,-0.5927603994202776,negatif
+2654.03,Sutradara Film,26,existing_full,-0.48896947073331004,negatif
+2654.04,Pengarah Fotografi,26,existing_full,-0.46563132685780706,negatif
+2654.05,Sutradara Panggung,26,existing_full,-0.34301924396966943,negatif
+2654.06,Pengarah Teknis,26,existing_full,-0.2475330630779628,negatif
+2654.07,Produser,26,existing_full,-0.18406944012687904,negatif
+2655.01,Aktor,26,existing_full,-0.08463686048265101,negatif
+2655.02,Artis Pantomim,26,existing_full,-1.3498570376274208,negatif
+2655.03,Pencerita,26,existing_full,-0.3616008197503674,negatif
+2656.01,Penyiar Radio,26,existing_full,-0.6680905304807808,negatif
+2656.02,Penyiar Televisi,26,existing_full,-0.7167714342876529,negatif
+2656.03,Pembaca Berita,26,existing_full,-0.562640076031701,negatif
+2656.04,Penyiar Olahraga,26,existing_full,-0.698849124875124,negatif
+2659.01,Pemain Akrobat,26,existing_full,-0.5099560697206973,negatif
+2659.02,Pemain Akrobat Udara,26,existing_full,-0.48568427486181376,negatif
+2659.03,Badut,26,existing_full,-0.13395254363197184,negatif
+2659.04,Ahli Hipnotis,26,existing_full,-0.8378538403370239,negatif
+2659.05,Pesulap,26,existing_full,-1.0878235828178868,negatif
+2659.06,Dalang,26,existing_full,-0.09929186681574985,negatif
+2659.07,Stand Up Komedian (Pelawak Tunggal),26,existing_full,-0.7896972648675588,negatif
+2659.08,Ventriloquist,26,existing_full,-0.3421542643818135,negatif
+2111.01,Ahli Fisika (Umum),21,informal,-1.4142130528247803,negatif
+2111.02,Ahli Fisika Nuklir,21,informal,-1.4142135418951238,negatif
+2111.03,Ahli Fisika Mekanika,21,informal,3.380940838404456e-08,positif
+2111.04,Ahli Fisika Panas,21,informal,-1.8418820801890945e-08,negatif
+2111.05,Ahli Fisika Sinar,21,informal,1.414213578742085,positif
+2111.06,Ahli Fisika Suara,21,informal,1.4142135711570458,positif
+2111.07,Ahli Fisika Listrik Dan Magnit,21,informal,1.4142135585675357,positif
+2111.08,Ahli Fisika Elektronika,21,informal,-7.887544950513359e-09,negatif
+2111.09,Ahli Fisika Medis,21,informal,-1.4142135219756318,negatif
+2111.10,Ahli Astronomi,21,informal,-1.4142135272387792,negatif
+2112.01,Ahli Meteorologi (Umum),21,informal,-1.4142135675971526,negatif
+2112.02,Ahli Klimatologi,21,informal,-1.4142135646214986,negatif
+2112.03,Ahli Prakiraan Cuaca,21,informal,1.414213566895994,positif
+2112.04,Ahli Hidrometeorologi,21,informal,-1.4142135476126287,negatif
+2113.01,Ahli Kimia (Umum),21,informal,-1.4142135414887407,negatif
+2113.02,Ahli Kimia Organik,21,informal,-1.414213577498122,negatif
+2113.03,Ahli Kimia Anorganik,21,informal,-1.4142135046881956,negatif
+2113.04,Ahli Kimia Fisika,21,informal,-5.369711975067304e-08,negatif
+2113.05,Ahli Kimia Analitik,21,informal,-1.4142135459491336,negatif
+2114.01,Ahli Geologi (Umum),21,informal,-1.4142135586940363,negatif
+2114.02,Ahli Geologi Kelautan,21,informal,-1.414213560894296,negatif
+2114.03,Ahli Geologi Pertambangan,21,informal,-1.4142135569890941,negatif
+2114.04,Ahli Geofisika (Umum),21,informal,-1.4142135407173133,negatif
+2114.05,Ahli Geofisika Kelautan,21,informal,-1.414213541710756,negatif
+2120.01,Ahli Matematika Murni,21,informal,-1.4142135876939053,negatif
+2120.02,Ahli Matematika Terapan,21,informal,-1.4142135794051656,negatif
+2120.03,Ahli Analisis Riset Operasi (Quality Control Management),21,informal,-1.4142135807636869,negatif
+2120.04,Aktuaris,21,informal,8.384517080628484e-09,positif
+2120.05,Ahli Statistika (Umum),21,informal,-1.414213534941076,negatif
+2120.06,Ahli Statistika Matematika,21,informal,-1.4142136343653111,negatif
+2120.07,Ahli Statistika (Terapan),21,informal,-1.414213564885437,negatif
+2131.01,Ahli Perilaku Hewan,21,informal,-1.414213549584658,negatif
+2131.02,Ahli Bakteriologi,21,informal,-1.4142135364104713,negatif
+2131.03,Ahli Biologi (Umum),21,informal,-1.414213596231165,negatif
+2131.04,Ahli Biologi Kelautan,21,informal,-1.41421354913521,negatif
+2131.05,Ahli Biologi Molekuler,21,informal,2.1025513108341443e-08,positif
+2131.06,Ahli Botani,21,informal,-1.4142135662392001,negatif
+2131.07,Ahli Zoologi,21,informal,-1.669201066256676e-08,negatif
+2131.08,Ahli Biokimia,21,informal,-1.4142135489440983,negatif
+2131.09,Ahli Anatomi,21,informal,-1.4142135557233537,negatif
+2131.10,Ahli Fisiologi,21,informal,8.124367845141478e-09,positif
+2131.11,Ahli Patologis Medis,21,informal,-1.4142135654457952,negatif
+2131.12,Ahli Patologi Hewan,21,informal,-1.4142135637725226,negatif
+2131.13,Ahli Farmakologi,21,informal,-1.414213549443987,negatif
+2132.01,Ahli Agronomi,21,informal,-1.4142135816973203,negatif
+2132.02,Ahli Kehutanan,21,informal,3.005920767851222e-08,positif
+2132.03,Ahli Penelitian Tanah,21,informal,-1.4142135497697756,negatif
+2132.04,Ahli Hortikultura,21,informal,-1.414213527322739,negatif
+2132.05,"Konsultan Pertanian, Kehutanan dan Perikanan",21,informal,1.4142135496792694,positif
+2133.01,Ahli Ekologi,21,informal,1.4142135590066331,positif
+2133.02,Analis Polusi Udara,21,informal,1.4142135261987587,positif
+2133.03,Ahli Konservasi,21,informal,4.3443607600224254e-09,positif
+2133.04,Auditor Lingkungan,21,informal,1.414213536409516,positif
+2133.05,Ilmuwan Lingkungan,21,informal,1.414213578271277,positif
+2133.06,Analis Mutu Air,21,informal,4.949890608507701e-08,positif
+2133.07,Konsultan Lingkungan,21,informal,1.4142135194091159,positif
+2141.01,Ahli Teknik Efisiensi Industri,21,informal,-1.4142135499255153,negatif
+2141.02,Ahli Teknik Sistem dan Metoda Kerja Industri,21,informal,-1.414213534720293,negatif
+2141.03,Ahli Teknik Pengukuran Kerja Industri,21,informal,-1.4142135410478678,negatif
+2141.04,Ahli Teknik Mesin Industri,21,informal,-1.4142135162426828,negatif
+2141.05,Ahli Teknik Produksi Industri,21,informal,-1.414213510365323,negatif
+2142.01,Ahli Teknik Sipil (Umum),21,informal,-1.4142135237514522,negatif
+2142.02,Ahli Teknik Konstruksi Bangunan,21,informal,-1.4142135691084694,negatif
+2142.03,Ahli Teknik Konstruksi Jalan,21,informal,-1.4142135442198855,negatif
+2142.04,Ahli Teknik Konstruksi Landasan Pesawat Udara.,21,informal,-1.4142135382373202,negatif
+2142.05,Ahli Teknik Konstruksi Jalan Kereta Api,21,informal,2.37377383305315e-08,positif
+2142.06,Ahli Teknik Konstruksi Jembatan,21,informal,-1.4142135570615282,negatif
+2142.07,Ahli Teknik Penyehatan Lingkungan,21,informal,-1.4142135054696472,negatif
+2142.08,Ahli Teknik Pengairan,21,informal,-1.4142135169463912,negatif
+2142.09,Ahli Teknik Mekanika Tanah,21,informal,-1.4142135536704339,negatif
+2143.01,Ahli Teknik Lingkungan,21,informal,-1.4142135685664305,negatif
+2143.02,Analis Lingkungan,21,informal,1.4142135673201697,positif
+2143.03,Spesialis Rehabilitasi Lingkungan,21,informal,-1.4142135491336543,negatif
+2144.01,Ahli Teknik Mesin (Umum),21,informal,-1.4142135397452844,negatif
+2144.02,Ahli Teknik Mesin Dan Peralatan Industri,21,informal,-1.4142135328615244,negatif
+2144.03,Ahli Teknik Mesin Motor Penggerak (Selain Mesin Kapal),21,informal,-1.4142135127885873,negatif
+2144.04,Ahli Teknik Mesin Kapal,21,informal,-1.4142135699390694,negatif
+2144.05,Ahli Teknik Konstruksi Kapal,21,informal,-1.4142135495699653,negatif
+2144.06,Ahli Teknik Industri Pesawat Terbang,21,informal,-1.414213494773303,negatif
+2144.07,Ahli Teknik Mobil,21,informal,1.4142135517587615,positif
+2144.08,"Ahli Teknik Pemanasan, Ventilasi dan Pendinginan",21,informal,-1.414213564620677,negatif
+2144.09,Ahli Teknik Mesin Tenaga Atom,21,informal,-2.7647022449173164e-09,negatif
+2145.01,Ahli Teknik Kimia (Umum),21,informal,-1.4142135866156458,negatif
+2145.02,Ahli Teknik Kimia Bahan Bakar,21,informal,7.853645389577224e-08,positif
+2145.03,Ahli Teknik Kimia Plastik,21,informal,-1.414213534914855,negatif
+2146.01,Ahli Teknik Pertambangan (Umum),21,informal,-1.4142135634254003,negatif
+2146.02,Ahli Teknik Pertambangan Batu Bara,21,informal,1.1657910969908869e-08,positif
+2146.03,Ahli Teknik Pertambangan Logam,21,informal,-1.4142135051872984,negatif
+2146.04,Ahli Teknik Pertambangan Minyak Bumi dan Gas Alam,21,informal,-1.4142135764665724,negatif
+2146.05,Ahli Metalurgi Ekstraksi,21,informal,-1.4142135336468076,negatif
+2146.06,Ahli Metalurgi Fisika,21,informal,-1.4142135159226323,negatif
+2149.01,Ahli Teknik Keramik Dan Kaca,21,informal,-1.4142135182769326,negatif
+2149.02,Ahli Teknik Pertanian,21,informal,-1.4142135191631273,negatif
+2149.03,Ahli Teknik Bahan Makanan dan Minuman,21,informal,-1.4142134790505274,negatif
+2149.04,Ahli Teknik Tekstil,21,informal,-1.4142135661535709,negatif
+2149.05,Ahli Teknik Perencanaan Sistem Lalu-Lintas,21,informal,1.4142135744554896,positif
+2149.06,Ahli Teknik Biomedis,21,informal,-1.41421356563363,negatif
+2149.07,Ahli Teknik Bahan Peledak,21,informal,-1.4142135364268162,negatif
+2149.08,Ahli Teknik Salvage (Penyelamatan Laut),21,informal,-1.4142135569391883,negatif
+2149.09,Ahli Teknik Keselamatan,21,informal,-1.4142135111474006,negatif
+2149.10,Ahli Teknik Optikal,21,informal,-1.4142135253983095,negatif
+2151.01,Ahli Teknik Listrik (Umum),21,informal,1.4142126949483842,positif
+2151.02,Ahli Teknik Pembangkit Tenaga Listrik,21,informal,-7.15504278048229e-09,negatif
+2151.03,Ahli Teknik Distribusi dan Transmisi Tenaga Listrik,21,informal,1.4142135080975584,positif
+2151.04,Ahli Teknik Elektromekanik,21,informal,-1.4142135829613853,negatif
+2152.01,Ahli Teknik Elektronik (Umum),21,informal,-1.4142135142407999,negatif
+2152.02,Ahli Teknik Perangkat Keras Komputer,21,informal,-1.414213569598696,negatif
+2152.03,Ahli Teknik Instrumentasi (Alat Ukur),21,informal,1.4142135540680316,positif
+2153.01,Ahli Teknik Telekomunikasi,21,informal,-1.4142135605019217,negatif
+2153.02,Ahli Teknik Penyiaran dan Audio Visual,21,informal,-1.41421354032889,negatif
+2153.03,Ahli Teknologi Rekayasa Telekomunikasi,21,informal,-1.414213524928369,negatif
+2161.01,Arsitek Bangunan,21,informal,-1.4142135650318162,negatif
+2161.02,Arsitek Interior,21,informal,1.414213531389513,positif
+2162.00,Arsitek Pertamanan/Lansekap,21,informal,-1.41421360894413,negatif
+2163.01,Perancang Kostum,21,informal,-1.4142136116436843,negatif
+2163.02,Perancang Busana,21,informal,-1.4142135635890758,negatif
+2163.03,Perancang Perhiasan,21,informal,-1.4142135290641407,negatif
+2163.04,Perancang Produk Industri,21,informal,-1.4142135913026346,negatif
+2164.01,Perencana Lahan,21,informal,1.4142135095311716,positif
+2164.02,Perencana Tata Kota,21,informal,-1.4142135301381649,negatif
+2164.03,Perencana Lalu Lintas,21,informal,1.4142135886557545,positif
+2165.01,Surveyor Tanah,21,informal,-1.4142135713662998,negatif
+2165.02,Surveyor Pertambangan,21,informal,-1.4142135510799254,negatif
+2165.03,Surveyor Hidrografi,21,informal,-1.4142135390437085,negatif
+2165.04,Surveyor Topografi,21,informal,-1.8709195637178766e-08,negatif
+2165.05,Surveyor Aerial,21,informal,-1.4142135402971099,negatif
+2165.06,Surveyor Kadastral,21,informal,-3.855621799608855e-08,negatif
+2165.07,Ahli Pemetaan (Kartografer),21,informal,-1.414213511901407,negatif
+2166.01,Animator,21,informal,1.4142135403759337,positif
+2166.02,Seniman Digital,21,informal,-1.4142135148976527,negatif
+2166.03,Perancang Grafis,21,informal,-1.4142135478423419,negatif
+2166.04,Ilustrator Teknik,21,informal,-1.4142135732424927,negatif
+2166.05,Perancang Permainan Interaktif,21,informal,-1.4142135652496033,negatif
+2166.06,Ilustrator,21,informal,-1.4142135405336522,negatif
+2166.07,Seniman Lithografi,21,informal,-1.4142135433592862,negatif
+2166.08,Desainer Multimedia,21,informal,-1.4142135632648523,negatif
+2166.09,Desainer Publikasi,21,informal,-1.414213508398372,negatif
+2166.10,Desainer Website,21,informal,-1.4142135415084254,negatif
+2211.01,Dokter Umum,22,informal,-1.414213547141908,negatif
+2211.02,Dokter Keluarga,22,informal,-1.4142135468429047,negatif
+2212.01,Dokter Spesialis Anestesi,22,informal,-1.4142135574776082,negatif
+2212.02,Dokter Spesialis Jantung,22,informal,-1.414213559690509,negatif
+2212.03,Dokter Spesialis Kulit dan Kelamin,22,informal,-1.414213554504658,negatif
+2212.04,"Dokter Spesialis Telinga, Hidung dan Tenggorokan",22,informal,-1.4142135547363996,negatif
+2212.05,Dokter Spesialis Kandungan,22,informal,-1.4142135626066725,negatif
+2212.06,Dokter Spesialis Mata,22,informal,-1.4142135392882826,negatif
+2212.07,Dokter Spesialis Anak,22,informal,-1.414213587594534,negatif
+2212.08,Psikiater,22,informal,1.4142135691592301,positif
+2212.09,Dokter Spesialis Penyakit Dalam,22,informal,-1.4142135861710905,negatif
+2212.10,Dokter Spesialis Saraf,22,informal,-1.414213586177159,negatif
+2212.11,Dokter Spesialis Patologi,22,informal,-1.414213602651281,negatif
+2212.12,Dokter Spesialis Paru,22,informal,-1.4142135703637044,negatif
+2212.13,Dokter Spesialis Radiologi,22,informal,-1.414213558252136,negatif
+2212.14,Dokter Spesialis Bedah Umum,22,informal,-1.4142136162573422,negatif
+2212.15,Dokter Spesialis Bedah Digestif,22,informal,-1.4142136325665806,negatif
+2212.16,Dokter Spesialis Bedah Syaraf,22,informal,-1.4142135744040303,negatif
+2212.17,Dokter Spesialis Bedah Orthopedi dan Traumatologi,22,informal,-1.414213585989333,negatif
+2212.18,Dokter Spesialis Bedah Onkologi,22,informal,-1.4142135279586727,negatif
+2221.01,Perawat Ahli,22,informal,-1.4142135550097725,negatif
+2221.02,Perawat Spesialis,22,informal,-1.4142135948774408,negatif
+2221.03,Perawat Kesehatan Masyarakat,22,informal,-1.4142135672485334,negatif
+2221.04,Perawat Kesehatan Kerja,22,informal,-1.414213572236314,negatif
+2221.05,Perawat,22,informal,-1.414213528376592,negatif
+2221.06,Perawat Anastesi,22,informal,-1.4142135468271535,negatif
+2222.01,Bidan,22,informal,-1.4142135439144552,negatif
+2230.01,Ahli Akupuntur,22,informal,-1.4142135881246294,negatif
+2230.02,Ahli Pengobatan Herbal Cina,22,informal,-1.4142135480026048,negatif
+2230.03,Praktisi Ayurvedic,22,informal,-1.4142135471738841,negatif
+2230.04,Ahli Homeopati,22,informal,-1.414213613305379,negatif
+2230.05,Ahli Naturopati,22,informal,-1.4142135822063104,negatif
+2230.06,Praktisi Unani,22,informal,1.414213595689585,positif
+2240.01,Asisten Medik,22,informal,-1.414213516400642,negatif
+2240.02,Paramedis,22,informal,-1.4142135754902483,negatif
+2240.03,Teknisi Bedah,22,informal,-1.4142135881639577,negatif
+2250.01,Dokter Hewan (Umum),22,informal,-1.4142135429055345,negatif
+2250.02,Dokter Hewan Kesehatan Masyarakat,22,informal,-1.4142135491874832,negatif
+2250.03,Dokter Bedah Hewan,22,informal,-1.4142136064953799,negatif
+2250.04,Ahli Penyakit Hewan (Patologi),22,informal,-1.414213529409108,negatif
+2250.05,Ahli Epidemiologi Hewan,22,informal,1.3969813750236426e-08,positif
+2261.01,Dokter Gigi (Umum),22,informal,-1.4142135908864164,negatif
+2261.02,Dokter Gigi Kesehatan Masyarakat,22,informal,-1.4142135542454894,negatif
+2261.03,Asisten Bedah Gigi,22,informal,-1.4142135390423491,negatif
+2261.04,Ahli Kesehatan Gigi,22,informal,-1.4142135490390833,negatif
+2261.05,Endodontist,22,informal,5.477281783683452e-08,positif
+2261.06,Ahli Bedah Mulut dan Maxillofacial,22,informal,-1.4142135197025616,negatif
+2261.07,Ahli Penyakit Mulut,22,informal,-1.4142135745700242,negatif
+2261.08,Ortodontis,22,informal,1.4142135653604142,positif
+2261.09,Paedodontist,22,informal,1.4142135795289756,positif
+2261.10,Periodontist,22,informal,1.414213599526243,positif
+2261.11,Prosthodontist,22,informal,1.4142135165097578,positif
+2262.01,Apoteker,22,informal,7.61555674078096e-09,positif
+2263.01,Petugas Kesehatan Lingkungan,22,informal,-1.414213582126897,negatif
+2263.02,Penasihat Kesehatan dan Keselamatan Kerja,22,informal,-1.4142135349420513,negatif
+2263.03,Ahli Proteksi Radiasi,22,informal,-1.4142135531668778,negatif
+2264.01,Ahli Fisioterapi,22,informal,-1.4142135404731238,negatif
+2264.02,Ahli Terapi Rehabilitasi,22,informal,-1.4142135478970377,negatif
+2264.03,Terapis Geriatri (Terapis Lansia),22,informal,-1.4142135448431628,negatif
+2264.04,Terapis Pediatri (Terapis Anak),22,informal,-1.4142135562781415,negatif
+2264.05,Terapis Ortopedi (Terapis Alat Gerak),22,informal,-1.4142135653320915,negatif
+2265.01,Ahli Diet (Umum),22,informal,-1.414213557175667,negatif
+2265.02,Ahli Gizi Klinis,22,informal,-1.414213548994411,negatif
+2265.03,Ahli Gizi Layanan Makanan,22,informal,-1.4142135401852682,negatif
+2265.04,Ahli Gizi Masyarakat,22,informal,-1.4142135295292464,negatif
+2265.05,Ahli Gizi Olahraga,22,informal,-1.414213482797329,negatif
+2266.01,Ahli Terapi Pendengaran,22,informal,-7.355123066155045e-09,negatif
+2266.02,Ahli Terapi Bicara,22,informal,-1.4142135332193422,negatif
+2267.01,Optometrist,22,informal,-1.414213560855295,negatif
+2267.02,Orthoptist,22,informal,1.3806876975053228e-08,positif
+2269.01,Terapis Seni,22,informal,1.4142135364256183,positif
+2269.02,Terapis Tari dan Gerakan,22,informal,-1.4142135186005338,negatif
+2269.03,Okupasi Terapis,22,informal,1.4142135388624917,positif
+2269.04,Ahli Podiatri (Penyakit Kaki),22,informal,-1.4142135151611401,negatif
+2310.01,Dosen Ilmu Fisika,23,informal,1.4142135517825796,positif
+2310.02,Dosen Ilmu Teknik dan Arsitektur,23,informal,-1.414213534002066,negatif
+2310.03,Dosen Ilmu Kedokteran dan Ilmu Hayati,23,informal,1.4142135743586748,positif
+2310.04,Dosen Ilmu Matematika,23,informal,-2.001015020347552e-09,negatif
+2310.05,Dosen Ilmu Statistika,23,informal,-1.4142135483965546,negatif
+2310.06,Dosen Ilmu Ekonomi dan Administrasi Niaga,23,informal,1.4142135451318132,positif
+2310.07,Dosen Ilmu Hukum,23,informal,1.4142135513324945,positif
+2310.08,Dosen Ilmu Pendidikan,23,informal,3.2781646730484226e-08,positif
+2310.09,Dosen Ilmu Pertanian,23,informal,1.414213596666149,positif
+2310.10,Dosen Ilmu Sosial dan Politik,23,informal,1.4142135670244196,positif
+2310.11,"Dosen Ilmu Bahasa, Sastra, Budaya dan Sejarah",23,informal,1.414213569852657,positif
+2310.12,Dosen Ilmu Keagamaan,23,informal,1.4142135824367028,positif
+2310.13,Dosen Ilmu Kesehatan Masyarakat,23,informal,-1.4142135557707154,negatif
+2310.14,"Dosen Ilmu Terapi Kesehatan, Kebidanan dan Yang Sejenis",23,informal,-1.4142135244497442,negatif
+2310.15,Dosen Ilmu Olahraga,23,informal,1.4142135218254612,positif
+2310.16,Dosen Ilmu Teknologi Industri,23,informal,-1.4142135568930907,negatif
+2310.17,Dosen Ilmu Komputer,23,informal,-1.4142135427912141,negatif
+2320.01,Instruktur Teknik Otomotif,23,informal,-1.4142135394992645,negatif
+2320.02,Instruktur Tata Rias,23,informal,-1.4142135347411786,negatif
+2320.03,Guru Pendidikan Kejuruan Menengah Pertama,23,informal,-1.4142135559428692,negatif
+2320.04,Guru Pendidikan Kejuruan Menengah Atas,23,informal,-1.4142135509905316,negatif
+2330.01,Guru Pendidikan Menengah Pertama,23,informal,-1.4142135929662047,negatif
+2330.02,Guru Pendidikan Menengah Atas,23,informal,-1.4142135403485816,negatif
+2341.00,Guru Sekolah Dasar,23,informal,-1.4142135322884068,negatif
+2342.01,Guru Taman Kanak-Kanak,23,informal,-1.4142135566733507,negatif
+2342.02,Guru Pendidikan Anak Usia Dini,23,informal,-1.4142135908902724,negatif
+2351.01,Koordinator Kurikulum,23,informal,1.4142135910929223,positif
+2351.02,Spesialis Metode Pendidikan,23,informal,1.4142135443391228,positif
+2351.03,Pengawas Sekolah,23,informal,-1.4142135990226652,negatif
+2352.01,Guru Tunadaksa,23,informal,-1.4142135375209195,negatif
+2352.02,Guru Tuna Rungu,23,informal,-1.414213593545036,negatif
+2352.03,Guru Tuna Netra,23,informal,-1.414213591191542,negatif
+2354.01,Guru Gitar,23,informal,-1.4142135251053758,negatif
+2354.02,Guru Piano,23,informal,-1.4142135398181799,negatif
+2354.03,Guru Vokal,23,informal,-1.4142135749738598,negatif
+2354.04,Guru Biola,23,informal,1.4142135256574715,positif
+2355.01,Guru Tari,23,informal,-1.4142135787478398,negatif
+2355.02,Guru Teater/Drama,23,informal,1.4142135580468396,positif
+2355.03,Guru Lukis,23,informal,1.4142135618178662,positif
+2355.04,Guru Pahat/Ukir,23,informal,-1.4142135848929693,negatif
+2356.01,Pengajar Komputer,23,informal,-1.4142135986500763,negatif
+2356.02,Pengajar Software,23,informal,-1.4142135323146792,negatif
+2411.01,Akuntan,24,informal,1.4142135435563263,positif
+2411.02,Auditor,24,informal,1.4142135739279542,positif
+2411.03,Pengawas Keuangan,24,informal,1.4142135824893527,positif
+2411.04,Akuntan Manajemen,24,informal,1.4142135395655582,positif
+2411.05,Akuntan Pajak,24,informal,1.414213581482188,positif
+2412.01,Perencana Estate/Investasi Fisik,24,informal,-1.414213548465177,negatif
+2412.02,Perencana Keuangan,24,informal,1.4142135817562624,positif
+2413.01,Analis Obligasi,24,informal,1.4142135850401405,positif
+2413.02,Konsultan Investasi,24,informal,1.4142135909657068,positif
+2421.01,Analis Organisasi dan Metode,24,informal,1.414213566940883,positif
+2421.02,Konsultan Bisnis,24,informal,-5.285723969628009e-09,negatif
+2421.03,Konsultan Manajemen,24,informal,1.4142135921844652,positif
+2422.01,Analis Kebijakan,24,informal,1.4142135994685754,positif
+2423.01,Penasihat Karir,24,informal,1.4142135302091496,positif
+2423.02,Analis Pekerjaan,24,informal,-1.4142135986628106,negatif
+2423.03,Analis Jabatan,24,informal,-1.4142135673063314,negatif
+2423.04,Konselor Bimbingan Kejuruan,24,informal,1.4142135351725718,positif
+2423.05,Pakar Sumber Daya Manusia,24,informal,1.41421352823947,positif
+2423.06,Ahli Penempatan Kerja,24,informal,-1.4142135312473316,negatif
+2424.01,Petugas Pelatihan,24,informal,-1.41421355029123,negatif
+2424.02,Spesialis Pengembangan Tenaga Kerja,24,informal,-1.4142135636335278,negatif
+2431.01,Spesialis periklanan,24,informal,-1.414213529300326,negatif
+2431.02,Analis Penelitian Pasar,24,informal,1.4142135670138432,positif
+2431.03,Spesialis Pemasaran,24,informal,2.7664475377164877e-08,positif
+2432.00,Profesional Hubungan Masyarakat,24,informal,1.4142135623734364,positif
+2433.01,Perwakilan Penjualan (Produk Industri),24,informal,-1.414213584888436,negatif
+2433.02,Perwakilan Penjualan (Produk Medis dan Farmasi),24,informal,-1.0544538797674363e-08,negatif
+2433.03,Perwakilan Penjualan Produk Teknik,24,informal,2.48487298515343e-08,positif
+2434.00,Profesional Penjualan Produk Teknologi Komunikasi dan Informasi,24,informal,-1.414213536580555,negatif
+2511.01,Analis Bisnis (TI),25,informal,-1.4142135729054988,negatif
+2511.02,Konsultan Sistem,25,informal,1.4142135274273293,positif
+2511.03,Desainer Sistem (TI),25,informal,-1.4142135328618335,negatif
+2512.01,Analis Programer,25,informal,-1.4142135290139053,negatif
+2512.02,Desainer Software,25,informal,-1.4142135642246787,negatif
+2512.03,Pengembang Software,25,informal,-1.4142135452994564,negatif
+2512.04,Teknisi Perangkat Lunak,25,informal,-1.4142135953230965,negatif
+2513.01,Programmer Animasi,25,informal,-1.414213561480119,negatif
+2513.02,Programmer Game Komputer,25,informal,-1.4142135362508634,negatif
+2513.03,Pengembang Internet,25,informal,-1.4142135351621112,negatif
+2513.04,Programmer Multimedia,25,informal,-1.4142135221040215,negatif
+2513.05,Arsitek Web,25,informal,-1.4142135373962792,negatif
+2513.06,Pengembang Web,25,informal,-1.4142135053916323,negatif
+2514.00,Pemrogram Aplikasi,25,informal,-1.4142135653634953,negatif
+2519.01,Analis Jaminan Kualitas (Komputer),25,informal,-1.4142135373151177,negatif
+2519.02,Tester Software,25,informal,-1.4142135626542784,negatif
+2519.03,Tester Sistem,25,informal,2.5283716009738555e-08,positif
+2521.01,Administrator Database,25,informal,-1.4142135454985119,negatif
+2521.02,Analis Database,25,informal,-1.4142135583482225,negatif
+2521.03,Arsitek Database,25,informal,-1.4142135513300675,negatif
+2522.01,Administrator Sistem,25,informal,-1.414213558463521,negatif
+2522.02,Administrator Jaringan,25,informal,-1.4142134954499899,negatif
+2523.01,Analis Komunikasi (Komputer),25,informal,-1.4142135238842521,negatif
+2523.02,Analis Jaringan,25,informal,-1.41421356584096,negatif
+2529.01,Spesialis Forensik Digital,25,informal,-1.4142135600519115,negatif
+2529.02,Spesialis Keamanan (TIK),25,informal,-1.4142135707776995,negatif
+2611.01,Pengacara,26,informal,1.4142135303379912,positif
+2611.02,Jaksa,26,informal,1.4142135467992674,positif
+2611.03,Penuntut Umum,26,informal,-1.4142135394049546,negatif
+2611.04,Penasihat Hukum,26,informal,1.4142135620250764,positif
+2612.00,Hakim,26,informal,1.4142135430580964,positif
+2619.01,Ahli Hukum (Selain Pengacara dan Hakim),26,informal,-1.4142135235788165,negatif
+2619.02,Notaris,26,informal,1.4142135405289018,positif
+2621.01,Pengarsip,26,informal,1.259408799469952e-09,positif
+2621.02,Kurator Galeri Seni,26,informal,1.4142135750212421,positif
+2621.03,Kurator Museum,26,informal,1.4142135585809292,positif
+2622.01,Ahli Bibliografi,26,informal,-1.414213595885479,negatif
+2622.02,Juru Katalog,26,informal,-1.414213515015391,negatif
+2622.03,Pustakawan,26,informal,1.414213549263009,positif
+2631.01,Ahli Ekonomi,26,informal,1.4142135268398066,positif
+2631.02,Ahli Ekonometrik,26,informal,-1.4370822865039656e-08,negatif
+2631.03,Penasehat Ekonomi,26,informal,1.4142135669216311,positif
+2631.04,Analis Ekonomi,26,informal,1.41421351859027,positif
+2631.05,Ahli Ekonomi Perburuhan,26,informal,1.4142135454750648,positif
+2632.01,Ahli Antropologi,26,informal,5.265775704366149e-09,positif
+2632.02,Ahli Arkeologi,26,informal,-1.4142135851790225,negatif
+2632.03,Ahi Etnologi,26,informal,-1.4142135665601114,negatif
+2632.04,Ahli Geografi,26,informal,-1.414213522594327,negatif
+2632.05,Ahli Sosiologi,26,informal,1.4142135684103132,positif
+2633.01,Ahli Filsafat,26,informal,1.4142136020444789,positif
+2633.02,Ahli Sejarah,26,informal,-1.4142135360224342,negatif
+2633.03,Ahli Politik,26,informal,1.4142135650269487,positif
+2633.04,Ahli Genealogi (Ahli Silsilah),26,informal,3.02886887793008e-08,positif
+2634.01,Psikolog Klinis,26,informal,1.4142135700414813,positif
+2634.02,Psikolog Pendidikan,26,informal,1.4142135598587213,positif
+2634.03,Psikolog Organisasi,26,informal,1.4142135532044282,positif
+2634.04,Psikoterapis,26,informal,1.4142135746404403,positif
+2634.05,Psikolog Olahraga,26,informal,1.414213519524191,positif
+2635.01,Konselor Kecanduan,26,informal,1.4142135310569675,positif
+2635.02,Konselor Dukacita,26,informal,1.414213561885621,positif
+2635.03,Konselor Anak dan Remaja,26,informal,-1.414213503243057,negatif
+2635.04,Konselor Keluarga,26,informal,1.4142135252282446,positif
+2635.05,Konselor Pernikahan,26,informal,1.5054076873965982e-08,positif
+2635.06,Petugas Parole (Pembebasan Bersyarat),26,informal,-1.414213520935451,negatif
+2635.07,Petugas Masa Percobaan,26,informal,-1.4142135073279312,negatif
+2635.08,Pekerja Sosial,26,informal,3.1051674120874395e-08,positif
+2636.01,Imam Muslim,26,informal,-1.868873500399104e-08,negatif
+2636.02,Pendeta Katolik,26,informal,1.4142135260329884,positif
+2636.03,Pendeta Kristen,26,informal,4.0544209101156525e-08,positif
+2636.04,Pendeta Hindu,26,informal,1.4141244863217595,positif
+2636.05,Pendeta Budha,26,informal,1.4142135743674467,positif
+2636.06,Pendeta Kong Hu Cu,26,informal,1.414213549458871,positif
+2641.01,Penulis,26,informal,-1.8803223755803344e-08,negatif
+2641.02,Editor Buku,26,informal,1.4142135748981008,positif
+2641.03,Penulis Esai,26,informal,1.4142135486056508,positif
+2641.04,Penulis Media Interaktif,26,informal,2.425793665938869e-08,positif
+2641.05,Novelis,26,informal,1.414213564151607,positif
+2641.06,Penulis Drama,26,informal,1.4142135755482008,positif
+2641.07,Penulis Puisi (Penyair),26,informal,-1.4142135180406719,negatif
+2641.08,Penulis Script,26,informal,-1.414213539363921,negatif
+2641.09,Penulis Pidato,26,informal,1.414213558282316,positif
+2641.10,Penulis Teknis,26,informal,-1.4142135432794367,negatif
+2642.01,Wartawan,26,informal,1.4142135197166577,positif
+2642.02,Editor Copy,26,informal,-1.4142135958450515,negatif
+2642.03,Editor Surat Kabar,26,informal,-1.4142135216146965,negatif
+2642.04,Reporter Surat Kabar,26,informal,-1.414213564954827,negatif
+2642.05,Wartawan Olahraga,26,informal,-1.4142135773947573,negatif
+2642.06,Sub Editor,26,informal,-1.4142135213004097,negatif
+2642.07,Reporter Berita TV/Radio,26,informal,-1.414213540529221,negatif
+2643.01,Interpreter,26,informal,1.41421354693917,positif
+2643.02,Leksikograf (Ahli Perkamusan),26,informal,-1.4142135879366275,negatif
+2643.03,Ahli Filologi (Manuskrip),26,informal,1.4142135523452177,positif
+2643.04,Juru Bahasa Isyarat (Sign Language Interpreter),26,informal,-1.4142135567665068,negatif
+2643.05,Subtitler,26,informal,1.4142135704722492,positif
+2643.06,Penerjemah (Translator),26,informal,-1.4142135514044094,negatif
+2651.01,Kartunis,26,informal,1.414213578181334,positif
+2651.02,Seniman Keramik,26,informal,1.2883751510095465e-08,positif
+2651.03,Pemulih Gambar,26,informal,-1.4142136108241266,negatif
+2651.04,Pelukis Potret,26,informal,-1.4142135070977444,negatif
+2651.05,Pematung,26,informal,-1.4142135233484319,negatif
+2652.01,Pemimpin Band,26,informal,1.4142136005435795,positif
+2652.02,Komposer,26,informal,-1.4142135420504474,negatif
+2652.03,Pemain Musik,26,informal,-1.4142135234938704,negatif
+2652.04,Konduktor Musik,26,informal,1.4142135380100058,positif
+2652.05,Orchestrator,26,informal,-2.997434822571421e-08,negatif
+2652.06,Penyanyi,26,informal,1.414213495696584,positif
+2653.01,Koreografer,26,informal,-1.414213562920517,negatif
+2653.02,Penari Balet,26,informal,-1.4142135493701407,negatif
+2653.03,Penari Klub Malam,26,informal,-1.4142135612815723,negatif
+2653.04,Penari Jalan,26,informal,-1.414213569029834,negatif
+2654.01,Sutradara Film Dokumenter,26,informal,1.41421351998599,positif
+2654.02,Editor Film,26,informal,9.552619917307936e-09,positif
+2654.03,Sutradara Film,26,informal,1.4142135573552732,positif
+2654.04,Pengarah Fotografi,26,informal,-1.414213574608016,negatif
+2654.05,Sutradara Panggung,26,informal,1.4142135921351535,positif
+2654.06,Pengarah Teknis,26,informal,-1.4142135308059536,negatif
+2654.07,Produser,26,informal,1.414213609106221,positif
+2655.01,Aktor,26,informal,1.4142135547532764,positif
+2655.02,Artis Pantomim,26,informal,-1.4142135880154667,negatif
+2655.03,Pencerita,26,informal,1.4142135686191963,positif
+2656.01,Penyiar Radio,26,informal,9.801078393323337e-09,positif
+2656.02,Penyiar Televisi,26,informal,-1.414213542535073,negatif
+2656.03,Pembaca Berita,26,informal,-1.414213586708147,negatif
+2656.04,Penyiar Olahraga,26,informal,-1.4142135136157556,negatif
+2659.01,Pemain Akrobat,26,informal,1.4142135324458,positif
+2659.02,Pemain Akrobat Udara,26,informal,-1.4142135368759448,negatif
+2659.03,Badut,26,informal,1.4142135369794515,positif
+2659.04,Ahli Hipnotis,26,informal,-1.4142135517573635,negatif
+2659.05,Pesulap,26,informal,-1.414213567631991,negatif
+2659.06,Dalang,26,informal,1.414213542544089,positif
+2659.07,Stand Up Komedian (Pelawak Tunggal),26,informal,-1.414213535067148,negatif
+2659.08,Ventriloquist,26,informal,1.4142136094417554,positif
+2111.01,Ahli Fisika (Umum),21,kinship,-0.6352899915902593,negatif
+2111.02,Ahli Fisika Nuklir,21,kinship,-0.5116590462517953,negatif
+2111.03,Ahli Fisika Mekanika,21,kinship,0.03443757498639147,positif
+2111.04,Ahli Fisika Panas,21,kinship,-0.12656361807763364,negatif
+2111.05,Ahli Fisika Sinar,21,kinship,-0.06511785253614366,negatif
+2111.06,Ahli Fisika Suara,21,kinship,0.20588708157327923,positif
+2111.07,Ahli Fisika Listrik Dan Magnit,21,kinship,-0.18723471795588018,negatif
+2111.08,Ahli Fisika Elektronika,21,kinship,-0.5828837249180413,negatif
+2111.09,Ahli Fisika Medis,21,kinship,-0.46480448623611814,negatif
+2111.10,Ahli Astronomi,21,kinship,-0.5231493914453902,negatif
+2112.01,Ahli Meteorologi (Umum),21,kinship,-1.2215624196647141,negatif
+2112.02,Ahli Klimatologi,21,kinship,-0.5024253127165199,negatif
+2112.03,Ahli Prakiraan Cuaca,21,kinship,-0.2261592166163539,negatif
+2112.04,Ahli Hidrometeorologi,21,kinship,-0.8844611180863731,negatif
+2113.01,Ahli Kimia (Umum),21,kinship,-0.6248878267577695,negatif
+2113.02,Ahli Kimia Organik,21,kinship,-0.5809753264816446,negatif
+2113.03,Ahli Kimia Anorganik,21,kinship,-0.749076129813429,negatif
+2113.04,Ahli Kimia Fisika,21,kinship,-0.647756882071654,negatif
+2113.05,Ahli Kimia Analitik,21,kinship,-0.5104321452486683,negatif
+2114.01,Ahli Geologi (Umum),21,kinship,-0.7996107761799369,negatif
+2114.02,Ahli Geologi Kelautan,21,kinship,-1.1050340263409317,negatif
+2114.03,Ahli Geologi Pertambangan,21,kinship,-0.9920619856312566,negatif
+2114.04,Ahli Geofisika (Umum),21,kinship,-0.8965893344611753,negatif
+2114.05,Ahli Geofisika Kelautan,21,kinship,-0.9712863448238531,negatif
+2120.01,Ahli Matematika Murni,21,kinship,-0.2508281805398767,negatif
+2120.02,Ahli Matematika Terapan,21,kinship,-1.2229827254825854,negatif
+2120.03,Ahli Analisis Riset Operasi (Quality Control Management),21,kinship,-0.48290490613867915,negatif
+2120.04,Aktuaris,21,kinship,-0.8960811388222867,negatif
+2120.05,Ahli Statistika (Umum),21,kinship,-0.4322751013098364,negatif
+2120.06,Ahli Statistika Matematika,21,kinship,-0.3905186208695318,negatif
+2120.07,Ahli Statistika (Terapan),21,kinship,-0.9430027304299664,negatif
+2131.01,Ahli Perilaku Hewan,21,kinship,-0.4219576488371145,negatif
+2131.02,Ahli Bakteriologi,21,kinship,-0.44141793821595454,negatif
+2131.03,Ahli Biologi (Umum),21,kinship,-0.5650351071428701,negatif
+2131.04,Ahli Biologi Kelautan,21,kinship,-0.8240136378225786,negatif
+2131.05,Ahli Biologi Molekuler,21,kinship,-0.4506966996489272,negatif
+2131.06,Ahli Botani,21,kinship,-0.9289569784659525,negatif
+2131.07,Ahli Zoologi,21,kinship,-0.5473259234536272,negatif
+2131.08,Ahli Biokimia,21,kinship,-0.19016099550283086,negatif
+2131.09,Ahli Anatomi,21,kinship,-0.340705439417075,negatif
+2131.10,Ahli Fisiologi,21,kinship,-0.3055030209632167,negatif
+2131.11,Ahli Patologis Medis,21,kinship,-0.3876012827572631,negatif
+2131.12,Ahli Patologi Hewan,21,kinship,-0.8906341156162996,negatif
+2131.13,Ahli Farmakologi,21,kinship,-0.5710075618856765,negatif
+2132.01,Ahli Agronomi,21,kinship,-0.9924686029875711,negatif
+2132.02,Ahli Kehutanan,21,kinship,-0.29010082053417896,negatif
+2132.03,Ahli Penelitian Tanah,21,kinship,-0.2509225219291529,negatif
+2132.04,Ahli Hortikultura,21,kinship,-0.7783872366668197,negatif
+2132.05,"Konsultan Pertanian, Kehutanan dan Perikanan",21,kinship,-0.2700944747754303,negatif
+2133.01,Ahli Ekologi,21,kinship,-0.10457033829204396,negatif
+2133.02,Analis Polusi Udara,21,kinship,-0.256044433386528,negatif
+2133.03,Ahli Konservasi,21,kinship,-0.11586067969619661,negatif
+2133.04,Auditor Lingkungan,21,kinship,-0.12522624334196905,negatif
+2133.05,Ilmuwan Lingkungan,21,kinship,-0.2129285402729225,negatif
+2133.06,Analis Mutu Air,21,kinship,-0.6167664761640652,negatif
+2133.07,Konsultan Lingkungan,21,kinship,-0.25059676519946894,negatif
+2141.01,Ahli Teknik Efisiensi Industri,21,kinship,-0.7708458620125866,negatif
+2141.02,Ahli Teknik Sistem dan Metoda Kerja Industri,21,kinship,-0.6093092083658335,negatif
+2141.03,Ahli Teknik Pengukuran Kerja Industri,21,kinship,-0.4300574669062929,negatif
+2141.04,Ahli Teknik Mesin Industri,21,kinship,-0.7025562229795177,negatif
+2141.05,Ahli Teknik Produksi Industri,21,kinship,-0.8775440455434123,negatif
+2142.01,Ahli Teknik Sipil (Umum),21,kinship,-0.48380474279355024,negatif
+2142.02,Ahli Teknik Konstruksi Bangunan,21,kinship,-1.0820277586625093,negatif
+2142.03,Ahli Teknik Konstruksi Jalan,21,kinship,-0.5387062431541016,negatif
+2142.04,Ahli Teknik Konstruksi Landasan Pesawat Udara.,21,kinship,-0.027269360768866484,negatif
+2142.05,Ahli Teknik Konstruksi Jalan Kereta Api,21,kinship,0.04697617163443855,positif
+2142.06,Ahli Teknik Konstruksi Jembatan,21,kinship,-1.0944124071549282,negatif
+2142.07,Ahli Teknik Penyehatan Lingkungan,21,kinship,-1.07137642349475,negatif
+2142.08,Ahli Teknik Pengairan,21,kinship,-0.4720580777849377,negatif
+2142.09,Ahli Teknik Mekanika Tanah,21,kinship,-0.23088334778223804,negatif
+2143.01,Ahli Teknik Lingkungan,21,kinship,-0.35468238756175596,negatif
+2143.02,Analis Lingkungan,21,kinship,-0.4777927994246789,negatif
+2143.03,Spesialis Rehabilitasi Lingkungan,21,kinship,-0.8386988545220306,negatif
+2144.01,Ahli Teknik Mesin (Umum),21,kinship,-0.19493127005425012,negatif
+2144.02,Ahli Teknik Mesin Dan Peralatan Industri,21,kinship,-0.6856041633695638,negatif
+2144.03,Ahli Teknik Mesin Motor Penggerak (Selain Mesin Kapal),21,kinship,-0.454236304233405,negatif
+2144.04,Ahli Teknik Mesin Kapal,21,kinship,-1.054675086237518,negatif
+2144.05,Ahli Teknik Konstruksi Kapal,21,kinship,-1.3372631548634302,negatif
+2144.06,Ahli Teknik Industri Pesawat Terbang,21,kinship,-0.5297281419177817,negatif
+2144.07,Ahli Teknik Mobil,21,kinship,-0.6273912656750948,negatif
+2144.08,"Ahli Teknik Pemanasan, Ventilasi dan Pendinginan",21,kinship,-0.10436962897445054,negatif
+2144.09,Ahli Teknik Mesin Tenaga Atom,21,kinship,-0.09714289505941857,negatif
+2145.01,Ahli Teknik Kimia (Umum),21,kinship,-0.6078051104643605,negatif
+2145.02,Ahli Teknik Kimia Bahan Bakar,21,kinship,-0.14366835720585475,negatif
+2145.03,Ahli Teknik Kimia Plastik,21,kinship,-1.0254371904105328,negatif
+2146.01,Ahli Teknik Pertambangan (Umum),21,kinship,-0.7512166714294164,negatif
+2146.02,Ahli Teknik Pertambangan Batu Bara,21,kinship,-1.0510698448165954,negatif
+2146.03,Ahli Teknik Pertambangan Logam,21,kinship,-0.8248837267382286,negatif
+2146.04,Ahli Teknik Pertambangan Minyak Bumi dan Gas Alam,21,kinship,-0.8910466060648682,negatif
+2146.05,Ahli Metalurgi Ekstraksi,21,kinship,-0.3955359072606242,negatif
+2146.06,Ahli Metalurgi Fisika,21,kinship,-0.5170122035534666,negatif
+2149.01,Ahli Teknik Keramik Dan Kaca,21,kinship,-1.116265368659566,negatif
+2149.02,Ahli Teknik Pertanian,21,kinship,-0.848463966933394,negatif
+2149.03,Ahli Teknik Bahan Makanan dan Minuman,21,kinship,-0.9095640380483712,negatif
+2149.04,Ahli Teknik Tekstil,21,kinship,-0.3969781903971301,negatif
+2149.05,Ahli Teknik Perencanaan Sistem Lalu-Lintas,21,kinship,-0.05030388094513954,negatif
+2149.06,Ahli Teknik Biomedis,21,kinship,-0.5219703718644761,negatif
+2149.07,Ahli Teknik Bahan Peledak,21,kinship,-0.9546861704239615,negatif
+2149.08,Ahli Teknik Salvage (Penyelamatan Laut),21,kinship,-1.2788275635595467,negatif
+2149.09,Ahli Teknik Keselamatan,21,kinship,-0.48505088734125706,negatif
+2149.10,Ahli Teknik Optikal,21,kinship,-0.5084554043974429,negatif
+2151.01,Ahli Teknik Listrik (Umum),21,kinship,-0.17429754242080023,negatif
+2151.02,Ahli Teknik Pembangkit Tenaga Listrik,21,kinship,-0.4654750626474947,negatif
+2151.03,Ahli Teknik Distribusi dan Transmisi Tenaga Listrik,21,kinship,0.3945746032979648,positif
+2151.04,Ahli Teknik Elektromekanik,21,kinship,-0.3355292823055712,negatif
+2152.01,Ahli Teknik Elektronik (Umum),21,kinship,-0.5502535821773954,negatif
+2152.02,Ahli Teknik Perangkat Keras Komputer,21,kinship,-0.9087123769453289,negatif
+2152.03,Ahli Teknik Instrumentasi (Alat Ukur),21,kinship,-0.6112258827934242,negatif
+2153.01,Ahli Teknik Telekomunikasi,21,kinship,-0.7001675314293266,negatif
+2153.02,Ahli Teknik Penyiaran dan Audio Visual,21,kinship,-0.6156266573362559,negatif
+2153.03,Ahli Teknologi Rekayasa Telekomunikasi,21,kinship,-1.0574134411780183,negatif
+2161.01,Arsitek Bangunan,21,kinship,-0.6929182281063986,negatif
+2161.02,Arsitek Interior,21,kinship,-0.6360074638169966,negatif
+2162.00,Arsitek Pertamanan/Lansekap,21,kinship,0.01133438101007278,positif
+2163.01,Perancang Kostum,21,kinship,-0.6542895022944913,negatif
+2163.02,Perancang Busana,21,kinship,-1.1732600319259265,negatif
+2163.03,Perancang Perhiasan,21,kinship,-1.0464795844466184,negatif
+2163.04,Perancang Produk Industri,21,kinship,-1.2871889170557789,negatif
+2164.01,Perencana Lahan,21,kinship,-0.41992998295329254,negatif
+2164.02,Perencana Tata Kota,21,kinship,-0.8305662104351035,negatif
+2164.03,Perencana Lalu Lintas,21,kinship,-0.35317942639892985,negatif
+2165.01,Surveyor Tanah,21,kinship,-0.6212409479221648,negatif
+2165.02,Surveyor Pertambangan,21,kinship,-0.4863298752799989,negatif
+2165.03,Surveyor Hidrografi,21,kinship,-0.6313877720318029,negatif
+2165.04,Surveyor Topografi,21,kinship,-0.7275186374945855,negatif
+2165.05,Surveyor Aerial,21,kinship,-0.39859546356575193,negatif
+2165.06,Surveyor Kadastral,21,kinship,-0.6836393299278153,negatif
+2165.07,Ahli Pemetaan (Kartografer),21,kinship,-0.7387567604322904,negatif
+2166.01,Animator,21,kinship,-0.42775165215632127,negatif
+2166.02,Seniman Digital,21,kinship,-0.027478805370786872,negatif
+2166.03,Perancang Grafis,21,kinship,-0.4974506974669034,negatif
+2166.04,Ilustrator Teknik,21,kinship,-0.7146793972533707,negatif
+2166.05,Perancang Permainan Interaktif,21,kinship,-0.1773456448566832,negatif
+2166.06,Ilustrator,21,kinship,-0.5081307030428109,negatif
+2166.07,Seniman Lithografi,21,kinship,-1.2963206615724534,negatif
+2166.08,Desainer Multimedia,21,kinship,-0.34619361732134535,negatif
+2166.09,Desainer Publikasi,21,kinship,-0.44820274721389064,negatif
+2166.10,Desainer Website,21,kinship,-1.140155726093056,negatif
+2211.01,Dokter Umum,22,kinship,-0.549671853760517,negatif
+2211.02,Dokter Keluarga,22,kinship,-0.354877685613306,negatif
+2212.01,Dokter Spesialis Anestesi,22,kinship,-1.0240487588923555,negatif
+2212.02,Dokter Spesialis Jantung,22,kinship,-0.7795880831589574,negatif
+2212.03,Dokter Spesialis Kulit dan Kelamin,22,kinship,-0.656849247803833,negatif
+2212.04,"Dokter Spesialis Telinga, Hidung dan Tenggorokan",22,kinship,-0.3348197002285162,negatif
+2212.05,Dokter Spesialis Kandungan,22,kinship,-1.0547070416811901,negatif
+2212.06,Dokter Spesialis Mata,22,kinship,-0.9482324005563674,negatif
+2212.07,Dokter Spesialis Anak,22,kinship,-0.7045762914880473,negatif
+2212.08,Psikiater,22,kinship,-0.47047175758576626,negatif
+2212.09,Dokter Spesialis Penyakit Dalam,22,kinship,-0.8899405506159255,negatif
+2212.10,Dokter Spesialis Saraf,22,kinship,-0.7522893422994235,negatif
+2212.11,Dokter Spesialis Patologi,22,kinship,-0.9006563853025686,negatif
+2212.12,Dokter Spesialis Paru,22,kinship,-0.5604054383713475,negatif
+2212.13,Dokter Spesialis Radiologi,22,kinship,-0.8765294406783408,negatif
+2212.14,Dokter Spesialis Bedah Umum,22,kinship,-0.9841978452745865,negatif
+2212.15,Dokter Spesialis Bedah Digestif,22,kinship,-1.0704598505553113,negatif
+2212.16,Dokter Spesialis Bedah Syaraf,22,kinship,-0.8072746890012688,negatif
+2212.17,Dokter Spesialis Bedah Orthopedi dan Traumatologi,22,kinship,-0.831311623768825,negatif
+2212.18,Dokter Spesialis Bedah Onkologi,22,kinship,-0.8160589247674017,negatif
+2221.01,Perawat Ahli,22,kinship,-0.6298868872945514,negatif
+2221.02,Perawat Spesialis,22,kinship,-0.9107229402246437,negatif
+2221.03,Perawat Kesehatan Masyarakat,22,kinship,-0.7476735211876289,negatif
+2221.04,Perawat Kesehatan Kerja,22,kinship,-0.5723836681757861,negatif
+2221.05,Perawat,22,kinship,0.11259683563730782,positif
+2221.06,Perawat Anastesi,22,kinship,-0.6550132495840494,negatif
+2222.01,Bidan,22,kinship,-0.489320675557412,negatif
+2230.01,Ahli Akupuntur,22,kinship,-0.485704761471176,negatif
+2230.02,Ahli Pengobatan Herbal Cina,22,kinship,-0.8736286623660008,negatif
+2230.03,Praktisi Ayurvedic,22,kinship,-1.3674912150184744,negatif
+2230.04,Ahli Homeopati,22,kinship,-0.8428783638636055,negatif
+2230.05,Ahli Naturopati,22,kinship,-0.5497717218888287,negatif
+2230.06,Praktisi Unani,22,kinship,-0.3071560927621062,negatif
+2240.01,Asisten Medik,22,kinship,-0.28952875895501984,negatif
+2240.02,Paramedis,22,kinship,-0.8485735381557695,negatif
+2240.03,Teknisi Bedah,22,kinship,-0.6253286588297109,negatif
+2250.01,Dokter Hewan (Umum),22,kinship,-0.8420532168365886,negatif
+2250.02,Dokter Hewan Kesehatan Masyarakat,22,kinship,-0.7311077923279787,negatif
+2250.03,Dokter Bedah Hewan,22,kinship,-0.9669783344737648,negatif
+2250.04,Ahli Penyakit Hewan (Patologi),22,kinship,-0.8275612451488087,negatif
+2250.05,Ahli Epidemiologi Hewan,22,kinship,-0.8471099448795743,negatif
+2261.01,Dokter Gigi (Umum),22,kinship,-0.8242342123682574,negatif
+2261.02,Dokter Gigi Kesehatan Masyarakat,22,kinship,-0.6390725514510838,negatif
+2261.03,Asisten Bedah Gigi,22,kinship,-0.8616037539022612,negatif
+2261.04,Ahli Kesehatan Gigi,22,kinship,-0.6695966208876367,negatif
+2261.05,Endodontist,22,kinship,-1.1507762958851744,negatif
+2261.06,Ahli Bedah Mulut dan Maxillofacial,22,kinship,-0.6953440235962347,negatif
+2261.07,Ahli Penyakit Mulut,22,kinship,-0.4653212256556568,negatif
+2261.08,Ortodontis,22,kinship,-0.8886159852713487,negatif
+2261.09,Paedodontist,22,kinship,-1.1189747377367194,negatif
+2261.10,Periodontist,22,kinship,-0.8560408867691236,negatif
+2261.11,Prosthodontist,22,kinship,-1.2225469462631813,negatif
+2262.01,Apoteker,22,kinship,0.5791479631792057,positif
+2263.01,Petugas Kesehatan Lingkungan,22,kinship,-0.7061881891280218,negatif
+2263.02,Penasihat Kesehatan dan Keselamatan Kerja,22,kinship,-0.4479995453396676,negatif
+2263.03,Ahli Proteksi Radiasi,22,kinship,-0.6053285402681268,negatif
+2264.01,Ahli Fisioterapi,22,kinship,-0.318079352937782,negatif
+2264.02,Ahli Terapi Rehabilitasi,22,kinship,-0.3092533864363561,negatif
+2264.03,Terapis Geriatri (Terapis Lansia),22,kinship,-1.1445371606351082,negatif
+2264.04,Terapis Pediatri (Terapis Anak),22,kinship,-1.0771595503766012,negatif
+2264.05,Terapis Ortopedi (Terapis Alat Gerak),22,kinship,-0.8764241609627862,negatif
+2265.01,Ahli Diet (Umum),22,kinship,-0.6236316297634676,negatif
+2265.02,Ahli Gizi Klinis,22,kinship,-0.6563853303510809,negatif
+2265.03,Ahli Gizi Layanan Makanan,22,kinship,-0.39882400125527867,negatif
+2265.04,Ahli Gizi Masyarakat,22,kinship,-0.7588271669255461,negatif
+2265.05,Ahli Gizi Olahraga,22,kinship,-0.5809850229399997,negatif
+2266.01,Ahli Terapi Pendengaran,22,kinship,-0.09476676859482573,negatif
+2266.02,Ahli Terapi Bicara,22,kinship,0.07090800414917764,positif
+2267.01,Optometrist,22,kinship,-0.4653568083374944,negatif
+2267.02,Orthoptist,22,kinship,-1.0648169567724417,negatif
+2269.01,Terapis Seni,22,kinship,-0.6524843449517193,negatif
+2269.02,Terapis Tari dan Gerakan,22,kinship,-0.9832035931133112,negatif
+2269.03,Okupasi Terapis,22,kinship,-0.4672167639691779,negatif
+2269.04,Ahli Podiatri (Penyakit Kaki),22,kinship,-0.9297270464120375,negatif
+2310.01,Dosen Ilmu Fisika,23,kinship,-0.7968894851041701,negatif
+2310.02,Dosen Ilmu Teknik dan Arsitektur,23,kinship,-0.8896461157000148,negatif
+2310.03,Dosen Ilmu Kedokteran dan Ilmu Hayati,23,kinship,-0.6378199474786974,negatif
+2310.04,Dosen Ilmu Matematika,23,kinship,-0.712520229765262,negatif
+2310.05,Dosen Ilmu Statistika,23,kinship,-0.5103841261619113,negatif
+2310.06,Dosen Ilmu Ekonomi dan Administrasi Niaga,23,kinship,-0.829776048441466,negatif
+2310.07,Dosen Ilmu Hukum,23,kinship,-0.1163909892516254,negatif
+2310.08,Dosen Ilmu Pendidikan,23,kinship,-0.2921803369123337,negatif
+2310.09,Dosen Ilmu Pertanian,23,kinship,-0.7490649410639509,negatif
+2310.10,Dosen Ilmu Sosial dan Politik,23,kinship,-0.01091549353227051,negatif
+2310.11,"Dosen Ilmu Bahasa, Sastra, Budaya dan Sejarah",23,kinship,0.9474499709767215,positif
+2310.12,Dosen Ilmu Keagamaan,23,kinship,-0.2603365698181331,negatif
+2310.13,Dosen Ilmu Kesehatan Masyarakat,23,kinship,-0.7815743605507124,negatif
+2310.14,"Dosen Ilmu Terapi Kesehatan, Kebidanan dan Yang Sejenis",23,kinship,-0.8384593844765194,negatif
+2310.15,Dosen Ilmu Olahraga,23,kinship,-0.6354446257779057,negatif
+2310.16,Dosen Ilmu Teknologi Industri,23,kinship,-1.057997190161056,negatif
+2310.17,Dosen Ilmu Komputer,23,kinship,-0.8099282554389939,negatif
+2320.01,Instruktur Teknik Otomotif,23,kinship,-0.8891071427206574,negatif
+2320.02,Instruktur Tata Rias,23,kinship,-1.1141604274015124,negatif
+2320.03,Guru Pendidikan Kejuruan Menengah Pertama,23,kinship,-0.8830111358966679,negatif
+2320.04,Guru Pendidikan Kejuruan Menengah Atas,23,kinship,-0.9185819871912859,negatif
+2330.01,Guru Pendidikan Menengah Pertama,23,kinship,-1.0547865182984466,negatif
+2330.02,Guru Pendidikan Menengah Atas,23,kinship,-1.282884500862425,negatif
+2341.00,Guru Sekolah Dasar,23,kinship,-0.6153508251562941,negatif
+2342.01,Guru Taman Kanak-Kanak,23,kinship,0.8500390106231499,positif
+2342.02,Guru Pendidikan Anak Usia Dini,23,kinship,0.1212826073022287,positif
+2351.01,Koordinator Kurikulum,23,kinship,-0.1568583159741669,negatif
+2351.02,Spesialis Metode Pendidikan,23,kinship,0.17415105760193547,positif
+2351.03,Pengawas Sekolah,23,kinship,-0.5124575788035491,negatif
+2352.01,Guru Tunadaksa,23,kinship,-0.07180162271920085,negatif
+2352.02,Guru Tuna Rungu,23,kinship,-0.6701653804050178,negatif
+2352.03,Guru Tuna Netra,23,kinship,-0.9139810808729586,negatif
+2354.01,Guru Gitar,23,kinship,0.4490978345547979,positif
+2354.02,Guru Piano,23,kinship,0.4505310408274017,positif
+2354.03,Guru Vokal,23,kinship,0.7153764393306739,positif
+2354.04,Guru Biola,23,kinship,0.38338140150855904,positif
+2355.01,Guru Tari,23,kinship,-0.42305608492120955,negatif
+2355.02,Guru Teater/Drama,23,kinship,-0.35855511678648677,negatif
+2355.03,Guru Lukis,23,kinship,0.17893810310884894,positif
+2355.04,Guru Pahat/Ukir,23,kinship,0.1280970022369856,positif
+2356.01,Pengajar Komputer,23,kinship,-0.3797728270010696,negatif
+2356.02,Pengajar Software,23,kinship,0.09648494544435907,positif
+2411.01,Akuntan,24,kinship,1.2010626472293162,positif
+2411.02,Auditor,24,kinship,1.007904580613574,positif
+2411.03,Pengawas Keuangan,24,kinship,-0.6678293253308805,negatif
+2411.04,Akuntan Manajemen,24,kinship,-0.10302467050545362,negatif
+2411.05,Akuntan Pajak,24,kinship,-0.04656137784851659,negatif
+2412.01,Perencana Estate/Investasi Fisik,24,kinship,-0.3276514308259713,negatif
+2412.02,Perencana Keuangan,24,kinship,-0.7894789471255317,negatif
+2413.01,Analis Obligasi,24,kinship,-0.3855520854742924,negatif
+2413.02,Konsultan Investasi,24,kinship,-0.32234201936846807,negatif
+2421.01,Analis Organisasi dan Metode,24,kinship,-0.2454079468197922,negatif
+2421.02,Konsultan Bisnis,24,kinship,-0.3313432286834542,negatif
+2421.03,Konsultan Manajemen,24,kinship,-0.37714076858227663,negatif
+2422.01,Analis Kebijakan,24,kinship,-0.5241723532523361,negatif
+2423.01,Penasihat Karir,24,kinship,0.044410988614853666,positif
+2423.02,Analis Pekerjaan,24,kinship,-0.5639900805759466,negatif
+2423.03,Analis Jabatan,24,kinship,-0.703095675234606,negatif
+2423.04,Konselor Bimbingan Kejuruan,24,kinship,-0.6139708808945459,negatif
+2423.05,Pakar Sumber Daya Manusia,24,kinship,0.6383480936295112,positif
+2423.06,Ahli Penempatan Kerja,24,kinship,-0.2119527464649551,negatif
+2424.01,Petugas Pelatihan,24,kinship,-0.9978172895655584,negatif
+2424.02,Spesialis Pengembangan Tenaga Kerja,24,kinship,-0.1671841220960011,negatif
+2431.01,Spesialis periklanan,24,kinship,-0.5254505934750575,negatif
+2431.02,Analis Penelitian Pasar,24,kinship,-0.6553688112446523,negatif
+2431.03,Spesialis Pemasaran,24,kinship,-0.6841419617364201,negatif
+2432.00,Profesional Hubungan Masyarakat,24,kinship,-0.2187385567584021,negatif
+2433.01,Perwakilan Penjualan (Produk Industri),24,kinship,-0.914878883573019,negatif
+2433.02,Perwakilan Penjualan (Produk Medis dan Farmasi),24,kinship,-0.7388598660324449,negatif
+2433.03,Perwakilan Penjualan Produk Teknik,24,kinship,-0.1703468805508387,negatif
+2434.00,Profesional Penjualan Produk Teknologi Komunikasi dan Informasi,24,kinship,-0.8974876002287396,negatif
+2511.01,Analis Bisnis (TI),25,kinship,-0.9994754784623452,negatif
+2511.02,Konsultan Sistem,25,kinship,-0.27887924908855893,negatif
+2511.03,Desainer Sistem (TI),25,kinship,-0.7714619328745471,negatif
+2512.01,Analis Programer,25,kinship,-0.7185198665062351,negatif
+2512.02,Desainer Software,25,kinship,-0.6439736801872739,negatif
+2512.03,Pengembang Software,25,kinship,-0.11613150331176325,negatif
+2512.04,Teknisi Perangkat Lunak,25,kinship,-1.139214092748338,negatif
+2513.01,Programmer Animasi,25,kinship,-0.38755054704242,negatif
+2513.02,Programmer Game Komputer,25,kinship,-0.6252105279536248,negatif
+2513.03,Pengembang Internet,25,kinship,-0.42787169303944445,negatif
+2513.04,Programmer Multimedia,25,kinship,-0.2392446725763731,negatif
+2513.05,Arsitek Web,25,kinship,-0.7290486564314108,negatif
+2513.06,Pengembang Web,25,kinship,-0.5393261276888592,negatif
+2514.00,Pemrogram Aplikasi,25,kinship,-0.10074980654988891,negatif
+2519.01,Analis Jaminan Kualitas (Komputer),25,kinship,-0.5527233524760939,negatif
+2519.02,Tester Software,25,kinship,-0.5030506843914315,negatif
+2519.03,Tester Sistem,25,kinship,-0.40671788143481036,negatif
+2521.01,Administrator Database,25,kinship,-0.45045012725430794,negatif
+2521.02,Analis Database,25,kinship,-0.4395107138828266,negatif
+2521.03,Arsitek Database,25,kinship,-0.08944448858644483,negatif
+2522.01,Administrator Sistem,25,kinship,-0.6046784161393746,negatif
+2522.02,Administrator Jaringan,25,kinship,-0.8249910812994063,negatif
+2523.01,Analis Komunikasi (Komputer),25,kinship,-0.7846733489037034,negatif
+2523.02,Analis Jaringan,25,kinship,-0.7866756055032645,negatif
+2529.01,Spesialis Forensik Digital,25,kinship,-0.58648636079825,negatif
+2529.02,Spesialis Keamanan (TIK),25,kinship,-0.6800586979804237,negatif
+2611.01,Pengacara,26,kinship,0.6230264946835141,positif
+2611.02,Jaksa,26,kinship,0.5290262985735453,positif
+2611.03,Penuntut Umum,26,kinship,-0.5648082667341241,negatif
+2611.04,Penasihat Hukum,26,kinship,0.6144997469834748,positif
+2612.00,Hakim,26,kinship,0.6817155210061246,positif
+2619.01,Ahli Hukum (Selain Pengacara dan Hakim),26,kinship,-0.08078915642131773,negatif
+2619.02,Notaris,26,kinship,1.092014605470956,positif
+2621.01,Pengarsip,26,kinship,1.0287057179415546,positif
+2621.02,Kurator Galeri Seni,26,kinship,-0.6989076358113888,negatif
+2621.03,Kurator Museum,26,kinship,-0.38750635229237185,negatif
+2622.01,Ahli Bibliografi,26,kinship,0.007209126285733003,positif
+2622.02,Juru Katalog,26,kinship,-0.5140704071322983,negatif
+2622.03,Pustakawan,26,kinship,0.5808693346623166,positif
+2631.01,Ahli Ekonomi,26,kinship,-0.24331044990916834,negatif
+2631.02,Ahli Ekonometrik,26,kinship,-0.6347714847796444,negatif
+2631.03,Penasehat Ekonomi,26,kinship,0.2533026130542391,positif
+2631.04,Analis Ekonomi,26,kinship,-0.34317013754913406,negatif
+2631.05,Ahli Ekonomi Perburuhan,26,kinship,0.16894960948892482,positif
+2632.01,Ahli Antropologi,26,kinship,0.055662214369728104,positif
+2632.02,Ahli Arkeologi,26,kinship,-0.18006832805215123,negatif
+2632.03,Ahi Etnologi,26,kinship,-0.34552170507903984,negatif
+2632.04,Ahli Geografi,26,kinship,-0.22756162676322905,negatif
+2632.05,Ahli Sosiologi,26,kinship,0.15962774434923452,positif
+2633.01,Ahli Filsafat,26,kinship,-0.30249957466901867,negatif
+2633.02,Ahli Sejarah,26,kinship,0.467513476448364,positif
+2633.03,Ahli Politik,26,kinship,-0.15240231169876584,negatif
+2633.04,Ahli Genealogi (Ahli Silsilah),26,kinship,0.22665629683177974,positif
+2634.01,Psikolog Klinis,26,kinship,-0.1333493541750709,negatif
+2634.02,Psikolog Pendidikan,26,kinship,0.07337417363808103,positif
+2634.03,Psikolog Organisasi,26,kinship,-0.0825677289308716,negatif
+2634.04,Psikoterapis,26,kinship,0.12483518114881681,positif
+2634.05,Psikolog Olahraga,26,kinship,-0.41685442934059413,negatif
+2635.01,Konselor Kecanduan,26,kinship,0.25953143441521254,positif
+2635.02,Konselor Dukacita,26,kinship,0.4790085979513554,positif
+2635.03,Konselor Anak dan Remaja,26,kinship,-0.2794711712425148,negatif
+2635.04,Konselor Keluarga,26,kinship,-0.06841130318740574,negatif
+2635.05,Konselor Pernikahan,26,kinship,-0.05599766947985406,negatif
+2635.06,Petugas Parole (Pembebasan Bersyarat),26,kinship,-0.7861111323988053,negatif
+2635.07,Petugas Masa Percobaan,26,kinship,-0.9156797293292149,negatif
+2635.08,Pekerja Sosial,26,kinship,-0.11930336192888846,negatif
+2636.01,Imam Muslim,26,kinship,0.21212287434404592,positif
+2636.02,Pendeta Katolik,26,kinship,-0.43866638106125366,negatif
+2636.03,Pendeta Kristen,26,kinship,-0.35722220187071196,negatif
+2636.04,Pendeta Hindu,26,kinship,-0.08116601391099226,negatif
+2636.05,Pendeta Budha,26,kinship,-0.9374916654778996,negatif
+2636.06,Pendeta Kong Hu Cu,26,kinship,-0.2805774037376181,negatif
+2641.01,Penulis,26,kinship,1.059852757347021,positif
+2641.02,Editor Buku,26,kinship,0.010399024369690691,positif
+2641.03,Penulis Esai,26,kinship,0.16515145397353065,positif
+2641.04,Penulis Media Interaktif,26,kinship,-0.4597531218662244,negatif
+2641.05,Novelis,26,kinship,-0.8550290922616072,negatif
+2641.06,Penulis Drama,26,kinship,-0.28707406540733216,negatif
+2641.07,Penulis Puisi (Penyair),26,kinship,-0.8853586032894829,negatif
+2641.08,Penulis Script,26,kinship,-0.08041357421501068,negatif
+2641.09,Penulis Pidato,26,kinship,0.1955690490356415,positif
+2641.10,Penulis Teknis,26,kinship,0.4236706095559157,positif
+2642.01,Wartawan,26,kinship,0.778180992211093,positif
+2642.02,Editor Copy,26,kinship,0.01283259733137393,positif
+2642.03,Editor Surat Kabar,26,kinship,-0.5328048708521351,negatif
+2642.04,Reporter Surat Kabar,26,kinship,-0.7782806199987333,negatif
+2642.05,Wartawan Olahraga,26,kinship,-0.724599684845963,negatif
+2642.06,Sub Editor,26,kinship,0.5518229171803312,positif
+2642.07,Reporter Berita TV/Radio,26,kinship,-0.5321057064626991,negatif
+2643.01,Interpreter,26,kinship,0.9093343906025635,positif
+2643.02,Leksikograf (Ahli Perkamusan),26,kinship,-0.3041832884502321,negatif
+2643.03,Ahli Filologi (Manuskrip),26,kinship,-0.26824631657382336,negatif
+2643.04,Juru Bahasa Isyarat (Sign Language Interpreter),26,kinship,-0.3021389565832373,negatif
+2643.05,Subtitler,26,kinship,-1.0484957453018175,negatif
+2643.06,Penerjemah (Translator),26,kinship,0.07217464434622856,positif
+2651.01,Kartunis,26,kinship,-0.2698666960667608,negatif
+2651.02,Seniman Keramik,26,kinship,-1.0882778379813876,negatif
+2651.03,Pemulih Gambar,26,kinship,0.11847878928489791,positif
+2651.04,Pelukis Potret,26,kinship,-0.32056981301952825,negatif
+2651.05,Pematung,26,kinship,-0.7512334339926361,negatif
+2652.01,Pemimpin Band,26,kinship,0.27584121467024003,positif
+2652.02,Komposer,26,kinship,0.08969185537436059,positif
+2652.03,Pemain Musik,26,kinship,-0.24252189194133045,negatif
+2652.04,Konduktor Musik,26,kinship,0.096693997956326,positif
+2652.05,Orchestrator,26,kinship,-1.2109500055366613,negatif
+2652.06,Penyanyi,26,kinship,0.6025716904462846,positif
+2653.01,Koreografer,26,kinship,-0.47419359600704813,negatif
+2653.02,Penari Balet,26,kinship,-0.9238398778523152,negatif
+2653.03,Penari Klub Malam,26,kinship,-1.2746217623023597,negatif
+2653.04,Penari Jalan,26,kinship,-0.7485562789686007,negatif
+2654.01,Sutradara Film Dokumenter,26,kinship,-0.9160818574535335,negatif
+2654.02,Editor Film,26,kinship,-0.3597478038436772,negatif
+2654.03,Sutradara Film,26,kinship,-0.3543738150190387,negatif
+2654.04,Pengarah Fotografi,26,kinship,0.905766873887055,positif
+2654.05,Sutradara Panggung,26,kinship,-0.14914445392863088,negatif
+2654.06,Pengarah Teknis,26,kinship,1.100795174996281,positif
+2654.07,Produser,26,kinship,0.5625906281712395,positif
+2655.01,Aktor,26,kinship,0.9883835666271577,positif
+2655.02,Artis Pantomim,26,kinship,-1.1265556619277945,negatif
+2655.03,Pencerita,26,kinship,0.6356169224619705,positif
+2656.01,Penyiar Radio,26,kinship,-0.440836792286285,negatif
+2656.02,Penyiar Televisi,26,kinship,-0.4131657016298272,negatif
+2656.03,Pembaca Berita,26,kinship,-0.22295211604311294,negatif
+2656.04,Penyiar Olahraga,26,kinship,-0.5547055483687975,negatif
+2659.01,Pemain Akrobat,26,kinship,-0.36557080425798877,negatif
+2659.02,Pemain Akrobat Udara,26,kinship,-0.18890602295663267,negatif
+2659.03,Badut,26,kinship,0.612744718506054,positif
+2659.04,Ahli Hipnotis,26,kinship,-0.6079734393382774,negatif
+2659.05,Pesulap,26,kinship,-1.663285316176837,negatif
+2659.06,Dalang,26,kinship,0.7668973477404165,positif
+2659.07,Stand Up Komedian (Pelawak Tunggal),26,kinship,-1.219562644987895,negatif
+2659.08,Ventriloquist,26,kinship,-0.6928295278889132,negatif

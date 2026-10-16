@@ -1,0 +1,9 @@
+stage,seconds
+data_preparation_seconds,0.13485980000405107
+input_hash_seconds,10.126994599995669
+model_load_seconds,18.867402999996557
+embedding_seconds,0.254738500007079
+main_scweat_seconds,0.20165730000007898
+lopo_seconds,0.7992165000032401
+validation_seconds,2.121877300000051
+total_elapsed_seconds,112.887967

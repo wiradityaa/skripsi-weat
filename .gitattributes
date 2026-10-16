@@ -1,0 +1,5 @@
+# Preserve audited artifact bytes, including their original whitespace.
+data/** -text -whitespace
+notebooks/** -text -whitespace
+outputs/** -text -whitespace
+archive/** -text -whitespace

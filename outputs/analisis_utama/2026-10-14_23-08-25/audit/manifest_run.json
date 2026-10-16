@@ -1,0 +1,673 @@
+{
+  "run_id": "2026-10-14_23-08-25",
+  "status": "complete",
+  "start_time": "2026-10-14T23:08:25.053065+07:00",
+  "config": {
+    "data_path": "data/kbji_profesional.csv",
+    "raw_verification_path": "data/validasi/kbji_profesional_sumber.csv",
+    "lexicon_path": "data/istilah_gender.csv",
+    "lexicon_historical_path": "data/validasi/istilah_gender_historis.csv",
+    "pdf_path": "data/kbji_2014.pdf",
+    "model_path": "models/cc.id.300.bin",
+    "model_source_url": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.id.300.bin.gz",
+    "model_documentation_url": "https://fasttext.cc/docs/en/crawl-vectors.html",
+    "ddof": 0,
+    "fdr_q": 0.05,
+    "atol": 1e-12,
+    "rtol": 1e-12,
+    "zero_atol": 0.0,
+    "random_seed": 42,
+    "group_order": [
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26"
+    ],
+    "expected_group_counts": {
+      "21": 138,
+      "22": 74,
+      "23": 42,
+      "24": 29,
+      "25": 26,
+      "26": 106
+    },
+    "preprocessing": {
+      "unicode": "NFKC",
+      "lowercase": true,
+      "quotes_deleted": "\"“”„‟‘’'",
+      "separators_to_space": "()/,.",
+      "nonprinting": "Cc/Cf menjadi spasi",
+      "whitespace": "collapse lalu strip",
+      "hyphen": "dipertahankan",
+      "other_punctuation": "dipertahankan"
+    },
+    "direction_palette": {
+      "positif": "#D55E00",
+      "negatif": "#7B61A8",
+      "nol": "#7A7A7A"
+    },
+    "figure_dpi": 300,
+    "top_n_each_direction": 15,
+    "heatmap_top_n": 30,
+    "heatmap_rows_per_page": 25,
+    "jitter_width": 0.12
+  },
+  "python": "3.13.15 (tags/v3.13.15:4061bc4, Aug  5 2026, 13:05:39) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "dependencies": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "scipy": "1.18.1",
+    "statsmodels": "0.15.0",
+    "matplotlib": "3.11.1",
+    "seaborn": "0.13.2",
+    "fasttext-community": "0.11.7",
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0",
+    "ipykernel": "7.3.0",
+    "jupyter": "1.1.1",
+    "nbconvert": "7.17.1"
+  },
+  "git_commit": "3133b37a4a907bfa612d1f356c779d36c8728288",
+  "git_status_at_start": " M AGENTS.md\n M README.md\nR  demo_v1_bias_gender_pekerjaan_scweat.ipynb -> archive/2026-10-14_eksperimen_lama/notebooks/demo_v1_bias_gender_pekerjaan_scweat.ipynb\nR  demo_v2_validasi_simulasi_scweat.ipynb -> archive/2026-10-14_eksperimen_lama/notebooks/demo_v2_validasi_simulasi_scweat.ipynb\nR  test1_v1_processing_data_kbji.ipynb -> archive/2026-10-14_eksperimen_lama/notebooks/test1_v1_processing_data_kbji.ipynb\nR  test1_v2_processing_data_kbji.ipynb -> archive/2026-10-14_eksperimen_lama/notebooks/test1_v2_processing_data_kbji.ipynb\nR  test1_v3_processing_data_kbji.ipynb -> archive/2026-10-14_eksperimen_lama/notebooks/test1_v3_processing_data_kbji.ipynb\nR  test1_v5_kbji_data_preprocessing.ipynb -> archive/2026-10-14_eksperimen_lama/notebooks/test1_v5_kbji_data_preprocessing.ipynb\nR  test2_v1_pipeline_scweat_fasttext.ipynb -> archive/2026-10-14_eksperimen_lama/notebooks/test2_v1_pipeline_scweat_fasttext.ipynb\nR  test2_v2_pipeline_scweat_fasttext.ipynb -> archive/2026-10-14_eksperimen_lama/notebooks/test2_v2_pipeline_scweat_fasttext.ipynb\nR  test2_v3_pipeline_scweat_model_comparison.ipynb -> archive/2026-10-14_eksperimen_lama/notebooks/test2_v3_pipeline_scweat_model_comparison.ipynb\nR  test2_v4_indobert_lpbs_pipeline.ipynb -> archive/2026-10-14_eksperimen_lama/notebooks/test2_v4_indobert_lpbs_pipeline.ipynb\nR  test2_v5_indobert_wseat_pipeline.ipynb -> archive/2026-10-14_eksperimen_lama/notebooks/test2_v5_indobert_wseat_pipeline.ipynb\nR  outputs/demo_v1_hasil_permutasi.csv -> archive/2026-10-14_eksperimen_lama/outputs/demo_v1_hasil_permutasi.csv\nR  outputs/demo_v1_hasil_scweat.csv -> archive/2026-10-14_eksperimen_lama/outputs/demo_v1_hasil_scweat.csv\nR  outputs/demo_v1_hasil_sensitivitas.csv -> archive/2026-10-14_eksperimen_lama/outputs/demo_v1_hasil_sensitivitas.csv\nR  outputs/demo_v1_ringkasan_kelompok.csv -> archive/2026-10-14_eksperimen_lama/outputs/demo_v1_ringkasan_kelompok.csv\nR  outputs/demo_v2_hasil_permutasi.csv -> archive/2026-10-14_eksperimen_lama/outputs/demo_v2_hasil_permutasi.csv\nR  outputs/demo_v2_hasil_scweat.csv -> archive/2026-10-14_eksperimen_lama/outputs/demo_v2_hasil_scweat.csv\nR  outputs/demo_v2_hasil_sensitivitas.csv -> archive/2026-10-14_eksperimen_lama/outputs/demo_v2_hasil_sensitivitas.csv\nR  outputs/demo_v2_ringkasan_kelompok.csv -> archive/2026-10-14_eksperimen_lama/outputs/demo_v2_ringkasan_kelompok.csv\nR  outputs/demo_v2_validasi_generator.csv -> archive/2026-10-14_eksperimen_lama/outputs/demo_v2_validasi_generator.csv\nR  outputs/tables/repository_cleanup_manifest.csv -> archive/2026-10-14_eksperimen_lama/outputs/tables/repository_cleanup_manifest.csv\nR  outputs/tables/test1_v5_data_cleaning_audit.csv -> archive/2026-10-14_eksperimen_lama/outputs/tables/test1_v5_data_cleaning_audit.csv\nR  outputs/tables/test1_v5_data_quality_summary.csv -> archive/2026-10-14_eksperimen_lama/outputs/tables/test1_v5_data_quality_summary.csv\nR  outputs/tables/test1_v5_gender_lexicon_audit.csv -> archive/2026-10-14_eksperimen_lama/outputs/tables/test1_v5_gender_lexicon_audit.csv\nR  outputs/tables/test1_v5_permutation_resolution.csv -> archive/2026-10-14_eksperimen_lama/outputs/tables/test1_v5_permutation_resolution.csv\nR  outputs/tables/test2_v5_contextual_embedding_audit.csv -> archive/2026-10-14_eksperimen_lama/outputs/tables/test2_v5_contextual_embedding_audit.csv\nR  outputs/tables/test2_v5_fasttext_comparison.csv -> archive/2026-10-14_eksperimen_lama/outputs/tables/test2_v5_fasttext_comparison.csv\nR  outputs/tables/test2_v5_group_summary.csv -> archive/2026-10-14_eksperimen_lama/outputs/tables/test2_v5_group_summary.csv\nR  outputs/tables/test2_v5_leave_one_pair_out.csv -> archive/2026-10-14_eksperimen_lama/outputs/tables/test2_v5_leave_one_pair_out.csv\nR  outputs/tables/test2_v5_leave_one_template_out.csv -> archive/2026-10-14_eksperimen_lama/outputs/tables/test2_v5_leave_one_template_out.csv\nR  outputs/tables/test2_v5_lexical_condition_comparison.csv -> archive/2026-10-14_eksperimen_lama/outputs/tables/test2_v5_lexical_condition_comparison.csv\nR  outputs/tables/test2_v5_occupation_summary.csv -> archive/2026-10-14_eksperimen_lama/outputs/tables/test2_v5_occupation_summary.csv\nR  outputs/tables/test2_v5_pooling_comparison.csv -> archive/2026-10-14_eksperimen_lama/outputs/tables/test2_v5_pooling_comparison.csv\nR  outputs/tables/test2_v5_posthoc_dunn.csv -> archive/2026-10-14_eksperimen_lama/outputs/tables/test2_v5_posthoc_dunn.csv\nR  outputs/tables/test2_v5_quality_control.csv -> archive/2026-10-14_eksperimen_lama/outputs/tables/test2_v5_quality_control.csv\nR  outputs/tables/test2_v5_run_metadata.json -> archive/2026-10-14_eksperimen_lama/outputs/tables/test2_v5_run_metadata.json\nR  outputs/tables/test2_v5_statistical_tests.csv -> archive/2026-10-14_eksperimen_lama/outputs/tables/test2_v5_statistical_tests.csv\nR  outputs/tables/test2_v5_template_stability.csv -> archive/2026-10-14_eksperimen_lama/outputs/tables/test2_v5_template_stability.csv\nR  outputs/tables/test2_v5_wseat_scores_long.csv -> archive/2026-10-14_eksperimen_lama/outputs/tables/test2_v5_wseat_scores_long.csv\nR  outputs/test_v1_audit_embedding.csv -> archive/2026-10-14_eksperimen_lama/outputs/test_v1_audit_embedding.csv\nR  outputs/test_v1_hasil_permutasi.csv -> archive/2026-10-14_eksperimen_lama/outputs/test_v1_hasil_permutasi.csv\nR  outputs/test_v1_hasil_scweat.csv -> archive/2026-10-14_eksperimen_lama/outputs/test_v1_hasil_scweat.csv\nR  outputs/test_v1_hasil_sensitivitas.csv -> archive/2026-10-14_eksperimen_lama/outputs/test_v1_hasil_sensitivitas.csv\nR  outputs/test_v1_ringkasan_golongan.csv -> archive/2026-10-14_eksperimen_lama/outputs/test_v1_ringkasan_golongan.csv\nR  outputs/test_v1_ringkasan_subgolongan_pokok.csv -> archive/2026-10-14_eksperimen_lama/outputs/test_v1_ringkasan_subgolongan_pokok.csv\nR  outputs/test_v1_validasi_pipeline.csv -> archive/2026-10-14_eksperimen_lama/outputs/test_v1_validasi_pipeline.csv\nR  outputs/test_v2_audit_embedding.csv -> archive/2026-10-14_eksperimen_lama/outputs/test_v2_audit_embedding.csv\nR  outputs/test_v2_audit_istilah_gender.csv -> archive/2026-10-14_eksperimen_lama/outputs/test_v2_audit_istilah_gender.csv\nR  outputs/test_v2_audit_model.csv -> archive/2026-10-14_eksperimen_lama/outputs/test_v2_audit_model.csv\nR  outputs/test_v2_hasil_permutasi.csv -> archive/2026-10-14_eksperimen_lama/outputs/test_v2_hasil_permutasi.csv\nR  outputs/test_v2_hasil_scweat.csv -> archive/2026-10-14_eksperimen_lama/outputs/test_v2_hasil_scweat.csv\nR  outputs/test_v2_hasil_sensitivitas_per_jabatan.csv -> archive/2026-10-14_eksperimen_lama/outputs/test_v2_hasil_sensitivitas_per_jabatan.csv\nR  outputs/test_v2_kontribusi_pasangan_gender.csv -> archive/2026-10-14_eksperimen_lama/outputs/test_v2_kontribusi_pasangan_gender.csv\nR  outputs/test_v2_nearest_neighbors.csv -> archive/2026-10-14_eksperimen_lama/outputs/test_v2_nearest_neighbors.csv\nR  outputs/test_v2_ringkasan_golongan.csv -> archive/2026-10-14_eksperimen_lama/outputs/test_v2_ringkasan_golongan.csv\nR  outputs/test_v2_ringkasan_sensitivitas_pasangan.csv -> archive/2026-10-14_eksperimen_lama/outputs/test_v2_ringkasan_sensitivitas_pasangan.csv\nR  outputs/test_v2_ringkasan_subgolongan_pokok.csv -> archive/2026-10-14_eksperimen_lama/outputs/test_v2_ringkasan_subgolongan_pokok.csv\nR  outputs/test_v2_sensitivitas_oov.csv -> archive/2026-10-14_eksperimen_lama/outputs/test_v2_sensitivitas_oov.csv\nR  outputs/test_v2_sensitivitas_representasi_frasa.csv -> archive/2026-10-14_eksperimen_lama/outputs/test_v2_sensitivitas_representasi_frasa.csv\nR  outputs/test_v2_validasi_pipeline.csv -> archive/2026-10-14_eksperimen_lama/outputs/test_v2_validasi_pipeline.csv\nR  outputs/test_v4_lpbs_fasttext_comparison.csv -> archive/2026-10-14_eksperimen_lama/outputs/test_v4_lpbs_fasttext_comparison.csv\nR  outputs/test_v4_lpbs_fasttext_group_comparison.csv -> archive/2026-10-14_eksperimen_lama/outputs/test_v4_lpbs_fasttext_group_comparison.csv\nR  outputs/test_v4_lpbs_group_summary.csv -> archive/2026-10-14_eksperimen_lama/outputs/test_v4_lpbs_group_summary.csv\nR  outputs/test_v4_lpbs_lexical_sensitivity.csv -> archive/2026-10-14_eksperimen_lama/outputs/test_v4_lpbs_lexical_sensitivity.csv\nR  outputs/test_v4_lpbs_occupation_summary.csv -> archive/2026-10-14_eksperimen_lama/outputs/test_v4_lpbs_occupation_summary.csv\nR  outputs/test_v4_lpbs_quality_control.csv -> archive/2026-10-14_eksperimen_lama/outputs/test_v4_lpbs_quality_control.csv\nR  outputs/test_v4_lpbs_scores_long.csv -> archive/2026-10-14_eksperimen_lama/outputs/test_v4_lpbs_scores_long.csv\nR  outputs/test_v4_lpbs_statistical_tests.csv -> archive/2026-10-14_eksperimen_lama/outputs/test_v4_lpbs_statistical_tests.csv\nR  outputs/test_v4_lpbs_template_stability.csv -> archive/2026-10-14_eksperimen_lama/outputs/test_v4_lpbs_template_stability.csv\nR  outputs/test_v4_lpbs_tokenization_audit.csv -> archive/2026-10-14_eksperimen_lama/outputs/test_v4_lpbs_tokenization_audit.csv\nR  outputs/test_v4_run_metadata.json -> archive/2026-10-14_eksperimen_lama/outputs/test_v4_run_metadata.json\nR  VERSI_DAN_PROGRESS.md -> archive/2026-10-14_eksperimen_lama/reports/VERSI_DAN_PROGRESS_legacy.md\nR  data/demo_v1_data_pekerjaan.csv -> archive/2026-10-14_penataan_berkas/data_tidak_relevan/demo_sintetis/demo_v1_data_pekerjaan.csv\nR  data/demo_v1_istilah_gender.csv -> archive/2026-10-14_penataan_berkas/data_tidak_relevan/demo_sintetis/demo_v1_istilah_gender.csv\nR  data/demo_v2_data_pekerjaan.csv -> archive/2026-10-14_penataan_berkas/data_tidak_relevan/demo_sintetis/demo_v2_data_pekerjaan.csv\nR  data/demo_v2_istilah_gender.csv -> archive/2026-10-14_penataan_berkas/data_tidak_relevan/demo_sintetis/demo_v2_istilah_gender.csv\nR  data/test_istilah_gender.csv -> archive/2026-10-14_penataan_berkas/data_tidak_relevan/versi_lama/test_istilah_gender.csv\nR  data/test_kbji_profesional_all.csv -> archive/2026-10-14_penataan_berkas/data_tidak_relevan/versi_lama/test_kbji_profesional_all.csv\nR  data/test_kbji_profesional_analysis.csv -> archive/2026-10-14_penataan_berkas/data_tidak_relevan/versi_lama/test_kbji_profesional_analysis.csv\nR  data/test_v2_kbji_profesional_analysis.csv -> archive/2026-10-14_penataan_berkas/data_tidak_relevan/versi_lama/test_v2_kbji_profesional_analysis.csv\nR  data/test_v3_istilah_gender.csv -> archive/2026-10-14_penataan_berkas/data_tidak_relevan/versi_lama/test_v3_istilah_gender.csv\nR  data/test_v3_kbji_profesional_all.csv -> archive/2026-10-14_penataan_berkas/data_tidak_relevan/versi_lama/test_v3_kbji_profesional_all.csv\nR  data/test_v3_kbji_profesional_analysis.csv -> archive/2026-10-14_penataan_berkas/data_tidak_relevan/versi_lama/test_v3_kbji_profesional_analysis.csv\nR  data/test_v2_istilah_gender.csv -> data/istilah_gender.csv\nR  \"data/KBJI 2014.pdf\" -> data/kbji_2014.pdf\nR  data/test1_v5_kbji_profesional_clean.csv -> data/kbji_profesional.csv\nR  data/test1_v5_gender_lexicon.csv -> data/validasi/istilah_gender_historis.csv\nR  data/test_v2_kbji_profesional_all.csv -> data/validasi/kbji_profesional_sumber.csv\n M requirements.txt\n?? archive/2026-10-14_eksperimen_lama/README.md\n?? archive/2026-10-14_eksperimen_lama/imports/\n?? archive/2026-10-14_eksperimen_lama/manifest_pemindahan.csv\n?? archive/2026-10-14_eksperimen_lama/notebooks/test2_v5_indobert_lpbs_robustness.ipynb\n?? archive/2026-10-14_eksperimen_lama/reports/AGENTS_legacy.md\n?? archive/2026-10-14_eksperimen_lama/reports/README_legacy.md\n?? archive/2026-10-14_penataan_berkas/README.md\n?? archive/2026-10-14_penataan_berkas/manifest_penataan.csv\n?? archive/2026-10-14_penataan_berkas/notebooks/\n?? data/README.md\n?? docs/\n?? notebooks/\n?? outputs/\n",
+  "notebook_source_sha256": "e232dee41ccca77c1875a33fb64a193f9843d889569b48de84e6a5da2c709fcf",
+  "notebook_path": "notebooks\\analisis_scweat_kbji.ipynb",
+  "file_renaming_manifest": "archive/2026-10-14_penataan_berkas/manifest_penataan.csv",
+  "end_time": "2026-10-14T23:10:20.882278+07:00",
+  "inputs": [
+    {
+      "role": "data_path",
+      "path": "data/kbji_profesional.csv",
+      "size_bytes": 134268,
+      "sha256": "83e19246b8490ce0c1ff5b186b0ace7f4ed4130a5fe3d23f519b21fe89875320"
+    },
+    {
+      "role": "raw_verification_path",
+      "path": "data/validasi/kbji_profesional_sumber.csv",
+      "size_bytes": 157614,
+      "sha256": "c0fd92dbd9db6a7a4b259f928bec99c91abd7faa5e3bc0ab764a9cacb1b23cf1"
+    },
+    {
+      "role": "lexicon_path",
+      "path": "data/istilah_gender.csv",
+      "size_bytes": 1079,
+      "sha256": "47a843ece93828d8bec59a2666fc414accf38a3c6dd66fed7c2b059247b6d4ed"
+    },
+    {
+      "role": "lexicon_historical_path",
+      "path": "data/validasi/istilah_gender_historis.csv",
+      "size_bytes": 1876,
+      "sha256": "6eea2db90065a64fcf958f9755adc6d776a781881dc91d989407d9d9c627f730"
+    },
+    {
+      "role": "pdf_path",
+      "path": "data/kbji_2014.pdf",
+      "size_bytes": 34550550,
+      "sha256": "a9831205cf1eaed796f85b29771169f52ce1c9c9a44c911e1ccaed6d31fdc3dc"
+    },
+    {
+      "role": "model_path",
+      "path": "models/cc.id.300.bin",
+      "size_bytes": 7236808873,
+      "sha256": "46e6e4c3975c2386f76c608c896cb36fa9c90f9d7f8212988c7eeb5ff41d235f"
+    }
+  ],
+  "model": {
+    "name": "cc.id.300.bin",
+    "size_bytes": 7236808873,
+    "dimension": 300,
+    "vocabulary_size": 2000000,
+    "sha256": "46e6e4c3975c2386f76c608c896cb36fa9c90f9d7f8212988c7eeb5ff41d235f",
+    "source_url": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.id.300.bin.gz",
+    "documentation_url": "https://fasttext.cc/docs/en/crawl-vectors.html",
+    "python_version": "3.13.15",
+    "fasttext_community_version": "0.11.7"
+  },
+  "timings_seconds": {
+    "data_preparation_seconds": 0.13485980000405107,
+    "input_hash_seconds": 10.126994599995669,
+    "model_load_seconds": 18.867402999996557,
+    "embedding_seconds": 0.254738500007079,
+    "main_scweat_seconds": 0.20165730000007898,
+    "lopo_seconds": 0.7992165000032401,
+    "validation_seconds": 2.121877300000051,
+    "total_elapsed_seconds": 112.887967
+  },
+  "counts": {
+    "raw_occupations": 501,
+    "residual": 85,
+    "gender_leakage": 1,
+    "occupations": 415,
+    "submajor_groups": 6,
+    "gender_pairs": 8,
+    "attributes": 16,
+    "partitions": 12870,
+    "lopo_combinations": 3320,
+    "quality_checks": 16,
+    "figures_static": 37,
+    "heatmap_pages": 17
+  },
+  "results_summary": {
+    "direction_counts": {
+      "positif": 105,
+      "negatif": 310,
+      "nol": 0
+    },
+    "raw_significant": 0,
+    "fdr_significant": 0,
+    "mean_effect_size": -0.17000248781172475,
+    "median_effect_size": -0.16762272435035247,
+    "jobs_all_directions_retained": 178,
+    "jobs_with_sign_flip": 237
+  },
+  "quality_control_passed": true,
+  "rm_answers": {
+    "RM1": "Pada 415 jabatan, terdapat 105 skor positif, 310 negatif, dan 0 nol. Effect size rata-rata -0.170002, median -0.167623, rentang -0.935940–0.905523. Hasil mentah p≤0,05: 0; setelah BH global: 0. Tidak signifikan bukan bukti tidak ada asosiasi.",
+    "RM2": "Enam kelompok memiliki jumlah 138, 74, 42, 29, 26, 106. Rata-rata tertinggi pada 21 (-0.100979), terendah pada 23 (-0.341921); SD kelompok 0.206298–0.312722. Perbandingan mean, median, rentang, proporsi dan signifikansi bersifat deskriptif; tidak ada uji beda kelompok.",
+    "RM3": "Dari delapan kondisi, 178 jabatan mempertahankan arah seluruhnya, 237 mengalami pembalikan positif↔negatif pada setidaknya satu kondisi. Pasangan dengan mean |delta| terbesar: pemuda–pemudi (0.267038); perubahan absolut maksimum seluruh jabatan 0.777140. Spearman 0.926615–0.988565; korelasi tinggi dapat bersama pembalikan. LOPO tidak menjalankan uji signifikansi tambahan."
+  },
+  "outputs": [
+    {
+      "path": "audit/audit_atribut.csv",
+      "size_bytes": 1059,
+      "sha256": "faf41fd408c4e619063cbdbf7034c23f777f77ea2c13fb43b5807c8e7a1bea7c"
+    },
+    {
+      "path": "audit/audit_input.csv",
+      "size_bytes": 732,
+      "sha256": "034c4f92fda7be8204c9a11801b5d6a1722b1dda0d632eb8e64f7291c4314393"
+    },
+    {
+      "path": "audit/audit_lexicon_historis.csv",
+      "size_bytes": 994,
+      "sha256": "7f4126f8de558ff2df34412606aed0a5fccf5a170847e3b6d22650658b7555d2"
+    },
+    {
+      "path": "audit/audit_oov_ringkasan.csv",
+      "size_bytes": 604,
+      "sha256": "1485527988dcba672cb57c86947dcd1380c8ed84c6af5278b9e333e08d6e6886"
+    },
+    {
+      "path": "audit/audit_perubahan_teks.csv",
+      "size_bytes": 84749,
+      "sha256": "900bfec4ceae7a306772cec48627d346c3199457240ed64b0ae7954e43e16bfd"
+    },
+    {
+      "path": "audit/audit_preparasi.csv",
+      "size_bytes": 84749,
+      "sha256": "900bfec4ceae7a306772cec48627d346c3199457240ed64b0ae7954e43e16bfd"
+    },
+    {
+      "path": "audit/audit_token.csv",
+      "size_bytes": 24250,
+      "sha256": "55bda3a9ef29fd934420f8dc2f81644674e3ba653125f9207ec7c03313baae73"
+    },
+    {
+      "path": "audit/audit_token_composition.csv",
+      "size_bytes": 81,
+      "sha256": "dd03743cac34208080d55fd7db8a0859bc2e7ea040430f8665a33f4934517693"
+    },
+    {
+      "path": "audit/audit_vektor.csv",
+      "size_bytes": 43464,
+      "sha256": "9beaa40eabcabf3fc934a593b8492a2eb82161b5294371b9bbb672e6a13b3a89"
+    },
+    {
+      "path": "audit/caption_figures.csv",
+      "size_bytes": 7908,
+      "sha256": "eb898fbfce2ff738eb1862f6a0c1e1c5954105174823b942914cf33e3afa1407"
+    },
+    {
+      "path": "audit/durasi.csv",
+      "size_bytes": 322,
+      "sha256": "9673fb84e9ea69831d2a55442cfcd2c676c3f24bb29318975c71350224af9fd7"
+    },
+    {
+      "path": "audit/jawaban_rm.json",
+      "size_bytes": 942,
+      "sha256": "55aa92d9b74bfd72808b1a40d16e38b8576c574b3a7ccd19b9fa4754e2ff3e73"
+    },
+    {
+      "path": "audit/schema_output.csv",
+      "size_bytes": 12418,
+      "sha256": "86d2a0b918c3c5699fa3f71b590e3ecf1bc1b14a602820ac0fd8a03c3b10a485"
+    },
+    {
+      "path": "audit/validasi.csv",
+      "size_bytes": 2244,
+      "sha256": "6c122409a32a4473aa4b40322cf710c278d5576c437ce4ebe0f733890f0eee3d"
+    },
+    {
+      "path": "audit/validasi_invariansi.csv",
+      "size_bytes": 155,
+      "sha256": "43908999fa731d331984197987c1aba8bfa1ef6f21d0a8ebfd0990d95584bb34"
+    },
+    {
+      "path": "audit/validasi_referensi.csv",
+      "size_bytes": 954,
+      "sha256": "353531d03765116e7037125be6e25b40ae4f8e18ec13b1992b7c61a52035d914"
+    },
+    {
+      "path": "figures/audit_oov.png",
+      "size_bytes": 55236,
+      "sha256": "8175eeba6cf8421d49025658c1ef562070943ffc6b525b929684cb0edf07cf88"
+    },
+    {
+      "path": "figures/audit_oov.svg",
+      "size_bytes": 7562,
+      "sha256": "a958f59796da605de68d37ca245da116c5473dde758cc90454ed33742f3aae0a"
+    },
+    {
+      "path": "figures/lopo_heatmap_lengkap.html",
+      "size_bytes": 389582,
+      "sha256": "26d19738a8104305047b8010028ee263dda7929981c4365d3b3ec61e6af3381d"
+    },
+    {
+      "path": "figures/persiapan_data.png",
+      "size_bytes": 174960,
+      "sha256": "1e6515f4c5223520329ea72af30553acaf72ff292e400380cbda55bcb4a9f677"
+    },
+    {
+      "path": "figures/persiapan_data.svg",
+      "size_bytes": 34159,
+      "sha256": "0edc8517c3c9f99592c3a4c1f6fdeca4a12b7b54497484733c689ba3224ed52d"
+    },
+    {
+      "path": "figures/rm1_cosine_male_female.png",
+      "size_bytes": 252327,
+      "sha256": "77c85871faf117b7aa36af0fd2b748e8c2074781e16f6e893fb2fb2465e18598"
+    },
+    {
+      "path": "figures/rm1_cosine_male_female.svg",
+      "size_bytes": 74974,
+      "sha256": "b40eeb49b98e69f03238c05fed69dbfa0a0b574611886b6b90d13e955754823c"
+    },
+    {
+      "path": "figures/rm1_effect_size_adjusted_pvalue.png",
+      "size_bytes": 129095,
+      "sha256": "97adbfa3fbd8ca03e284196addccc522deb2a2131a1af4106504a1ae0975df43"
+    },
+    {
+      "path": "figures/rm1_effect_size_adjusted_pvalue.svg",
+      "size_bytes": 97231,
+      "sha256": "5290f0b08557a77889e3a27e830febfcadbe1b74248575048a709af86d0756de"
+    },
+    {
+      "path": "figures/rm1_histogram_effect_size.png",
+      "size_bytes": 77318,
+      "sha256": "37e19b4e268cab451e6f2bfc896e465082f1a7440dc7ea702f90b155af28c85b"
+    },
+    {
+      "path": "figures/rm1_histogram_effect_size.svg",
+      "size_bytes": 17747,
+      "sha256": "b3e525b885ee14fbbb11ddfe6b44c5dc707663f6572d4651b9aea428c035c0b4"
+    },
+    {
+      "path": "figures/rm1_jabatan_ekstrem.png",
+      "size_bytes": 466679,
+      "sha256": "1f85a6447cd9f53505677c13da3a42476112d36b66287cd18d729671fa3ab74b"
+    },
+    {
+      "path": "figures/rm1_jabatan_ekstrem.svg",
+      "size_bytes": 35548,
+      "sha256": "4e8f8ab618b839bc0aa38255a828ade62e27303864fdefb18b224aece7a65e02"
+    },
+    {
+      "path": "figures/rm1_pvalue_bh.png",
+      "size_bytes": 122938,
+      "sha256": "6e39b2d996e63d706e62b5d1690be2f195b6c1b95f9b02beb97ebb30ebcb5e3d"
+    },
+    {
+      "path": "figures/rm1_pvalue_bh.svg",
+      "size_bytes": 18630,
+      "sha256": "ac08b3dbbdaea886fa26ce9c542e3bc5dd26e6d645d4d60d9738f22ffa70b2bc"
+    },
+    {
+      "path": "figures/rm2_boxplot_observasi.png",
+      "size_bytes": 320673,
+      "sha256": "fee95ebe4b49a35cc2341d48c4fe728ea8ae1480d6a083dfc373acdf7baf94fc"
+    },
+    {
+      "path": "figures/rm2_boxplot_observasi.svg",
+      "size_bytes": 103769,
+      "sha256": "be0f7431c5a7ea7e19aa1ad166a066a493f09250928cf98f1a352f3d3cf48827"
+    },
+    {
+      "path": "figures/rm2_ecdf.png",
+      "size_bytes": 171553,
+      "sha256": "20936836c5209cde2b26416dfbe87d0f5cb11e5c3a26514f559139f5c441b5d6"
+    },
+    {
+      "path": "figures/rm2_ecdf.svg",
+      "size_bytes": 36391,
+      "sha256": "c16080cc2dda333204c9570a2fa220ffa1ec19810dfb6b3f2b25331542d49c48"
+    },
+    {
+      "path": "figures/rm2_mean_median.png",
+      "size_bytes": 191851,
+      "sha256": "059f70e499eb5ee356c3a2be69cad72f9b6889adf13e93821faa3c7d85aa6150"
+    },
+    {
+      "path": "figures/rm2_mean_median.svg",
+      "size_bytes": 16652,
+      "sha256": "94ab22b38d1c3d1100164eb9661046ee19c774e3664513b6126d2139225d26af"
+    },
+    {
+      "path": "figures/rm2_proporsi_arah.png",
+      "size_bytes": 193444,
+      "sha256": "9d66fba2b15f1afa7c69c689997e423bdf1c49203c89796dad15c5204f355b3b"
+    },
+    {
+      "path": "figures/rm2_proporsi_arah.svg",
+      "size_bytes": 19242,
+      "sha256": "9ac9d24bd2b2c95c7eca3e2b677f55a022de597cec7a9ce2df50cc49998df15d"
+    },
+    {
+      "path": "figures/rm2_signifikan_global.png",
+      "size_bytes": 171170,
+      "sha256": "27d46474115993446359b55e6634d1130e4d0bd0582fc8a6595bc5200e39a018"
+    },
+    {
+      "path": "figures/rm2_signifikan_global.svg",
+      "size_bytes": 12979,
+      "sha256": "875c0903d8a40c51b0305f222caa2dce71f9c9c6d4f4d482cd176c103fdd5a6e"
+    },
+    {
+      "path": "figures/rm3_boxplot_delta.png",
+      "size_bytes": 151255,
+      "sha256": "6ac2d3ee54682b6347854b71ac9ccc7a3e81c5f762bd6f01e9f8bfa1e693beb0"
+    },
+    {
+      "path": "figures/rm3_boxplot_delta.svg",
+      "size_bytes": 34551,
+      "sha256": "2eeb6bae1366bbfa63f84e7147cb325418ac21a0b57fe595d628a1c340d755a9"
+    },
+    {
+      "path": "figures/rm3_distribusi_arah_dipertahankan.png",
+      "size_bytes": 89313,
+      "sha256": "1f12ff5baefc64f280d374bf2d5219cea21c92a8aa679894d1861e23e4af275f"
+    },
+    {
+      "path": "figures/rm3_distribusi_arah_dipertahankan.svg",
+      "size_bytes": 17119,
+      "sha256": "fdfd5ed736bcd496070c154970503d7f19bd4a05b23fe8ac3603d5bff0a49967"
+    },
+    {
+      "path": "figures/rm3_heatmap_lengkap_halaman_01.png",
+      "size_bytes": 732461,
+      "sha256": "295add6a08250e39be9c8370b0931474b55a2fcecffc7bf2324c400ebe168c42"
+    },
+    {
+      "path": "figures/rm3_heatmap_lengkap_halaman_01.svg",
+      "size_bytes": 122760,
+      "sha256": "f48c517cf875ba258a61fe6e774916b2c2597391ff5f8bae1ea53a057b028d2d"
+    },
+    {
+      "path": "figures/rm3_heatmap_lengkap_halaman_02.png",
+      "size_bytes": 742127,
+      "sha256": "2c6a1c6d83863ca7de817ef86ebdb47a8516b50b9ab20fc5e18a8f3fa50937d1"
+    },
+    {
+      "path": "figures/rm3_heatmap_lengkap_halaman_02.svg",
+      "size_bytes": 123022,
+      "sha256": "c4d6a36161b52dbfb329b42d35d0342686dd4702981188c10ee66b56c031761b"
+    },
+    {
+      "path": "figures/rm3_heatmap_lengkap_halaman_03.png",
+      "size_bytes": 780971,
+      "sha256": "814bd73381cf0156717a738e21522293efcdcd17d1ea8eb8bdd68786e973e434"
+    },
+    {
+      "path": "figures/rm3_heatmap_lengkap_halaman_03.svg",
+      "size_bytes": 123162,
+      "sha256": "46241a485da681b6559e27d32f55968c9b64bb1d17bf33a8d462c7ffc123399c"
+    },
+    {
+      "path": "figures/rm3_heatmap_lengkap_halaman_04.png",
+      "size_bytes": 791811,
+      "sha256": "7164c88733352ae3d64b28d521f4f8bae657249786a0eb34a0e7de597dd5466c"
+    },
+    {
+      "path": "figures/rm3_heatmap_lengkap_halaman_04.svg",
+      "size_bytes": 123382,
+      "sha256": "1e6a954176575e4cc6791aa5d8ec3e819d909cedf748787159035f63d0f6471e"
+    },
+    {
+      "path": "figures/rm3_heatmap_lengkap_halaman_05.png",
+      "size_bytes": 778565,
+      "sha256": "37f6adb49756c9ad454858566120c01e123221e25e2c67a07f1587d5aa9fea9b"
+    },
+    {
+      "path": "figures/rm3_heatmap_lengkap_halaman_05.svg",
+      "size_bytes": 122956,
+      "sha256": "5ea2d83662432ebba112665f3319f009e98ae3c2949e56bbda7383de0fe7e8a3"
+    },
+    {
+      "path": "figures/rm3_heatmap_lengkap_halaman_06.png",
+      "size_bytes": 761752,
+      "sha256": "9d0ab5d550e54b17c4759d86f288610156ddbe130b9c0889dc369cf6f27b5e3e"
+    },
+    {
+      "path": "figures/rm3_heatmap_lengkap_halaman_06.svg",
+      "size_bytes": 122911,
+      "sha256": "5961b293a5d5778bca40513c0b8c4edac2c511a9bf32ec990503d7c7b80b6417"
+    },
+    {
+      "path": "figures/rm3_heatmap_lengkap_halaman_07.png",
+      "size_bytes": 744341,
+      "sha256": "60040258adbbea359a2235234b500c787855e92fedcd9b3e987f0d1dacf5d32d"
+    },
+    {
+      "path": "figures/rm3_heatmap_lengkap_halaman_07.svg",
+      "size_bytes": 122880,
+      "sha256": "04ff2fea8955be4c20c81a1778eec3d41f396b9ff354a6a20f610455bd272782"
+    },
+    {
+      "path": "figures/rm3_heatmap_lengkap_halaman_08.png",
+      "size_bytes": 760951,
+      "sha256": "14ead316e852bc67af32084fbf1584e4894a3d1605aeb9cf4e2d38b829330a03"
+    },
+    {
+      "path": "figures/rm3_heatmap_lengkap_halaman_08.svg",
+      "size_bytes": 122795,
+      "sha256": "d210ef04d14b4bcc79faa8891ef0d4c74949d2870521a63578471fecd67d30c3"
+    },
+    {
+      "path": "figures/rm3_heatmap_lengkap_halaman_09.png",
+      "size_bytes": 773030,
+      "sha256": "77c00e47c6e3aed47d352417d697b68c087e077a25d68669361de0ce616da1e4"
+    },
+    {
+      "path": "figures/rm3_heatmap_lengkap_halaman_09.svg",
+      "size_bytes": 122901,
+      "sha256": "629eff604be1d99a51adb5dbcd6c59ddbba7a05e8f8040bdec210ac048b62907"
+    },
+    {
+      "path": "figures/rm3_heatmap_lengkap_halaman_10.png",
+      "size_bytes": 764979,
+      "sha256": "305ca05eb09a8f56f57a48055c2f666734f68b12d233270e7ab48e786057b348"
+    },
+    {
+      "path": "figures/rm3_heatmap_lengkap_halaman_10.svg",
+      "size_bytes": 122933,
+      "sha256": "ac89ade07ea40dedc32ee344d466cf356e8f366268fb47ac1b8a55e6fa1ff460"
+    },
+    {
+      "path": "figures/rm3_heatmap_lengkap_halaman_11.png",
+      "size_bytes": 742049,
+      "sha256": "0299eabeca850c51a1f85844eb14761b015ff713e3313654ea4cbc5b99fb2e0d"
+    },
+    {
+      "path": "figures/rm3_heatmap_lengkap_halaman_11.svg",
+      "size_bytes": 122699,
+      "sha256": "84a4e4555757f9b5c31e4c8e14b0eec589d2c5948598e39b31f688b5bf9232a4"
+    },
+    {
+      "path": "figures/rm3_heatmap_lengkap_halaman_12.png",
+      "size_bytes": 788241,
+      "sha256": "022cb88bcc07e3b39593e8ea374cadd8a76ff8a69d72b24d9a771504e249ee46"
+    },
+    {
+      "path": "figures/rm3_heatmap_lengkap_halaman_12.svg",
+      "size_bytes": 123112,
+      "sha256": "9c33f0aae83d51faf4a253d5fb52e420c218b4e38b5edc66f69ca3a7bce2ea61"
+    },
+    {
+      "path": "figures/rm3_heatmap_lengkap_halaman_13.png",
+      "size_bytes": 749906,
+      "sha256": "6f4a5af6d3497ef8f1fbcfd46a5e03cae64383d06b14e1fc015687be7ffb7216"
+    },
+    {
+      "path": "figures/rm3_heatmap_lengkap_halaman_13.svg",
+      "size_bytes": 122587,
+      "sha256": "2198322b82eb7bf8f896f0bfe703b6e408823925811e0024166fae697e0d2ca2"
+    },
+    {
+      "path": "figures/rm3_heatmap_lengkap_halaman_14.png",
+      "size_bytes": 757503,
+      "sha256": "6b5225d51b02b23759005d9fea6c47552a42f04b225bf30edf3180abc96038cb"
+    },
+    {
+      "path": "figures/rm3_heatmap_lengkap_halaman_14.svg",
+      "size_bytes": 122680,
+      "sha256": "d6651878dda0e2eb23456189273f527ae4f13097553efcfa41581f9d286bc98c"
+    },
+    {
+      "path": "figures/rm3_heatmap_lengkap_halaman_15.png",
+      "size_bytes": 753974,
+      "sha256": "92dc036857237b94234afd20f9d8d836a4b23095b5f30fd8753a438c9fcdadcb"
+    },
+    {
+      "path": "figures/rm3_heatmap_lengkap_halaman_15.svg",
+      "size_bytes": 122618,
+      "sha256": "447512ed92ee960f681c66dbf7d473eec97518fb70d787a0f99c080501ff0c8c"
+    },
+    {
+      "path": "figures/rm3_heatmap_lengkap_halaman_16.png",
+      "size_bytes": 753579,
+      "sha256": "6b6a6997793d6378eb921c7c3a58e8fb24a13f8b68bcecdfa9cd498d724d4e7d"
+    },
+    {
+      "path": "figures/rm3_heatmap_lengkap_halaman_16.svg",
+      "size_bytes": 122768,
+      "sha256": "bdf0c5f2c8c7767d1721f1441b373bd7448a5bf33379cb1ff2cfa4397fec0d07"
+    },
+    {
+      "path": "figures/rm3_heatmap_lengkap_halaman_17.png",
+      "size_bytes": 512692,
+      "sha256": "1b8e268e98c7274e837a164b860ac65b130f9ef542a99d0460d19426eb77f0c8"
+    },
+    {
+      "path": "figures/rm3_heatmap_lengkap_halaman_17.svg",
+      "size_bytes": 77776,
+      "sha256": "497f093fb0ae434b58b6e1a6471bb1bd1a7326ca89f392924038b5a2deafe889"
+    },
+    {
+      "path": "figures/rm3_heatmap_top30.png",
+      "size_bytes": 884758,
+      "sha256": "7b6ad04771d7f522bd43f0d3adc8401c0e6b7d34b67ad2d521a7fd2f093853ce"
+    },
+    {
+      "path": "figures/rm3_heatmap_top30.svg",
+      "size_bytes": 144594,
+      "sha256": "92aad2f623303ebd209bba1800807b13edd44ec3a12949405a02f8d3f638c4b6"
+    },
+    {
+      "path": "figures/rm3_histogram_perubahan_maksimum.png",
+      "size_bytes": 71688,
+      "sha256": "86d6b75200799cbd37c4be957dee63f7e05861951a41deee69b067d98367c993"
+    },
+    {
+      "path": "figures/rm3_histogram_perubahan_maksimum.svg",
+      "size_bytes": 16980,
+      "sha256": "6bb38d6a23adc469cab12a3af59e165a8abfc962d5921f37eb953c0effddcfbb"
+    },
+    {
+      "path": "figures/rm3_jabatan_paling_sensitif.png",
+      "size_bytes": 341476,
+      "sha256": "71696a353a69617b20eca6bbb23bbdeed6b5cbc1cb6a83a0a9f6a88a74b564d0"
+    },
+    {
+      "path": "figures/rm3_jabatan_paling_sensitif.svg",
+      "size_bytes": 26072,
+      "sha256": "89f64f6dae01f5069d66a9bff7a0618cad2f7e1c68dfc48a4e14b2096f3f1f9d"
+    },
+    {
+      "path": "figures/rm3_pembalikan_arah.png",
+      "size_bytes": 168326,
+      "sha256": "32159c9a02de7135ca430beb29139c181a760151716232fd05215bfa09a73643"
+    },
+    {
+      "path": "figures/rm3_pembalikan_arah.svg",
+      "size_bytes": 26260,
+      "sha256": "f9f9caef6f0f0740c937e03dee5f9ac124b4ceab6c3c09f6127544e567d842b4"
+    },
+    {
+      "path": "figures/rm3_scatter_delapan_kondisi.png",
+      "size_bytes": 1047928,
+      "sha256": "f061fb92273849bfd1d01f1cb434070ed046afa5e24632532a6d9314a08443ef"
+    },
+    {
+      "path": "figures/rm3_scatter_delapan_kondisi.svg",
+      "size_bytes": 721501,
+      "sha256": "04fefca87f30f060cb0a7c43237856d88488c73bb4d7d869596872f5605b6be5"
+    },
+    {
+      "path": "figures/rm3_spearman.png",
+      "size_bytes": 145795,
+      "sha256": "9d33d04a83120c93c20f45fb13d2a4d0e35682a945cdf761c616886ae99a5fb8"
+    },
+    {
+      "path": "figures/rm3_spearman.svg",
+      "size_bytes": 15529,
+      "sha256": "433a131a587d29299713d18f375a616c8d173274ad010e8b7c4446f73feb6007"
+    },
+    {
+      "path": "tables/cosine_atribut.csv",
+      "size_bytes": 133281,
+      "sha256": "3ad7d3b8050a77028f89edf8b04fd8cbe8e70f58dfcf628d542021640b163ca5"
+    },
+    {
+      "path": "tables/data_analisis.csv",
+      "size_bytes": 106574,
+      "sha256": "d767c7bacc8c2d7b34354574892447b80551ddfd1887ccf68eac428850799999"
+    },
+    {
+      "path": "tables/hasil_scweat.csv",
+      "size_bytes": 116006,
+      "sha256": "46937de74c00bf08a8ae739fd50f02e59df715a9c9fc8e758efa59092e9b8e3d"
+    },
+    {
+      "path": "tables/kontribusi_pasangan_per_jabatan.csv",
+      "size_bytes": 84327,
+      "sha256": "f85dc1393b105c930f148cd69858fc6b7b649845ffdde57895b65f65af13b227"
+    },
+    {
+      "path": "tables/lexicon_gender.csv",
+      "size_bytes": 1734,
+      "sha256": "0ed89261107ac8a2d0c63758c4ba476121b617927e2a072ebb6181f7902813fc"
+    },
+    {
+      "path": "tables/lopo_detail.csv",
+      "size_bytes": 950261,
+      "sha256": "b8f420ff5b703cf1e2c7e01d772bb27d6dc942dbec8a52ace0cd8650b6aed5f6"
+    },
+    {
+      "path": "tables/lopo_ringkasan_jabatan.csv",
+      "size_bytes": 65181,
+      "sha256": "184b68f0eae1224559b7c1561e21d4ad41c280f6cf3844f26e15cd6ab4b96843"
+    },
+    {
+      "path": "tables/lopo_ringkasan_pasangan.csv",
+      "size_bytes": 1454,
+      "sha256": "dca6191b5b63c605d0a69e9533e439f875e911407dd535abbbef37ec1cc53a1a"
+    },
+    {
+      "path": "tables/ringkasan_subgolongan.csv",
+      "size_bytes": 1447,
+      "sha256": "f0a8b2c1cfecebd08d17cbe99b680b9b074fc0b26784976df010fad1ec908dec"
+    }
+  ]
+}

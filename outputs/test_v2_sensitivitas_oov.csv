@@ -1,4 +1,0 @@
-subset,occupation_count,mean_effect_size,median_effect_size,positive_proportion,negative_proportion,correlation_baseline_alternative_representation,sign_change_count_alternative_representation
-seluruh jabatan,415,-0.15940172005421635,-0.1605200077046393,0.26987951807228916,0.7301204819277108,0.9877662793692681,5
-tanpa token OOV,410,-0.16014396738767497,-0.16480908889677243,0.2682926829268293,0.7317073170731707,0.9876074896028363,5
-memiliki token OOV,5,-0.09853743871061164,-0.03297573156939744,0.4,0.6,0.9999999999999999,0

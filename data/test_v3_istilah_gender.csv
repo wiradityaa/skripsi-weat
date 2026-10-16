@@ -1,9 +1,0 @@
-pair_id,male_term,female_term,lexical_category,register,validation_status,include_baseline,notes
-1,laki-laki,perempuan,identitas umum,netral,operasional; validasi linguistik lanjutan diperlukan,True,Baseline operasional.
-2,pria,wanita,identitas umum,netral,operasional; validasi linguistik lanjutan diperlukan,True,Register perlu ditinjau.
-3,ayah,ibu,kekerabatan,netral,operasional; validasi linguistik lanjutan diperlukan,True,Konteks kekerabatan tambahan.
-4,suami,istri,perkawinan,netral,operasional; validasi linguistik lanjutan diperlukan,True,Konteks relasional tambahan.
-5,putra,putri,kekerabatan,netral,operasional; validasi linguistik lanjutan diperlukan,True,Konteks kekerabatan/generasi.
-6,pemuda,pemudi,usia/generasi,netral,operasional; validasi linguistik lanjutan diperlukan,True,Perlu perhatian pada sensitivitas.
-7,cowok,cewek,identitas umum,informal,operasional; validasi linguistik lanjutan diperlukan,True,Register informal.
-8,jejaka,gadis,usia/status,netral,operasional; validasi linguistik lanjutan diperlukan,True,Perlu perhatian pada sensitivitas.

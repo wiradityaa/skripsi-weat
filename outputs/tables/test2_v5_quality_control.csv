@@ -1,9 +1,0 @@
-﻿check,status,observed
-model sesuai,True,indobenchmark/indobert-base-p1
-415 jabatan dan enam kelompok,True,"[415, ['21', '22', '23', '24', '25', '26']]"
-alignment matched,True,{'matched': 3448}
-score finite,True,0
-jumlah observasi sesuai,True,16600
-template lengkap,True,{4: 415}
-partition tercatat,True,"[2, 6, 20, 12870]"
-tidak ada duplikat,True,0

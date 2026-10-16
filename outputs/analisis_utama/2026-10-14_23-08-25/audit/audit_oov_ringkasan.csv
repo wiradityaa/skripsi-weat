@@ -1,0 +1,4 @@
+population,n_occupations,mean_effect_size,median_effect_size,std_effect_size_ddof0,n_positive,n_negative,n_zero,n_significant_global_fdr,note
+seluruh_jabatan,415,-0.17000248781172475,-0.16762272435035247,0.271713515828005,105,310,0,0,"Deskriptif; FDR tetap keputusan global, OOV tidak dibuang."
+tanpa_token_oov,410,-0.1708346027874352,-0.17364621324778112,0.2714587367408692,103,307,0,0,"Deskriptif; FDR tetap keputusan global, OOV tidak dibuang."
+memiliki_token_oov,5,-0.10176905980346833,-0.034056663982915014,0.2836609741280336,2,3,0,0,"Deskriptif; FDR tetap keputusan global, OOV tidak dibuang."

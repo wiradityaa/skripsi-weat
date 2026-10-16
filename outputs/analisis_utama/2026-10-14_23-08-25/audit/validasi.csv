@@ -1,0 +1,17 @@
+check,observed,expected,status,notes,status_label
+Seleksi dihitung ulang dan cocok sumber,501,501,True,Boolean diparse eksplisit; residual dan leakage dihitung dari teks.,PASS
+415 kode string unik; kelompok sesuai,415,415,True,"{""21"": 138, ""22"": 74, ""23"": 42, ""24"": 29, ""25"": 26, ""26"": 106}",PASS
+Nama asli terverifikasi seluruh kode CSV validasi,501,501,True,Hanya nama mentah; representasi/hasil lama tidak dibaca.,PASS
+Delapan pasangan dan 16 istilah unik,16,16,True,Urutan proposal dan pair_id kanonis.,PASS
+Vektor 300 dimensi finite dan norma satu,"(415, 300)",415 × 300; 16 × 300,True,Vektor token/target/atribut dicek sebelum dan setelah normalisasi.,PASS
+Cosine dot unit vs rumus umum,36,semua cocok,True,"Target/token mentah actual, scipy.spatial.distance.cosine.",PASS
+Enumerator unik dan simetri komplemen,12870,12870,True,Komplemen semua partisi dicek; statistik sampel berlawanan tanda.,PASS
+Effect ddof=0 dan p-value referensi skalar,9,semua cocok,True,"12870 pembagian dihitung ulang untuk setiap sampel, termasuk kode berekor nol.",PASS
+BH independen global 415,415,415,True,"Urut p, monotonic adjusted p, keputusan global cocok statsmodels.",PASS
+Pertukaran label gender,415,skor −baseline; p dua sisi sama,True,"Skor, T, p-value dan keputusan dihitung ulang.",PASS
+Invariansi baris dihitung ulang,415 utama + 3320 LOPO,sama berdasarkan kode,True,"Cosine, skor, p, BH, LOPO, delta, peringkat, arah; max error 2.55e-15.",PASS
+Invariansi atribut dihitung ulang,415 utama + 3320 LOPO,sama berdasarkan kode,True,"Cosine, skor, p, BH, LOPO, delta, peringkat, arah; max error 3.78e-15.",PASS
+"LOPO 3320 unik, pasangan dan penyebut 14",3320,3320,True,"Seluruh penyebut dicek rumus manual ddof=0; delta, arah dan peringkat diperiksa.",PASS
+Ringkasan enam kelompok dari skor individual,415,415,True,SD populasi dan jumlah signifikan cocok nilai individual BH global.,PASS
+Round-trip seluruh CSV mempertahankan kode,21,seluruh identitas utuh,True,Kode dibaca string; 2111.10 dan 2162.00 serta digit nol akhir tetap utuh.,PASS
+Ekspor hasil lengkap,415 / 6 / 3320 / 415 / 8,utama / kelompok / LOPO / jabatan / pasangan,True,Seluruh tabel CSV dan visual PNG 300 dpi/SVG serta heatmap lengkap tersedia.,PASS

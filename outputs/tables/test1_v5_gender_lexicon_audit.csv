@@ -1,9 +1,0 @@
-﻿pair_id,pair_label,lexical_category,register,grammatical_class,source_lexicographic,source_academic,source_notes,include_core,include_extended,existing_full
-1,pria–wanita,core_identity,netral/formal,nomina identitas,Steinhauer 2010; KBBI Daring,Caliskan et al. 2017; Antoniak dan Mimno 2021,Identitas umum; core utama.,True,True,True
-2,laki-laki–perempuan,core_identity,netral,nomina identitas,Steinhauer 2010; KBBI Daring,Caliskan et al. 2017; Steinborn et al. 2022,Identitas umum; core sensitivitas.,True,True,True
-3,ayah–ibu,kinship,netral,nomina kekerabatan,KBBI Daring,Antoniak dan Mimno 2021,Makna kekerabatan.,False,True,True
-4,suami–istri,kinship,netral,nomina relasional,KBBI Daring,Antoniak dan Mimno 2021,Relasi dan status perkawinan.,False,True,True
-5,putra–putri,kinship,netral,nomina kekerabatan,KBBI Daring,Antoniak dan Mimno 2021,Kekerabatan/generasi.,False,True,True
-6,pemuda–pemudi,age_status,netral,nomina usia/generasi,KBBI Daring,Steinborn et al. 2022,Usia/generasi tambahan.,False,True,True
-7,jejaka–gadis,age_status,netral,nomina usia/status,KBBI Daring,Steinborn et al. 2022,Usia/status tambahan.,False,True,True
-8,cowok–cewek,informal,informal,nomina identitas,KBBI Daring,Antoniak dan Mimno 2021,Eksperimen register informal.,False,True,True

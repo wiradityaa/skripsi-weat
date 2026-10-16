@@ -1,0 +1,9 @@
+pair_id,pair_id_source,male_term,female_term,pair_id_v5,include_core,include_extended,note
+laki_laki_perempuan,1,laki-laki,perempuan,2,True,True,Semua delapan pasangan dipakai; subset core/extended v5 tidak berlaku.
+pria_wanita,2,pria,wanita,1,True,True,Semua delapan pasangan dipakai; subset core/extended v5 tidak berlaku.
+ayah_ibu,3,ayah,ibu,3,False,True,Semua delapan pasangan dipakai; subset core/extended v5 tidak berlaku.
+suami_istri,4,suami,istri,4,False,True,Semua delapan pasangan dipakai; subset core/extended v5 tidak berlaku.
+putra_putri,5,putra,putri,5,False,True,Semua delapan pasangan dipakai; subset core/extended v5 tidak berlaku.
+pemuda_pemudi,6,pemuda,pemudi,6,False,True,Semua delapan pasangan dipakai; subset core/extended v5 tidak berlaku.
+cowok_cewek,7,cowok,cewek,8,False,True,Semua delapan pasangan dipakai; subset core/extended v5 tidak berlaku.
+jejaka_gadis,8,jejaka,gadis,7,False,True,Semua delapan pasangan dipakai; subset core/extended v5 tidak berlaku.

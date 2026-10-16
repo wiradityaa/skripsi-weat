@@ -1,0 +1,17 @@
+attribute,gender,pair_id,in_vocabulary,raw_norm,unit_norm,finite
+laki-laki,male,laki_laki_perempuan,True,0.9999999155140201,1.0,True
+pria,male,pria_wanita,True,0.9999998662762981,1.0,True
+ayah,male,ayah_ibu,True,1.0000001153615123,1.0,True
+suami,male,suami_istri,True,1.000000059073076,1.0,True
+putra,male,putra_putri,True,1.0000002113533069,1.0,True
+pemuda,male,pemuda_pemudi,True,1.000000116563724,1.0,True
+cowok,male,cowok_cewek,True,1.0000000966578786,0.9999999999999999,True
+jejaka,male,jejaka_gadis,True,1.0000000918228664,1.0,True
+perempuan,female,laki_laki_perempuan,True,1.0000000908278435,1.0000000000000002,True
+wanita,female,pria_wanita,True,0.9999997911046241,1.0,True
+ibu,female,ayah_ibu,True,1.000000027116841,1.0,True
+istri,female,suami_istri,True,0.9999999745756009,1.0,True
+putri,female,putra_putri,True,1.0000000878518618,0.9999999999999999,True
+pemudi,female,pemuda_pemudi,True,1.000000016444401,1.0,True
+cewek,female,cowok_cewek,True,0.9999998177375916,1.0,True
+gadis,female,jejaka_gadis,True,0.9999999917957383,1.0,True

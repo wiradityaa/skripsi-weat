@@ -1,7 +1,0 @@
-kbji_group_code,kbji_group_name,n_occupation,indobert_median,fasttext_median,sign_agreement,sign_flip_count
-21,Ahli ilmu pengetahuan dan teknik,133,-0.08519315719604492,-0.0487768427987873,0.5037593984962406,66
-22,Profesional kesehatan,72,0.06899189949035645,-0.22963528935576216,0.375,45
-23,Profesional pendidikan,40,-0.17036199569702148,-0.310923184348195,0.85,6
-24,Profesional bisnis dan administrasi,27,0.1094355583190918,-0.108304556713129,0.4074074074074074,16
-25,Profesional teknologi informasi dan komunikasi,25,0.04231595993041992,-0.1805136496290432,0.44,14
-26,"Profesional hukum, sosial dan budaya",104,0.10529637336730957,-0.16562286852442248,0.40384615384615385,62

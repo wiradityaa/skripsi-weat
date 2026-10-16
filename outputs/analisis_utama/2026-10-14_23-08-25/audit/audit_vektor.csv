@@ -1,0 +1,416 @@
+occupation_code,occupation_name_raw,occupation_text,token_count,submajor_group_code,oov_tokens,oov_token_count,has_oov,dimension,raw_norm,unit_norm,finite
+2111.01,Ahli Fisika (Umum),ahli fisika umum,3,21,[],0,False,300,0.7738428061491939,1.0,True
+2111.02,Ahli Fisika Nuklir,ahli fisika nuklir,3,21,[],0,False,300,0.7665570553810311,1.0,True
+2111.03,Ahli Fisika Mekanika,ahli fisika mekanika,3,21,[],0,False,300,0.8012660030282018,1.0,True
+2111.04,Ahli Fisika Panas,ahli fisika panas,3,21,[],0,False,300,0.7331559549794601,1.0,True
+2111.05,Ahli Fisika Sinar,ahli fisika sinar,3,21,[],0,False,300,0.7378136556217453,1.0,True
+2111.06,Ahli Fisika Suara,ahli fisika suara,3,21,[],0,False,300,0.7297708768354014,0.9999999999999999,True
+2111.07,Ahli Fisika Listrik Dan Magnit,ahli fisika listrik dan magnit,5,21,[],0,False,300,0.6830036352796339,0.9999999999999999,True
+2111.08,Ahli Fisika Elektronika,ahli fisika elektronika,3,21,[],0,False,300,0.7724171835142964,0.9999999999999999,True
+2111.09,Ahli Fisika Medis,ahli fisika medis,3,21,[],0,False,300,0.7934377222983545,1.0,True
+2111.10,Ahli Astronomi,ahli astronomi,2,21,[],0,False,300,0.844223492062944,1.0,True
+2112.01,Ahli Meteorologi (Umum),ahli meteorologi umum,3,21,[],0,False,300,0.7605905276359818,1.0,True
+2112.02,Ahli Klimatologi,ahli klimatologi,2,21,[],0,False,300,0.8486639415261799,0.9999999999999999,True
+2112.03,Ahli Prakiraan Cuaca,ahli prakiraan cuaca,3,21,[],0,False,300,0.7437951785940121,1.0,True
+2112.04,Ahli Hidrometeorologi,ahli hidrometeorologi,2,21,[],0,False,300,0.7874086256449594,1.0,True
+2113.01,Ahli Kimia (Umum),ahli kimia umum,3,21,[],0,False,300,0.7795108319339192,0.9999999999999999,True
+2113.02,Ahli Kimia Organik,ahli kimia organik,3,21,[],0,False,300,0.790156000694772,1.0,True
+2113.03,Ahli Kimia Anorganik,ahli kimia anorganik,3,21,[],0,False,300,0.7834097603995257,0.9999999999999999,True
+2113.04,Ahli Kimia Fisika,ahli kimia fisika,3,21,[],0,False,300,0.8138655152343197,1.0,True
+2113.05,Ahli Kimia Analitik,ahli kimia analitik,3,21,[],0,False,300,0.769813526774672,1.0,True
+2114.01,Ahli Geologi (Umum),ahli geologi umum,3,21,[],0,False,300,0.7701599176086393,1.0,True
+2114.02,Ahli Geologi Kelautan,ahli geologi kelautan,3,21,[],0,False,300,0.7786737648103442,0.9999999999999999,True
+2114.03,Ahli Geologi Pertambangan,ahli geologi pertambangan,3,21,[],0,False,300,0.7738021744898226,1.0,True
+2114.04,Ahli Geofisika (Umum),ahli geofisika umum,3,21,[],0,False,300,0.7549010179850782,1.0,True
+2114.05,Ahli Geofisika Kelautan,ahli geofisika kelautan,3,21,[],0,False,300,0.7689236977633273,0.9999999999999999,True
+2120.01,Ahli Matematika Murni,ahli matematika murni,3,21,[],0,False,300,0.7342838016735288,1.0,True
+2120.02,Ahli Matematika Terapan,ahli matematika terapan,3,21,[],0,False,300,0.7737073338096165,0.9999999999999999,True
+2120.03,Ahli Analisis Riset Operasi (Quality Control Management),ahli analisis riset operasi quality control management,7,21,[],0,False,300,0.6414648107657197,1.0,True
+2120.04,Aktuaris,aktuaris,1,21,[],0,False,300,1.0000001114616055,1.0,True
+2120.05,Ahli Statistika (Umum),ahli statistika umum,3,21,[],0,False,300,0.7637048800969408,1.0,True
+2120.06,Ahli Statistika Matematika,ahli statistika matematika,3,21,[],0,False,300,0.7835782847592218,0.9999999999999999,True
+2120.07,Ahli Statistika (Terapan),ahli statistika terapan,3,21,[],0,False,300,0.7685454814232983,1.0,True
+2131.01,Ahli Perilaku Hewan,ahli perilaku hewan,3,21,[],0,False,300,0.7519490667461223,1.0,True
+2131.02,Ahli Bakteriologi,ahli bakteriologi,2,21,[],0,False,300,0.8219332637119224,0.9999999999999999,True
+2131.03,Ahli Biologi (Umum),ahli biologi umum,3,21,[],0,False,300,0.775847267202194,0.9999999999999999,True
+2131.04,Ahli Biologi Kelautan,ahli biologi kelautan,3,21,[],0,False,300,0.7837947795432664,0.9999999999999999,True
+2131.05,Ahli Biologi Molekuler,ahli biologi molekuler,3,21,[],0,False,300,0.7810540755065188,1.0,True
+2131.06,Ahli Botani,ahli botani,2,21,[],0,False,300,0.8585149385011064,1.0,True
+2131.07,Ahli Zoologi,ahli zoologi,2,21,[],0,False,300,0.8415693037672325,0.9999999999999999,True
+2131.08,Ahli Biokimia,ahli biokimia,2,21,[],0,False,300,0.8388656588365593,1.0,True
+2131.09,Ahli Anatomi,ahli anatomi,2,21,[],0,False,300,0.8185523860383788,1.0,True
+2131.10,Ahli Fisiologi,ahli fisiologi,2,21,[],0,False,300,0.8288095486981246,1.0,True
+2131.11,Ahli Patologis Medis,ahli patologis medis,3,21,[],0,False,300,0.7681867853861613,1.0,True
+2131.12,Ahli Patologi Hewan,ahli patologi hewan,3,21,[],0,False,300,0.7630546725892,0.9999999999999999,True
+2131.13,Ahli Farmakologi,ahli farmakologi,2,21,[],0,False,300,0.8382987458939624,0.9999999999999999,True
+2132.01,Ahli Agronomi,ahli agronomi,2,21,[],0,False,300,0.8289465442394448,1.0,True
+2132.02,Ahli Kehutanan,ahli kehutanan,2,21,[],0,False,300,0.8043473980698203,0.9999999999999999,True
+2132.03,Ahli Penelitian Tanah,ahli penelitian tanah,3,21,[],0,False,300,0.7282840493709983,0.9999999999999999,True
+2132.04,Ahli Hortikultura,ahli hortikultura,2,21,[],0,False,300,0.7883105828522663,0.9999999999999999,True
+2132.05,"Konsultan Pertanian, Kehutanan dan Perikanan",konsultan pertanian kehutanan dan perikanan,5,21,[],0,False,300,0.727848773202595,1.0,True
+2133.01,Ahli Ekologi,ahli ekologi,2,21,[],0,False,300,0.815465258108493,1.0,True
+2133.02,Analis Polusi Udara,analis polusi udara,3,21,[],0,False,300,0.7104646519313204,1.0,True
+2133.03,Ahli Konservasi,ahli konservasi,2,21,[],0,False,300,0.81124339897819,1.0,True
+2133.04,Auditor Lingkungan,auditor lingkungan,2,21,[],0,False,300,0.7743752208711715,1.0,True
+2133.05,Ilmuwan Lingkungan,ilmuwan lingkungan,2,21,[],0,False,300,0.7966590828449619,1.0,True
+2133.06,Analis Mutu Air,analis mutu air,3,21,[],0,False,300,0.6700142426217289,1.0,True
+2133.07,Konsultan Lingkungan,konsultan lingkungan,2,21,[],0,False,300,0.8066354834818135,1.0,True
+2141.01,Ahli Teknik Efisiensi Industri,ahli teknik efisiensi industri,4,21,[],0,False,300,0.7359615493436932,1.0,True
+2141.02,Ahli Teknik Sistem dan Metoda Kerja Industri,ahli teknik sistem dan metoda kerja industri,7,21,[],0,False,300,0.707175466179121,1.0,True
+2141.03,Ahli Teknik Pengukuran Kerja Industri,ahli teknik pengukuran kerja industri,5,21,[],0,False,300,0.7222734603142179,0.9999999999999999,True
+2141.04,Ahli Teknik Mesin Industri,ahli teknik mesin industri,4,21,[],0,False,300,0.7438466460895451,1.0,True
+2141.05,Ahli Teknik Produksi Industri,ahli teknik produksi industri,4,21,[],0,False,300,0.7600679603413437,1.0,True
+2142.01,Ahli Teknik Sipil (Umum),ahli teknik sipil umum,4,21,[],0,False,300,0.7402663293944953,1.0,True
+2142.02,Ahli Teknik Konstruksi Bangunan,ahli teknik konstruksi bangunan,4,21,[],0,False,300,0.7517405272372902,1.0,True
+2142.03,Ahli Teknik Konstruksi Jalan,ahli teknik konstruksi jalan,4,21,[],0,False,300,0.7178852065416543,1.0,True
+2142.04,Ahli Teknik Konstruksi Landasan Pesawat Udara.,ahli teknik konstruksi landasan pesawat udara,6,21,[],0,False,300,0.6694937137411471,1.0,True
+2142.05,Ahli Teknik Konstruksi Jalan Kereta Api,ahli teknik konstruksi jalan kereta api,6,21,[],0,False,300,0.6712438034074873,0.9999999999999999,True
+2142.06,Ahli Teknik Konstruksi Jembatan,ahli teknik konstruksi jembatan,4,21,[],0,False,300,0.722521136518337,1.0,True
+2142.07,Ahli Teknik Penyehatan Lingkungan,ahli teknik penyehatan lingkungan,4,21,[],0,False,300,0.7145586910905628,1.0,True
+2142.08,Ahli Teknik Pengairan,ahli teknik pengairan,3,21,[],0,False,300,0.7643627063190458,0.9999999999999999,True
+2142.09,Ahli Teknik Mekanika Tanah,ahli teknik mekanika tanah,4,21,[],0,False,300,0.716939066481076,1.0000000000000002,True
+2143.01,Ahli Teknik Lingkungan,ahli teknik lingkungan,3,21,[],0,False,300,0.7556340510796419,1.0,True
+2143.02,Analis Lingkungan,analis lingkungan,2,21,[],0,False,300,0.7591428993270826,1.0,True
+2143.03,Spesialis Rehabilitasi Lingkungan,spesialis rehabilitasi lingkungan,3,21,[],0,False,300,0.7116411104281095,1.0,True
+2144.01,Ahli Teknik Mesin (Umum),ahli teknik mesin umum,4,21,[],0,False,300,0.7280381600255985,1.0,True
+2144.02,Ahli Teknik Mesin Dan Peralatan Industri,ahli teknik mesin dan peralatan industri,6,21,[],0,False,300,0.7212486291843896,1.0,True
+2144.03,Ahli Teknik Mesin Motor Penggerak (Selain Mesin Kapal),ahli teknik mesin motor penggerak selain mesin kapal,8,21,[],0,False,300,0.6764422666738178,1.0,True
+2144.04,Ahli Teknik Mesin Kapal,ahli teknik mesin kapal,4,21,[],0,False,300,0.7107783466739761,1.0,True
+2144.05,Ahli Teknik Konstruksi Kapal,ahli teknik konstruksi kapal,4,21,[],0,False,300,0.7192404563608612,1.0,True
+2144.06,Ahli Teknik Industri Pesawat Terbang,ahli teknik industri pesawat terbang,5,21,[],0,False,300,0.7046559495299669,0.9999999999999999,True
+2144.07,Ahli Teknik Mobil,ahli teknik mobil,3,21,[],0,False,300,0.7320218935934465,1.0,True
+2144.08,"Ahli Teknik Pemanasan, Ventilasi dan Pendinginan",ahli teknik pemanasan ventilasi dan pendinginan,6,21,[],0,False,300,0.6847614517550527,0.9999999999999999,True
+2144.09,Ahli Teknik Mesin Tenaga Atom,ahli teknik mesin tenaga atom,5,21,[],0,False,300,0.6861118243755429,1.0,True
+2145.01,Ahli Teknik Kimia (Umum),ahli teknik kimia umum,4,21,[],0,False,300,0.7584627316262185,1.0,True
+2145.02,Ahli Teknik Kimia Bahan Bakar,ahli teknik kimia bahan bakar,5,21,[],0,False,300,0.7406199947880688,1.0,True
+2145.03,Ahli Teknik Kimia Plastik,ahli teknik kimia plastik,4,21,[],0,False,300,0.7350251850509246,1.0,True
+2146.01,Ahli Teknik Pertambangan (Umum),ahli teknik pertambangan umum,4,21,[],0,False,300,0.7360006389856601,1.0,True
+2146.02,Ahli Teknik Pertambangan Batu Bara,ahli teknik pertambangan batu bara,5,21,[],0,False,300,0.6908700439676307,1.0,True
+2146.03,Ahli Teknik Pertambangan Logam,ahli teknik pertambangan logam,4,21,[],0,False,300,0.7238808849686711,0.9999999999999999,True
+2146.04,Ahli Teknik Pertambangan Minyak Bumi dan Gas Alam,ahli teknik pertambangan minyak bumi dan gas alam,8,21,[],0,False,300,0.6818170282600104,1.0,True
+2146.05,Ahli Metalurgi Ekstraksi,ahli metalurgi ekstraksi,3,21,[],0,False,300,0.7504137855888353,1.0,True
+2146.06,Ahli Metalurgi Fisika,ahli metalurgi fisika,3,21,[],0,False,300,0.7774209641822389,0.9999999999999999,True
+2149.01,Ahli Teknik Keramik Dan Kaca,ahli teknik keramik dan kaca,5,21,[],0,False,300,0.696196373822325,1.0,True
+2149.02,Ahli Teknik Pertanian,ahli teknik pertanian,3,21,[],0,False,300,0.774730785257237,1.0,True
+2149.03,Ahli Teknik Bahan Makanan dan Minuman,ahli teknik bahan makanan dan minuman,6,21,[],0,False,300,0.7254616158428778,1.0,True
+2149.04,Ahli Teknik Tekstil,ahli teknik tekstil,3,21,[],0,False,300,0.7588255565168591,1.0,True
+2149.05,Ahli Teknik Perencanaan Sistem Lalu-Lintas,ahli teknik perencanaan sistem lalu-lintas,5,21,[],0,False,300,0.7049219815392991,1.0,True
+2149.06,Ahli Teknik Biomedis,ahli teknik biomedis,3,21,[],0,False,300,0.779202810221078,1.0,True
+2149.07,Ahli Teknik Bahan Peledak,ahli teknik bahan peledak,4,21,[],0,False,300,0.7436578203234132,0.9999999999999999,True
+2149.08,Ahli Teknik Salvage (Penyelamatan Laut),ahli teknik salvage penyelamatan laut,5,21,[],0,False,300,0.6503811603636172,0.9999999999999999,True
+2149.09,Ahli Teknik Keselamatan,ahli teknik keselamatan,3,21,[],0,False,300,0.7468732083104246,1.0,True
+2149.10,Ahli Teknik Optikal,ahli teknik optikal,3,21,[],0,False,300,0.768142872713511,1.0,True
+2151.01,Ahli Teknik Listrik (Umum),ahli teknik listrik umum,4,21,[],0,False,300,0.7274845741961641,1.0,True
+2151.02,Ahli Teknik Pembangkit Tenaga Listrik,ahli teknik pembangkit tenaga listrik,5,21,[],0,False,300,0.7327980800194852,0.9999999999999999,True
+2151.03,Ahli Teknik Distribusi dan Transmisi Tenaga Listrik,ahli teknik distribusi dan transmisi tenaga listrik,7,21,[],0,False,300,0.6861905148813197,1.0,True
+2151.04,Ahli Teknik Elektromekanik,ahli teknik elektromekanik,3,21,[],0,False,300,0.7686096034993785,0.9999999999999999,True
+2152.01,Ahli Teknik Elektronik (Umum),ahli teknik elektronik umum,4,21,[],0,False,300,0.731334949974498,1.0,True
+2152.02,Ahli Teknik Perangkat Keras Komputer,ahli teknik perangkat keras komputer,5,21,[],0,False,300,0.7110620791862192,0.9999999999999999,True
+2152.03,Ahli Teknik Instrumentasi (Alat Ukur),ahli teknik instrumentasi alat ukur,5,21,[],0,False,300,0.734673991181754,1.0,True
+2153.01,Ahli Teknik Telekomunikasi,ahli teknik telekomunikasi,3,21,[],0,False,300,0.7677592042417414,1.0,True
+2153.02,Ahli Teknik Penyiaran dan Audio Visual,ahli teknik penyiaran dan audio visual,6,21,[],0,False,300,0.6909561674290372,1.0,True
+2153.03,Ahli Teknologi Rekayasa Telekomunikasi,ahli teknologi rekayasa telekomunikasi,4,21,[],0,False,300,0.7482815754979725,1.0,True
+2161.01,Arsitek Bangunan,arsitek bangunan,2,21,[],0,False,300,0.8722381011270676,0.9999999999999999,True
+2161.02,Arsitek Interior,arsitek interior,2,21,[],0,False,300,0.8551233822039991,1.0,True
+2162.00,Arsitek Pertamanan/Lansekap,arsitek pertamanan lansekap,3,21,[],0,False,300,0.7586880438139236,1.0,True
+2163.01,Perancang Kostum,perancang kostum,2,21,[],0,False,300,0.8395412912397264,1.0,True
+2163.02,Perancang Busana,perancang busana,2,21,[],0,False,300,0.8733713293848357,1.0,True
+2163.03,Perancang Perhiasan,perancang perhiasan,2,21,[],0,False,300,0.8339085506894939,1.0,True
+2163.04,Perancang Produk Industri,perancang produk industri,3,21,[],0,False,300,0.7793809424886997,1.0,True
+2164.01,Perencana Lahan,perencana lahan,2,21,[],0,False,300,0.7961584309116791,1.0,True
+2164.02,Perencana Tata Kota,perencana tata kota,3,21,[],0,False,300,0.7415770403688267,1.0,True
+2164.03,Perencana Lalu Lintas,perencana lalu lintas,3,21,[],0,False,300,0.7517524681870077,1.0,True
+2165.01,Surveyor Tanah,surveyor tanah,2,21,[],0,False,300,0.8006390159448682,0.9999999999999999,True
+2165.02,Surveyor Pertambangan,surveyor pertambangan,2,21,[],0,False,300,0.835747289503946,1.0,True
+2165.03,Surveyor Hidrografi,surveyor hidrografi,2,21,[],0,False,300,0.8480138604755589,0.9999999999999999,True
+2165.04,Surveyor Topografi,surveyor topografi,2,21,[],0,False,300,0.8113396837572794,0.9999999999999999,True
+2165.05,Surveyor Aerial,surveyor aerial,2,21,[],0,False,300,0.7669838101136618,1.0,True
+2165.06,Surveyor Kadastral,surveyor kadastral,2,21,[],0,False,300,0.8383579731836521,0.9999999999999999,True
+2165.07,Ahli Pemetaan (Kartografer),ahli pemetaan kartografer,3,21,[],0,False,300,0.7726781989294769,1.0,True
+2166.01,Animator,animator,1,21,[],0,False,300,0.9999999691337343,0.9999999999999999,True
+2166.02,Seniman Digital,seniman digital,2,21,[],0,False,300,0.7892597062821772,0.9999999999999999,True
+2166.03,Perancang Grafis,perancang grafis,2,21,[],0,False,300,0.8318620447512964,1.0,True
+2166.04,Ilustrator Teknik,ilustrator teknik,2,21,[],0,False,300,0.7823562507078385,1.0,True
+2166.05,Perancang Permainan Interaktif,perancang permainan interaktif,3,21,[],0,False,300,0.7392102696244122,0.9999999999999999,True
+2166.06,Ilustrator,ilustrator,1,21,[],0,False,300,0.9999999631351769,1.0,True
+2166.07,Seniman Lithografi,seniman lithografi,2,21,[],0,False,300,0.8140617757638241,1.0,True
+2166.08,Desainer Multimedia,desainer multimedia,2,21,[],0,False,300,0.7908061952534597,1.0,True
+2166.09,Desainer Publikasi,desainer publikasi,2,21,[],0,False,300,0.8113804040478476,1.0,True
+2166.10,Desainer Website,desainer website,2,21,[],0,False,300,0.79256631823537,1.0,True
+2211.01,Dokter Umum,dokter umum,2,22,[],0,False,300,0.8331485471914346,1.0,True
+2211.02,Dokter Keluarga,dokter keluarga,2,22,[],0,False,300,0.8379214032070919,1.0,True
+2212.01,Dokter Spesialis Anestesi,dokter spesialis anestesi,3,22,[],0,False,300,0.8141339917893424,1.0,True
+2212.02,Dokter Spesialis Jantung,dokter spesialis jantung,3,22,[],0,False,300,0.786182157939715,1.0,True
+2212.03,Dokter Spesialis Kulit dan Kelamin,dokter spesialis kulit dan kelamin,5,22,[],0,False,300,0.7021539391282643,0.9999999999999999,True
+2212.04,"Dokter Spesialis Telinga, Hidung dan Tenggorokan",dokter spesialis telinga hidung dan tenggorokan,6,22,[],0,False,300,0.669258279670972,1.0,True
+2212.05,Dokter Spesialis Kandungan,dokter spesialis kandungan,3,22,[],0,False,300,0.7926429634392381,0.9999999999999999,True
+2212.06,Dokter Spesialis Mata,dokter spesialis mata,3,22,[],0,False,300,0.7901753591339794,1.0,True
+2212.07,Dokter Spesialis Anak,dokter spesialis anak,3,22,[],0,False,300,0.7964018278684104,0.9999999999999999,True
+2212.08,Psikiater,psikiater,1,22,[],0,False,300,1.0000001269815368,1.0,True
+2212.09,Dokter Spesialis Penyakit Dalam,dokter spesialis penyakit dalam,4,22,[],0,False,300,0.7285992354948788,1.0,True
+2212.10,Dokter Spesialis Saraf,dokter spesialis saraf,3,22,[],0,False,300,0.7971095985686872,1.0,True
+2212.11,Dokter Spesialis Patologi,dokter spesialis patologi,3,22,[],0,False,300,0.8054536601446071,0.9999999999999999,True
+2212.12,Dokter Spesialis Paru,dokter spesialis paru,3,22,[],0,False,300,0.7850321678829566,1.0,True
+2212.13,Dokter Spesialis Radiologi,dokter spesialis radiologi,3,22,[],0,False,300,0.8252903082089926,1.0,True
+2212.14,Dokter Spesialis Bedah Umum,dokter spesialis bedah umum,4,22,[],0,False,300,0.7786551327298521,1.0,True
+2212.15,Dokter Spesialis Bedah Digestif,dokter spesialis bedah digestif,4,22,[],0,False,300,0.7495923473814212,1.0,True
+2212.16,Dokter Spesialis Bedah Syaraf,dokter spesialis bedah syaraf,4,22,[],0,False,300,0.7647205751592533,1.0,True
+2212.17,Dokter Spesialis Bedah Orthopedi dan Traumatologi,dokter spesialis bedah orthopedi dan traumatologi,6,22,[],0,False,300,0.7279248472296942,0.9999999999999999,True
+2212.18,Dokter Spesialis Bedah Onkologi,dokter spesialis bedah onkologi,4,22,[],0,False,300,0.8103988199878618,0.9999999999999999,True
+2221.01,Perawat Ahli,perawat ahli,2,22,[],0,False,300,0.8353478534620449,1.0,True
+2221.02,Perawat Spesialis,perawat spesialis,2,22,[],0,False,300,0.8638902491860927,1.0,True
+2221.03,Perawat Kesehatan Masyarakat,perawat kesehatan masyarakat,3,22,[],0,False,300,0.7930294587764349,1.0,True
+2221.04,Perawat Kesehatan Kerja,perawat kesehatan kerja,3,22,[],0,False,300,0.7862432566524441,1.0,True
+2221.05,Perawat,perawat,1,22,[],0,False,300,1.000000160660117,0.9999999999999999,True
+2221.06,Perawat Anastesi,perawat anastesi,2,22,[],0,False,300,0.8456067899612185,0.9999999999999999,True
+2222.01,Bidan,bidan,1,22,[],0,False,300,0.9999997771004266,1.0,True
+2230.01,Ahli Akupuntur,ahli akupuntur,2,22,[],0,False,300,0.8204081684340533,0.9999999999999999,True
+2230.02,Ahli Pengobatan Herbal Cina,ahli pengobatan herbal cina,4,22,[],0,False,300,0.7311959147164437,1.0,True
+2230.03,Praktisi Ayurvedic,praktisi ayurvedic,2,22,[],0,False,300,0.819308091777111,1.0,True
+2230.04,Ahli Homeopati,ahli homeopati,2,22,[],0,False,300,0.8549329676694525,1.0,True
+2230.05,Ahli Naturopati,ahli naturopati,2,22,[],0,False,300,0.8509055233818136,1.0,True
+2230.06,Praktisi Unani,praktisi unani,2,22,"[""unani""]",1,True,300,0.7551012317747138,1.0,True
+2240.01,Asisten Medik,asisten medik,2,22,[],0,False,300,0.780624217282271,1.0,True
+2240.02,Paramedis,paramedis,1,22,[],0,False,300,0.9999998863071666,1.0,True
+2240.03,Teknisi Bedah,teknisi bedah,2,22,[],0,False,300,0.8100960550461761,1.0,True
+2250.01,Dokter Hewan (Umum),dokter hewan umum,3,22,[],0,False,300,0.767102060261551,1.0,True
+2250.02,Dokter Hewan Kesehatan Masyarakat,dokter hewan kesehatan masyarakat,4,22,[],0,False,300,0.7479564932773638,1.0,True
+2250.03,Dokter Bedah Hewan,dokter bedah hewan,3,22,[],0,False,300,0.7793802730109128,1.0,True
+2250.04,Ahli Penyakit Hewan (Patologi),ahli penyakit hewan patologi,4,22,[],0,False,300,0.7351600472998683,0.9999999999999999,True
+2250.05,Ahli Epidemiologi Hewan,ahli epidemiologi hewan,3,22,[],0,False,300,0.7429218763458831,0.9999999999999999,True
+2261.01,Dokter Gigi (Umum),dokter gigi umum,3,22,[],0,False,300,0.7681250274785171,1.0,True
+2261.02,Dokter Gigi Kesehatan Masyarakat,dokter gigi kesehatan masyarakat,4,22,[],0,False,300,0.7506422962218011,1.0,True
+2261.03,Asisten Bedah Gigi,asisten bedah gigi,3,22,[],0,False,300,0.7259115413437838,1.0,True
+2261.04,Ahli Kesehatan Gigi,ahli kesehatan gigi,3,22,[],0,False,300,0.7585661267230731,1.0,True
+2261.05,Endodontist,endodontist,1,22,"[""endodontist""]",1,True,300,0.9999999295782191,0.9999999999999999,True
+2261.06,Ahli Bedah Mulut dan Maxillofacial,ahli bedah mulut dan maxillofacial,5,22,[],0,False,300,0.6917332074555373,1.0,True
+2261.07,Ahli Penyakit Mulut,ahli penyakit mulut,3,22,[],0,False,300,0.7192651727611425,1.0,True
+2261.08,Ortodontis,ortodontis,1,22,[],0,False,300,1.0000000530374111,1.0,True
+2261.09,Paedodontist,paedodontist,1,22,"[""paedodontist""]",1,True,300,0.999999976694106,1.0,True
+2261.10,Periodontist,periodontist,1,22,[],0,False,300,0.9999997953914093,1.0,True
+2261.11,Prosthodontist,prosthodontist,1,22,"[""prosthodontist""]",1,True,300,0.9999998071211338,1.0,True
+2262.01,Apoteker,apoteker,1,22,[],0,False,300,0.9999999345118682,1.0,True
+2263.01,Petugas Kesehatan Lingkungan,petugas kesehatan lingkungan,3,22,[],0,False,300,0.777268670063673,1.0000000000000002,True
+2263.02,Penasihat Kesehatan dan Keselamatan Kerja,penasihat kesehatan dan keselamatan kerja,5,22,[],0,False,300,0.7119152641068344,1.0,True
+2263.03,Ahli Proteksi Radiasi,ahli proteksi radiasi,3,22,[],0,False,300,0.7207134053374922,1.0,True
+2264.01,Ahli Fisioterapi,ahli fisioterapi,2,22,[],0,False,300,0.827567140946863,1.0,True
+2264.02,Ahli Terapi Rehabilitasi,ahli terapi rehabilitasi,3,22,[],0,False,300,0.7730604663344447,1.0,True
+2264.03,Terapis Geriatri (Terapis Lansia),terapis geriatri terapis lansia,4,22,[],0,False,300,0.7822086469108849,1.0000000000000002,True
+2264.04,Terapis Pediatri (Terapis Anak),terapis pediatri terapis anak,4,22,[],0,False,300,0.7707873933858598,1.0,True
+2264.05,Terapis Ortopedi (Terapis Alat Gerak),terapis ortopedi terapis alat gerak,5,22,[],0,False,300,0.6928385709282123,1.0,True
+2265.01,Ahli Diet (Umum),ahli diet umum,3,22,[],0,False,300,0.7358099064370559,1.0,True
+2265.02,Ahli Gizi Klinis,ahli gizi klinis,3,22,[],0,False,300,0.7681690271310919,0.9999999999999999,True
+2265.03,Ahli Gizi Layanan Makanan,ahli gizi layanan makanan,4,22,[],0,False,300,0.7272002921635421,0.9999999999999999,True
+2265.04,Ahli Gizi Masyarakat,ahli gizi masyarakat,3,22,[],0,False,300,0.7675702055789752,0.9999999999999999,True
+2265.05,Ahli Gizi Olahraga,ahli gizi olahraga,3,22,[],0,False,300,0.7559643105244847,1.0,True
+2266.01,Ahli Terapi Pendengaran,ahli terapi pendengaran,3,22,[],0,False,300,0.743558313544328,1.0,True
+2266.02,Ahli Terapi Bicara,ahli terapi bicara,3,22,[],0,False,300,0.7068834466554236,1.0,True
+2267.01,Optometrist,optometrist,1,22,[],0,False,300,0.9999999539572262,1.0,True
+2267.02,Orthoptist,orthoptist,1,22,[],0,False,300,1.0000001429479712,1.0,True
+2269.01,Terapis Seni,terapis seni,2,22,[],0,False,300,0.7857799319438802,1.0,True
+2269.02,Terapis Tari dan Gerakan,terapis tari dan gerakan,4,22,[],0,False,300,0.7050779927491713,1.0,True
+2269.03,Okupasi Terapis,okupasi terapis,2,22,[],0,False,300,0.8462650606278046,0.9999999999999999,True
+2269.04,Ahli Podiatri (Penyakit Kaki),ahli podiatri penyakit kaki,4,22,[],0,False,300,0.6780638522904138,0.9999999999999999,True
+2310.01,Dosen Ilmu Fisika,dosen ilmu fisika,3,23,[],0,False,300,0.7982265038820673,1.0000000000000002,True
+2310.02,Dosen Ilmu Teknik dan Arsitektur,dosen ilmu teknik dan arsitektur,5,23,[],0,False,300,0.7258782206225712,0.9999999999999999,True
+2310.03,Dosen Ilmu Kedokteran dan Ilmu Hayati,dosen ilmu kedokteran dan ilmu hayati,6,23,[],0,False,300,0.728740308788448,1.0,True
+2310.04,Dosen Ilmu Matematika,dosen ilmu matematika,3,23,[],0,False,300,0.7874122282958408,1.0,True
+2310.05,Dosen Ilmu Statistika,dosen ilmu statistika,3,23,[],0,False,300,0.7584681897124275,0.9999999999999999,True
+2310.06,Dosen Ilmu Ekonomi dan Administrasi Niaga,dosen ilmu ekonomi dan administrasi niaga,6,23,[],0,False,300,0.6957860817488415,0.9999999999999999,True
+2310.07,Dosen Ilmu Hukum,dosen ilmu hukum,3,23,[],0,False,300,0.7758013121784488,0.9999999999999999,True
+2310.08,Dosen Ilmu Pendidikan,dosen ilmu pendidikan,3,23,[],0,False,300,0.7910352890734639,1.0,True
+2310.09,Dosen Ilmu Pertanian,dosen ilmu pertanian,3,23,[],0,False,300,0.7609585497434115,1.0,True
+2310.10,Dosen Ilmu Sosial dan Politik,dosen ilmu sosial dan politik,5,23,[],0,False,300,0.7431445390446629,0.9999999999999999,True
+2310.11,"Dosen Ilmu Bahasa, Sastra, Budaya dan Sejarah",dosen ilmu bahasa sastra budaya dan sejarah,7,23,[],0,False,300,0.7200192334893794,0.9999999999999999,True
+2310.12,Dosen Ilmu Keagamaan,dosen ilmu keagamaan,3,23,[],0,False,300,0.7541402862566647,1.0,True
+2310.13,Dosen Ilmu Kesehatan Masyarakat,dosen ilmu kesehatan masyarakat,4,23,[],0,False,300,0.7352887017936989,0.9999999999999999,True
+2310.14,"Dosen Ilmu Terapi Kesehatan, Kebidanan dan Yang Sejenis",dosen ilmu terapi kesehatan kebidanan dan yang sejenis,8,23,[],0,False,300,0.6548881050706157,1.0,True
+2310.15,Dosen Ilmu Olahraga,dosen ilmu olahraga,3,23,[],0,False,300,0.74121598574526,1.0,True
+2310.16,Dosen Ilmu Teknologi Industri,dosen ilmu teknologi industri,4,23,[],0,False,300,0.7454968342430351,1.0,True
+2310.17,Dosen Ilmu Komputer,dosen ilmu komputer,3,23,[],0,False,300,0.7605449633155417,0.9999999999999999,True
+2320.01,Instruktur Teknik Otomotif,instruktur teknik otomotif,3,23,[],0,False,300,0.7553605459422308,1.0,True
+2320.02,Instruktur Tata Rias,instruktur tata rias,3,23,[],0,False,300,0.7314764313371731,1.0,True
+2320.03,Guru Pendidikan Kejuruan Menengah Pertama,guru pendidikan kejuruan menengah pertama,5,23,[],0,False,300,0.7237642196492345,1.0,True
+2320.04,Guru Pendidikan Kejuruan Menengah Atas,guru pendidikan kejuruan menengah atas,5,23,[],0,False,300,0.7285645918581258,0.9999999999999999,True
+2330.01,Guru Pendidikan Menengah Pertama,guru pendidikan menengah pertama,4,23,[],0,False,300,0.7352854350295635,1.0,True
+2330.02,Guru Pendidikan Menengah Atas,guru pendidikan menengah atas,4,23,[],0,False,300,0.7367839453375878,1.0,True
+2341.00,Guru Sekolah Dasar,guru sekolah dasar,3,23,[],0,False,300,0.8063052654596425,1.0,True
+2342.01,Guru Taman Kanak-Kanak,guru taman kanak-kanak,3,23,[],0,False,300,0.7513820563604031,1.0,True
+2342.02,Guru Pendidikan Anak Usia Dini,guru pendidikan anak usia dini,5,23,[],0,False,300,0.7333804167709317,1.0,True
+2351.01,Koordinator Kurikulum,koordinator kurikulum,2,23,[],0,False,300,0.7860064435825973,1.0,True
+2351.02,Spesialis Metode Pendidikan,spesialis metode pendidikan,3,23,[],0,False,300,0.7455832483051347,1.0,True
+2351.03,Pengawas Sekolah,pengawas sekolah,2,23,[],0,False,300,0.8570706641335205,1.0,True
+2352.01,Guru Tunadaksa,guru tunadaksa,2,23,[],0,False,300,0.8049612478315955,1.0,True
+2352.02,Guru Tuna Rungu,guru tuna rungu,3,23,[],0,False,300,0.7544066347554418,0.9999999999999999,True
+2352.03,Guru Tuna Netra,guru tuna netra,3,23,[],0,False,300,0.7462891939310978,1.0,True
+2354.01,Guru Gitar,guru gitar,2,23,[],0,False,300,0.7891925582129194,1.0,True
+2354.02,Guru Piano,guru piano,2,23,[],0,False,300,0.8091761787225087,0.9999999999999999,True
+2354.03,Guru Vokal,guru vokal,2,23,[],0,False,300,0.798620922717986,1.0,True
+2354.04,Guru Biola,guru biola,2,23,[],0,False,300,0.806725743451562,0.9999999999999999,True
+2355.01,Guru Tari,guru tari,2,23,[],0,False,300,0.8192197915627769,1.0,True
+2355.02,Guru Teater/Drama,guru teater drama,3,23,[],0,False,300,0.7630418212247796,1.0,True
+2355.03,Guru Lukis,guru lukis,2,23,[],0,False,300,0.8191326475846888,1.0,True
+2355.04,Guru Pahat/Ukir,guru pahat ukir,3,23,[],0,False,300,0.7462229524257906,1.0,True
+2356.01,Pengajar Komputer,pengajar komputer,2,23,[],0,False,300,0.8225009878230979,1.0,True
+2356.02,Pengajar Software,pengajar software,2,23,[],0,False,300,0.8095892223805852,1.0,True
+2411.01,Akuntan,akuntan,1,24,[],0,False,300,0.9999998257557616,1.0,True
+2411.02,Auditor,auditor,1,24,[],0,False,300,0.9999999457747307,0.9999999999999999,True
+2411.03,Pengawas Keuangan,pengawas keuangan,2,24,[],0,False,300,0.8311918808451596,1.0,True
+2411.04,Akuntan Manajemen,akuntan manajemen,2,24,[],0,False,300,0.8357472997429641,1.0,True
+2411.05,Akuntan Pajak,akuntan pajak,2,24,[],0,False,300,0.8282733611111267,1.0,True
+2412.01,Perencana Estate/Investasi Fisik,perencana estate investasi fisik,4,24,[],0,False,300,0.6759337657248939,1.0,True
+2412.02,Perencana Keuangan,perencana keuangan,2,24,[],0,False,300,0.8621260266650573,1.0,True
+2413.01,Analis Obligasi,analis obligasi,2,24,[],0,False,300,0.77629101033546,1.0,True
+2413.02,Konsultan Investasi,konsultan investasi,2,24,[],0,False,300,0.8313106261838956,1.0,True
+2421.01,Analis Organisasi dan Metode,analis organisasi dan metode,4,24,[],0,False,300,0.6954347111496495,1.0,True
+2421.02,Konsultan Bisnis,konsultan bisnis,2,24,[],0,False,300,0.8582203632416207,1.0,True
+2421.03,Konsultan Manajemen,konsultan manajemen,2,24,[],0,False,300,0.8615549521007084,1.0,True
+2422.01,Analis Kebijakan,analis kebijakan,2,24,[],0,False,300,0.8272487986639969,0.9999999999999999,True
+2423.01,Penasihat Karir,penasihat karir,2,24,[],0,False,300,0.7918398491101549,1.0,True
+2423.02,Analis Pekerjaan,analis pekerjaan,2,24,[],0,False,300,0.7992188973381282,1.0,True
+2423.03,Analis Jabatan,analis jabatan,2,24,[],0,False,300,0.7859500630875791,1.0,True
+2423.04,Konselor Bimbingan Kejuruan,konselor bimbingan kejuruan,3,24,[],0,False,300,0.7658314142763211,0.9999999999999999,True
+2423.05,Pakar Sumber Daya Manusia,pakar sumber daya manusia,4,24,[],0,False,300,0.7553753212068431,1.0,True
+2423.06,Ahli Penempatan Kerja,ahli penempatan kerja,3,24,[],0,False,300,0.7691179272866144,1.0,True
+2424.01,Petugas Pelatihan,petugas pelatihan,2,24,[],0,False,300,0.8462417935353224,0.9999999999999999,True
+2424.02,Spesialis Pengembangan Tenaga Kerja,spesialis pengembangan tenaga kerja,4,24,[],0,False,300,0.7530296739239037,0.9999999999999999,True
+2431.01,Spesialis periklanan,spesialis periklanan,2,24,[],0,False,300,0.804878356551814,0.9999999999999999,True
+2431.02,Analis Penelitian Pasar,analis penelitian pasar,3,24,[],0,False,300,0.7401626603256385,1.0,True
+2431.03,Spesialis Pemasaran,spesialis pemasaran,2,24,[],0,False,300,0.8225486083791386,1.0,True
+2432.00,Profesional Hubungan Masyarakat,profesional hubungan masyarakat,3,24,[],0,False,300,0.7590135896088096,1.0000000000000002,True
+2433.01,Perwakilan Penjualan (Produk Industri),perwakilan penjualan produk industri,4,24,[],0,False,300,0.7476528928307054,1.0,True
+2433.02,Perwakilan Penjualan (Produk Medis dan Farmasi),perwakilan penjualan produk medis dan farmasi,6,24,[],0,False,300,0.6775046232245714,0.9999999999999999,True
+2433.03,Perwakilan Penjualan Produk Teknik,perwakilan penjualan produk teknik,4,24,[],0,False,300,0.7132950842576147,1.0,True
+2434.00,Profesional Penjualan Produk Teknologi Komunikasi dan Informasi,profesional penjualan produk teknologi komunikasi dan informasi,7,24,[],0,False,300,0.7159117711893831,1.0,True
+2511.01,Analis Bisnis (TI),analis bisnis ti,3,25,[],0,False,300,0.6390284616973171,1.0,True
+2511.02,Konsultan Sistem,konsultan sistem,2,25,[],0,False,300,0.8127905062892667,0.9999999999999999,True
+2511.03,Desainer Sistem (TI),desainer sistem ti,3,25,[],0,False,300,0.6310979336647689,1.0,True
+2512.01,Analis Programer,analis programer,2,25,[],0,False,300,0.838438213894209,1.0,True
+2512.02,Desainer Software,desainer software,2,25,[],0,False,300,0.8086545294290031,0.9999999999999999,True
+2512.03,Pengembang Software,pengembang software,2,25,[],0,False,300,0.8450069127079026,0.9999999999999999,True
+2512.04,Teknisi Perangkat Lunak,teknisi perangkat lunak,3,25,[],0,False,300,0.8055624069159049,1.0,True
+2513.01,Programmer Animasi,programmer animasi,2,25,[],0,False,300,0.8163323726157062,1.0,True
+2513.02,Programmer Game Komputer,programmer game komputer,3,25,[],0,False,300,0.7858556265325469,1.0,True
+2513.03,Pengembang Internet,pengembang internet,2,25,[],0,False,300,0.7977945225482691,1.0,True
+2513.04,Programmer Multimedia,programmer multimedia,2,25,[],0,False,300,0.8030452234382868,1.0,True
+2513.05,Arsitek Web,arsitek web,2,25,[],0,False,300,0.7829633714713579,1.0,True
+2513.06,Pengembang Web,pengembang web,2,25,[],0,False,300,0.8294167833497179,1.0,True
+2514.00,Pemrogram Aplikasi,pemrogram aplikasi,2,25,[],0,False,300,0.8227178335781171,1.0,True
+2519.01,Analis Jaminan Kualitas (Komputer),analis jaminan kualitas komputer,4,25,[],0,False,300,0.6632490291817258,0.9999999999999999,True
+2519.02,Tester Software,tester software,2,25,[],0,False,300,0.8263369399058142,1.0,True
+2519.03,Tester Sistem,tester sistem,2,25,[],0,False,300,0.7660788595770974,0.9999999999999999,True
+2521.01,Administrator Database,administrator database,2,25,[],0,False,300,0.8260520552167183,1.0,True
+2521.02,Analis Database,analis database,2,25,[],0,False,300,0.790399041471876,1.0,True
+2521.03,Arsitek Database,arsitek database,2,25,[],0,False,300,0.7611390995396533,1.0,True
+2522.01,Administrator Sistem,administrator sistem,2,25,[],0,False,300,0.8201942146794945,0.9999999999999999,True
+2522.02,Administrator Jaringan,administrator jaringan,2,25,[],0,False,300,0.8247770169008554,1.0,True
+2523.01,Analis Komunikasi (Komputer),analis komunikasi komputer,3,25,[],0,False,300,0.7542388252653317,0.9999999999999999,True
+2523.02,Analis Jaringan,analis jaringan,2,25,[],0,False,300,0.796945598587937,0.9999999999999999,True
+2529.01,Spesialis Forensik Digital,spesialis forensik digital,3,25,[],0,False,300,0.731837536849511,1.0,True
+2529.02,Spesialis Keamanan (TIK),spesialis keamanan tik,3,25,[],0,False,300,0.6480020284432978,1.0,True
+2611.01,Pengacara,pengacara,1,26,[],0,False,300,0.9999998874828331,1.0,True
+2611.02,Jaksa,jaksa,1,26,[],0,False,300,0.9999999863654634,1.0,True
+2611.03,Penuntut Umum,penuntut umum,2,26,[],0,False,300,0.8530247069192454,1.0,True
+2611.04,Penasihat Hukum,penasihat hukum,2,26,[],0,False,300,0.83696897648369,1.0,True
+2612.00,Hakim,hakim,1,26,[],0,False,300,1.0000001569036105,1.0,True
+2619.01,Ahli Hukum (Selain Pengacara dan Hakim),ahli hukum selain pengacara dan hakim,6,26,[],0,False,300,0.708899331186637,1.0,True
+2619.02,Notaris,notaris,1,26,[],0,False,300,1.0000001241394902,1.0,True
+2621.01,Pengarsip,pengarsip,1,26,[],0,False,300,1.000000114436861,1.0,True
+2621.02,Kurator Galeri Seni,kurator galeri seni,3,26,[],0,False,300,0.7966430385700736,0.9999999999999998,True
+2621.03,Kurator Museum,kurator museum,2,26,[],0,False,300,0.8613394208901265,1.0,True
+2622.01,Ahli Bibliografi,ahli bibliografi,2,26,[],0,False,300,0.7914067135530624,1.0,True
+2622.02,Juru Katalog,juru katalog,2,26,[],0,False,300,0.7404741084002823,1.0,True
+2622.03,Pustakawan,pustakawan,1,26,[],0,False,300,1.0000002926514437,1.0,True
+2631.01,Ahli Ekonomi,ahli ekonomi,2,26,[],0,False,300,0.82503702295737,1.0,True
+2631.02,Ahli Ekonometrik,ahli ekonometrik,2,26,[],0,False,300,0.8213694498625599,1.0,True
+2631.03,Penasehat Ekonomi,penasehat ekonomi,2,26,[],0,False,300,0.8094394047857689,1.0,True
+2631.04,Analis Ekonomi,analis ekonomi,2,26,[],0,False,300,0.8257845723633472,0.9999999999999999,True
+2631.05,Ahli Ekonomi Perburuhan,ahli ekonomi perburuhan,3,26,[],0,False,300,0.7634862705398585,0.9999999999999999,True
+2632.01,Ahli Antropologi,ahli antropologi,2,26,[],0,False,300,0.857439376108714,1.0,True
+2632.02,Ahli Arkeologi,ahli arkeologi,2,26,[],0,False,300,0.8655464040636268,1.0,True
+2632.03,Ahi Etnologi,ahi etnologi,2,26,[],0,False,300,0.7810289649606067,1.0,True
+2632.04,Ahli Geografi,ahli geografi,2,26,[],0,False,300,0.8322191103168358,1.0,True
+2632.05,Ahli Sosiologi,ahli sosiologi,2,26,[],0,False,300,0.8378899887346086,1.0,True
+2633.01,Ahli Filsafat,ahli filsafat,2,26,[],0,False,300,0.8393193984869529,1.0,True
+2633.02,Ahli Sejarah,ahli sejarah,2,26,[],0,False,300,0.8400845663865761,1.0,True
+2633.03,Ahli Politik,ahli politik,2,26,[],0,False,300,0.8235398582418939,1.0,True
+2633.04,Ahli Genealogi (Ahli Silsilah),ahli genealogi ahli silsilah,4,26,[],0,False,300,0.7762801748869704,0.9999999999999999,True
+2634.01,Psikolog Klinis,psikolog klinis,2,26,[],0,False,300,0.8410063551951492,1.0,True
+2634.02,Psikolog Pendidikan,psikolog pendidikan,2,26,[],0,False,300,0.8247024789299939,1.0,True
+2634.03,Psikolog Organisasi,psikolog organisasi,2,26,[],0,False,300,0.7872102793034434,1.0,True
+2634.04,Psikoterapis,psikoterapis,1,26,[],0,False,300,0.9999998421582297,0.9999999999999999,True
+2634.05,Psikolog Olahraga,psikolog olahraga,2,26,[],0,False,300,0.7986294170892216,1.0,True
+2635.01,Konselor Kecanduan,konselor kecanduan,2,26,[],0,False,300,0.7962710017057061,1.0,True
+2635.02,Konselor Dukacita,konselor dukacita,2,26,[],0,False,300,0.7431341274324548,0.9999999999999999,True
+2635.03,Konselor Anak dan Remaja,konselor anak dan remaja,4,26,[],0,False,300,0.7394253166084147,1.0,True
+2635.04,Konselor Keluarga,konselor keluarga,2,26,[],0,False,300,0.8068200063327396,0.9999999999999999,True
+2635.05,Konselor Pernikahan,konselor pernikahan,2,26,[],0,False,300,0.7952926467724426,1.0,True
+2635.06,Petugas Parole (Pembebasan Bersyarat),petugas parole pembebasan bersyarat,4,26,[],0,False,300,0.6508956024201314,1.0,True
+2635.07,Petugas Masa Percobaan,petugas masa percobaan,3,26,[],0,False,300,0.7207037308812726,1.0,True
+2635.08,Pekerja Sosial,pekerja sosial,2,26,[],0,False,300,0.853514026329353,1.0,True
+2636.01,Imam Muslim,imam muslim,2,26,[],0,False,300,0.8280108478616051,1.0,True
+2636.02,Pendeta Katolik,pendeta katolik,2,26,[],0,False,300,0.8527381828643531,1.0,True
+2636.03,Pendeta Kristen,pendeta kristen,2,26,[],0,False,300,0.8655249579106455,0.9999999999999999,True
+2636.04,Pendeta Hindu,pendeta hindu,2,26,[],0,False,300,0.8267676486881564,1.0,True
+2636.05,Pendeta Budha,pendeta budha,2,26,[],0,False,300,0.8308626157773522,1.0,True
+2636.06,Pendeta Kong Hu Cu,pendeta kong hu cu,4,26,[],0,False,300,0.6555796887334736,0.9999999999999999,True
+2641.01,Penulis,penulis,1,26,[],0,False,300,0.9999997291577595,0.9999999999999999,True
+2641.02,Editor Buku,editor buku,2,26,[],0,False,300,0.8162348347899128,1.0,True
+2641.03,Penulis Esai,penulis esai,2,26,[],0,False,300,0.8458491201654471,1.0,True
+2641.04,Penulis Media Interaktif,penulis media interaktif,3,26,[],0,False,300,0.76001358566651,1.0,True
+2641.05,Novelis,novelis,1,26,[],0,False,300,0.9999997529832352,0.9999999999999999,True
+2641.06,Penulis Drama,penulis drama,2,26,[],0,False,300,0.8372291153019631,0.9999999999999999,True
+2641.07,Penulis Puisi (Penyair),penulis puisi penyair,3,26,[],0,False,300,0.8225784703409735,1.0,True
+2641.08,Penulis Script,penulis script,2,26,[],0,False,300,0.8120850735525703,1.0,True
+2641.09,Penulis Pidato,penulis pidato,2,26,[],0,False,300,0.8092525152893423,0.9999999999999999,True
+2641.10,Penulis Teknis,penulis teknis,2,26,[],0,False,300,0.8303698300032516,0.9999999999999999,True
+2642.01,Wartawan,wartawan,1,26,[],0,False,300,1.0000001948984194,1.0000000000000002,True
+2642.02,Editor Copy,editor copy,2,26,[],0,False,300,0.8053970981445798,1.0,True
+2642.03,Editor Surat Kabar,editor surat kabar,3,26,[],0,False,300,0.7734164966928072,1.0,True
+2642.04,Reporter Surat Kabar,reporter surat kabar,3,26,[],0,False,300,0.7817372740435637,0.9999999999999999,True
+2642.05,Wartawan Olahraga,wartawan olahraga,2,26,[],0,False,300,0.8064406425721276,1.0,True
+2642.06,Sub Editor,sub editor,2,26,[],0,False,300,0.7811024395310511,0.9999999999999999,True
+2642.07,Reporter Berita TV/Radio,reporter berita tv radio,4,26,[],0,False,300,0.7193393512739141,1.0,True
+2643.01,Interpreter,interpreter,1,26,[],0,False,300,0.9999997993386203,0.9999999999999999,True
+2643.02,Leksikograf (Ahli Perkamusan),leksikograf ahli perkamusan,3,26,[],0,False,300,0.777576482073997,0.9999999999999999,True
+2643.03,Ahli Filologi (Manuskrip),ahli filologi manuskrip,3,26,[],0,False,300,0.7595378855837104,1.0,True
+2643.04,Juru Bahasa Isyarat (Sign Language Interpreter),juru bahasa isyarat sign language interpreter,6,26,[],0,False,300,0.6135675993487935,1.0,True
+2643.05,Subtitler,subtitler,1,26,"[""subtitler""]",1,True,300,0.999999857418377,1.0,True
+2643.06,Penerjemah (Translator),penerjemah translator,2,26,[],0,False,300,0.8965706557861409,1.0,True
+2651.01,Kartunis,kartunis,1,26,[],0,False,300,1.0000000498244057,1.0000000000000002,True
+2651.02,Seniman Keramik,seniman keramik,2,26,[],0,False,300,0.8216572333431269,0.9999999999999999,True
+2651.03,Pemulih Gambar,pemulih gambar,2,26,[],0,False,300,0.7786960728783806,1.0,True
+2651.04,Pelukis Potret,pelukis potret,2,26,[],0,False,300,0.8521197693550752,1.0,True
+2651.05,Pematung,pematung,1,26,[],0,False,300,1.0000001319312388,1.0,True
+2652.01,Pemimpin Band,pemimpin band,2,26,[],0,False,300,0.8094177003243094,0.9999999999999999,True
+2652.02,Komposer,komposer,1,26,[],0,False,300,0.9999999159783454,1.0,True
+2652.03,Pemain Musik,pemain musik,2,26,[],0,False,300,0.8315011695246421,1.0,True
+2652.04,Konduktor Musik,konduktor musik,2,26,[],0,False,300,0.8268413889355655,0.9999999999999999,True
+2652.05,Orchestrator,orchestrator,1,26,[],0,False,300,1.0000000401041003,0.9999999999999999,True
+2652.06,Penyanyi,penyanyi,1,26,[],0,False,300,1.0000000431132499,1.0,True
+2653.01,Koreografer,koreografer,1,26,[],0,False,300,0.9999999783767096,1.0,True
+2653.02,Penari Balet,penari balet,2,26,[],0,False,300,0.8695977074519039,1.0,True
+2653.03,Penari Klub Malam,penari klub malam,3,26,[],0,False,300,0.7232829396562551,1.0,True
+2653.04,Penari Jalan,penari jalan,2,26,[],0,False,300,0.7828850356642953,1.0,True
+2654.01,Sutradara Film Dokumenter,sutradara film dokumenter,3,26,[],0,False,300,0.8469837818676439,1.0,True
+2654.02,Editor Film,editor film,2,26,[],0,False,300,0.7901413491903784,1.0,True
+2654.03,Sutradara Film,sutradara film,2,26,[],0,False,300,0.8991124465574732,1.0,True
+2654.04,Pengarah Fotografi,pengarah fotografi,2,26,[],0,False,300,0.8068888549724139,1.0,True
+2654.05,Sutradara Panggung,sutradara panggung,2,26,[],0,False,300,0.8310839173692391,1.0,True
+2654.06,Pengarah Teknis,pengarah teknis,2,26,[],0,False,300,0.828970562639162,1.0,True
+2654.07,Produser,produser,1,26,[],0,False,300,1.0000001714994597,1.0,True
+2655.01,Aktor,aktor,1,26,[],0,False,300,0.9999997531385313,1.0,True
+2655.02,Artis Pantomim,artis pantomim,2,26,[],0,False,300,0.8145047560407493,1.0,True
+2655.03,Pencerita,pencerita,1,26,[],0,False,300,1.000000026966268,0.9999999999999999,True
+2656.01,Penyiar Radio,penyiar radio,2,26,[],0,False,300,0.9019736307535087,1.0,True
+2656.02,Penyiar Televisi,penyiar televisi,2,26,[],0,False,300,0.8707806176802053,0.9999999999999999,True
+2656.03,Pembaca Berita,pembaca berita,2,26,[],0,False,300,0.8477666336479259,1.0,True
+2656.04,Penyiar Olahraga,penyiar olahraga,2,26,[],0,False,300,0.8093687062144729,1.0,True
+2659.01,Pemain Akrobat,pemain akrobat,2,26,[],0,False,300,0.8324569395823482,1.0,True
+2659.02,Pemain Akrobat Udara,pemain akrobat udara,3,26,[],0,False,300,0.7262134335734768,1.0,True
+2659.03,Badut,badut,1,26,[],0,False,300,0.9999997454347951,1.0,True
+2659.04,Ahli Hipnotis,ahli hipnotis,2,26,[],0,False,300,0.8163373975290712,1.0,True
+2659.05,Pesulap,pesulap,1,26,[],0,False,300,1.000000038463867,1.0,True
+2659.06,Dalang,dalang,1,26,[],0,False,300,1.0000000581522563,1.0,True
+2659.07,Stand Up Komedian (Pelawak Tunggal),stand up komedian pelawak tunggal,5,26,[],0,False,300,0.63160178397473,1.0,True
+2659.08,Ventriloquist,ventriloquist,1,26,[],0,False,300,0.9999997827522562,1.0,True

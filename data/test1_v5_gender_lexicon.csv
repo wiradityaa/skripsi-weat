@@ -1,9 +1,0 @@
-﻿pair_id,male_term,female_term,lexical_category,register,grammatical_class,age_signal,kinship_signal,marital_status_signal,informality_signal,include_core,include_extended,source_lexicographic,source_academic,source_notes,inclusion_reason,exclusion_reason,existing_full,pair_label
-1,pria,wanita,core_identity,netral/formal,nomina identitas,False,False,False,False,True,True,Steinhauer 2010; KBBI Daring,Caliskan et al. 2017; Antoniak dan Mimno 2021,Identitas umum; core utama.,ditetapkan a priori,,True,pria–wanita
-2,laki-laki,perempuan,core_identity,netral,nomina identitas,False,False,False,False,True,True,Steinhauer 2010; KBBI Daring,Caliskan et al. 2017; Steinborn et al. 2022,Identitas umum; core sensitivitas.,ditetapkan a priori,,True,laki-laki–perempuan
-3,ayah,ibu,kinship,netral,nomina kekerabatan,False,True,False,False,False,True,KBBI Daring,Antoniak dan Mimno 2021,Makna kekerabatan.,ditetapkan a priori,,True,ayah–ibu
-4,suami,istri,kinship,netral,nomina relasional,False,True,True,False,False,True,KBBI Daring,Antoniak dan Mimno 2021,Relasi dan status perkawinan.,ditetapkan a priori,,True,suami–istri
-5,putra,putri,kinship,netral,nomina kekerabatan,False,True,False,False,False,True,KBBI Daring,Antoniak dan Mimno 2021,Kekerabatan/generasi.,ditetapkan a priori,,True,putra–putri
-6,pemuda,pemudi,age_status,netral,nomina usia/generasi,True,False,False,False,False,True,KBBI Daring,Steinborn et al. 2022,Usia/generasi tambahan.,ditetapkan a priori,,True,pemuda–pemudi
-7,jejaka,gadis,age_status,netral,nomina usia/status,True,False,False,False,False,True,KBBI Daring,Steinborn et al. 2022,Usia/status tambahan.,ditetapkan a priori,,True,jejaka–gadis
-8,cowok,cewek,informal,informal,nomina identitas,False,False,False,True,False,True,KBBI Daring,Antoniak dan Mimno 2021,Eksperimen register informal.,ditetapkan a priori,,True,cowok–cewek

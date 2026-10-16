@@ -1,9 +1,0 @@
-pair_id,male_term,female_term,category,validation_status,notes
-1,laki-laki,perempuan,identitas,operasional; validasi linguistik lanjutan diperlukan,Kategori berbeda dapat membawa konteks semantik tambahan.
-2,pria,wanita,identitas,operasional; validasi linguistik lanjutan diperlukan,Kategori berbeda dapat membawa konteks semantik tambahan.
-3,ayah,ibu,kekerabatan,operasional; validasi linguistik lanjutan diperlukan,Kategori berbeda dapat membawa konteks semantik tambahan.
-4,suami,istri,kekerabatan,operasional; validasi linguistik lanjutan diperlukan,Kategori berbeda dapat membawa konteks semantik tambahan.
-5,putra,putri,kekerabatan,operasional; validasi linguistik lanjutan diperlukan,Kategori berbeda dapat membawa konteks semantik tambahan.
-6,pemuda,pemudi,usia/identitas,operasional; validasi linguistik lanjutan diperlukan,Kategori berbeda dapat membawa konteks semantik tambahan.
-7,cowok,cewek,informal,operasional; validasi linguistik lanjutan diperlukan,Kategori berbeda dapat membawa konteks semantik tambahan.
-8,jejaka,gadis,status/identitas,operasional; validasi linguistik lanjutan diperlukan,Kategori berbeda dapat membawa konteks semantik tambahan.

@@ -1,0 +1,9 @@
+pair_id,pair_id_source,male_term,female_term,lexical_category,register,validation_status,include_baseline,notes,selection_basis
+laki_laki_perempuan,1,laki-laki,perempuan,identitas umum,netral,operasional; validasi linguistik lanjutan diperlukan,True,Baseline operasional.,Tabel 3.3 proposal revisi menurut prompt; delapan pasangan tetap
+pria_wanita,2,pria,wanita,identitas umum,netral,operasional; validasi linguistik lanjutan diperlukan,True,Register perlu ditinjau.,Tabel 3.3 proposal revisi menurut prompt; delapan pasangan tetap
+ayah_ibu,3,ayah,ibu,kekerabatan,netral,operasional; validasi linguistik lanjutan diperlukan,True,Konteks kekerabatan tambahan.,Tabel 3.3 proposal revisi menurut prompt; delapan pasangan tetap
+suami_istri,4,suami,istri,perkawinan,netral,operasional; validasi linguistik lanjutan diperlukan,True,Konteks relasional tambahan.,Tabel 3.3 proposal revisi menurut prompt; delapan pasangan tetap
+putra_putri,5,putra,putri,kekerabatan,netral,operasional; validasi linguistik lanjutan diperlukan,True,Konteks kekerabatan/generasi.,Tabel 3.3 proposal revisi menurut prompt; delapan pasangan tetap
+pemuda_pemudi,6,pemuda,pemudi,usia/generasi,netral,operasional; validasi linguistik lanjutan diperlukan,True,Perlu perhatian pada sensitivitas.,Tabel 3.3 proposal revisi menurut prompt; delapan pasangan tetap
+cowok_cewek,7,cowok,cewek,identitas umum,informal,operasional; validasi linguistik lanjutan diperlukan,True,Register informal.,Tabel 3.3 proposal revisi menurut prompt; delapan pasangan tetap
+jejaka_gadis,8,jejaka,gadis,usia/status,netral,operasional; validasi linguistik lanjutan diperlukan,True,Perlu perhatian pada sensitivitas.,Tabel 3.3 proposal revisi menurut prompt; delapan pasangan tetap

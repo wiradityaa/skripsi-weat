@@ -1,0 +1,8 @@
+check,value,threshold,status
+Pusat kelompok ortogonal terhadap sumbu gender,2.190088388420719e-17,< 1e-12,PASS
+Token pekerjaan netral terhadap sumbu gender,8.790169113426227e-17,< 1e-12,PASS
+Vektor tidak berubah setelah urutan pekerjaan diacak,0.0,< 1e-12,PASS
+Effect size tidak berubah setelah urutan pekerjaan diacak,0.0,< 1e-12,PASS
+"Korelasi Pearson sinyal laten dan effect size lebih dari 0,90",0.9162055645007673,> 0.90,PASS
+"Korelasi Spearman sinyal laten dan effect size lebih dari 0,95",0.9795485240208375,> 0.95,PASS
+Tanda sinyal laten dan effect size konsisten,1.0,= 1.00,PASS

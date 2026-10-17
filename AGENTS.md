@@ -82,3 +82,16 @@ Notebook valid menurut `nbformat`, kernelspec Python 3, dan lulus Restart Kernel
 README, docs, AGENTS, dan notebook harus selaras dengan run terbaru. Angka hasil harus berasal dari run aktual; bedakan implementasi selesai dari eksekusi selesai. Pin environment sesuai versi aktual dan dokumentasikan instalasi sebelum notebook. Jangan menambahkan referensi ilmiah atau nomor persamaan di luar acuan; nomor yang tersedia: L2 (2.2)–(2.3), cosine (2.4), SC-WEAT (2.8), statistik (2.9), p-value (2.10), BH (2.11), Spearman (2.12).
 
 Jika sumber/model/dependensi/komputasi menghalangi, selesaikan bagian yang bisa dikerjakan dan nyatakan kendala spesifik serta tahap yang belum selesai. Jangan membuat output palsu atau mengganti hasil baru dengan hasil lama.
+
+## Diagnostik penjelas hasil — 18 Oktober 2026
+
+Prompt lanjutan `PROMPT_VSCODE_DIAGNOSTIK_SCWEAT.md` diotorisasi pengguna untuk D1–D5 pada notebook aktif yang sama. Diagnostik deskriptif ini menjelaskan RM 1–RM 3 dan tidak mengubah metode utama, target, model, pasangan baseline, preprocessing, SD `ddof=0`, permutasi, FDR global, atau LOPO. Tidak ditambahkan inferensi, kategori stabil/tidak stabil, cutoff netralitas, atau nomor persamaan proposal.
+
+- Bagian diagnostik memuat bootstrap eksplisit: impor, baca `outputs/analisis_utama/LATEST_RUN.txt`, verifikasi manifest sumber `complete`, baca CSV dengan kode string, dan cocokkan identitas/mapping pasangan. Membaca hasil run utama lengkap untuk diagnostik diperbolehkan; larangan memakai hasil eksperimen historis sebagai pengganti pengukuran utama tetap berlaku.
+- Diagnostik dapat berjalan dari kernel baru tanpa memuat ulang model atau memakai variabel kernel tersembunyi. Sel diagnostik diberi tag `diagnostics`; output bagian utama dan run sumber dipertahankan.
+- Eksekusi hanya diagnostik disimpan terpisah pada `outputs/diagnostik/<YYYY-MM-DD_HH-MM-SS>/{tables,figures,audit}`. Manifest mencatat `parent_run_id`, path/hash input, source notebook, konfigurasi, versi, waktu, status, serta lingkup eksekusi. Jangan menulis ke run utama atau mengubah `LATEST_RUN.txt` utama menjadi run diagnostik.
+- Jika seluruh notebook dijalankan, bagian utama menyelesaikan run baru sebelum bootstrap diagnostik membaca pointer run utama lengkap. Jangan mencampur cosine/skor dari dua parent run.
+- D1 menyebut `cosine(male) − cosine(female)` sebagai **selisih cosine per pasangan**, komponen pembilang, bukan effect size pasangan tunggal atau pengaruh semantik kausal.
+- D2 memisahkan jabatan unik yang pernah membalik dari kejadian jabatan–pasangan; gunakan label faktual dan jitter seed42. D3 menghitung ulang mean, pembilang, SD, serta effect size baseline/LOPO. Selama SD positif, tanda skor ditentukan pembilang; perubahan SD tidak membalik tanda.
+- D4 memakai 48 kombinasi kelompok–pasangan dan denominator anggota kelompok. D5 merekonstruksi permutasi baseline tiga contoh dengan toleransi sumber; adjusted p-value diambil dari BH global yang sudah ada, tanpa pengujian baru.
+- Akhiri bagian diagnostik dengan assertion/tabel QC aktual. Dokumentasi harus membedakan eksekusi `diagnostics-only` dari Run All seluruh notebook; jangan mengklaim pemuatan model atau pengukuran utama dijalankan ulang bila hanya diagnostik yang dieksekusi.

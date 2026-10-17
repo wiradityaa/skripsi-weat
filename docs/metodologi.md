@@ -1,6 +1,6 @@
 # Metodologi implementasi aktif
 
-Acuan penelitian adalah [`acuan_proposal.md`](acuan_proposal.md). Semua perhitungan aktif berada di [`notebooks/analisis_scweat_kbji.ipynb`](../notebooks/analisis_scweat_kbji.ipynb); pipeline tidak mengimpor kode arsip dan tidak membaca embedding, cosine, skor, p-value, atau ringkasan eksperimen lama. Bagian ini memisahkan metode yang ditetapkan acuan dari keputusan teknis pelaksanaannya.
+Acuan penelitian adalah [`acuan_proposal.md`](acuan_proposal.md). Semua perhitungan aktif berada di [`notebooks/analisis_scweat_kbji.ipynb`](../notebooks/analisis_scweat_kbji.ipynb); pipeline utama tidak mengimpor kode arsip atau membaca embedding, cosine, skor, p-value, maupun ringkasan eksperimen historis. Diagnostik penjelas tambahan membaca hasil run utama lengkap yang terverifikasi. Bagian ini memisahkan metode yang ditetapkan acuan, keputusan teknis pelaksanaannya, dan diagnostik tambahan yang diotorisasi 18 Oktober 2026.
 
 ## Identitas, sumber, dan seleksi
 
@@ -133,3 +133,49 @@ Ekspor CSV memakai UTF-8 tanpa indeks. Round-trip impor membaca identitas sebaga
 `manifest_run.json` menyimpan waktu, parameter, SHA-256 streaming input/lexical/model, identitas sumber, ukuran/dimensi model, versi Python/paket, Git/working tree, daftar output, durasi, dan status. `run_id` berdasarkan waktu menghasilkan folder baru; output lama tidak ditimpa. Sel terakhir notebook menampilkan tabel quality control dan assertion yang dihitung dari eksekusi aktual. Kegagalan dilaporkan dengan identitas, bukan diganti `PASS`.
 
 Schema lengkap dan cara membaca ulang tersedia di [`kamus_data.md`](kamus_data.md); status dan keputusan aktual di [`catatan_pengerjaan.md`](catatan_pengerjaan.md).
+
+## Diagnostik penjelas tambahan D1–D5
+
+Diagnostik ini mengikuti prompt lanjutan `PROMPT_VSCODE_DIAGNOSTIK_SCWEAT.md`. Tujuannya menjelaskan hasil RM 1–RM 3 kepada pembaca dan penguji, tanpa mengubah metode utama atau menambah pengujian inferensial. Seluruh input perhitungan berupa sembilan CSV `tables/` dari run utama lengkap; model dan embedding tidak perlu dimuat ulang. Identitas jabatan dan mapping pasangan dicocokkan melalui `occupation_code` dan `pair_id`, bukan posisi baris. Konfigurasi numerik, urutan kelompok, dan warna arah dibaca dari manifest sumber; urutan pasangan kanonis divalidasi terhadap lexical set tersimpan.
+
+### D1 — selisih cosine per pasangan
+
+Untuk tiap jabatan dan pasangan, hitung `g = cosine_laki_laki − cosine_perempuan` dari cosine tersimpan dan mapping lexical kanonis. Hasil 3.320 kombinasi dibandingkan dengan tabel kontribusi sumber; mean delapan `g` untuk jabatan yang sama harus cocok dengan `association_difference` baseline.
+
+Ringkasan delapan pasangan menghitung n, mean, median, SD populasi `ddof=0`, minimum, maksimum, serta proporsi selisih positif/negatif/nol dari nilai penuh. Boxplot dan dot plot mean–median menunjukkan perbedaan arah antarpasangan. `g` disebut **selisih cosine per pasangan**, karena merupakan komponen pembilang, bukan effect size SC-WEAT pasangan tunggal. Perbedaan ini tidak menjelaskan frekuensi kata, usia, register, kekerabatan, atau sebab semantik tanpa analisis pendukung.
+
+### D2 — besar skor awal dan pembalikan arah
+
+Baseline digabungkan dengan ringkasan sensitivitas berdasarkan kode. Ukuran yang dibaca bersama adalah `abs(effect_size_baseline)`, jumlah pembalikan dari delapan kondisi, indikator pernah membalik, dan perubahan absolut maksimum. Dua kelompok faktual adalah **pernah membalik arah** dan **tidak pernah membalik arah**; kelompok dibentuk berdasarkan kejadian yang benar-benar teramati, tanpa cutoff besar skor.
+
+Ringkasan dua kelompok menyajikan n serta mean, median, dan rentang besar skor awal/perubahan maksimum. Distribusi jumlah pembalikan 0–8 memakai jumlah **jabatan unik**; jumlah **kejadian jabatan–pasangan** dihitung terpisah. Scatter menggunakan seed tetap untuk jitter tampilan, tanpa mengubah nilai analisis. Hubungan antara skor awal kecil dan pembalikan dilaporkan deskriptif; tidak dijalankan uji signifikansi, ambang netralitas, atau kategori valid/tidak valid.
+
+### D3 — pembilang, penyebut, dan skor
+
+Dari 16 cosine baseline, hitung ulang mean laki-laki, mean perempuan, selisih `D`, SD, dan `D / SD`. Setiap kondisi LOPO mengeluarkan dua istilah pasangan yang benar, lalu menghitung ulang kedua mean dari tujuh istilah serta SD 14 cosine dengan `ddof=0`. Komponen baseline dan seluruh 3.320 skor LOPO diperiksa terhadap hasil sumber dalam toleransi numerik yang sama.
+
+Perubahan disimpan sebagai LOPO dikurangi baseline untuk `D`, SD, dan effect size. Identitas aljabar `D_LOPO = (8 × D_baseline − g_pasangan_dikeluarkan) / 7` diperiksa untuk seluruh kondisi; ini penjelas perhitungan tanpa nomor persamaan proposal baru. Selama SD positif, **arah effect size ditentukan tanda `D`**: SD mengubah besar skor, tetapi tidak dapat membalik tandanya. Perubahan pembilang dan penyebut dibaca bersama, tanpa persentase pembagian pengaruh kausal atau persentase perubahan skor sebagai indikator utama dekat nol.
+
+Kasus ilustratif yang ditetapkan prompt adalah `2654.03 Sutradara Film` dan `2622.02 Juru Katalog`. Semua delapan kondisi keduanya tersedia, dengan perhatian pada pengeluaran `jejaka–gadis` dan `pemuda–pemudi`. Pemilihan kasus didasarkan pada hasil sebelumnya dan tidak mewakili seluruh jabatan; tabel seluruh jabatan tetap menjadi dasar penelusuran.
+
+### D4 — sensitivitas pada enam kelompok
+
+Detail direkap menjadi 48 kombinasi unik Subgolongan Pokok 21–26 × delapan pasangan. Tiap kombinasi memuat jumlah anggota, mean/median baseline dan LOPO, mean delta, mean perubahan absolut, jumlah pembalikan, dan proporsinya. Denominator pembalikan adalah jumlah jabatan **subgolongan tersebut**, bukan 415 atau jumlah kejadian keseluruhan.
+
+Heatmap mean delta memakai skala divergen simetris terhadap nol; warna menunjukkan arah perubahan skor. Heatmap proporsi pembalikan memakai skala berurutan. Perbandingan lintas kelompok tetap deskriptif, tanpa BH per kelompok atau uji LOPO/beda antarkelompok.
+
+### D5 — rekonstruksi distribusi permutasi baseline
+
+Tiga contoh dipilih berdasarkan besar skor baseline: tertinggi, terdekat dengan median besar skor, dan terendah. Ties dipecahkan menurut kode, dan contoh harus berbeda. Seluruh 12.870 statistik jumlah direkonstruksi dari 16 cosine masing-masing contoh; tidak diperlukan model baru.
+
+Histogram menyertakan statistik pengamatan, batas dua sisi `±abs(T_observed)`, dan kejadian ekstrem dengan aturan ties/toleransi sumber. Jumlah ekstrem dibagi 12.870 harus cocok dengan p-value mentah sumber. Adjusted p-value diambil dari keluarga BH global 415 pengujian yang sudah ada, bukan dihitung ulang khusus tiga contoh. D5 merupakan visualisasi ulang pengujian utama, bukan pengujian tambahan; p-value bukan probabilitas hipotesis nol benar.
+
+### Lingkup eksekusi dan provenance diagnostik
+
+Bagian **11. Diagnostik penjelas hasil** berada setelah 45 cell utama pada notebook yang sama, dengan 23 cell tambahan termasuk 13 cell kode, semuanya bertag `diagnostics`. Bootstrap mengimpor paket dan memuat CSV secara eksplisit dari pointer run utama yang manifestnya `complete` serta QC lulus. Parser float `round_trip` dan kode string mempertahankan presisi/identitas sumber. Sembilan checksum tabel dibandingkan dengan daftar output manifest sebelum perhitungan; pointer, manifest, dan sembilan tabel diperiksa kembali pada akhir.
+
+Eksekusi dari kernel baru tidak mengandalkan variabel bagian utama. Output 45 cell utama dipertahankan dari run sebelumnya. Bila seluruh notebook dijalankan, bagian utama selesai lebih dahulu dan diagnostik membaca hasil lengkap yang baru dibentuk. Manifest diagnostik mencatat fingerprint source seluruh notebook, source bagian utama, dan fingerprint notebook parent secara terpisah; output cell tidak masuk fingerprint source. Snapshot `audit/notebook_source.json` menyimpan pasangan tipe/source seluruh 68 cell dengan SHA-256 yang sama dengan fingerprint notebook pada manifest.
+
+Run diagnostik memiliki direktori terpisah `outputs/diagnostik/<diagnostic_run_id>/{tables,figures,audit}`. `manifest_diagnostik.json` mencatat parent run, path/hash sumber, source notebook, konfigurasi, versi, waktu, status, dan `execution_scope=diagnostics_only_from_saved_csv`; `model_loaded=false`. Pointer diagnostik adalah `outputs/diagnostik/LATEST_DIAGNOSTIC_RUN.txt`, terpisah dari `LATEST_RUN.txt` utama yang tidak ditimpa. CSV berformat UTF-8 tanpa indeks dan tanpa pembulatan analisis; gambar PNG minimal 300 dpi dan SVG disimpan beserta caption aktual. Bagian diagnostik berakhir dengan pemeriksaan konsistensi dan tabel QC yang dihitung dari run tersebut.
+
+Hasil tetap merupakan asosiasi intrinsik dalam fastText dan pilihan atribut. Tidak signifikan tidak membuktikan semua asosiasi tidak ada. Pembalikan arah tidak otomatis membuat hasil tidak valid, dan pasangan dengan perubahan besar tidak otomatis salah atau perlu dihapus. Diagnostik tambahan ini tidak diberi nomor persamaan proposal baru.

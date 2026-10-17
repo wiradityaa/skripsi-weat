@@ -1,0 +1,531 @@
+{
+  "diagnostic_run_id": "2026-10-18_02-55-28",
+  "parent_run_id": "2026-10-14_23-08-25",
+  "status": "complete",
+  "execution_scope": "diagnostics_only_from_saved_csv",
+  "model_loaded": false,
+  "start_time": "2026-10-18T02:55:28.576796+07:00",
+  "config": {
+    "source_mode": "latest_complete_main_run_csv",
+    "execution_scope": "diagnostics_only_from_saved_csv",
+    "ddof": 0,
+    "atol": 1e-12,
+    "rtol": 1e-12,
+    "zero_atol": 0.0,
+    "random_seed": 42,
+    "group_order": [
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26"
+    ],
+    "direction_palette": {
+      "positif": "#D55E00",
+      "negatif": "#7B61A8",
+      "nol": "#7A7A7A"
+    },
+    "dpi": 300,
+    "jitter_width": 0.12,
+    "permutation_bins": 42,
+    "case_codes": [
+      "2654.03",
+      "2622.02"
+    ],
+    "case_focus_pairs": {
+      "2654.03": "jejaka_gadis",
+      "2622.02": "pemuda_pemudi"
+    }
+  },
+  "inputs": [
+    {
+      "path": "outputs/analisis_utama/LATEST_RUN.txt",
+      "size_bytes": 21,
+      "sha256": "34fc31f978df817231acbd22adc363b496f098422a2605ace255a205c8f3535e",
+      "role": "LATEST_RUN.txt"
+    },
+    {
+      "path": "outputs/analisis_utama/2026-10-14_23-08-25/audit/manifest_run.json",
+      "size_bytes": 36071,
+      "sha256": "8656620b50cc92a8c35defd87c27eb52342c0a1f52d1d1badd3b5eeb885bb81f",
+      "role": "manifest_run.json"
+    },
+    {
+      "path": "outputs/analisis_utama/2026-10-14_23-08-25/tables/cosine_atribut.csv",
+      "size_bytes": 133281,
+      "sha256": "3ad7d3b8050a77028f89edf8b04fd8cbe8e70f58dfcf628d542021640b163ca5",
+      "role": "main_run_table"
+    },
+    {
+      "path": "outputs/analisis_utama/2026-10-14_23-08-25/tables/data_analisis.csv",
+      "size_bytes": 106574,
+      "sha256": "d767c7bacc8c2d7b34354574892447b80551ddfd1887ccf68eac428850799999",
+      "role": "main_run_table"
+    },
+    {
+      "path": "outputs/analisis_utama/2026-10-14_23-08-25/tables/hasil_scweat.csv",
+      "size_bytes": 116006,
+      "sha256": "46937de74c00bf08a8ae739fd50f02e59df715a9c9fc8e758efa59092e9b8e3d",
+      "role": "main_run_table"
+    },
+    {
+      "path": "outputs/analisis_utama/2026-10-14_23-08-25/tables/kontribusi_pasangan_per_jabatan.csv",
+      "size_bytes": 84327,
+      "sha256": "f85dc1393b105c930f148cd69858fc6b7b649845ffdde57895b65f65af13b227",
+      "role": "main_run_table"
+    },
+    {
+      "path": "outputs/analisis_utama/2026-10-14_23-08-25/tables/lexicon_gender.csv",
+      "size_bytes": 1734,
+      "sha256": "0ed89261107ac8a2d0c63758c4ba476121b617927e2a072ebb6181f7902813fc",
+      "role": "main_run_table"
+    },
+    {
+      "path": "outputs/analisis_utama/2026-10-14_23-08-25/tables/lopo_detail.csv",
+      "size_bytes": 950261,
+      "sha256": "b8f420ff5b703cf1e2c7e01d772bb27d6dc942dbec8a52ace0cd8650b6aed5f6",
+      "role": "main_run_table"
+    },
+    {
+      "path": "outputs/analisis_utama/2026-10-14_23-08-25/tables/lopo_ringkasan_jabatan.csv",
+      "size_bytes": 65181,
+      "sha256": "184b68f0eae1224559b7c1561e21d4ad41c280f6cf3844f26e15cd6ab4b96843",
+      "role": "main_run_table"
+    },
+    {
+      "path": "outputs/analisis_utama/2026-10-14_23-08-25/tables/lopo_ringkasan_pasangan.csv",
+      "size_bytes": 1454,
+      "sha256": "dca6191b5b63c605d0a69e9533e439f875e911407dd535abbbef37ec1cc53a1a",
+      "role": "main_run_table"
+    },
+    {
+      "path": "outputs/analisis_utama/2026-10-14_23-08-25/tables/ringkasan_subgolongan.csv",
+      "size_bytes": 1447,
+      "sha256": "f0a8b2c1cfecebd08d17cbe99b680b9b074fc0b26784976df010fad1ec908dec",
+      "role": "main_run_table"
+    }
+  ],
+  "parent_model": {
+    "name": "cc.id.300.bin",
+    "size_bytes": 7236808873,
+    "dimension": 300,
+    "vocabulary_size": 2000000,
+    "sha256": "46e6e4c3975c2386f76c608c896cb36fa9c90f9d7f8212988c7eeb5ff41d235f",
+    "source_url": "https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.id.300.bin.gz",
+    "documentation_url": "https://fasttext.cc/docs/en/crawl-vectors.html",
+    "python_version": "3.13.15",
+    "fasttext_community_version": "0.11.7"
+  },
+  "parent_manifest_path": "outputs/analisis_utama/2026-10-14_23-08-25/audit/manifest_run.json",
+  "notebook_path": "notebooks/analisis_scweat_kbji.ipynb",
+  "notebook_source_sha256": "0ae631536bc75f75c71f2e547ea12f6886e50b78191c85d17cb5e25d4ab12bac",
+  "main_cell_source_sha256": "e232dee41ccca77c1875a33fb64a193f9843d889569b48de84e6a5da2c709fcf",
+  "parent_notebook_source_sha256": "e232dee41ccca77c1875a33fb64a193f9843d889569b48de84e6a5da2c709fcf",
+  "python": "3.13.15 (tags/v3.13.15:4061bc4, Aug  5 2026, 13:05:39) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "dependencies": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.1",
+    "seaborn": "0.13.2",
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0"
+  },
+  "git_commit": "1677f1c81d0b2c1be8c61a4f9b2f907f5c1e0f9c",
+  "git_status_at_start": " M AGENTS.md\n M README.md\n M docs/catatan_pengerjaan.md\n M docs/kamus_data.md\n M docs/metodologi.md\n M docs/progres_penelitian.md\n M notebooks/analisis_scweat_kbji.ipynb\n?? outputs/diagnostik/\n",
+  "end_time": "2026-10-18T02:55:41.179447+07:00",
+  "elapsed_seconds": 12.602651,
+  "counts": {
+    "occupations": 415,
+    "pairs": 8,
+    "pair_differences": 3320,
+    "lopo_components": 3320,
+    "group_pair_combinations": 48,
+    "permutation_examples": 3,
+    "permutations_per_example": 12870,
+    "permutation_rows": 38610,
+    "figures": 10,
+    "quality_checks": 16
+  },
+  "quality_control_passed": true,
+  "summary": {
+    "D1": {
+      "largest_positive_mean_pair": "pemuda_pemudi",
+      "positive_mean": 0.08052384201938279,
+      "largest_negative_mean_pair": "jejaka_gadis",
+      "negative_mean": -0.09032887149576675,
+      "opposite_jobs": 404
+    },
+    "D2": {
+      "ever_flip_jobs": 237,
+      "never_flip_jobs": 178,
+      "occupation_pair_flip_events": 416,
+      "median_abs_baseline_ever": 0.11185619619370091,
+      "median_abs_baseline_never": 0.3833734512332705
+    },
+    "D3": {
+      "max_lopo_reconstruction_error": 0.0,
+      "SD_increased_conditions": 1910,
+      "SD_decreased_conditions": 1410,
+      "cases": [
+        {
+          "occupation_code": "2654.03",
+          "occupation_name_raw": "Sutradara Film",
+          "condition": "baseline",
+          "pair_id": "baseline",
+          "n_attributes": 16,
+          "mean_cosine_male": 0.28324325871571965,
+          "mean_cosine_female": 0.2861181858988192,
+          "D": -0.0028749271830995626,
+          "SD": 0.03756834740870916,
+          "effect_size": -0.07652525014803,
+          "delta_D": 0.0,
+          "delta_SD": 0.0,
+          "delta_effect_size": 0.0,
+          "direction": "negatif",
+          "sign_flip": false,
+          "is_focus_condition": false
+        },
+        {
+          "occupation_code": "2654.03",
+          "occupation_name_raw": "Sutradara Film",
+          "condition": "tanpa jejaka–gadis",
+          "pair_id": "jejaka_gadis",
+          "n_attributes": 14,
+          "mean_cosine_male": 0.2977851437854901,
+          "mean_cosine_female": 0.2795676673385081,
+          "D": 0.018217476446982017,
+          "SD": 0.026002140498606878,
+          "effect_size": 0.7006144916399502,
+          "delta_D": 0.02109240363008158,
+          "delta_SD": -0.01156620691010228,
+          "delta_effect_size": 0.7771397417879802,
+          "direction": "positif",
+          "sign_flip": true,
+          "is_focus_condition": true
+        },
+        {
+          "occupation_code": "2622.02",
+          "occupation_name_raw": "Juru Katalog",
+          "condition": "baseline",
+          "pair_id": "baseline",
+          "n_attributes": 16,
+          "mean_cosine_male": 0.1862598332254185,
+          "mean_cosine_female": 0.20390029129916973,
+          "D": -0.017640458073751225,
+          "SD": 0.03498738688687266,
+          "effect_size": -0.5041947868467411,
+          "delta_D": 0.0,
+          "delta_SD": 0.0,
+          "delta_effect_size": 0.0,
+          "direction": "negatif",
+          "sign_flip": false,
+          "is_focus_condition": false
+        },
+        {
+          "occupation_code": "2622.02",
+          "occupation_name_raw": "Juru Katalog",
+          "condition": "tanpa pemuda–pemudi",
+          "pair_id": "pemuda_pemudi",
+          "n_attributes": 14,
+          "mean_cosine_male": 0.18818892466247014,
+          "mean_cosine_female": 0.2188101403886115,
+          "D": -0.03062121572614135,
+          "SD": 0.025306039869787876,
+          "effect_size": -1.2100358603599255,
+          "delta_D": -0.012980757652390124,
+          "delta_SD": -0.009681347017084785,
+          "delta_effect_size": -0.7058410735131844,
+          "direction": "negatif",
+          "sign_flip": false,
+          "is_focus_condition": true
+        }
+      ]
+    },
+    "D4": {
+      "n_group_pair_combinations": 48,
+      "positive_g_pair_negative_delta_groups": 6,
+      "negative_g_pair_positive_delta_groups": 6,
+      "max_flip_proportion": 0.4782608695652174,
+      "max_flip_group": "21",
+      "max_flip_pair": "jejaka_gadis"
+    },
+    "D5": {
+      "population_median_abs_effect_size": 0.21481284769902695,
+      "example_codes": [
+        "2320.02",
+        "2330.02",
+        "2120.02"
+      ],
+      "examples": [
+        {
+          "occupation_code": "2320.02",
+          "occupation_name_raw": "Instruktur Tata Rias",
+          "effect_size": -0.9359400406563696,
+          "T_observed": -0.268838382952328,
+          "extreme_count": 774,
+          "p_raw": 0.06013986013986014,
+          "p_adjusted": 0.9992229992229992,
+          "abs_effect_size": 0.9359400406563696,
+          "distance_to_median_abs": 0.7211271929573426,
+          "selection_criterion": "besar_skor_tertinggi",
+          "population_median_abs_effect_size": 0.21481284769902695,
+          "T_reconstructed": -0.26883838295232776,
+          "n_partitions": 12870,
+          "extreme_count_reconstructed": 774,
+          "p_raw_reconstructed": 0.06013986013986014,
+          "p_adjusted_global": 0.9992229992229992
+        },
+        {
+          "occupation_code": "2330.02",
+          "occupation_name_raw": "Guru Pendidikan Menengah Atas",
+          "effect_size": -0.21481284769902695,
+          "T_observed": -0.09748021325430195,
+          "extreme_count": 9264,
+          "p_raw": 0.7198135198135198,
+          "p_adjusted": 0.9992229992229992,
+          "abs_effect_size": 0.21481284769902695,
+          "distance_to_median_abs": 0.0,
+          "selection_criterion": "terdekat_median_besar_skor",
+          "population_median_abs_effect_size": 0.21481284769902695,
+          "T_reconstructed": -0.09748021325430234,
+          "n_partitions": 12870,
+          "extreme_count_reconstructed": 9264,
+          "p_raw_reconstructed": 0.7198135198135198,
+          "p_adjusted_global": 0.9992229992229992
+        },
+        {
+          "occupation_code": "2120.02",
+          "occupation_name_raw": "Ahli Matematika Terapan",
+          "effect_size": 0.000538134031813156,
+          "T_observed": 0.00018538900184239537,
+          "extreme_count": 12860,
+          "p_raw": 0.9992229992229992,
+          "p_adjusted": 0.9992229992229992,
+          "abs_effect_size": 0.000538134031813156,
+          "distance_to_median_abs": 0.2142747136672138,
+          "selection_criterion": "besar_skor_terendah",
+          "population_median_abs_effect_size": 0.21481284769902695,
+          "T_reconstructed": 0.00018538900184247864,
+          "n_partitions": 12870,
+          "extreme_count_reconstructed": 12860,
+          "p_raw_reconstructed": 0.9992229992229992,
+          "p_adjusted_global": 0.9992229992229992
+        }
+      ]
+    }
+  },
+  "interpretations": {
+    "D1": "Mean selisih cosine pemuda–pemudi +0.080524, sedangkan jejaka–gadis -0.090329. Komponen berlawanan arah dan dapat saling mengimbangi dalam pembilang rata-rata; ini bukan effect size pasangan atau kesimpulan kausal semantik.",
+    "D2": "237 jabatan pernah membalik dan 178 tidak; total 416 kejadian jabatan–pasangan. Median besar skor awal masing-masing 0.111856 dan 0.383373. Perbedaan ini deskriptif dan tidak menetapkan cutoff netralitas.",
+    "D3": "Seluruh 3320 komponen LOPO cocok sumber (galat maksimum 0). Tanda skor mengikuti D selama SD positif. Dua contoh memperlihatkan pembalikan dan perubahan besar tanpa pembalikan; bukan sampel representatif dan bukan pembagian pengaruh kausal pembilang/penyebut.",
+    "D4": "Ada 48 kombinasi kelompok–pasangan. Tanpa pemuda–pemudi, mean delta negatif pada 6/6 kelompok; tanpa jejaka–gadis, mean delta positif pada 6/6. Proporsi maksimum 47.83% pada kelompok 21, pasangan jejaka–gadis; tiap denominator adalah jumlah kelompok.",
+    "D5": "Untuk contoh 2320.02, 2330.02, 2120.02, jumlah ekstrem/p direkonstruksi persis dalam toleransi dari 12.870 statistik. P mentah contoh berkisar 0.060140–0.999223, dan adjusted p tetap berasal dari 415 pengujian global. Distribusi menjelaskan posisi statistik pengamatan tanpa menjadikan p probabilitas hipotesis nol benar."
+  },
+  "outputs": [
+    {
+      "path": "audit/caption_diagnostik.csv",
+      "size_bytes": 3282,
+      "sha256": "6a49fefc4bed5ce3e7dbecd06dc4cfa098a5ddc630ef372fdcda350f893ca9ef"
+    },
+    {
+      "path": "audit/diag_partisi_atribut.csv",
+      "size_bytes": 2524333,
+      "sha256": "c7061e4ca73dcea45ac0a3d51d851c9e5c106fda792580737b367e9769a2902f"
+    },
+    {
+      "path": "audit/input_diagnostik.csv",
+      "size_bytes": 1748,
+      "sha256": "a9db6ddf9887cd518d7db80ee97b00af7950752f4108baa54a465a81873ff22e"
+    },
+    {
+      "path": "audit/interpretasi_diagnostik.json",
+      "size_bytes": 1341,
+      "sha256": "77f3b2a9f7f93c30efdd7a7ca902b7878e62a9af9733ca09813b5efc0e021543"
+    },
+    {
+      "path": "audit/notebook_source.json",
+      "size_bytes": 143076,
+      "sha256": "0ae631536bc75f75c71f2e547ea12f6886e50b78191c85d17cb5e25d4ab12bac"
+    },
+    {
+      "path": "audit/ringkasan_diagnostik.json",
+      "size_bytes": 5952,
+      "sha256": "1ba978841fdde7726bc41d025f28ca034fec0fd63428aa2bbe92f019ae8f7e2e"
+    },
+    {
+      "path": "audit/schema_diagnostik.csv",
+      "size_bytes": 10177,
+      "sha256": "c1ef93be5b2e64ddc0316c045553104d477f49383898f2c64acf4d80c741bfe2"
+    },
+    {
+      "path": "audit/validasi_diagnostik.csv",
+      "size_bytes": 1514,
+      "sha256": "742392b5ed43998bf9d49a8d5e2ae8214c4ce87124bb821db3367280fdf8a028"
+    },
+    {
+      "path": "figures/d1_boxplot_selisih_pasangan.png",
+      "size_bytes": 138499,
+      "sha256": "bc8533d0f2ad00d667483cbbbe0b0c833386923d496cb0803642025aad050e05"
+    },
+    {
+      "path": "figures/d1_boxplot_selisih_pasangan.svg",
+      "size_bytes": 28794,
+      "sha256": "0543506f4d885a66fa335fab50f9e04ac7923f2ba59af068c65203b2c63d86bb"
+    },
+    {
+      "path": "figures/d1_mean_median_selisih.png",
+      "size_bytes": 157922,
+      "sha256": "294c3281fedefb52cf584a85a73b2dae349e9ceb16859bdf8abed4263e7d1a25"
+    },
+    {
+      "path": "figures/d1_mean_median_selisih.svg",
+      "size_bytes": 18432,
+      "sha256": "9ab3acb1718a84a2bdb0a62ca44dd5df2fa90b03f8d79b01ca92a7ce803509ea"
+    },
+    {
+      "path": "figures/d2_distribusi_pembalikan.png",
+      "size_bytes": 89208,
+      "sha256": "1d4e473c53e1485cdda7454c3f9177e1f36b529f4c5250ae528fea504b418551"
+    },
+    {
+      "path": "figures/d2_distribusi_pembalikan.svg",
+      "size_bytes": 17097,
+      "sha256": "d42af87e3f38178a73ea102f4b6cd4cd0b01aca6907d143fa881f5743da192a7"
+    },
+    {
+      "path": "figures/d2_skor_awal_jumlah_pembalikan.png",
+      "size_bytes": 250620,
+      "sha256": "3b182bd4312123783860372c72c78b11163fdfa4c7d3dbafaf56e0a5182e35d4"
+    },
+    {
+      "path": "figures/d2_skor_awal_jumlah_pembalikan.svg",
+      "size_bytes": 74235,
+      "sha256": "3650dbcd921aaf7a5d053dd84bb48f4bfd83fcd543fc2ff0f3f4150893325e64"
+    },
+    {
+      "path": "figures/d2_skor_awal_perubahan_maksimum.png",
+      "size_bytes": 378810,
+      "sha256": "22abbe71c169599b238456fdae3098d1ac75ae7e5b2323b46d15979c5c5a72ed"
+    },
+    {
+      "path": "figures/d2_skor_awal_perubahan_maksimum.svg",
+      "size_bytes": 73627,
+      "sha256": "45ddfcb695ead5f5a8a98777cdeda5369ff04d710aee288d9cf56f41dd321009"
+    },
+    {
+      "path": "figures/d3_perubahan_pembilang_penyebut.png",
+      "size_bytes": 1015493,
+      "sha256": "9150c2d30ecb252ed9316c0e754b8680b76d9bba2a8a29f6001fe6427b8c279b"
+    },
+    {
+      "path": "figures/d3_perubahan_pembilang_penyebut.svg",
+      "size_bytes": 690306,
+      "sha256": "0446ca68de4fbc899c8fc5d1e6254e906d830f8d080f1be66fa943fec7042f48"
+    },
+    {
+      "path": "figures/d3_studi_kasus_komponen.png",
+      "size_bytes": 429378,
+      "sha256": "e97f6dce19ff2626276646fadda54d153b62bbe48dfb72683f330d04664fb128"
+    },
+    {
+      "path": "figures/d3_studi_kasus_komponen.svg",
+      "size_bytes": 52491,
+      "sha256": "9c8bdd713a422b80aba7acf134140bfdbed67555cb12bb8d9cf490a2727d6831"
+    },
+    {
+      "path": "figures/d4_heatmap_mean_delta.png",
+      "size_bytes": 382124,
+      "sha256": "164b87ae8c63aeb2451044c22f97e57ac03b35b7ae4937371a8c1c571a3c2061"
+    },
+    {
+      "path": "figures/d4_heatmap_mean_delta.svg",
+      "size_bytes": 38938,
+      "sha256": "b8d660722408a0e00d5f51ad5b7baf7561c29b987fbe0a7ab2fee4feea10e46e"
+    },
+    {
+      "path": "figures/d4_heatmap_proporsi_pembalikan.png",
+      "size_bytes": 405249,
+      "sha256": "5af1e0ac9b57e761fcdfda3af36eeddd948020eae90742f28956598fa2c54988"
+    },
+    {
+      "path": "figures/d4_heatmap_proporsi_pembalikan.svg",
+      "size_bytes": 38284,
+      "sha256": "d923446f2d63d8c2f50236b5d46683fbd05f569b63d4c95295046f8215c728e2"
+    },
+    {
+      "path": "figures/d5_distribusi_permutasi.png",
+      "size_bytes": 271475,
+      "sha256": "6b0c821f97d407c1e6a755467ded43a19889bd9211b0aa6f51e9c5999ad297a3"
+    },
+    {
+      "path": "figures/d5_distribusi_permutasi.svg",
+      "size_bytes": 99953,
+      "sha256": "51a930f37a16c89cdedf23153560fa3f246149c9e5f499816511054c72a6ca9b"
+    },
+    {
+      "path": "tables/diag_distribusi_jumlah_pembalikan.csv",
+      "size_bytes": 134,
+      "sha256": "05e58604537717b9e710e3d3ea493c190518c0ff3d7f05d7c817993e26dbeb05"
+    },
+    {
+      "path": "tables/diag_komponen_baseline.csv",
+      "size_bytes": 74233,
+      "sha256": "0fa627032a9c7a2d6eb513bea612827da23ba1f761e603230365163bd646271f"
+    },
+    {
+      "path": "tables/diag_komponen_scweat_lopo.csv",
+      "size_bytes": 1491725,
+      "sha256": "d772b31ce39ad2dd6d2fb885f332efae96f2e3e1d41db1a3b0c8168d1fa048f6"
+    },
+    {
+      "path": "tables/diag_pasangan_berlawanan_contoh.csv",
+      "size_bytes": 49266,
+      "sha256": "db0f8f0b9be7deda4eb7658ef9c6ac938e23201de71fbb99e6ff6bb7b6e3dc8d"
+    },
+    {
+      "path": "tables/diag_permutasi_contoh.csv",
+      "size_bytes": 1079,
+      "sha256": "e2dfd5b20c119343c8eb9c1e2813035a317d8399104af23713f9c587407efe79"
+    },
+    {
+      "path": "tables/diag_permutasi_distribusi.csv",
+      "size_bytes": 2416418,
+      "sha256": "8059ef1c783bb6eb02470aa5fc9875a93cfd9c8b03396996f0ca4e3509178950"
+    },
+    {
+      "path": "tables/diag_ringkasan_kejadian_pembalikan.csv",
+      "size_bytes": 610,
+      "sha256": "3fcb18503c0917620f597718490bb4caf34f358e321aaa964d39b7b1e1bd6f6c"
+    },
+    {
+      "path": "tables/diag_selisih_pasangan_detail.csv",
+      "size_bytes": 582698,
+      "sha256": "97bee28f66603cee573429e647cd051b011770e27ae94adec2f5244815ab3175"
+    },
+    {
+      "path": "tables/diag_selisih_pasangan_ringkasan.csv",
+      "size_bytes": 1742,
+      "sha256": "178160f2d449aeefc0ca0d8a0c37c45cf0184da43a49f4cddcba290e14e0a28e"
+    },
+    {
+      "path": "tables/diag_sensitivitas_subgolongan.csv",
+      "size_bytes": 10601,
+      "sha256": "9ee673d34516363ba6382e6277bd26af85a3670ae2a73ce559d2e68c074ca4d6"
+    },
+    {
+      "path": "tables/diag_skor_awal_pembalikan.csv",
+      "size_bytes": 66964,
+      "sha256": "d2f55f04e8335ed0bfe46dc77c10836bca0c531f3558888e5ee71ce9933c97e6"
+    },
+    {
+      "path": "tables/diag_studi_kasus_komponen.csv",
+      "size_bytes": 4470,
+      "sha256": "4ef0db6aa9bda9da62c8f2090f98dcaba6300f6be0eb33cc689acc8bc3d078f8"
+    }
+  ],
+  "main_input_hashes_unchanged": true,
+  "main_latest_pointer_unchanged": true
+}

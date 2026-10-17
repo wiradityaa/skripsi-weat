@@ -1,0 +1,17 @@
+check,observed,expected,status,status_label
+Sumber lengkap dan checksum sembilan tabel,9,9,True,PASS
+"Identitas 415 kode, delapan pasangan dan 16 cosine",415 / 8 / 16,415 / 8 / 16,True,PASS
+Rekonstruksi baseline dari CSV cosine,2.220446049250313e-16,dalam atol/rtol sumber,True,PASS
+D1 3320 selisih cocok kontribusi sumber,3320,3320,True,PASS
+D1 mean delapan selisih sama dengan D baseline,1.3877787807814457e-16,dalam toleransi sumber,True,PASS
+D2 kejadian dan ringkasan jabatan cocok sumber,415 jabatan; 416 kejadian,sesuai LOPO dan ringkasan sumber,True,PASS
+D3 seluruh komponen LOPO cocok sumber berdasarkan kode/pasangan,0.0,3320 baris; dalam toleransi,True,PASS
+"D3 SD positif, 14 atribut, identitas D dan arah",3320,3320; tanda D menentukan tanda skor,True,PASS
+D4 48 kombinasi dan denominator kelompok,48,48,True,PASS
+D5 tiga contoh unik dengan aturan transparan,"2320.02, 2330.02, 2120.02",maksimum / median terdekat / minimum |d|,True,PASS
+"D5 12870 partisi per contoh, p dan komplemen cocok",38610,38610,True,PASS
+D5 referensi sum-minus-sum dan adjusted p global tersimpan,3,tiga contoh; tanpa BH baru,True,PASS
+Kesesuaian tetap melalui kode dan pasangan setelah baris diacak,415 baseline + 3320 LOPO,sama berdasarkan identitas,True,PASS
+Round-trip seluruh tabel diagnostik mempertahankan identitas,15,kode dan pair_id utuh,True,PASS
+Semua input dan pointer utama utuh setelah diagnostik,11,hash sebelum/sesudah sama,True,PASS
+Seluruh D1–D5 memiliki tabel dan PNG/SVG,10,10,True,PASS

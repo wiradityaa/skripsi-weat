@@ -1,5 +1,17 @@
 # Progres penelitian
 
+## Diagnostik penjelas — 18 Oktober 2026
+
+**D1–D5 selesai** pada run [`2026-10-18_02-57-12`](../outputs/diagnostik/2026-10-18_02-57-12/), parent utama [`2026-10-14_23-08-25`](../outputs/analisis_utama/2026-10-14_23-08-25/). Hanya 13 cell kode diagnostik dijalankan dari kernel baru; 45 cell utama dan output sebelumnya dipertahankan. Model tidak dimuat ulang dan pipeline utama tidak dieksekusi ulang. Manifest diagnostik `complete`, durasi 11,72 detik, 16 QC PASS, sepuluh gambar PNG/SVG. Hasil, metode utama, dan pointer utama tetap; pointer diagnostik terpisah.
+
+- **D1:** mean selisih cosine `pemuda–pemudi` +0,080524 dan `jejaka–gadis` −0,090329; 404 jabatan menunjukkan kedua komponen berlawanan sekaligus. Selisih merupakan komponen pembilang, bukan effect size pasangan tunggal.
+- **D2:** 237 jabatan pernah membalik versus 178 tidak, mencakup 416 kejadian. Median besar skor awal masing-masing 0,111856 dan 0,383373, tanpa cutoff netralitas.
+- **D3:** 3.320 komponen LOPO cocok sumber dalam toleransi numerik. Studi kasus memperlihatkan pembalikan `Sutradara Film` tanpa `jejaka–gadis` dan perubahan besar tanpa pembalikan `Juru Katalog` tanpa `pemuda–pemudi`; tanda skor ditentukan pembilang selama SD positif.
+- **D4:** 48 kelompok–pasangan; pengeluaran `pemuda–pemudi` memberi mean delta negatif pada 6/6 kelompok, `jejaka–gadis` positif pada 6/6. Proporsi pembalikan terbesar 47,83% pada kelompok 21 tanpa `jejaka–gadis`, memakai denominator 138 jabatan kelompok tersebut.
+- **D5:** tiga contoh dipilih transparan menurut besar skor; seluruh 12.870 statistik per contoh direkonstruksi. P-value 0,060140; 0,719814; 0,999223 cocok baseline; adjusted p tetap berasal dari BH global, tanpa pengujian tambahan.
+
+Seluruh diagnostik bersifat deskriptif dan tidak mengubah target, model, preprocessing, pasangan baseline, `ddof=0`, permutasi, FDR, atau LOPO. [README](../README.md), [metode](metodologi.md), [kamus](kamus_data.md), dan [catatan pengerjaan](catatan_pengerjaan.md) memuat tabel/visual, provenance, cara menjalankan hanya diagnostik, dan batas interpretasi. Snapshot source disimpan pada audit run. Tidak ada D1–D5 yang masih terhalang; Full Run All notebook 68 cell tidak diklaim dijalankan ulang.
+
 ## Start fresh — 14 Oktober 2026
 
 Arah penelitian aktif mengikuti prompt proposal revisi yang diotorisasi pengguna: **Analisis Asosiasi Gender dan Sensitivitas Skor SC-WEAT terhadap Pemilihan Pasangan Istilah Gender pada Klasifikasi Baku Jabatan Indonesia (KBJI) 2014 Menggunakan fastText Bahasa Indonesia.**

@@ -194,3 +194,84 @@ Audit tambahan:
 Alur relasi adalah sumber → `audit_preparasi.csv` → `data_analisis.csv` → cosine → `hasil_scweat.csv` → ringkasan kelompok dan LOPO. Tabel jabatan berelasi melalui `occupation_code`; tabel pasangan melalui `pair_id`; detail LOPO melalui kedua kunci. Setiap ringkasan harus dapat ditelusuri kembali ke baris individual.
 
 Gambar RM 1 memakai hasil individual; gambar RM 2 memakai enam kelompok dan titik individual; gambar RM 3 memakai detail/ringkasan LOPO. Heatmap subset notebook menampilkan jabatan menurut kriteria perubahan maksimum yang dinyatakan caption; heatmap lengkap tersedia sebagai keluaran terpisah. Warna delta menunjukkan arah **perubahan skor**, bukan langsung arah asosiasi akhir.
+
+## Konvensi diagnostik penjelas D1–D5
+
+Keluaran diagnostik memakai folder terpisah `outputs/diagnostik/<diagnostic_run_id>/`, dengan `parent_run_id` menunjuk run utama lengkap. Sumbernya adalah sembilan CSV `tables/`: `hasil_scweat.csv`, `cosine_atribut.csv`, `lexicon_gender.csv`, `data_analisis.csv`, `ringkasan_subgolongan.csv`, `lopo_detail.csv`, `lopo_ringkasan_jabatan.csv`, `lopo_ringkasan_pasangan.csv`, dan `kontribusi_pasangan_per_jabatan.csv` dari parent yang sama. Hash input dan manifest sumber diperiksa; hasil run utama tidak ditimpa.
+
+Konvensi string, boolean, UTF-8, nilai penuh, dan join berdasarkan kode tetap berlaku. Kunci detail pasangan adalah `(occupation_code, pair_id)`; kunci ringkasan kelompok–pasangan adalah `(submajor_group_code, pair_id)`. Selisih cosine per pasangan adalah komponen pembilang, sementara effect size tetap menggunakan SD gabungan 16/14 cosine. Delta berarti kondisi LOPO dikurangi baseline. Proporsi pembalikan kelompok memakai jumlah anggota kelompok sebagai denominator.
+
+Istilah **pernah membalik arah** berarti setidaknya satu pembalikan positif–negatif dari delapan kondisi, tanpa cutoff besar skor. Jumlah jabatan unik berbeda dari jumlah kejadian jabatan–pasangan. Transisi yang melibatkan nol tetap terpisah, dan nol literal mengikuti konfigurasi sumber. D5 menyimpan rekonstruksi pengujian baseline; adjusted p-value tetap berasal dari BH global parent, tanpa pengujian LOPO atau koreksi khusus contoh.
+
+### Identitas dan tipe yang dipakai bersama
+
+`occupation_code`, `submajor_group_code`, `pair_id`, nama jabatan/kelompok, label, dan istilah merupakan string. `permutation_id` merupakan **integer indeks partisi mulai nol**, berbeda dari kode jabatan string. Hitungan adalah integer; boolean memakai `True`/`False`; seluruh cosine, skor, delta, proporsi, dan komponen numerik lanjutan adalah float64 dalam memori. Cosine berada pada `[-1,1]`, proporsi pada `[0,1]`, SD positif, dan perubahan absolut tidak negatif. Nilai skor/delta tidak dibulatkan sebelum ekspor.
+
+Identitas jabatan lengkap yang dibawa beberapa tabel adalah `occupation_code`, `occupation_name_raw`, `submajor_group_code`, `submajor_group_name`. Identitas pasangan adalah `pair_id` dan `pair_label`. Schema CSV aktual dicatat pada `audit/schema_diagnostik.csv`; tabel di bawah menerangkan arti kolomnya.
+
+### D1 — tabel selisih cosine pasangan
+
+| Berkas / kunci | Kolom | Arti |
+| --- | --- | --- |
+| `diag_selisih_pasangan_detail.csv`; `(occupation_code, pair_id)` | Identitas jabatan/pasangan, `male_term`, `female_term`, `cosine_male`, `cosine_female`, `cosine_difference`, `difference_direction` | 3.320 baris; `cosine_difference = cosine_male − cosine_female`. Arah hanya positif/negatif/nol dari selisih penuh, bukan arah effect size pasangan tunggal |
+| `diag_selisih_pasangan_ringkasan.csv`; `pair_id` | `pair_label`, `n_occupations`, `mean_cosine_difference`, `median_cosine_difference`, `std_cosine_difference`, `min_cosine_difference`, `max_cosine_difference`, `n_positif`, `n_negatif`, `n_nol`, `proportion_positif`, `proportion_negatif`, `proportion_nol` | Delapan ringkasan, SD `ddof=0`; proporsi memakai 415 jabatan per pasangan |
+| `diag_pasangan_berlawanan_contoh.csv`; `occupation_code` | `occupation_name_raw`, `submajor_group_code`, `positive_pair_id`, `negative_pair_id`, `positive_pair_difference`, `negative_pair_difference`, `total_absolute_difference` | Pasangan dipilih berdasarkan mean selisih terbesar/terkecil. Simpan **seluruh** jabatan dengan selisih pasangan pertama positif dan kedua negatif; nama berkas `contoh` tidak berarti hanya cuplikan. Jumlah absolut kedua selisih dipakai untuk urutan tampilan, lalu kode sebagai tie-break |
+
+Tabel terakhir tidak memberi kategori validitas. Notebook menampilkan sepuluh baris teratas menurut `total_absolute_difference` menurun, sedangkan CSV mempertahankan seluruh subset.
+
+### D2 — tabel pembalikan dan besar skor awal
+
+| Berkas / kunci | Kolom | Arti |
+| --- | --- | --- |
+| `diag_skor_awal_pembalikan.csv`; `occupation_code` | Identitas jabatan, `effect_size_baseline`, `abs_effect_size_baseline`, `n_conditions`, `n_sign_flips`, `n_zero_transitions`, `max_abs_delta`, `ever_sign_flip`, `flip_history` | 415 baris. Delapan kondisi; `ever_sign_flip` boolean `n_sign_flips > 0`; label faktual pernah/tidak pernah membalik. Besar awal adalah absolut skor baseline; maksimum perubahan berasal dari delapan LOPO |
+| `diag_ringkasan_kejadian_pembalikan.csv`; `ever_sign_flip` | `flip_history`, `n_occupations`, `mean_abs_baseline`, `median_abs_baseline`, `min_abs_baseline`, `max_abs_baseline`, `mean_max_abs_delta`, `median_max_abs_delta`, `min_max_abs_delta`, `max_max_abs_delta`, `n_occupation_pair_flip_events` | Dua kelompok kejadian. Statistik pertama atas besar skor awal; statistik kedua atas maksimum perubahan per jabatan. Jumlah kejadian adalah jumlah `n_sign_flips`, bukan jumlah jabatan unik |
+| `diag_distribusi_jumlah_pembalikan.csv`; `n_sign_flips` | `n_occupations`, `n_occupation_pair_flip_events` | Sembilan baris 0–8, termasuk frekuensi nol; kejadian = `n_sign_flips × n_occupations` |
+
+### D3 — tabel komponen baseline dan LOPO
+
+`diag_komponen_baseline.csv` mempunyai 415 baris unik `occupation_code`, identitas jabatan lengkap, `n_attributes=16`, `mean_cosine_male`, `mean_cosine_female`, `D`, `SD`, `effect_size`, dan `direction`. `D` adalah selisih kedua mean, `SD` dari 16 cosine dengan `ddof=0`, `effect_size=D/SD`.
+
+`diag_komponen_scweat_lopo.csv` mempunyai 3.320 baris dengan kunci `(occupation_code, pair_id)`:
+
+| Kolom | Arti |
+| --- | --- |
+| Identitas jabatan/pasangan, `removed_male_term`, `removed_female_term` | Jejak jabatan dan dua istilah yang dikeluarkan |
+| `n_attributes_baseline`, `n_attributes_lopo` | 16 dan 14 |
+| `mean_cosine_male_baseline`, `mean_cosine_female_baseline`, `D_baseline`, `SD_baseline`, `effect_size_baseline` | Dua mean, selisih, SD `ddof=0`, dan skor sebelum pengeluaran |
+| `mean_cosine_male_lopo`, `mean_cosine_female_lopo`, `D_lopo`, `SD_lopo`, `effect_size_lopo` | Komponen ulang dari tujuh laki-laki dan tujuh perempuan; SD 14 cosine |
+| `removed_pair_cosine_difference` | Selisih cosine pasangan yang dikeluarkan, sama dengan `g` pada D1 |
+| `delta_D`, `delta_SD`, `delta_effect_size`, `abs_delta_effect_size` | LOPO dikurangi baseline untuk tiap komponen; kolom terakhir absolut perubahan skor |
+| `direction_baseline`, `direction_lopo`, `sign_flip`, `zero_transition` | Arah literal dari skor penuh; dua indikator boolean, transisi nol terpisah |
+
+`diag_studi_kasus_komponen.csv` menyimpan **18 baris**: dua jabatan × baseline dan delapan LOPO. Kuncinya `(occupation_code, pair_id)`; `pair_id="baseline"` merupakan penanda kondisi baseline, bukan pasangan atribut kesembilan. Kolom lain: `occupation_name_raw`, `condition`, `n_attributes`, `mean_cosine_male`, `mean_cosine_female`, `D`, `SD`, `effect_size`, `delta_D`, `delta_SD`, `delta_effect_size`, `direction`, `sign_flip`, `is_focus_condition`. Delta baseline nol; `is_focus_condition` boolean menandai pasangan ilustratif yang ditetapkan prompt. Kasus tidak merupakan sampel representatif; komponen seluruh jabatan tersedia pada tabel detail.
+
+### D4 — tabel kelompok–pasangan
+
+`diag_sensitivitas_subgolongan.csv` mempunyai 48 baris unik `(submajor_group_code, pair_id)`, dengan `submajor_group_name`, `pair_label`, `n_occupations`, `mean_effect_size_baseline`, `median_effect_size_baseline`, `mean_effect_size_lopo`, `median_effect_size_lopo`, `mean_delta`, `mean_abs_delta`, `n_sign_flips`, `proportion_sign_flips`, dan `n_zero_transitions`. Mean/median dihitung dari anggota kombinasi aktual; `proportion_sign_flips = n_sign_flips / n_occupations` kelompok tersebut. Tidak ada BH atau p-value kelompok baru.
+
+### D5 — contoh dan distribusi permutasi
+
+| Berkas / kunci | Kolom | Arti |
+| --- | --- | --- |
+| `diag_permutasi_contoh.csv`; `occupation_code` | `occupation_name_raw`, `effect_size`, `T_observed`, `extreme_count`, `p_raw`, `p_adjusted` | Statistik dari hasil utama untuk tiga kode terpilih |
+| Tabel yang sama | `abs_effect_size`, `distance_to_median_abs`, `selection_criterion`, `population_median_abs_effect_size` | Dasar pemilihan maksimum, terdekat median, minimum besar skor; ties menurut kode dan contoh tidak berulang |
+| Tabel yang sama | `T_reconstructed`, `n_partitions`, `extreme_count_reconstructed`, `p_raw_reconstructed`, `p_adjusted_global` | Statistik/jumlah ekstrem dihitung ulang, `n_partitions=12870`; p direkonstruksi sebagai jumlah ekstrem/12.870. Adjusted p tetap milik BH global parent |
+| `diag_permutasi_distribusi.csv`; `(occupation_code, permutation_id)` | `selection_criterion`, `T_permutation`, `is_extreme` | 38.610 baris = tiga contoh × 12.870 statistik jumlah; `is_extreme` boolean mencakup ties menurut toleransi sumber |
+| `audit/diag_partisi_atribut.csv`; `permutation_id` | `first_group_terms`, `second_group_terms` | 12.870 baris mapping indeks ke dua kelompok delapan istilah, disimpan sebagai JSON array string. Relasi ke distribusi melalui `permutation_id` |
+
+### Audit dan manifest diagnostik
+
+| Berkas pada `audit/` | Schema / isi |
+| --- | --- |
+| `input_diagnostik.csv` | `path`, `size_bytes`, `sha256`, `role`; 11 input: pointer utama, manifest parent, dan sembilan CSV. Path relatif root, ukuran byte, hash string 64 digit heksadesimal |
+| `caption_diagnostik.csv` | `name`, `png`, `svg`, `caption`; path gambar relatif folder run dan caption dari angka aktual |
+| `schema_diagnostik.csv` | `file`, `column`, `dtype`, `list_encoding`; daftar kolom/tipe dari 15 tabel ekspor sebelum QC akhir. Encoding daftar `JSON`, lainnya kosong |
+| `validasi_diagnostik.csv` | `check`, `observed`, `expected`, `status`, `status_label`; boolean hasil pemeriksaan dan label PASS/FAIL |
+| `interpretasi_diagnostik.json` | Jawaban deskriptif D1–D5 berdasarkan eksekusi aktual |
+| `ringkasan_diagnostik.json` | Nilai ringkasan D1–D5, termasuk kasus dan contoh permutasi |
+| `notebook_source.json` | Snapshot JSON pasangan `[cell_type, source]` seluruh 68 cell, tanpa output; SHA-256 cocok dengan `notebook_source_sha256`, sehingga source saat run tetap dapat ditelusuri setelah notebook berubah |
+| `manifest_diagnostik.json` | Identitas run/parent, lingkup, input dan output checksum, source notebook, konfigurasi, versi, waktu, status, ukuran hasil, ringkasan, dan QC |
+
+Field manifest utama adalah `diagnostic_run_id`, `parent_run_id`, `status`, `execution_scope`, `model_loaded`, `start_time`, `end_time`, `elapsed_seconds`, `config`, `inputs`, `parent_model`, `parent_manifest_path`, `notebook_path`, `notebook_source_sha256`, `main_cell_source_sha256`, `parent_notebook_source_sha256`, `python`, `platform`, `dependencies`, `git_commit`, `git_status_at_start`, `counts`, `quality_control_passed`, `summary`, `interpretations`, `outputs`, `main_input_hashes_unchanged`, dan `main_latest_pointer_unchanged`. Waktu ISO8601 zona `+07:00`; durasi detik. `parent_model` merupakan provenance model run sumber, bukan klaim pemuatan ulang.
+
+`execution_scope=diagnostics_only_from_saved_csv` menyatakan perhitungan diagnostik memakai hasil tersimpan dan `model_loaded=false`. Semua source cell notebook dicakup fingerprint tanpa output; source bagian utama dan source notebook parent dicatat terpisah. Manifest tidak diikutkan dalam checksum dirinya sendiri. Pointer `outputs/diagnostik/LATEST_DIAGNOSTIC_RUN.txt` terpisah dari pointer run utama.

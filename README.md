@@ -8,9 +8,11 @@ Proyek ini mengukur asosiasi intrinsik gender pada representasi 415 nama jabatan
 
 Repository telah ditata mengikuti prompt proposal revisi yang diotorisasi pengguna. [Arsip eksperimen lama](archive/2026-10-14_eksperimen_lama/README.md) menyimpan 12 notebook, 60 output, satu laporan progres, satu ZIP, dan delapan berkas ekstraksi. Sebanyak 82 berkas dipindahkan dan dua pedoman lama disalin; [manifest](archive/2026-10-14_eksperimen_lama/manifest_pemindahan.csv) memuat 84 catatan dengan SHA-256 sebelum/sesudah yang sama. Seluruh 72 berkas tracked yang dipindahkan menggunakan `git mv`; tidak dibuat commit. Input aktif kemudian diberi nama deskriptif sesuai instruksi pengguna; pemetaan path lama tersedia pada manifest penataan. Model mempertahankan nama resmi.
 
-**Implementasi dan eksekusi analisis selesai.** Notebook utama valid menurut `nbformat`; seluruh 23 cell kode dijalankan berurutan dari kernel baru tanpa error dan output disimpan. Run **`2026-10-14_23-08-25`** dimulai 14 Oktober 2026 pukul 22:42:06 WIB dan selesai 22:44:04 WIB; [manifest](outputs/analisis_utama/2026-10-14_23-08-25/audit/manifest_run.json) berstatus `complete`, seluruh **16 QC PASS**. Tersedia 415 hasil individual, enam ringkasan kelompok, 3.320 detail LOPO, 415 ringkasan jabatan, delapan ringkasan pasangan, dan 37 gambar dalam PNG/SVG.
+**Implementasi dan eksekusi analisis utama selesai.** Bagian utama notebook valid menurut `nbformat`; seluruh 23 cell kodenya dijalankan berurutan dari kernel baru tanpa error dan output disimpan. Run **`2026-10-14_23-08-25`** dimulai 14 Oktober 2026 pukul 23:08:25 WIB dan selesai 23:10:20 WIB; [manifest](outputs/analisis_utama/2026-10-14_23-08-25/audit/manifest_run.json) berstatus `complete`, seluruh **16 QC PASS**. Tersedia 415 hasil individual, enam ringkasan kelompok, 3.320 detail LOPO, 415 ringkasan jabatan, delapan ringkasan pasangan, dan 37 gambar dalam PNG/SVG.
 
 Semua embedding, cosine, skor, p-value, FDR, serta sensitivitas dihitung dari input dan model aktual pada run baru. Angka eksperimen lama tidak menjadi hasil baru. Proposal asli tidak tersedia dalam repository, sehingga [acuan implementasi](docs/acuan_proposal.md) merangkum spesifikasi dari prompt, bukan salinan naskah proposal.
+
+**Diagnostik D1–D5 selesai pada 18 Oktober 2026.** Run [`2026-10-18_02-57-12`](outputs/diagnostik/2026-10-18_02-57-12/) menjalankan 13 cell kode diagnostik dari kernel baru, dengan **16 QC PASS** dan sepuluh gambar PNG/SVG. Sumbernya run utama `2026-10-14_23-08-25`; model tidak dimuat ulang dan pipeline utama tidak dieksekusi ulang. Output 45 cell utama, folder sumber, dan pointer utama dipertahankan.
 
 ## Tiga rumusan masalah
 
@@ -31,6 +33,10 @@ outputs/analisis_utama/<run_id>/
   tables/                             hasil penuh CSV
   figures/                            PNG 300 dpi dan SVG, heatmap lengkap
   audit/                              jejak preparasi, vektor, validasi, manifest
+outputs/diagnostik/<diagnostic_run_id>/
+  tables/                             diagnostik D1–D5 dari run utama lengkap
+  figures/                            gambar diagnostik PNG 300 dpi dan SVG
+  audit/                              input/hash, validasi, manifest diagnostik
 docs/                                 acuan, metode, kamus, catatan pengerjaan
 archive/2026-10-14_eksperimen_lama/     eksperimen historis
 archive/2026-10-14_penataan_berkas/     11 CSV tidak relevan dan snapshot notebook
@@ -162,7 +168,59 @@ Perubahan absolut maksimum **0,777140**, pada `2654.03 Sutradara Film` ketika `j
 
 [Detail 3.320 kombinasi](outputs/analisis_utama/2026-10-14_23-08-25/tables/lopo_detail.csv), [ringkasan 415 jabatan](outputs/analisis_utama/2026-10-14_23-08-25/tables/lopo_ringkasan_jabatan.csv), [ringkasan delapan pasangan](outputs/analisis_utama/2026-10-14_23-08-25/tables/lopo_ringkasan_pasangan.csv), [scatter delapan kondisi](outputs/analisis_utama/2026-10-14_23-08-25/figures/rm3_scatter_delapan_kondisi.png), dan [heatmap lengkap HTML](outputs/analisis_utama/2026-10-14_23-08-25/figures/lopo_heatmap_lengkap.html). Heatmap seluruh 415 jabatan juga tersedia sebagai **17 halaman PNG/SVG** di folder gambar; HTML hanya pelengkap.
 
-## Validasi aktual dan batas yang tersisa
+## Diagnostik penjelas hasil D1–D5
+
+Tambahan yang diotorisasi 18 Oktober 2026 menjelaskan hasil RM 1–RM 3 dari CSV run utama lengkap. Model, preprocessing, 415 target, delapan pasangan, SC-WEAT `ddof=0`, permutasi, BH global, dan LOPO tetap. Diagnostik tidak memuat ulang model dan tidak menambah p-value LOPO, uji beda kelompok, cutoff netralitas, atau kategori stabil/tidak stabil.
+
+| Bagian | Pertanyaan penjelas | Hubungan dengan RM |
+| --- | --- | --- |
+| D1 — selisih cosine per pasangan | Pasangan mana menyumbang selisih cosine positif/negatif pada pembilang? | RM 1 dan RM 3 |
+| D2 — besar skor awal dan pembalikan | Bagaimana pembalikan berhubungan secara deskriptif dengan besar skor baseline? | RM 3 |
+| D3 — pembilang dan penyebut | Bagaimana mean cosine, `D`, SD, dan `D / SD` berubah setelah pengeluaran pasangan? | RM 1 dan RM 3 |
+| D4 — enam subgolongan | Apakah pergeseran/pembalikan muncul lintas kelompok atau terkonsentrasi? | RM 2 dan RM 3 |
+| D5 — distribusi permutasi | Seberapa ekstrem pengamatan dibandingkan 12.870 pembagian label baseline? | RM 1 |
+
+Metode lengkap dan batas setiap ukuran tersedia pada [bagian diagnostik metodologi](docs/metodologi.md). Selisih cosine pasangan merupakan komponen pembilang, bukan effect size pasangan tunggal. Selama SD positif, pembalikan tanda skor terjadi karena tanda pembilang berubah; SD hanya memengaruhi besarnya. Pembalikan tidak otomatis membuat hasil tidak valid atau pasangan salah.
+
+Untuk menjalankan **hanya diagnostik**, buka notebook aktif, restart kernel tanpa menghapus output tersimpan, lalu jalankan berurutan seluruh cell mulai judul **Diagnostik penjelas hasil** sampai QC diagnostik terakhir. Cell bagian ini diberi tag `diagnostics`; bootstrap mengimpor paket dan membaca CSV secara eksplisit dari `outputs/analisis_utama/LATEST_RUN.txt`, lalu memeriksa manifest sumber `complete`. Cara ini tidak membutuhkan variabel bagian utama atau model yang sudah dimuat.
+
+Keluaran diagnostik menggunakan `outputs/diagnostik/<diagnostic_run_id>/{tables,figures,audit}` dan mencatat `parent_run_id` serta lingkup eksekusi. Run utama dan pointer `LATEST_RUN.txt` utama dipertahankan. Jika memilih Run All seluruh notebook, bagian utama membentuk run baru terlebih dahulu dan diagnostik memakai run lengkap tersebut. Lingkup eksekusi harus dibaca pada manifest; menjalankan diagnostik saja tidak berarti pengukuran utama dijalankan ulang.
+
+### Run diagnostik dan keluaran aktual
+
+Run **`2026-10-18_02-57-12`** berlangsung **18 Oktober 2026 pukul 02:57:12–02:57:24 WIB**, durasi manifest **11,72 detik**, berstatus `complete`. Notebook kini mempunyai 68 cell: 45 cell utama yang dipertahankan dan 23 tambahan bertag `diagnostics`, termasuk 13 cell kode yang benar-benar dieksekusi pada tambahan ini. [Manifest diagnostik](outputs/diagnostik/2026-10-18_02-57-12/audit/manifest_diagnostik.json) menyatakan `execution_scope=diagnostics_only_from_saved_csv` dan `model_loaded=false`.
+
+| Bagian | Tabel penuh | Visual penjelas |
+| --- | --- | --- |
+| D1 | [3.320 selisih pasangan](outputs/diagnostik/2026-10-18_02-57-12/tables/diag_selisih_pasangan_detail.csv), [delapan ringkasan](outputs/diagnostik/2026-10-18_02-57-12/tables/diag_selisih_pasangan_ringkasan.csv) | [Boxplot selisih](outputs/diagnostik/2026-10-18_02-57-12/figures/d1_boxplot_selisih_pasangan.png), [mean–median](outputs/diagnostik/2026-10-18_02-57-12/figures/d1_mean_median_selisih.png) |
+| D2 | [415 jabatan](outputs/diagnostik/2026-10-18_02-57-12/tables/diag_skor_awal_pembalikan.csv), [dua kelompok kejadian](outputs/diagnostik/2026-10-18_02-57-12/tables/diag_ringkasan_kejadian_pembalikan.csv), [distribusi 0–8 pembalikan](outputs/diagnostik/2026-10-18_02-57-12/tables/diag_distribusi_jumlah_pembalikan.csv) | [Skor awal–jumlah pembalikan](outputs/diagnostik/2026-10-18_02-57-12/figures/d2_skor_awal_jumlah_pembalikan.png), [skor awal–perubahan maksimum](outputs/diagnostik/2026-10-18_02-57-12/figures/d2_skor_awal_perubahan_maksimum.png) |
+| D3 | [415 komponen baseline](outputs/diagnostik/2026-10-18_02-57-12/tables/diag_komponen_baseline.csv), [3.320 komponen LOPO](outputs/diagnostik/2026-10-18_02-57-12/tables/diag_komponen_scweat_lopo.csv), [18 baris studi kasus](outputs/diagnostik/2026-10-18_02-57-12/tables/diag_studi_kasus_komponen.csv) | [Perubahan D–SD](outputs/diagnostik/2026-10-18_02-57-12/figures/d3_perubahan_pembilang_penyebut.png), [dua ilustrasi komponen](outputs/diagnostik/2026-10-18_02-57-12/figures/d3_studi_kasus_komponen.png) |
+| D4 | [48 kelompok–pasangan](outputs/diagnostik/2026-10-18_02-57-12/tables/diag_sensitivitas_subgolongan.csv) | [Heatmap mean delta](outputs/diagnostik/2026-10-18_02-57-12/figures/d4_heatmap_mean_delta.png), [heatmap proporsi pembalikan](outputs/diagnostik/2026-10-18_02-57-12/figures/d4_heatmap_proporsi_pembalikan.png) |
+| D5 | [Tiga contoh terpilih](outputs/diagnostik/2026-10-18_02-57-12/tables/diag_permutasi_contoh.csv), [38.610 statistik permutasi](outputs/diagnostik/2026-10-18_02-57-12/tables/diag_permutasi_distribusi.csv) | [Tiga distribusi permutasi](outputs/diagnostik/2026-10-18_02-57-12/figures/d5_distribusi_permutasi.png) |
+
+**D1 — dua komponen berlawanan.** Mean selisih cosine terbesar ke arah positif adalah `pemuda–pemudi` **+0,080524**; paling negatif `jejaka–gadis` **−0,090329**. Pada **404 jabatan**, kedua pasangan tersebut sekaligus memberikan selisih positif dan negatif. Keduanya dapat saling mengimbangi dalam rata-rata pembilang. [Subset lengkap pasangan berlawanan](outputs/diagnostik/2026-10-18_02-57-12/tables/diag_pasangan_berlawanan_contoh.csv) tersedia, meskipun notebook menampilkan sepuluh contoh menurut jumlah absolut selisih. Ini tidak membuktikan frekuensi kata, usia, register, atau kekerabatan sebagai penyebab.
+
+**D2 — pembalikan dan besar perubahan berbeda.** Ada **237 jabatan unik pernah membalik**, **178 tidak pernah**, dan **416 kejadian jabatan–pasangan**. Median besar skor awal masing-masing **0,111856** dan **0,383373**. Mean perubahan absolut maksimum masing-masing **0,308123** dan **0,293133**. Pada data ini kelompok yang pernah membalik mempunyai skor awal lebih kecil, sementara besar perubahan maksimum tetap perlu dibaca terpisah; rentang kedua kelompok tumpang tindih. Tidak dibuat cutoff netralitas atau klaim sebab-akibat.
+
+**D3 — tanda berasal dari pembilang.** Seluruh **3.320 effect size LOPO cocok dalam toleransi numerik** dengan sumber. Pada `2654.03 Sutradara Film`, pengeluaran `jejaka–gadis` mengubah `D` **−0,002875 → +0,018217**, SD **0,037568 → 0,026002**, dan skor **−0,076525 → +0,700614**. Tanda berubah karena `D` melewati nol; SD tetap positif. Pada `2622.02 Juru Katalog`, pengeluaran `pemuda–pemudi` mengubah `D` **−0,017640 → −0,030621**, SD **0,034987 → 0,025306**, dan skor **−0,504195 → −1,210036**: perubahan besar tanpa pembalikan. Dua ilustrasi ini bukan sampel representatif dan tidak membagi pengaruh kausal pembilang/penyebut.
+
+**D4 — pergeseran melintasi keenam kelompok.** Pengeluaran `pemuda–pemudi` memberi mean delta negatif pada **6/6 kelompok**, sedangkan pengeluaran `jejaka–gadis` memberi mean delta positif pada **6/6 kelompok**. Besarnya bervariasi: mean delta tanpa `pemuda–pemudi` berkisar **−0,347034 sampai −0,206149**. Proporsi pembalikan terbesar adalah **66/138 = 47,83%** pada kelompok **21** ketika `jejaka–gadis` dikeluarkan. Denominator adalah anggota kelompok, sehingga jumlah kejadian mentah tidak disamakan dengan proporsi. Ini perbandingan deskriptif tanpa uji beda kelompok.
+
+**D5 — pengamatan terhadap distribusi label.** Contoh dipilih dari besar skor tertinggi, tepat median besar skor, dan terendah; ties menurut kode, tanpa pengulangan. Median besar skor seluruh jabatan **0,214813**.
+
+| Kriteria | Kode dan jabatan | Besar skor awal | Kejadian ekstrem / 12.870 | p mentah | Adjusted p global |
+| --- | --- | ---: | ---: | ---: | ---: |
+| Tertinggi | 2320.02 Instruktur Tata Rias | 0,935940 | 774 | 0,060140 | 0,999223 |
+| Terdekat median | 2330.02 Guru Pendidikan Menengah Atas | 0,214813 | 9.264 | 0,719814 | 0,999223 |
+| Terendah | 2120.02 Ahli Matematika Terapan | 0,000538 | 12.860 | 0,999223 | 0,999223 |
+
+Untuk contoh terbesar sekalipun, **774 dari 12.870** statistik label setidaknya sama ekstrem dengan pengamatan, sehingga p dua sisi **0,060140** belum mencapai `0.05`. Dua contoh lainnya mempunyai lebih banyak kejadian ekstrem. Adjusted p diambil dari BH global 415 pengujian yang sudah ada. D5 memvisualisasikan ulang pengujian baseline; p bukan probabilitas hipotesis nol benar, dan tidak signifikan tidak membuktikan semua asosiasi tidak ada.
+
+[16 pemeriksaan diagnostik PASS](outputs/diagnostik/2026-10-18_02-57-12/audit/validasi_diagnostik.csv) memverifikasi identitas, sembilan checksum tabel, rekonstruksi baseline/selisih/LOPO, kejadian pembalikan, 48 denominator kelompok–pasangan, tiga permutasi termasuk referensi jumlah langsung, join setelah pengacakan, round-trip kode, serta keutuhan **11 input** dan pointer utama. [Schema](outputs/diagnostik/2026-10-18_02-57-12/audit/schema_diagnostik.csv), [caption](outputs/diagnostik/2026-10-18_02-57-12/audit/caption_diagnostik.csv), [interpretasi](outputs/diagnostik/2026-10-18_02-57-12/audit/interpretasi_diagnostik.json), dan [snapshot source notebook](outputs/diagnostik/2026-10-18_02-57-12/audit/notebook_source.json) menyimpan jejak lengkap. [`LATEST_DIAGNOSTIC_RUN.txt`](outputs/diagnostik/LATEST_DIAGNOSTIC_RUN.txt) menunjuk run diagnostik lengkap terbaru; pointer utama tetap `2026-10-14_23-08-25`.
+
+Seluruh sepuluh visual diagnostik diperiksa keterbacaannya, termasuk label grafik yang padat; semua PNG mempunyai metadata 300 dpi. Seluruh 40 checksum output diagnostik cocok dengan manifest. Hasil utama dan 100 checksum output parent tetap utuh.
+
+## Validasi analisis utama dan batas yang tersisa
 
 [Seluruh 16 pemeriksaan PASS](outputs/analisis_utama/2026-10-14_23-08-25/audit/validasi.csv). Pemeriksaan mencakup cakupan/seleksi/nama sumber; dimensi/norma/finite vektor; 36 perbandingan cosine dengan rumus umum; 12.870 partisi unik dan simetri komplemen; skor/p-value referensi skalar pada sembilan jabatan; BH independen; pertukaran label; hitung ulang cosine/skor/p-value/FDR/LOPO setelah acak baris dan atribut lalu merge berdasarkan kode; SD/ringkasan/LOPO; serta round-trip 21 tabel ekspor dengan kode berekor nol tetap utuh. [Referensi numerik](outputs/analisis_utama/2026-10-14_23-08-25/audit/validasi_referensi.csv) dan [invariansi](outputs/analisis_utama/2026-10-14_23-08-25/audit/validasi_invariansi.csv) menyimpan buktinya.
 

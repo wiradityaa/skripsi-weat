@@ -1,0 +1,416 @@
+occupation_code,occupation_name_raw,submajor_group_code,submajor_group_name,effect_size_baseline,n_conditions,n_sign_flips,n_zero_transitions,max_abs_delta,abs_effect_size_baseline,ever_sign_flip,flip_history
+2111.01,Ahli Fisika (Umum),21,Ahli ilmu pengetahuan dan teknik,-0.03149021043763044,8,4,0,0.3034339392603988,0.03149021043763044,True,pernah membalik arah
+2111.02,Ahli Fisika Nuklir,21,Ahli ilmu pengetahuan dan teknik,-0.13553744605046797,8,1,0,0.33744794972199105,0.13553744605046797,True,pernah membalik arah
+2111.03,Ahli Fisika Mekanika,21,Ahli ilmu pengetahuan dan teknik,0.22674370835310323,8,1,0,0.34633178596490233,0.22674370835310323,True,pernah membalik arah
+2111.04,Ahli Fisika Panas,21,Ahli ilmu pengetahuan dan teknik,0.008941354724996603,8,4,0,0.3183703957478087,0.008941354724996603,True,pernah membalik arah
+2111.05,Ahli Fisika Sinar,21,Ahli ilmu pengetahuan dan teknik,0.34665094042919614,8,0,0,0.29941147291375697,0.34665094042919614,False,tidak pernah membalik arah
+2111.06,Ahli Fisika Suara,21,Ahli ilmu pengetahuan dan teknik,0.20985404716476613,8,1,0,0.3344431390731831,0.20985404716476613,True,pernah membalik arah
+2111.07,Ahli Fisika Listrik Dan Magnit,21,Ahli ilmu pengetahuan dan teknik,0.13933480464347747,8,1,0,0.3204108647061017,0.13933480464347747,True,pernah membalik arah
+2111.08,Ahli Fisika Elektronika,21,Ahli ilmu pengetahuan dan teknik,-0.12983475903269437,8,1,0,0.2558520385424679,0.12983475903269437,True,pernah membalik arah
+2111.09,Ahli Fisika Medis,21,Ahli ilmu pengetahuan dan teknik,-0.017447728704524,8,4,0,0.2821315607239009,0.017447728704524,True,pernah membalik arah
+2111.10,Ahli Astronomi,21,Ahli ilmu pengetahuan dan teknik,0.164137279171547,8,1,0,0.24166551968640534,0.164137279171547,True,pernah membalik arah
+2112.01,Ahli Meteorologi (Umum),21,Ahli ilmu pengetahuan dan teknik,0.23539242429625043,8,1,0,0.33031312021946724,0.23539242429625043,True,pernah membalik arah
+2112.02,Ahli Klimatologi,21,Ahli ilmu pengetahuan dan teknik,0.016545359370090315,8,2,0,0.25140712361014816,0.016545359370090315,True,pernah membalik arah
+2112.03,Ahli Prakiraan Cuaca,21,Ahli ilmu pengetahuan dan teknik,0.12476497559645855,8,1,0,0.2799878319361351,0.12476497559645855,True,pernah membalik arah
+2112.04,Ahli Hidrometeorologi,21,Ahli ilmu pengetahuan dan teknik,0.19293259719452416,8,1,0,0.25038627355135606,0.19293259719452416,True,pernah membalik arah
+2113.01,Ahli Kimia (Umum),21,Ahli ilmu pengetahuan dan teknik,-0.060609113734173596,8,2,0,0.24762327135202306,0.060609113734173596,True,pernah membalik arah
+2113.02,Ahli Kimia Organik,21,Ahli ilmu pengetahuan dan teknik,-0.02230186450397614,8,4,0,0.2280461496778492,0.02230186450397614,True,pernah membalik arah
+2113.03,Ahli Kimia Anorganik,21,Ahli ilmu pengetahuan dan teknik,0.059942558312545684,8,2,0,0.22135962911664064,0.059942558312545684,True,pernah membalik arah
+2113.04,Ahli Kimia Fisika,21,Ahli ilmu pengetahuan dan teknik,0.1143759357780714,8,1,0,0.26486126360482004,0.1143759357780714,True,pernah membalik arah
+2113.05,Ahli Kimia Analitik,21,Ahli ilmu pengetahuan dan teknik,0.22088603551768474,8,0,0,0.19416950017254034,0.22088603551768474,False,tidak pernah membalik arah
+2114.01,Ahli Geologi (Umum),21,Ahli ilmu pengetahuan dan teknik,-0.006035749607931478,8,5,0,0.29332154497291196,0.006035749607931478,True,pernah membalik arah
+2114.02,Ahli Geologi Kelautan,21,Ahli ilmu pengetahuan dan teknik,0.06614339190059591,8,2,0,0.3095450547246135,0.06614339190059591,True,pernah membalik arah
+2114.03,Ahli Geologi Pertambangan,21,Ahli ilmu pengetahuan dan teknik,0.06902165558168503,8,1,0,0.3442502102645136,0.06902165558168503,True,pernah membalik arah
+2114.04,Ahli Geofisika (Umum),21,Ahli ilmu pengetahuan dan teknik,0.1414091907404382,8,1,0,0.22483573216754424,0.1414091907404382,True,pernah membalik arah
+2114.05,Ahli Geofisika Kelautan,21,Ahli ilmu pengetahuan dan teknik,0.24983934702905658,8,0,0,0.19137155804434047,0.24983934702905658,False,tidak pernah membalik arah
+2120.01,Ahli Matematika Murni,21,Ahli ilmu pengetahuan dan teknik,-0.022769216709514026,8,3,0,0.25658774189151984,0.022769216709514026,True,pernah membalik arah
+2120.02,Ahli Matematika Terapan,21,Ahli ilmu pengetahuan dan teknik,0.000538134031813156,8,3,0,0.17631562232169024,0.000538134031813156,True,pernah membalik arah
+2120.03,Ahli Analisis Riset Operasi (Quality Control Management),21,Ahli ilmu pengetahuan dan teknik,0.07930079104543107,8,2,0,0.1843309039065777,0.07930079104543107,True,pernah membalik arah
+2120.04,Aktuaris,21,Ahli ilmu pengetahuan dan teknik,0.23206390597830479,8,0,0,0.12577922621057097,0.23206390597830479,False,tidak pernah membalik arah
+2120.05,Ahli Statistika (Umum),21,Ahli ilmu pengetahuan dan teknik,-0.09603650072947231,8,2,0,0.22916525776534988,0.09603650072947231,True,pernah membalik arah
+2120.06,Ahli Statistika Matematika,21,Ahli ilmu pengetahuan dan teknik,0.007409533662979326,8,4,0,0.19380976257843247,0.007409533662979326,True,pernah membalik arah
+2120.07,Ahli Statistika (Terapan),21,Ahli ilmu pengetahuan dan teknik,-0.008492501878171401,8,4,0,0.15016649929720183,0.008492501878171401,True,pernah membalik arah
+2131.01,Ahli Perilaku Hewan,21,Ahli ilmu pengetahuan dan teknik,-0.2616889195198802,8,0,0,0.24924681895560635,0.2616889195198802,False,tidak pernah membalik arah
+2131.02,Ahli Bakteriologi,21,Ahli ilmu pengetahuan dan teknik,-0.21937936298953048,8,1,0,0.32808427702325343,0.21937936298953048,True,pernah membalik arah
+2131.03,Ahli Biologi (Umum),21,Ahli ilmu pengetahuan dan teknik,-0.09565439024939781,8,1,0,0.24393938825413314,0.09565439024939781,True,pernah membalik arah
+2131.04,Ahli Biologi Kelautan,21,Ahli ilmu pengetahuan dan teknik,-0.04342493133723987,8,4,0,0.25322945603585423,0.04342493133723987,True,pernah membalik arah
+2131.05,Ahli Biologi Molekuler,21,Ahli ilmu pengetahuan dan teknik,0.09030463696176168,8,1,0,0.23463478241713775,0.09030463696176168,True,pernah membalik arah
+2131.06,Ahli Botani,21,Ahli ilmu pengetahuan dan teknik,0.1874188533901413,8,1,0,0.24832920019384777,0.1874188533901413,True,pernah membalik arah
+2131.07,Ahli Zoologi,21,Ahli ilmu pengetahuan dan teknik,0.329968312100276,8,0,0,0.15446296641882418,0.329968312100276,False,tidak pernah membalik arah
+2131.08,Ahli Biokimia,21,Ahli ilmu pengetahuan dan teknik,0.18503130380746374,8,1,0,0.2547913636881937,0.18503130380746374,True,pernah membalik arah
+2131.09,Ahli Anatomi,21,Ahli ilmu pengetahuan dan teknik,-0.14388271985780546,8,1,0,0.18881698865373214,0.14388271985780546,True,pernah membalik arah
+2131.10,Ahli Fisiologi,21,Ahli ilmu pengetahuan dan teknik,0.1532599746027155,8,1,0,0.23642746438377493,0.1532599746027155,True,pernah membalik arah
+2131.11,Ahli Patologis Medis,21,Ahli ilmu pengetahuan dan teknik,-0.2655707373951046,8,0,0,0.22332253282954062,0.2655707373951046,False,tidak pernah membalik arah
+2131.12,Ahli Patologi Hewan,21,Ahli ilmu pengetahuan dan teknik,-0.2647747798800551,8,0,0,0.2550312407814228,0.2647747798800551,False,tidak pernah membalik arah
+2131.13,Ahli Farmakologi,21,Ahli ilmu pengetahuan dan teknik,0.2466205962434526,8,1,0,0.2684918712760546,0.2466205962434526,True,pernah membalik arah
+2132.01,Ahli Agronomi,21,Ahli ilmu pengetahuan dan teknik,0.38008336878990234,8,0,0,0.22652308139219113,0.38008336878990234,False,tidak pernah membalik arah
+2132.02,Ahli Kehutanan,21,Ahli ilmu pengetahuan dan teknik,-0.004188642935411937,8,5,0,0.2975390498583039,0.004188642935411937,True,pernah membalik arah
+2132.03,Ahli Penelitian Tanah,21,Ahli ilmu pengetahuan dan teknik,-0.0018495001388203582,8,5,0,0.2479903298847459,0.0018495001388203582,True,pernah membalik arah
+2132.04,Ahli Hortikultura,21,Ahli ilmu pengetahuan dan teknik,-0.07418522140025906,8,2,0,0.28268158178088715,0.07418522140025906,True,pernah membalik arah
+2132.05,"Konsultan Pertanian, Kehutanan dan Perikanan",21,Ahli ilmu pengetahuan dan teknik,-0.3505633478699369,8,0,0,0.3647982187721376,0.3505633478699369,False,tidak pernah membalik arah
+2133.01,Ahli Ekologi,21,Ahli ilmu pengetahuan dan teknik,0.1204809401230219,8,1,0,0.24810232552813627,0.1204809401230219,True,pernah membalik arah
+2133.02,Analis Polusi Udara,21,Ahli ilmu pengetahuan dan teknik,-0.008875412435340008,8,3,0,0.35164246256645926,0.008875412435340008,True,pernah membalik arah
+2133.03,Ahli Konservasi,21,Ahli ilmu pengetahuan dan teknik,-0.021092162116209807,8,3,0,0.324935226365707,0.021092162116209807,True,pernah membalik arah
+2133.04,Auditor Lingkungan,21,Ahli ilmu pengetahuan dan teknik,-0.42110108267957563,8,0,0,0.2576688578054985,0.42110108267957563,False,tidak pernah membalik arah
+2133.05,Ilmuwan Lingkungan,21,Ahli ilmu pengetahuan dan teknik,-0.1901259698711523,8,1,0,0.3280781975707192,0.1901259698711523,True,pernah membalik arah
+2133.06,Analis Mutu Air,21,Ahli ilmu pengetahuan dan teknik,-0.027708214151344855,8,3,0,0.31721625073327486,0.027708214151344855,True,pernah membalik arah
+2133.07,Konsultan Lingkungan,21,Ahli ilmu pengetahuan dan teknik,-0.25595862357861593,8,0,0,0.2688670499467098,0.25595862357861593,False,tidak pernah membalik arah
+2141.01,Ahli Teknik Efisiensi Industri,21,Ahli ilmu pengetahuan dan teknik,-0.245359293108817,8,0,0,0.2682282114274903,0.245359293108817,False,tidak pernah membalik arah
+2141.02,Ahli Teknik Sistem dan Metoda Kerja Industri,21,Ahli ilmu pengetahuan dan teknik,-0.16578408833768576,8,1,0,0.2529700535408626,0.16578408833768576,True,pernah membalik arah
+2141.03,Ahli Teknik Pengukuran Kerja Industri,21,Ahli ilmu pengetahuan dan teknik,-0.0612368194114128,8,3,0,0.19199771454618986,0.0612368194114128,True,pernah membalik arah
+2141.04,Ahli Teknik Mesin Industri,21,Ahli ilmu pengetahuan dan teknik,-0.2337139239985307,8,1,0,0.29174148193959887,0.2337139239985307,True,pernah membalik arah
+2141.05,Ahli Teknik Produksi Industri,21,Ahli ilmu pengetahuan dan teknik,-0.3142678486735569,8,0,0,0.266183860735045,0.3142678486735569,False,tidak pernah membalik arah
+2142.01,Ahli Teknik Sipil (Umum),21,Ahli ilmu pengetahuan dan teknik,-0.19237057635134946,8,0,0,0.2561874419952295,0.19237057635134946,False,tidak pernah membalik arah
+2142.02,Ahli Teknik Konstruksi Bangunan,21,Ahli ilmu pengetahuan dan teknik,-0.32910233754542567,8,0,0,0.28876013010735785,0.32910233754542567,False,tidak pernah membalik arah
+2142.03,Ahli Teknik Konstruksi Jalan,21,Ahli ilmu pengetahuan dan teknik,-0.2491077077194761,8,1,0,0.2552395490779405,0.2491077077194761,True,pernah membalik arah
+2142.04,Ahli Teknik Konstruksi Landasan Pesawat Udara.,21,Ahli ilmu pengetahuan dan teknik,-0.33852194669411884,8,1,0,0.3394212984641331,0.33852194669411884,True,pernah membalik arah
+2142.05,Ahli Teknik Konstruksi Jalan Kereta Api,21,Ahli ilmu pengetahuan dan teknik,-0.19354171664238803,8,1,0,0.28837886025406845,0.19354171664238803,True,pernah membalik arah
+2142.06,Ahli Teknik Konstruksi Jembatan,21,Ahli ilmu pengetahuan dan teknik,-0.23238247686131616,8,1,0,0.32630743446842864,0.23238247686131616,True,pernah membalik arah
+2142.07,Ahli Teknik Penyehatan Lingkungan,21,Ahli ilmu pengetahuan dan teknik,-0.10305395088580115,8,3,0,0.34327984338719975,0.10305395088580115,True,pernah membalik arah
+2142.08,Ahli Teknik Pengairan,21,Ahli ilmu pengetahuan dan teknik,0.18601800796128704,8,1,0,0.23923328872497324,0.18601800796128704,True,pernah membalik arah
+2142.09,Ahli Teknik Mekanika Tanah,21,Ahli ilmu pengetahuan dan teknik,0.057283685711659205,8,2,0,0.3652448229655358,0.057283685711659205,True,pernah membalik arah
+2143.01,Ahli Teknik Lingkungan,21,Ahli ilmu pengetahuan dan teknik,-0.12044151994991316,8,1,0,0.28477297823825887,0.12044151994991316,True,pernah membalik arah
+2143.02,Analis Lingkungan,21,Ahli ilmu pengetahuan dan teknik,-0.1882602627610596,8,1,0,0.4039139525841071,0.1882602627610596,True,pernah membalik arah
+2143.03,Spesialis Rehabilitasi Lingkungan,21,Ahli ilmu pengetahuan dan teknik,-0.30254289495733416,8,1,0,0.4178820039901738,0.30254289495733416,True,pernah membalik arah
+2144.01,Ahli Teknik Mesin (Umum),21,Ahli ilmu pengetahuan dan teknik,-0.12153047456375426,8,1,0,0.2591019653629756,0.12153047456375426,True,pernah membalik arah
+2144.02,Ahli Teknik Mesin Dan Peralatan Industri,21,Ahli ilmu pengetahuan dan teknik,-0.3048335347838899,8,0,0,0.279111737996453,0.3048335347838899,False,tidak pernah membalik arah
+2144.03,Ahli Teknik Mesin Motor Penggerak (Selain Mesin Kapal),21,Ahli ilmu pengetahuan dan teknik,-0.18673603301112263,8,1,0,0.4005585355874871,0.18673603301112263,True,pernah membalik arah
+2144.04,Ahli Teknik Mesin Kapal,21,Ahli ilmu pengetahuan dan teknik,-0.10069049969074789,8,1,0,0.4332781077243311,0.10069049969074789,True,pernah membalik arah
+2144.05,Ahli Teknik Konstruksi Kapal,21,Ahli ilmu pengetahuan dan teknik,-0.23646985811619858,8,1,0,0.341352838480579,0.23646985811619858,True,pernah membalik arah
+2144.06,Ahli Teknik Industri Pesawat Terbang,21,Ahli ilmu pengetahuan dan teknik,-0.411428682724392,8,0,0,0.313584209686366,0.411428682724392,False,tidak pernah membalik arah
+2144.07,Ahli Teknik Mobil,21,Ahli ilmu pengetahuan dan teknik,-0.1369730957918107,8,1,0,0.3612951411537432,0.1369730957918107,True,pernah membalik arah
+2144.08,"Ahli Teknik Pemanasan, Ventilasi dan Pendinginan",21,Ahli ilmu pengetahuan dan teknik,-0.035987703210875244,8,2,0,0.27582989940668035,0.035987703210875244,True,pernah membalik arah
+2144.09,Ahli Teknik Mesin Tenaga Atom,21,Ahli ilmu pengetahuan dan teknik,-0.07072490968175338,8,3,0,0.3103978303102647,0.07072490968175338,True,pernah membalik arah
+2145.01,Ahli Teknik Kimia (Umum),21,Ahli ilmu pengetahuan dan teknik,-0.07913405898555959,8,1,0,0.24311053190597914,0.07913405898555959,True,pernah membalik arah
+2145.02,Ahli Teknik Kimia Bahan Bakar,21,Ahli ilmu pengetahuan dan teknik,-0.20188507839679107,8,1,0,0.2884983594252566,0.20188507839679107,True,pernah membalik arah
+2145.03,Ahli Teknik Kimia Plastik,21,Ahli ilmu pengetahuan dan teknik,-0.16308715296857232,8,1,0,0.21943254648803234,0.16308715296857232,True,pernah membalik arah
+2146.01,Ahli Teknik Pertambangan (Umum),21,Ahli ilmu pengetahuan dan teknik,-0.1320995904747512,8,1,0,0.28141276397547754,0.1320995904747512,True,pernah membalik arah
+2146.02,Ahli Teknik Pertambangan Batu Bara,21,Ahli ilmu pengetahuan dan teknik,-0.015046797002732218,8,2,0,0.2643138846095969,0.015046797002732218,True,pernah membalik arah
+2146.03,Ahli Teknik Pertambangan Logam,21,Ahli ilmu pengetahuan dan teknik,-0.09399164911537379,8,1,0,0.30988740626155736,0.09399164911537379,True,pernah membalik arah
+2146.04,Ahli Teknik Pertambangan Minyak Bumi dan Gas Alam,21,Ahli ilmu pengetahuan dan teknik,-0.19291808442312786,8,1,0,0.31452486039728955,0.19291808442312786,True,pernah membalik arah
+2146.05,Ahli Metalurgi Ekstraksi,21,Ahli ilmu pengetahuan dan teknik,-0.12781535459057577,8,1,0,0.2601864089791134,0.12781535459057577,True,pernah membalik arah
+2146.06,Ahli Metalurgi Fisika,21,Ahli ilmu pengetahuan dan teknik,0.10564841470138359,8,1,0,0.23790650738042135,0.10564841470138359,True,pernah membalik arah
+2149.01,Ahli Teknik Keramik Dan Kaca,21,Ahli ilmu pengetahuan dan teknik,-0.2839506601796171,8,1,0,0.32313643156271354,0.2839506601796171,True,pernah membalik arah
+2149.02,Ahli Teknik Pertanian,21,Ahli ilmu pengetahuan dan teknik,-0.15089895364861933,8,1,0,0.31575129836983595,0.15089895364861933,True,pernah membalik arah
+2149.03,Ahli Teknik Bahan Makanan dan Minuman,21,Ahli ilmu pengetahuan dan teknik,-0.3893774940553577,8,0,0,0.3264211814471847,0.3893774940553577,False,tidak pernah membalik arah
+2149.04,Ahli Teknik Tekstil,21,Ahli ilmu pengetahuan dan teknik,-0.24458233000428287,8,0,0,0.22000437251254543,0.24458233000428287,False,tidak pernah membalik arah
+2149.05,Ahli Teknik Perencanaan Sistem Lalu-Lintas,21,Ahli ilmu pengetahuan dan teknik,0.01002355457183474,8,4,0,0.2757054674228572,0.01002355457183474,True,pernah membalik arah
+2149.06,Ahli Teknik Biomedis,21,Ahli ilmu pengetahuan dan teknik,-0.18635123241496698,8,1,0,0.20592412677658903,0.18635123241496698,True,pernah membalik arah
+2149.07,Ahli Teknik Bahan Peledak,21,Ahli ilmu pengetahuan dan teknik,-0.048765836749264185,8,1,0,0.38434412455564104,0.048765836749264185,True,pernah membalik arah
+2149.08,Ahli Teknik Salvage (Penyelamatan Laut),21,Ahli ilmu pengetahuan dan teknik,-0.3424457777716313,8,0,0,0.34571754706338964,0.3424457777716313,False,tidak pernah membalik arah
+2149.09,Ahli Teknik Keselamatan,21,Ahli ilmu pengetahuan dan teknik,-0.113845279722839,8,2,0,0.2852975928385192,0.113845279722839,True,pernah membalik arah
+2149.10,Ahli Teknik Optikal,21,Ahli ilmu pengetahuan dan teknik,0.1043671400872633,8,1,0,0.23598020665257577,0.1043671400872633,True,pernah membalik arah
+2151.01,Ahli Teknik Listrik (Umum),21,Ahli ilmu pengetahuan dan teknik,-0.0560006913538149,8,3,0,0.26155078097722734,0.0560006913538149,True,pernah membalik arah
+2151.02,Ahli Teknik Pembangkit Tenaga Listrik,21,Ahli ilmu pengetahuan dan teknik,-0.05037597919255526,8,2,0,0.2352963106565505,0.05037597919255526,True,pernah membalik arah
+2151.03,Ahli Teknik Distribusi dan Transmisi Tenaga Listrik,21,Ahli ilmu pengetahuan dan teknik,-0.02481240847003461,8,4,0,0.2807321402754592,0.02481240847003461,True,pernah membalik arah
+2151.04,Ahli Teknik Elektromekanik,21,Ahli ilmu pengetahuan dan teknik,0.31878362278714834,8,0,0,0.23771824137746034,0.31878362278714834,False,tidak pernah membalik arah
+2152.01,Ahli Teknik Elektronik (Umum),21,Ahli ilmu pengetahuan dan teknik,-0.10769849911555673,8,1,0,0.26035671924346315,0.10769849911555673,True,pernah membalik arah
+2152.02,Ahli Teknik Perangkat Keras Komputer,21,Ahli ilmu pengetahuan dan teknik,-0.060500221882427624,8,1,0,0.3810775826162134,0.060500221882427624,True,pernah membalik arah
+2152.03,Ahli Teknik Instrumentasi (Alat Ukur),21,Ahli ilmu pengetahuan dan teknik,-0.1112707709111228,8,1,0,0.22227803124066253,0.1112707709111228,True,pernah membalik arah
+2153.01,Ahli Teknik Telekomunikasi,21,Ahli ilmu pengetahuan dan teknik,-0.045471181678575834,8,3,0,0.2663235492189026,0.045471181678575834,True,pernah membalik arah
+2153.02,Ahli Teknik Penyiaran dan Audio Visual,21,Ahli ilmu pengetahuan dan teknik,-0.2197401245249891,8,0,0,0.29509647838442504,0.2197401245249891,False,tidak pernah membalik arah
+2153.03,Ahli Teknologi Rekayasa Telekomunikasi,21,Ahli ilmu pengetahuan dan teknik,0.03155312172306802,8,4,0,0.2735299709084891,0.03155312172306802,True,pernah membalik arah
+2161.01,Arsitek Bangunan,21,Ahli ilmu pengetahuan dan teknik,-0.18273586681001647,8,1,0,0.5104460842236072,0.18273586681001647,True,pernah membalik arah
+2161.02,Arsitek Interior,21,Ahli ilmu pengetahuan dan teknik,-0.2687366733691332,8,0,0,0.24539952619775343,0.2687366733691332,False,tidak pernah membalik arah
+2162.00,Arsitek Pertamanan/Lansekap,21,Ahli ilmu pengetahuan dan teknik,-0.0489192029568811,8,2,0,0.4000624090431367,0.0489192029568811,True,pernah membalik arah
+2163.01,Perancang Kostum,21,Ahli ilmu pengetahuan dan teknik,-0.4870673771851451,8,0,0,0.3237753513132388,0.4870673771851451,False,tidak pernah membalik arah
+2163.02,Perancang Busana,21,Ahli ilmu pengetahuan dan teknik,-0.6945721619777557,8,0,0,0.2368036061601244,0.6945721619777557,False,tidak pernah membalik arah
+2163.03,Perancang Perhiasan,21,Ahli ilmu pengetahuan dan teknik,-0.5515020399192622,8,0,0,0.19738734448354267,0.5515020399192622,False,tidak pernah membalik arah
+2163.04,Perancang Produk Industri,21,Ahli ilmu pengetahuan dan teknik,-0.608120727938577,8,0,0,0.2883846201074397,0.608120727938577,False,tidak pernah membalik arah
+2164.01,Perencana Lahan,21,Ahli ilmu pengetahuan dan teknik,-0.23910739618741297,8,1,0,0.2873955911507788,0.23910739618741297,True,pernah membalik arah
+2164.02,Perencana Tata Kota,21,Ahli ilmu pengetahuan dan teknik,-0.6033450390243444,8,0,0,0.29813788858341883,0.6033450390243444,False,tidak pernah membalik arah
+2164.03,Perencana Lalu Lintas,21,Ahli ilmu pengetahuan dan teknik,-0.2183070589920151,8,1,0,0.341106066641503,0.2183070589920151,True,pernah membalik arah
+2165.01,Surveyor Tanah,21,Ahli ilmu pengetahuan dan teknik,0.13548510479952558,8,1,0,0.21986176420531456,0.13548510479952558,True,pernah membalik arah
+2165.02,Surveyor Pertambangan,21,Ahli ilmu pengetahuan dan teknik,0.07387664146389719,8,2,0,0.30521198210617373,0.07387664146389719,True,pernah membalik arah
+2165.03,Surveyor Hidrografi,21,Ahli ilmu pengetahuan dan teknik,0.06105541765206351,8,1,0,0.11239302755445232,0.06105541765206351,True,pernah membalik arah
+2165.04,Surveyor Topografi,21,Ahli ilmu pengetahuan dan teknik,0.02951099263996866,8,3,0,0.15866245422261238,0.02951099263996866,True,pernah membalik arah
+2165.05,Surveyor Aerial,21,Ahli ilmu pengetahuan dan teknik,-0.4831142044899691,8,0,0,0.2686378755155775,0.4831142044899691,False,tidak pernah membalik arah
+2165.06,Surveyor Kadastral,21,Ahli ilmu pengetahuan dan teknik,0.09674901401289641,8,1,0,0.10788298434351389,0.09674901401289641,True,pernah membalik arah
+2165.07,Ahli Pemetaan (Kartografer),21,Ahli ilmu pengetahuan dan teknik,0.3415279181114006,8,0,0,0.10742544547171912,0.3415279181114006,False,tidak pernah membalik arah
+2166.01,Animator,21,Ahli ilmu pengetahuan dan teknik,-0.648010217322186,8,0,0,0.33470238625028076,0.648010217322186,False,tidak pernah membalik arah
+2166.02,Seniman Digital,21,Ahli ilmu pengetahuan dan teknik,-0.2468995278063421,8,1,0,0.2631652604705786,0.2468995278063421,True,pernah membalik arah
+2166.03,Perancang Grafis,21,Ahli ilmu pengetahuan dan teknik,-0.4851894621614069,8,0,0,0.33054799340623464,0.4851894621614069,False,tidak pernah membalik arah
+2166.04,Ilustrator Teknik,21,Ahli ilmu pengetahuan dan teknik,-0.0017987867096675581,8,4,0,0.3787150570394783,0.0017987867096675581,True,pernah membalik arah
+2166.05,Perancang Permainan Interaktif,21,Ahli ilmu pengetahuan dan teknik,-0.5317169439058701,8,0,0,0.3606664869576871,0.5317169439058701,False,tidak pernah membalik arah
+2166.06,Ilustrator,21,Ahli ilmu pengetahuan dan teknik,0.17595023248794756,8,2,0,0.4263071921338603,0.17595023248794756,True,pernah membalik arah
+2166.07,Seniman Lithografi,21,Ahli ilmu pengetahuan dan teknik,-0.19642894040771414,8,1,0,0.20739420534062303,0.19642894040771414,True,pernah membalik arah
+2166.08,Desainer Multimedia,21,Ahli ilmu pengetahuan dan teknik,-0.7945064766440989,8,0,0,0.41519170039638287,0.7945064766440989,False,tidak pernah membalik arah
+2166.09,Desainer Publikasi,21,Ahli ilmu pengetahuan dan teknik,-0.6334958355090371,8,0,0,0.2745614816394564,0.6334958355090371,False,tidak pernah membalik arah
+2166.10,Desainer Website,21,Ahli ilmu pengetahuan dan teknik,-0.8410796378414702,8,0,0,0.19088183078480125,0.8410796378414702,False,tidak pernah membalik arah
+2211.01,Dokter Umum,22,Profesional kesehatan,-0.2500797094808147,8,0,0,0.350757917689007,0.2500797094808147,False,tidak pernah membalik arah
+2211.02,Dokter Keluarga,22,Profesional kesehatan,-0.11139938364268734,8,1,0,0.2154571077042957,0.11139938364268734,True,pernah membalik arah
+2212.01,Dokter Spesialis Anestesi,22,Profesional kesehatan,-0.002244225283000601,8,4,0,0.2880137610527578,0.002244225283000601,True,pernah membalik arah
+2212.02,Dokter Spesialis Jantung,22,Profesional kesehatan,-0.016998389288330692,8,3,0,0.2866245064641324,0.016998389288330692,True,pernah membalik arah
+2212.03,Dokter Spesialis Kulit dan Kelamin,22,Profesional kesehatan,-0.1076582731159191,8,1,0,0.226286271036815,0.1076582731159191,True,pernah membalik arah
+2212.04,"Dokter Spesialis Telinga, Hidung dan Tenggorokan",22,Profesional kesehatan,-0.12384872935266707,8,1,0,0.362296751947904,0.12384872935266707,True,pernah membalik arah
+2212.05,Dokter Spesialis Kandungan,22,Profesional kesehatan,-0.11887543282523548,8,1,0,0.24836291055808968,0.11887543282523548,True,pernah membalik arah
+2212.06,Dokter Spesialis Mata,22,Profesional kesehatan,-0.0336110418086849,8,2,0,0.3821817399062695,0.0336110418086849,True,pernah membalik arah
+2212.07,Dokter Spesialis Anak,22,Profesional kesehatan,-0.12019977686163279,8,1,0,0.34735139912684426,0.12019977686163279,True,pernah membalik arah
+2212.08,Psikiater,22,Profesional kesehatan,0.15935368693004945,8,0,0,0.3783962508543133,0.15935368693004945,False,tidak pernah membalik arah
+2212.09,Dokter Spesialis Penyakit Dalam,22,Profesional kesehatan,-0.10901470566908973,8,1,0,0.27772178128803204,0.10901470566908973,True,pernah membalik arah
+2212.10,Dokter Spesialis Saraf,22,Profesional kesehatan,0.07207544427728237,8,1,0,0.3001250250511441,0.07207544427728237,True,pernah membalik arah
+2212.11,Dokter Spesialis Patologi,22,Profesional kesehatan,-0.11069927017040763,8,1,0,0.30102114806748165,0.11069927017040763,True,pernah membalik arah
+2212.12,Dokter Spesialis Paru,22,Profesional kesehatan,0.07089928239905545,8,1,0,0.2683734482051791,0.07089928239905545,True,pernah membalik arah
+2212.13,Dokter Spesialis Radiologi,22,Profesional kesehatan,-0.2536300724033761,8,1,0,0.3073559700226245,0.2536300724033761,True,pernah membalik arah
+2212.14,Dokter Spesialis Bedah Umum,22,Profesional kesehatan,-0.12226702109610713,8,1,0,0.3027447625287619,0.12226702109610713,True,pernah membalik arah
+2212.15,Dokter Spesialis Bedah Digestif,22,Profesional kesehatan,-0.13209091029506884,8,1,0,0.25674309896308256,0.13209091029506884,True,pernah membalik arah
+2212.16,Dokter Spesialis Bedah Syaraf,22,Profesional kesehatan,-0.011645305640747169,8,4,0,0.29732411113014756,0.011645305640747169,True,pernah membalik arah
+2212.17,Dokter Spesialis Bedah Orthopedi dan Traumatologi,22,Profesional kesehatan,-0.1536242972461477,8,1,0,0.2981055817864551,0.1536242972461477,True,pernah membalik arah
+2212.18,Dokter Spesialis Bedah Onkologi,22,Profesional kesehatan,-0.1449242839202139,8,1,0,0.3003285522976036,0.1449242839202139,True,pernah membalik arah
+2221.01,Perawat Ahli,22,Profesional kesehatan,-0.406881095134466,8,0,0,0.26855710084605144,0.406881095134466,False,tidak pernah membalik arah
+2221.02,Perawat Spesialis,22,Profesional kesehatan,-0.4487607412459879,8,0,0,0.317959768553682,0.4487607412459879,False,tidak pernah membalik arah
+2221.03,Perawat Kesehatan Masyarakat,22,Profesional kesehatan,-0.6931529253837563,8,0,0,0.20783842233136407,0.6931529253837563,False,tidak pernah membalik arah
+2221.04,Perawat Kesehatan Kerja,22,Profesional kesehatan,-0.5317102820294436,8,0,0,0.13713409517619496,0.5317102820294436,False,tidak pernah membalik arah
+2221.05,Perawat,22,Profesional kesehatan,-0.8825956889570512,8,0,0,0.22692245401179068,0.8825956889570512,False,tidak pernah membalik arah
+2221.06,Perawat Anastesi,22,Profesional kesehatan,-0.7271751282427757,8,0,0,0.2752760198022216,0.7271751282427757,False,tidak pernah membalik arah
+2222.01,Bidan,22,Profesional kesehatan,-0.7480304055210419,8,0,0,0.15675052734568762,0.7480304055210419,False,tidak pernah membalik arah
+2230.01,Ahli Akupuntur,22,Profesional kesehatan,-0.27159315948612317,8,0,0,0.1890784775602053,0.27159315948612317,False,tidak pernah membalik arah
+2230.02,Ahli Pengobatan Herbal Cina,22,Profesional kesehatan,-0.45535484505793455,8,0,0,0.23287100470115296,0.45535484505793455,False,tidak pernah membalik arah
+2230.03,Praktisi Ayurvedic,22,Profesional kesehatan,-0.47823463300555125,8,0,0,0.19461140576862845,0.47823463300555125,False,tidak pernah membalik arah
+2230.04,Ahli Homeopati,22,Profesional kesehatan,0.07647848674168212,8,1,0,0.14444630544606357,0.07647848674168212,True,pernah membalik arah
+2230.05,Ahli Naturopati,22,Profesional kesehatan,0.12575869784149568,8,1,0,0.2341404264989826,0.12575869784149568,True,pernah membalik arah
+2230.06,Praktisi Unani,22,Profesional kesehatan,-0.6334881755077526,8,0,0,0.25422931280086003,0.6334881755077526,False,tidak pernah membalik arah
+2240.01,Asisten Medik,22,Profesional kesehatan,-0.2250900297867224,8,0,0,0.3178748098952884,0.2250900297867224,False,tidak pernah membalik arah
+2240.02,Paramedis,22,Profesional kesehatan,-0.44880287150473425,8,0,0,0.39792371216786787,0.44880287150473425,False,tidak pernah membalik arah
+2240.03,Teknisi Bedah,22,Profesional kesehatan,0.2454821973766054,8,0,0,0.3106369894436204,0.2454821973766054,False,tidak pernah membalik arah
+2250.01,Dokter Hewan (Umum),22,Profesional kesehatan,-0.35588780762953726,8,0,0,0.311440788461207,0.35588780762953726,False,tidak pernah membalik arah
+2250.02,Dokter Hewan Kesehatan Masyarakat,22,Profesional kesehatan,-0.5140900176733575,8,0,0,0.22639742673507546,0.5140900176733575,False,tidak pernah membalik arah
+2250.03,Dokter Bedah Hewan,22,Profesional kesehatan,-0.30693396976751236,8,0,0,0.27501194109525845,0.30693396976751236,False,tidak pernah membalik arah
+2250.04,Ahli Penyakit Hewan (Patologi),22,Profesional kesehatan,-0.2563072641229443,8,0,0,0.23829127053448976,0.2563072641229443,False,tidak pernah membalik arah
+2250.05,Ahli Epidemiologi Hewan,22,Profesional kesehatan,-0.25784889209618694,8,0,0,0.21404727091711023,0.25784889209618694,False,tidak pernah membalik arah
+2261.01,Dokter Gigi (Umum),22,Profesional kesehatan,-0.3876759400795952,8,0,0,0.2673728553489868,0.3876759400795952,False,tidak pernah membalik arah
+2261.02,Dokter Gigi Kesehatan Masyarakat,22,Profesional kesehatan,-0.5194814755748771,8,0,0,0.1802590699459924,0.5194814755748771,False,tidak pernah membalik arah
+2261.03,Asisten Bedah Gigi,22,Profesional kesehatan,-0.28961013097854615,8,0,0,0.2690106200470596,0.28961013097854615,False,tidak pernah membalik arah
+2261.04,Ahli Kesehatan Gigi,22,Profesional kesehatan,-0.4053692670988115,8,0,0,0.1908660833605688,0.4053692670988115,False,tidak pernah membalik arah
+2261.05,Endodontist,22,Profesional kesehatan,0.0803275349247283,8,2,0,0.17317482819097815,0.0803275349247283,True,pernah membalik arah
+2261.06,Ahli Bedah Mulut dan Maxillofacial,22,Profesional kesehatan,-0.18622332912187392,8,1,0,0.23679649054555438,0.18622332912187392,True,pernah membalik arah
+2261.07,Ahli Penyakit Mulut,22,Profesional kesehatan,-0.07507638780275923,8,1,0,0.29061877626698845,0.07507638780275923,True,pernah membalik arah
+2261.08,Ortodontis,22,Profesional kesehatan,0.15753130209201677,8,0,0,0.5161060295437625,0.15753130209201677,False,tidak pernah membalik arah
+2261.09,Paedodontist,22,Profesional kesehatan,0.18429238705667564,8,0,0,0.14379785977092888,0.18429238705667564,False,tidak pernah membalik arah
+2261.10,Periodontist,22,Profesional kesehatan,-0.21353611980774193,8,0,0,0.196138447277012,0.21353611980774193,False,tidak pernah membalik arah
+2261.11,Prosthodontist,22,Profesional kesehatan,-0.10592038150807798,8,0,0,0.08337541737132337,0.10592038150807798,False,tidak pernah membalik arah
+2262.01,Apoteker,22,Profesional kesehatan,0.04099462444307756,8,2,0,0.16378777330875488,0.04099462444307756,True,pernah membalik arah
+2263.01,Petugas Kesehatan Lingkungan,22,Profesional kesehatan,-0.39688095654943606,8,0,0,0.2744902516407873,0.39688095654943606,False,tidak pernah membalik arah
+2263.02,Penasihat Kesehatan dan Keselamatan Kerja,22,Profesional kesehatan,-0.2886187849596271,8,0,0,0.17462090688433307,0.2886187849596271,False,tidak pernah membalik arah
+2263.03,Ahli Proteksi Radiasi,22,Profesional kesehatan,0.12686564059022537,8,1,0,0.18169749519581158,0.12686564059022537,True,pernah membalik arah
+2264.01,Ahli Fisioterapi,22,Profesional kesehatan,-0.18399236595372437,8,1,0,0.26643872820308667,0.18399236595372437,True,pernah membalik arah
+2264.02,Ahli Terapi Rehabilitasi,22,Profesional kesehatan,-0.19842379407259866,8,1,0,0.28372195165944203,0.19842379407259866,True,pernah membalik arah
+2264.03,Terapis Geriatri (Terapis Lansia),22,Profesional kesehatan,-0.7145709746298929,8,0,0,0.16361990511604996,0.7145709746298929,False,tidak pernah membalik arah
+2264.04,Terapis Pediatri (Terapis Anak),22,Profesional kesehatan,-0.5501697518835627,8,0,0,0.2506103030335024,0.5501697518835627,False,tidak pernah membalik arah
+2264.05,Terapis Ortopedi (Terapis Alat Gerak),22,Profesional kesehatan,-0.44633078974598794,8,0,0,0.19610852598835127,0.44633078974598794,False,tidak pernah membalik arah
+2265.01,Ahli Diet (Umum),22,Profesional kesehatan,-0.3384165225537298,8,0,0,0.24156118606139565,0.3384165225537298,False,tidak pernah membalik arah
+2265.02,Ahli Gizi Klinis,22,Profesional kesehatan,-0.2891422656928544,8,0,0,0.2196989596581116,0.2891422656928544,False,tidak pernah membalik arah
+2265.03,Ahli Gizi Layanan Makanan,22,Profesional kesehatan,-0.42691288203291117,8,0,0,0.2890046204986911,0.42691288203291117,False,tidak pernah membalik arah
+2265.04,Ahli Gizi Masyarakat,22,Profesional kesehatan,-0.337406685865378,8,0,0,0.2652736118762102,0.337406685865378,False,tidak pernah membalik arah
+2265.05,Ahli Gizi Olahraga,22,Profesional kesehatan,-0.24924247613140146,8,0,0,0.277749409630791,0.24924247613140146,False,tidak pernah membalik arah
+2266.01,Ahli Terapi Pendengaran,22,Profesional kesehatan,-0.07958236674974553,8,1,0,0.17963950663941847,0.07958236674974553,True,pernah membalik arah
+2266.02,Ahli Terapi Bicara,22,Profesional kesehatan,0.025647335467463755,8,3,0,0.19351407122073944,0.025647335467463755,True,pernah membalik arah
+2267.01,Optometrist,22,Profesional kesehatan,0.07568426787601658,8,1,0,0.21290430591872977,0.07568426787601658,True,pernah membalik arah
+2267.02,Orthoptist,22,Profesional kesehatan,-0.19785727501462874,8,1,0,0.29380011554660534,0.19785727501462874,True,pernah membalik arah
+2269.01,Terapis Seni,22,Profesional kesehatan,-0.6976600231419524,8,0,0,0.20934488778381105,0.6976600231419524,False,tidak pernah membalik arah
+2269.02,Terapis Tari dan Gerakan,22,Profesional kesehatan,-0.6788564196344993,8,0,0,0.2348306976832637,0.6788564196344993,False,tidak pernah membalik arah
+2269.03,Okupasi Terapis,22,Profesional kesehatan,-0.5040523563381529,8,0,0,0.2512727268641961,0.5040523563381529,False,tidak pernah membalik arah
+2269.04,Ahli Podiatri (Penyakit Kaki),22,Profesional kesehatan,-0.11954900707481085,8,1,0,0.2845921305600989,0.11954900707481085,True,pernah membalik arah
+2310.01,Dosen Ilmu Fisika,23,Profesional pendidikan,-0.12603272999322387,8,2,0,0.3273521113424245,0.12603272999322387,True,pernah membalik arah
+2310.02,Dosen Ilmu Teknik dan Arsitektur,23,Profesional pendidikan,-0.3255811715937454,8,0,0,0.3591877724503613,0.3255811715937454,False,tidak pernah membalik arah
+2310.03,Dosen Ilmu Kedokteran dan Ilmu Hayati,23,Profesional pendidikan,-0.37171824635115613,8,0,0,0.3279886345476618,0.37171824635115613,False,tidak pernah membalik arah
+2310.04,Dosen Ilmu Matematika,23,Profesional pendidikan,-0.2046586151371883,8,1,0,0.2563211712069152,0.2046586151371883,True,pernah membalik arah
+2310.05,Dosen Ilmu Statistika,23,Profesional pendidikan,-0.20827453036097943,8,0,0,0.22071305826157644,0.20827453036097943,False,tidak pernah membalik arah
+2310.06,Dosen Ilmu Ekonomi dan Administrasi Niaga,23,Profesional pendidikan,-0.29615525465768927,8,0,0,0.3552489757786332,0.29615525465768927,False,tidak pernah membalik arah
+2310.07,Dosen Ilmu Hukum,23,Profesional pendidikan,-0.09695669122442076,8,2,0,0.23281377677139536,0.09695669122442076,True,pernah membalik arah
+2310.08,Dosen Ilmu Pendidikan,23,Profesional pendidikan,-0.24195381957565582,8,0,0,0.27617591239197076,0.24195381957565582,False,tidak pernah membalik arah
+2310.09,Dosen Ilmu Pertanian,23,Profesional pendidikan,-0.34057764179289773,8,0,0,0.37969484997737424,0.34057764179289773,False,tidak pernah membalik arah
+2310.10,Dosen Ilmu Sosial dan Politik,23,Profesional pendidikan,-0.2858185529516166,8,0,0,0.32118166210256816,0.2858185529516166,False,tidak pernah membalik arah
+2310.11,"Dosen Ilmu Bahasa, Sastra, Budaya dan Sejarah",23,Profesional pendidikan,-0.41756711996209234,8,0,0,0.3691948401269311,0.41756711996209234,False,tidak pernah membalik arah
+2310.12,Dosen Ilmu Keagamaan,23,Profesional pendidikan,-0.24675873052340827,8,0,0,0.27187506962267194,0.24675873052340827,False,tidak pernah membalik arah
+2310.13,Dosen Ilmu Kesehatan Masyarakat,23,Profesional pendidikan,-0.4737408478375693,8,0,0,0.2423016437639629,0.4737408478375693,False,tidak pernah membalik arah
+2310.14,"Dosen Ilmu Terapi Kesehatan, Kebidanan dan Yang Sejenis",23,Profesional pendidikan,-0.40158872689297553,8,0,0,0.2303855458285209,0.40158872689297553,False,tidak pernah membalik arah
+2310.15,Dosen Ilmu Olahraga,23,Profesional pendidikan,-0.26681587312128513,8,0,0,0.3423605417001491,0.26681587312128513,False,tidak pernah membalik arah
+2310.16,Dosen Ilmu Teknologi Industri,23,Profesional pendidikan,-0.40718657324544544,8,0,0,0.321891092273168,0.40718657324544544,False,tidak pernah membalik arah
+2310.17,Dosen Ilmu Komputer,23,Profesional pendidikan,-0.42968602045544046,8,0,0,0.31766905201570816,0.42968602045544046,False,tidak pernah membalik arah
+2320.01,Instruktur Teknik Otomotif,23,Profesional pendidikan,-0.37024902022913153,8,0,0,0.2168568415748842,0.37024902022913153,False,tidak pernah membalik arah
+2320.02,Instruktur Tata Rias,23,Profesional pendidikan,-0.9359400406563696,8,0,0,0.17625177319320273,0.9359400406563696,False,tidak pernah membalik arah
+2320.03,Guru Pendidikan Kejuruan Menengah Pertama,23,Profesional pendidikan,-0.23172774342915628,8,1,0,0.39103419633168524,0.23172774342915628,True,pernah membalik arah
+2320.04,Guru Pendidikan Kejuruan Menengah Atas,23,Profesional pendidikan,-0.14139168709791203,8,1,0,0.4343068315784976,0.14139168709791203,True,pernah membalik arah
+2330.01,Guru Pendidikan Menengah Pertama,23,Profesional pendidikan,-0.3166587986932828,8,1,0,0.4102755378270578,0.3166587986932828,True,pernah membalik arah
+2330.02,Guru Pendidikan Menengah Atas,23,Profesional pendidikan,-0.21481284769902695,8,1,0,0.39584362306011545,0.21481284769902695,True,pernah membalik arah
+2341.00,Guru Sekolah Dasar,23,Profesional pendidikan,-0.3324041925358499,8,1,0,0.45894293371261047,0.3324041925358499,True,pernah membalik arah
+2342.01,Guru Taman Kanak-Kanak,23,Profesional pendidikan,-0.42094493085641765,8,0,0,0.3450237639571264,0.42094493085641765,False,tidak pernah membalik arah
+2342.02,Guru Pendidikan Anak Usia Dini,23,Profesional pendidikan,-0.2596313834484579,8,1,0,0.31415932462605817,0.2596313834484579,True,pernah membalik arah
+2351.01,Koordinator Kurikulum,23,Profesional pendidikan,-0.015457787725818121,8,5,0,0.3070717707169703,0.015457787725818121,True,pernah membalik arah
+2351.02,Spesialis Metode Pendidikan,23,Profesional pendidikan,-0.07090526608361425,8,2,0,0.28664984712592734,0.07090526608361425,True,pernah membalik arah
+2351.03,Pengawas Sekolah,23,Profesional pendidikan,-0.2694494841563688,8,1,0,0.39892020102771775,0.2694494841563688,True,pernah membalik arah
+2352.01,Guru Tunadaksa,23,Profesional pendidikan,-0.5065287160959009,8,0,0,0.32430761678295716,0.5065287160959009,False,tidak pernah membalik arah
+2352.02,Guru Tuna Rungu,23,Profesional pendidikan,-0.704775996878323,8,0,0,0.2808105088953412,0.704775996878323,False,tidak pernah membalik arah
+2352.03,Guru Tuna Netra,23,Profesional pendidikan,-0.5285686260887934,8,0,0,0.38277465003119315,0.5285686260887934,False,tidak pernah membalik arah
+2354.01,Guru Gitar,23,Profesional pendidikan,0.04482664830670401,8,3,0,0.42584654608039463,0.04482664830670401,True,pernah membalik arah
+2354.02,Guru Piano,23,Profesional pendidikan,-0.2816748716209825,8,1,0,0.3541021185956409,0.2816748716209825,True,pernah membalik arah
+2354.03,Guru Vokal,23,Profesional pendidikan,-0.3122385954046854,8,0,0,0.28172215720944704,0.3122385954046854,False,tidak pernah membalik arah
+2354.04,Guru Biola,23,Profesional pendidikan,-0.3831236662459814,8,1,0,0.5446923254483044,0.3831236662459814,True,pernah membalik arah
+2355.01,Guru Tari,23,Profesional pendidikan,-0.8172048032954594,8,0,0,0.18788274176143116,0.8172048032954594,False,tidak pernah membalik arah
+2355.02,Guru Teater/Drama,23,Profesional pendidikan,-0.35113914766754517,8,1,0,0.49401648915064267,0.35113914766754517,True,pernah membalik arah
+2355.03,Guru Lukis,23,Profesional pendidikan,-0.6658705995937405,8,0,0,0.22115774807240174,0.6658705995937405,False,tidak pernah membalik arah
+2355.04,Guru Pahat/Ukir,23,Profesional pendidikan,0.03813182376636158,8,2,0,0.10500020783646512,0.03813182376636158,True,pernah membalik arah
+2356.01,Pengajar Komputer,23,Profesional pendidikan,-0.6545542681701947,8,0,0,0.33577621819582715,0.6545542681701947,False,tidak pernah membalik arah
+2356.02,Pengajar Software,23,Profesional pendidikan,-0.5173211614001019,8,0,0,0.4026511187990096,0.5173211614001019,False,tidak pernah membalik arah
+2411.01,Akuntan,24,Profesional bisnis dan administrasi,-0.5965478261471489,8,0,0,0.3226269296935588,0.5965478261471489,False,tidak pernah membalik arah
+2411.02,Auditor,24,Profesional bisnis dan administrasi,-0.03669307574831258,8,3,0,0.13574175528410706,0.03669307574831258,True,pernah membalik arah
+2411.03,Pengawas Keuangan,24,Profesional bisnis dan administrasi,-0.3622694447307446,8,0,0,0.3231385972966111,0.3622694447307446,False,tidak pernah membalik arah
+2411.04,Akuntan Manajemen,24,Profesional bisnis dan administrasi,-0.3476894772368458,8,0,0,0.35491622782919136,0.3476894772368458,False,tidak pernah membalik arah
+2411.05,Akuntan Pajak,24,Profesional bisnis dan administrasi,-0.1203110513129186,8,1,0,0.23611938563974616,0.1203110513129186,True,pernah membalik arah
+2412.01,Perencana Estate/Investasi Fisik,24,Profesional bisnis dan administrasi,-0.07440920102540112,8,1,0,0.3028702784346623,0.07440920102540112,True,pernah membalik arah
+2412.02,Perencana Keuangan,24,Profesional bisnis dan administrasi,-0.3415841939184602,8,0,0,0.32994268773075364,0.3415841939184602,False,tidak pernah membalik arah
+2413.01,Analis Obligasi,24,Profesional bisnis dan administrasi,0.20584100204947692,8,1,0,0.30379746208317177,0.20584100204947692,True,pernah membalik arah
+2413.02,Konsultan Investasi,24,Profesional bisnis dan administrasi,-0.005734749269299618,8,3,0,0.28164090653348556,0.005734749269299618,True,pernah membalik arah
+2421.01,Analis Organisasi dan Metode,24,Profesional bisnis dan administrasi,-0.19408868992437006,8,1,0,0.32592317629196116,0.19408868992437006,True,pernah membalik arah
+2421.02,Konsultan Bisnis,24,Profesional bisnis dan administrasi,-0.21660465487183062,8,0,0,0.2413265347091359,0.21660465487183062,False,tidak pernah membalik arah
+2421.03,Konsultan Manajemen,24,Profesional bisnis dan administrasi,-0.08724166532903836,8,2,0,0.306793740142689,0.08724166532903836,True,pernah membalik arah
+2422.01,Analis Kebijakan,24,Profesional bisnis dan administrasi,0.21506481567412702,8,1,0,0.4238788955957685,0.21506481567412702,True,pernah membalik arah
+2423.01,Penasihat Karir,24,Profesional bisnis dan administrasi,-0.34954518027002746,8,0,0,0.24161523530280216,0.34954518027002746,False,tidak pernah membalik arah
+2423.02,Analis Pekerjaan,24,Profesional bisnis dan administrasi,-0.02725248480099232,8,3,0,0.2328042767467136,0.02725248480099232,True,pernah membalik arah
+2423.03,Analis Jabatan,24,Profesional bisnis dan administrasi,0.31166025545245496,8,1,0,0.3333866883791736,0.31166025545245496,True,pernah membalik arah
+2423.04,Konselor Bimbingan Kejuruan,24,Profesional bisnis dan administrasi,-0.009455095509872861,8,3,0,0.3464842882214153,0.009455095509872861,True,pernah membalik arah
+2423.05,Pakar Sumber Daya Manusia,24,Profesional bisnis dan administrasi,-0.43845383548075284,8,0,0,0.2712684624068286,0.43845383548075284,False,tidak pernah membalik arah
+2423.06,Ahli Penempatan Kerja,24,Profesional bisnis dan administrasi,0.10164717366571549,8,0,0,0.10461977877858797,0.10164717366571549,False,tidak pernah membalik arah
+2424.01,Petugas Pelatihan,24,Profesional bisnis dan administrasi,-0.11185619619370091,8,1,0,0.36788854037759794,0.11185619619370091,True,pernah membalik arah
+2424.02,Spesialis Pengembangan Tenaga Kerja,24,Profesional bisnis dan administrasi,0.01403037719118216,8,4,0,0.19583661895665994,0.01403037719118216,True,pernah membalik arah
+2431.01,Spesialis periklanan,24,Profesional bisnis dan administrasi,0.012003803493861376,8,4,0,0.27859237015911364,0.012003803493861376,True,pernah membalik arah
+2431.02,Analis Penelitian Pasar,24,Profesional bisnis dan administrasi,-0.1377032264106426,8,1,0,0.26915454834897784,0.1377032264106426,True,pernah membalik arah
+2431.03,Spesialis Pemasaran,24,Profesional bisnis dan administrasi,0.10964479079481886,8,1,0,0.322244610866352,0.10964479079481886,True,pernah membalik arah
+2432.00,Profesional Hubungan Masyarakat,24,Profesional bisnis dan administrasi,-0.3039529046278165,8,0,0,0.21300604838110954,0.3039529046278165,False,tidak pernah membalik arah
+2433.01,Perwakilan Penjualan (Produk Industri),24,Profesional bisnis dan administrasi,-0.6053958193897526,8,0,0,0.34791888950366634,0.6053958193897526,False,tidak pernah membalik arah
+2433.02,Perwakilan Penjualan (Produk Medis dan Farmasi),24,Profesional bisnis dan administrasi,-0.3866635336766386,8,0,0,0.33913790198051624,0.3866635336766386,False,tidak pernah membalik arah
+2433.03,Perwakilan Penjualan Produk Teknik,24,Profesional bisnis dan administrasi,-0.45007415756699387,8,0,0,0.32132466975202434,0.45007415756699387,False,tidak pernah membalik arah
+2434.00,Profesional Penjualan Produk Teknologi Komunikasi dan Informasi,24,Profesional bisnis dan administrasi,-0.3166835375517386,8,0,0,0.26851000963225535,0.3166835375517386,False,tidak pernah membalik arah
+2511.01,Analis Bisnis (TI),25,Profesional teknologi informasi dan komunikasi,-0.2371839782042733,8,0,0,0.26701474748189924,0.2371839782042733,False,tidak pernah membalik arah
+2511.02,Konsultan Sistem,25,Profesional teknologi informasi dan komunikasi,-0.07839879639044259,8,3,0,0.32565788201647894,0.07839879639044259,True,pernah membalik arah
+2511.03,Desainer Sistem (TI),25,Profesional teknologi informasi dan komunikasi,-0.5556328943241785,8,0,0,0.23549521895379932,0.5556328943241785,False,tidak pernah membalik arah
+2512.01,Analis Programer,25,Profesional teknologi informasi dan komunikasi,-0.06493392761035147,8,3,0,0.2699606155828418,0.06493392761035147,True,pernah membalik arah
+2512.02,Desainer Software,25,Profesional teknologi informasi dan komunikasi,-0.7239004097584434,8,0,0,0.3577902525457364,0.7239004097584434,False,tidak pernah membalik arah
+2512.03,Pengembang Software,25,Profesional teknologi informasi dan komunikasi,-0.5217752804346351,8,0,0,0.6994763589956204,0.5217752804346351,False,tidak pernah membalik arah
+2512.04,Teknisi Perangkat Lunak,25,Profesional teknologi informasi dan komunikasi,0.06327255061698943,8,2,0,0.43439235766940393,0.06327255061698943,True,pernah membalik arah
+2513.01,Programmer Animasi,25,Profesional teknologi informasi dan komunikasi,-0.3708279707057828,8,0,0,0.2824196175565058,0.3708279707057828,False,tidak pernah membalik arah
+2513.02,Programmer Game Komputer,25,Profesional teknologi informasi dan komunikasi,-0.5256790115194399,8,0,0,0.3137620699741537,0.5256790115194399,False,tidak pernah membalik arah
+2513.03,Pengembang Internet,25,Profesional teknologi informasi dan komunikasi,-0.7814065735091261,8,0,0,0.39745371708082555,0.7814065735091261,False,tidak pernah membalik arah
+2513.04,Programmer Multimedia,25,Profesional teknologi informasi dan komunikasi,-0.3511418792679462,8,0,0,0.36489842854070004,0.3511418792679462,False,tidak pernah membalik arah
+2513.05,Arsitek Web,25,Profesional teknologi informasi dan komunikasi,-0.04004340343645989,8,4,0,0.48467810750183854,0.04004340343645989,True,pernah membalik arah
+2513.06,Pengembang Web,25,Profesional teknologi informasi dan komunikasi,-0.5450651859221315,8,0,0,0.7016587951541194,0.5450651859221315,False,tidak pernah membalik arah
+2514.00,Pemrogram Aplikasi,25,Profesional teknologi informasi dan komunikasi,-0.6959781039403536,8,0,0,0.3284074824249761,0.6959781039403536,False,tidak pernah membalik arah
+2519.01,Analis Jaminan Kualitas (Komputer),25,Profesional teknologi informasi dan komunikasi,-0.08016918573606366,8,1,0,0.4178645250295455,0.08016918573606366,True,pernah membalik arah
+2519.02,Tester Software,25,Profesional teknologi informasi dan komunikasi,-0.3575405460286659,8,0,0,0.23752981791230257,0.3575405460286659,False,tidak pernah membalik arah
+2519.03,Tester Sistem,25,Profesional teknologi informasi dan komunikasi,-0.1961687541550021,8,0,0,0.19179407217645375,0.1961687541550021,False,tidak pernah membalik arah
+2521.01,Administrator Database,25,Profesional teknologi informasi dan komunikasi,-0.162599422987565,8,1,0,0.3099439117900946,0.162599422987565,True,pernah membalik arah
+2521.02,Analis Database,25,Profesional teknologi informasi dan komunikasi,-0.1728060138698906,8,1,0,0.26358428912146914,0.1728060138698906,True,pernah membalik arah
+2521.03,Arsitek Database,25,Profesional teknologi informasi dan komunikasi,-0.042061177873104545,8,3,0,0.35583157287016104,0.042061177873104545,True,pernah membalik arah
+2522.01,Administrator Sistem,25,Profesional teknologi informasi dan komunikasi,0.057477017799587256,8,2,0,0.4083142893639811,0.057477017799587256,True,pernah membalik arah
+2522.02,Administrator Jaringan,25,Profesional teknologi informasi dan komunikasi,-0.1859212018967179,8,1,0,0.40657440256790645,0.1859212018967179,True,pernah membalik arah
+2523.01,Analis Komunikasi (Komputer),25,Profesional teknologi informasi dan komunikasi,-0.2872765084726095,8,0,0,0.3722532562874015,0.2872765084726095,False,tidak pernah membalik arah
+2523.02,Analis Jaringan,25,Profesional teknologi informasi dan komunikasi,-0.18643346744024356,8,1,0,0.3471451965652391,0.18643346744024356,True,pernah membalik arah
+2529.01,Spesialis Forensik Digital,25,Profesional teknologi informasi dan komunikasi,0.13785308423020565,8,1,0,0.36419935898486194,0.13785308423020565,True,pernah membalik arah
+2529.02,Spesialis Keamanan (TIK),25,Profesional teknologi informasi dan komunikasi,-0.08433063710946863,8,3,0,0.42855241758292195,0.08433063710946863,True,pernah membalik arah
+2611.01,Pengacara,26,"Profesional hukum, sosial dan budaya",0.0016578691279898069,8,4,0,0.3947008531150729,0.0016578691279898069,True,pernah membalik arah
+2611.02,Jaksa,26,"Profesional hukum, sosial dan budaya",0.2496106142169661,8,1,0,0.32538250340574115,0.2496106142169661,True,pernah membalik arah
+2611.03,Penuntut Umum,26,"Profesional hukum, sosial dan budaya",-0.1643037951224655,8,2,0,0.4012737160881428,0.1643037951224655,True,pernah membalik arah
+2611.04,Penasihat Hukum,26,"Profesional hukum, sosial dan budaya",0.08729926570000428,8,2,0,0.2657530838718431,0.08729926570000428,True,pernah membalik arah
+2612.00,Hakim,26,"Profesional hukum, sosial dan budaya",0.19133330537515136,8,1,0,0.24117593712096186,0.19133330537515136,True,pernah membalik arah
+2619.01,Ahli Hukum (Selain Pengacara dan Hakim),26,"Profesional hukum, sosial dan budaya",-0.03513681998298248,8,3,0,0.27538951107363396,0.03513681998298248,True,pernah membalik arah
+2619.02,Notaris,26,"Profesional hukum, sosial dan budaya",-0.04989596156302739,8,2,0,0.1263632282824773,0.04989596156302739,True,pernah membalik arah
+2621.01,Pengarsip,26,"Profesional hukum, sosial dan budaya",0.27458968236558934,8,0,0,0.2696895104461621,0.27458968236558934,False,tidak pernah membalik arah
+2621.02,Kurator Galeri Seni,26,"Profesional hukum, sosial dan budaya",-0.3142591542947851,8,0,0,0.35557996447031825,0.3142591542947851,False,tidak pernah membalik arah
+2621.03,Kurator Museum,26,"Profesional hukum, sosial dan budaya",0.07395777277459512,8,2,0,0.3549838192596252,0.07395777277459512,True,pernah membalik arah
+2622.01,Ahli Bibliografi,26,"Profesional hukum, sosial dan budaya",-0.010158053541237465,8,4,0,0.29488637901793624,0.010158053541237465,True,pernah membalik arah
+2622.02,Juru Katalog,26,"Profesional hukum, sosial dan budaya",-0.5041947868467411,8,0,0,0.7058410735131844,0.5041947868467411,False,tidak pernah membalik arah
+2622.03,Pustakawan,26,"Profesional hukum, sosial dan budaya",-0.640364469728931,8,0,0,0.5333009267079998,0.640364469728931,False,tidak pernah membalik arah
+2631.01,Ahli Ekonomi,26,"Profesional hukum, sosial dan budaya",-0.2021126388527037,8,0,0,0.2965055884418459,0.2021126388527037,False,tidak pernah membalik arah
+2631.02,Ahli Ekonometrik,26,"Profesional hukum, sosial dan budaya",0.05307635508364161,8,2,0,0.205911362912375,0.05307635508364161,True,pernah membalik arah
+2631.03,Penasehat Ekonomi,26,"Profesional hukum, sosial dan budaya",-0.25314747665851556,8,0,0,0.40930786971355904,0.25314747665851556,False,tidak pernah membalik arah
+2631.04,Analis Ekonomi,26,"Profesional hukum, sosial dan budaya",-0.29702838023296,8,0,0,0.3923134588629527,0.29702838023296,False,tidak pernah membalik arah
+2631.05,Ahli Ekonomi Perburuhan,26,"Profesional hukum, sosial dan budaya",-0.20488096836873207,8,0,0,0.19887127695338738,0.20488096836873207,False,tidak pernah membalik arah
+2632.01,Ahli Antropologi,26,"Profesional hukum, sosial dan budaya",0.010945391827241005,8,3,0,0.16428070424029356,0.010945391827241005,True,pernah membalik arah
+2632.02,Ahli Arkeologi,26,"Profesional hukum, sosial dan budaya",0.10723730894321212,8,1,0,0.23651056674582963,0.10723730894321212,True,pernah membalik arah
+2632.03,Ahi Etnologi,26,"Profesional hukum, sosial dan budaya",0.09950196952665938,8,2,0,0.2071886850346369,0.09950196952665938,True,pernah membalik arah
+2632.04,Ahli Geografi,26,"Profesional hukum, sosial dan budaya",0.0955531701788851,8,1,0,0.3137404645711214,0.0955531701788851,True,pernah membalik arah
+2632.05,Ahli Sosiologi,26,"Profesional hukum, sosial dan budaya",0.15729207166372017,8,1,0,0.22379602953080538,0.15729207166372017,True,pernah membalik arah
+2633.01,Ahli Filsafat,26,"Profesional hukum, sosial dan budaya",0.22266639917146344,8,0,0,0.20559148638581443,0.22266639917146344,False,tidak pernah membalik arah
+2633.02,Ahli Sejarah,26,"Profesional hukum, sosial dan budaya",0.03568275387718373,8,3,0,0.3142700487320896,0.03568275387718373,True,pernah membalik arah
+2633.03,Ahli Politik,26,"Profesional hukum, sosial dan budaya",0.0011543822616639533,8,4,0,0.29915366650922504,0.0011543822616639533,True,pernah membalik arah
+2633.04,Ahli Genealogi (Ahli Silsilah),26,"Profesional hukum, sosial dan budaya",0.3292274436195925,8,0,0,0.22527391729527624,0.3292274436195925,False,tidak pernah membalik arah
+2634.01,Psikolog Klinis,26,"Profesional hukum, sosial dan budaya",-0.2633340259860716,8,0,0,0.13669990048269723,0.2633340259860716,False,tidak pernah membalik arah
+2634.02,Psikolog Pendidikan,26,"Profesional hukum, sosial dan budaya",-0.21782227103671722,8,1,0,0.25418354484025935,0.21782227103671722,True,pernah membalik arah
+2634.03,Psikolog Organisasi,26,"Profesional hukum, sosial dan budaya",-0.2345819301966703,8,0,0,0.2172431746509564,0.2345819301966703,False,tidak pernah membalik arah
+2634.04,Psikoterapis,26,"Profesional hukum, sosial dan budaya",-0.3081292917083408,8,0,0,0.159523577489321,0.3081292917083408,False,tidak pernah membalik arah
+2634.05,Psikolog Olahraga,26,"Profesional hukum, sosial dan budaya",-0.22003357363053352,8,1,0,0.2907893799122523,0.22003357363053352,True,pernah membalik arah
+2635.01,Konselor Kecanduan,26,"Profesional hukum, sosial dan budaya",-0.5915784476850682,8,0,0,0.1912782647219733,0.5915784476850682,False,tidak pernah membalik arah
+2635.02,Konselor Dukacita,26,"Profesional hukum, sosial dan budaya",-0.3022624475648985,8,0,0,0.16731709739247597,0.3022624475648985,False,tidak pernah membalik arah
+2635.03,Konselor Anak dan Remaja,26,"Profesional hukum, sosial dan budaya",-0.6326652639556395,8,0,0,0.2906931597571063,0.6326652639556395,False,tidak pernah membalik arah
+2635.04,Konselor Keluarga,26,"Profesional hukum, sosial dan budaya",-0.2931848655785305,8,0,0,0.21148489210913984,0.2931848655785305,False,tidak pernah membalik arah
+2635.05,Konselor Pernikahan,26,"Profesional hukum, sosial dan budaya",-0.4587469234466518,8,0,0,0.20837291009267878,0.4587469234466518,False,tidak pernah membalik arah
+2635.06,Petugas Parole (Pembebasan Bersyarat),26,"Profesional hukum, sosial dan budaya",-0.17448641262567166,8,1,0,0.26412604909757764,0.17448641262567166,True,pernah membalik arah
+2635.07,Petugas Masa Percobaan,26,"Profesional hukum, sosial dan budaya",-0.21782889510730608,8,1,0,0.3739753628464414,0.21782889510730608,True,pernah membalik arah
+2635.08,Pekerja Sosial,26,"Profesional hukum, sosial dan budaya",-0.3909729739568548,8,0,0,0.18813422407655245,0.3909729739568548,False,tidak pernah membalik arah
+2636.01,Imam Muslim,26,"Profesional hukum, sosial dan budaya",-0.2286843415226295,8,0,0,0.1349641213864488,0.2286843415226295,False,tidak pernah membalik arah
+2636.02,Pendeta Katolik,26,"Profesional hukum, sosial dan budaya",-0.21604923974119875,8,1,0,0.37475833619365795,0.21604923974119875,True,pernah membalik arah
+2636.03,Pendeta Kristen,26,"Profesional hukum, sosial dan budaya",-0.41511234033318484,8,0,0,0.34505447523161026,0.41511234033318484,False,tidak pernah membalik arah
+2636.04,Pendeta Hindu,26,"Profesional hukum, sosial dan budaya",-0.30149603935076763,8,0,0,0.2833799565081353,0.30149603935076763,False,tidak pernah membalik arah
+2636.05,Pendeta Budha,26,"Profesional hukum, sosial dan budaya",-0.2757753001528479,8,0,0,0.32217572238214087,0.2757753001528479,False,tidak pernah membalik arah
+2636.06,Pendeta Kong Hu Cu,26,"Profesional hukum, sosial dan budaya",-0.16762272435035247,8,1,0,0.3245614518335342,0.16762272435035247,True,pernah membalik arah
+2641.01,Penulis,26,"Profesional hukum, sosial dan budaya",-0.3534234658627214,8,0,0,0.3132954829124059,0.3534234658627214,False,tidak pernah membalik arah
+2641.02,Editor Buku,26,"Profesional hukum, sosial dan budaya",-0.46014288914392015,8,0,0,0.57337179706671,0.46014288914392015,False,tidak pernah membalik arah
+2641.03,Penulis Esai,26,"Profesional hukum, sosial dan budaya",-0.13145147124047807,8,2,0,0.2550192692315381,0.13145147124047807,True,pernah membalik arah
+2641.04,Penulis Media Interaktif,26,"Profesional hukum, sosial dan budaya",-0.593377420214091,8,0,0,0.3363906005258275,0.593377420214091,False,tidak pernah membalik arah
+2641.05,Novelis,26,"Profesional hukum, sosial dan budaya",-0.12789523776186806,8,3,0,0.3632324167895093,0.12789523776186806,True,pernah membalik arah
+2641.06,Penulis Drama,26,"Profesional hukum, sosial dan budaya",-0.26636415417522685,8,1,0,0.4419497911515249,0.26636415417522685,True,pernah membalik arah
+2641.07,Penulis Puisi (Penyair),26,"Profesional hukum, sosial dan budaya",-0.15884284701513318,8,2,0,0.3876840319245175,0.15884284701513318,True,pernah membalik arah
+2641.08,Penulis Script,26,"Profesional hukum, sosial dan budaya",-0.2680218123497572,8,1,0,0.40294574497407604,0.2680218123497572,True,pernah membalik arah
+2641.09,Penulis Pidato,26,"Profesional hukum, sosial dan budaya",-0.26844973424433544,8,0,0,0.4636134534826431,0.26844973424433544,False,tidak pernah membalik arah
+2641.10,Penulis Teknis,26,"Profesional hukum, sosial dan budaya",0.0712262265628721,8,2,0,0.36437583500350396,0.0712262265628721,True,pernah membalik arah
+2642.01,Wartawan,26,"Profesional hukum, sosial dan budaya",-0.2888130786797259,8,0,0,0.5967274075110216,0.2888130786797259,False,tidak pernah membalik arah
+2642.02,Editor Copy,26,"Profesional hukum, sosial dan budaya",-0.03621524352923139,8,3,0,0.2829837231213274,0.03621524352923139,True,pernah membalik arah
+2642.03,Editor Surat Kabar,26,"Profesional hukum, sosial dan budaya",0.0455710486009287,8,2,0,0.35347587237155964,0.0455710486009287,True,pernah membalik arah
+2642.04,Reporter Surat Kabar,26,"Profesional hukum, sosial dan budaya",0.14716916168361052,8,2,0,0.4654285133490721,0.14716916168361052,True,pernah membalik arah
+2642.05,Wartawan Olahraga,26,"Profesional hukum, sosial dan budaya",-0.29424285890006,8,1,0,0.44528203444183495,0.29424285890006,True,pernah membalik arah
+2642.06,Sub Editor,26,"Profesional hukum, sosial dan budaya",-0.522727966804262,8,0,0,0.42021757715076535,0.522727966804262,False,tidak pernah membalik arah
+2642.07,Reporter Berita TV/Radio,26,"Profesional hukum, sosial dan budaya",-0.21105802626052592,8,1,0,0.6925731578462812,0.21105802626052592,True,pernah membalik arah
+2643.01,Interpreter,26,"Profesional hukum, sosial dan budaya",-0.5023288069363908,8,0,0,0.26300965092759,0.5023288069363908,False,tidak pernah membalik arah
+2643.02,Leksikograf (Ahli Perkamusan),26,"Profesional hukum, sosial dan budaya",0.22904685694918633,8,1,0,0.23945481827484144,0.22904685694918633,True,pernah membalik arah
+2643.03,Ahli Filologi (Manuskrip),26,"Profesional hukum, sosial dan budaya",0.04630794431135443,8,3,0,0.24145951026113466,0.04630794431135443,True,pernah membalik arah
+2643.04,Juru Bahasa Isyarat (Sign Language Interpreter),26,"Profesional hukum, sosial dan budaya",-0.39774390449846947,8,0,0,0.41417448011298735,0.39774390449846947,False,tidak pernah membalik arah
+2643.05,Subtitler,26,"Profesional hukum, sosial dan budaya",-0.034056663982915014,8,1,0,0.3425928778548322,0.034056663982915014,True,pernah membalik arah
+2643.06,Penerjemah (Translator),26,"Profesional hukum, sosial dan budaya",-0.2324612011473644,8,1,0,0.31528981781007787,0.2324612011473644,True,pernah membalik arah
+2651.01,Kartunis,26,"Profesional hukum, sosial dan budaya",0.5560997763518021,8,0,0,0.3442523392500848,0.5560997763518021,False,tidak pernah membalik arah
+2651.02,Seniman Keramik,26,"Profesional hukum, sosial dan budaya",-0.34964899577663805,8,1,0,0.379699956894463,0.34964899577663805,True,pernah membalik arah
+2651.03,Pemulih Gambar,26,"Profesional hukum, sosial dan budaya",-0.23683267191120402,8,1,0,0.3133812767530002,0.23683267191120402,True,pernah membalik arah
+2651.04,Pelukis Potret,26,"Profesional hukum, sosial dan budaya",-0.08368426542220812,8,3,0,0.26435068080119756,0.08368426542220812,True,pernah membalik arah
+2651.05,Pematung,26,"Profesional hukum, sosial dan budaya",0.188902266276184,8,1,0,0.31714844220464944,0.188902266276184,True,pernah membalik arah
+2652.01,Pemimpin Band,26,"Profesional hukum, sosial dan budaya",0.10698913479591177,8,2,0,0.3278452460764001,0.10698913479591177,True,pernah membalik arah
+2652.02,Komposer,26,"Profesional hukum, sosial dan budaya",0.9055231106717091,8,0,0,0.2263959795598357,0.9055231106717091,False,tidak pernah membalik arah
+2652.03,Pemain Musik,26,"Profesional hukum, sosial dan budaya",-0.113083973342887,8,1,0,0.42939774361681454,0.113083973342887,True,pernah membalik arah
+2652.04,Konduktor Musik,26,"Profesional hukum, sosial dan budaya",0.22971147867282818,8,0,0,0.3967125315945169,0.22971147867282818,False,tidak pernah membalik arah
+2652.05,Orchestrator,26,"Profesional hukum, sosial dan budaya",0.5795036722747852,8,0,0,0.2761563126133919,0.5795036722747852,False,tidak pernah membalik arah
+2652.06,Penyanyi,26,"Profesional hukum, sosial dan budaya",-0.7009173015483267,8,0,0,0.317397190940696,0.7009173015483267,False,tidak pernah membalik arah
+2653.01,Koreografer,26,"Profesional hukum, sosial dan budaya",-0.23060760574959474,8,1,0,0.3047967026332509,0.23060760574959474,True,pernah membalik arah
+2653.02,Penari Balet,26,"Profesional hukum, sosial dan budaya",-0.9020612390440408,8,0,0,0.24903716136839038,0.9020612390440408,False,tidak pernah membalik arah
+2653.03,Penari Klub Malam,26,"Profesional hukum, sosial dan budaya",-0.4067208208452326,8,0,0,0.3716676312279877,0.4067208208452326,False,tidak pernah membalik arah
+2653.04,Penari Jalan,26,"Profesional hukum, sosial dan budaya",-0.706385053725094,8,0,0,0.2929961275891686,0.706385053725094,False,tidak pernah membalik arah
+2654.01,Sutradara Film Dokumenter,26,"Profesional hukum, sosial dan budaya",-0.09286122616942895,8,2,0,0.7111593881149548,0.09286122616942895,True,pernah membalik arah
+2654.02,Editor Film,26,"Profesional hukum, sosial dan budaya",-0.5616133378388096,8,0,0,0.45640257664689193,0.5616133378388096,False,tidak pernah membalik arah
+2654.03,Sutradara Film,26,"Profesional hukum, sosial dan budaya",-0.07652525014802998,8,2,0,0.7771397417879802,0.07652525014802998,True,pernah membalik arah
+2654.04,Pengarah Fotografi,26,"Profesional hukum, sosial dan budaya",0.12677283056925387,8,2,0,0.2351124937409742,0.12677283056925387,True,pernah membalik arah
+2654.05,Sutradara Panggung,26,"Profesional hukum, sosial dan budaya",-0.05595205432245658,8,1,0,0.7192246330683102,0.05595205432245658,True,pernah membalik arah
+2654.06,Pengarah Teknis,26,"Profesional hukum, sosial dan budaya",0.5040461337498611,8,0,0,0.3228029288218505,0.5040461337498611,False,tidak pernah membalik arah
+2654.07,Produser,26,"Profesional hukum, sosial dan budaya",0.10710922734361097,8,2,0,0.6233621023203461,0.10710922734361097,True,pernah membalik arah
+2655.01,Aktor,26,"Profesional hukum, sosial dan budaya",0.6658841714874395,8,0,0,0.42134920730665537,0.6658841714874395,False,tidak pernah membalik arah
+2655.02,Artis Pantomim,26,"Profesional hukum, sosial dan budaya",-0.5004018040762325,8,0,0,0.39271639250365253,0.5004018040762325,False,tidak pernah membalik arah
+2655.03,Pencerita,26,"Profesional hukum, sosial dan budaya",-0.23350661117351193,8,0,0,0.42498968987381014,0.23350661117351193,False,tidak pernah membalik arah
+2656.01,Penyiar Radio,26,"Profesional hukum, sosial dan budaya",-0.24476895871327445,8,0,0,0.47953401474595747,0.24476895871327445,False,tidak pernah membalik arah
+2656.02,Penyiar Televisi,26,"Profesional hukum, sosial dan budaya",-0.14590440971904697,8,1,0,0.4017672653368579,0.14590440971904697,True,pernah membalik arah
+2656.03,Pembaca Berita,26,"Profesional hukum, sosial dan budaya",-0.4777026391863391,8,0,0,0.5665904709728637,0.4777026391863391,False,tidak pernah membalik arah
+2656.04,Penyiar Olahraga,26,"Profesional hukum, sosial dan budaya",-0.19308953804342477,8,1,0,0.32731023213654586,0.19308953804342477,True,pernah membalik arah
+2659.01,Pemain Akrobat,26,"Profesional hukum, sosial dan budaya",0.002441822824717724,8,5,0,0.45106782353792235,0.002441822824717724,True,pernah membalik arah
+2659.02,Pemain Akrobat Udara,26,"Profesional hukum, sosial dan budaya",-0.05950915449032539,8,2,0,0.4900451398352504,0.05950915449032539,True,pernah membalik arah
+2659.03,Badut,26,"Profesional hukum, sosial dan budaya",0.6878696109425473,8,0,0,0.47430789949194696,0.6878696109425473,False,tidak pernah membalik arah
+2659.04,Ahli Hipnotis,26,"Profesional hukum, sosial dan budaya",0.0014099585470378976,8,3,0,0.17509044442241925,0.0014099585470378976,True,pernah membalik arah
+2659.05,Pesulap,26,"Profesional hukum, sosial dan budaya",0.2629795855891856,8,0,0,0.2573306893955641,0.2629795855891856,False,tidak pernah membalik arah
+2659.06,Dalang,26,"Profesional hukum, sosial dan budaya",0.21823495940791832,8,1,0,0.25562909733416406,0.21823495940791832,True,pernah membalik arah
+2659.07,Stand Up Komedian (Pelawak Tunggal),26,"Profesional hukum, sosial dan budaya",0.15787758186661505,8,1,0,0.2645820241424825,0.15787758186661505,True,pernah membalik arah
+2659.08,Ventriloquist,26,"Profesional hukum, sosial dan budaya",-0.4385276536093498,8,1,0,0.5544413317117359,0.4385276536093498,True,pernah membalik arah

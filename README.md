@@ -14,6 +14,12 @@ Semua embedding, cosine, skor, p-value, FDR, serta sensitivitas dihitung dari in
 
 **Diagnostik D1–D5 selesai pada 18 Oktober 2026.** Run [`2026-10-18_02-57-12`](outputs/diagnostik/2026-10-18_02-57-12/) menjalankan 13 cell kode diagnostik dari kernel baru, dengan **16 QC PASS** dan sepuluh gambar PNG/SVG. Sumbernya run utama `2026-10-14_23-08-25`; model tidak dimuat ulang dan pipeline utama tidak dieksekusi ulang. Output 45 cell utama, folder sumber, dan pointer utama dipertahankan.
 
+## Pemulihan ekstraksi PDF — 10 November 2026
+
+**Ekstraksi PDF dan audit seleksi selesai pada 10 November 2026.** Bagian **0** notebook berisi sepuluh cell bertag `extraction`, termasuk lima cell kode yang dijalankan dari kernel baru. Run [`2026-11-10_00-18-50`](outputs/ekstraksi_kbji/2026-11-10_00-18-50/audit/manifest_ekstraksi.json) berstatus `complete`, dengan **19 QC PASS**, durasi 10,03 detik. [CSV ekstraksi ulang](data/validasi/kbji_profesional_ekstraksi_ulang.csv) mempertahankan 501 entri dan flag/alasan seleksi: 85 residual dan satu entri beratribut gender dikecualikan sehingga tersisa 415. Tidak ada perbedaan kode, nama asli, hierarki, halaman, atau keputusan seleksi terhadap kedua CSV pembanding.
+
+Heading Profesional terverifikasi pada halaman PDF **159** dan awal Golongan Pokok 3 pada **331**. Parser membaca **159–330**, dengan baris jabatan pada **161–327** (tercetak **121–287**). [Tabel seleksi per kelompok](outputs/ekstraksi_kbji/2026-11-10_00-18-50/tables/seleksi_per_subgolongan.csv) dan [audit perbandingan](outputs/ekstraksi_kbji/2026-11-10_00-18-50/audit/perbandingan_sumber.csv) menyimpan hasil aktual. Notebook kini 78 cell; seluruh 68 cell sebelumnya beserta outputnya dipertahankan. Lingkup eksekusi baru hanya ekstraksi/audit.
+
 ## Tiga rumusan masalah
 
 1. **RM 1:** bagaimana arah, besar effect size, dan signifikansi asosiasi gender pada 415 nama jabatan?
@@ -27,7 +33,7 @@ RM 2 merupakan analisis utama tersendiri tanpa uji beda inferensial. LOPO merupa
 ```text
 notebooks/analisis_scweat_kbji.ipynb   seluruh pipeline aktif
 data/                                 CSV analisis dan PDF sumber bernama deskriptif
-  validasi/                           dua CSV pemeriksaan silang
+  validasi/                           CSV pemeriksaan silang dan ekstraksi ulang
 models/cc.id.300.bin                   model tunggal, dipertahankan
 outputs/analisis_utama/<run_id>/
   tables/                             hasil penuh CSV
@@ -38,6 +44,7 @@ outputs/diagnostik/<diagnostic_run_id>/
   figures/                            gambar diagnostik PNG 300 dpi dan SVG
   audit/                              input/hash, validasi, manifest diagnostik
 docs/                                 acuan, metode, kamus, catatan pengerjaan
+outputs/ekstraksi_kbji/<run_id>/      tabel seleksi, audit PDF/perbandingan, QC dan manifest
 archive/2026-10-14_eksperimen_lama/     eksperimen historis
 archive/2026-10-14_penataan_berkas/     11 CSV tidak relevan dan snapshot notebook
 ```
@@ -46,7 +53,7 @@ Notebook utama: [`notebooks/analisis_scweat_kbji.ipynb`](notebooks/analisis_scwe
 
 ## Tata nama dan pengelompokan data
 
-Input aktif memakai nama berdasarkan fungsinya, tanpa awalan eksperimen. [Panduan data](data/README.md) menjelaskan kelima berkas yang dibaca notebook:
+Input aktif memakai nama berdasarkan fungsinya, tanpa awalan eksperimen. [Panduan data](data/README.md) menjelaskan input notebook serta keluaran validasi baru:
 
 | Lokasi | Fungsi |
 | --- | --- |
@@ -55,6 +62,7 @@ Input aktif memakai nama berdasarkan fungsinya, tanpa awalan eksperimen. [Pandua
 | `data/kbji_2014.pdf` | PDF sumber |
 | `data/validasi/kbji_profesional_sumber.csv` | Pemeriksaan silang nama dan kode asli |
 | `data/validasi/istilah_gender_historis.csv` | Audit perbedaan lexical historis |
+| `data/validasi/kbji_profesional_ekstraksi_ulang.csv` | Keluaran baru 501 entri dari PDF dan audit seleksi; tidak mengganti input utama |
 
 Sebelas CSV lainnya dikelompokkan dalam [arsip data tidak relevan](archive/2026-10-14_penataan_berkas/README.md): empat CSV demo sintetis dan tujuh CSV versi lama. Sebutan tidak relevan berarti tidak digunakan pada pipeline aktif. [Manifest penataan](archive/2026-10-14_penataan_berkas/manifest_penataan.csv) menyimpan pemetaan nama lama/baru dan hash sebelum/sesudah pemindahan. Isi input tetap sama; label provenance historis di dalam CSV dipertahankan.
 
@@ -108,6 +116,8 @@ python -m venv .venv
 Pilih kernel environment tersebut, periksa sel konfigurasi path input/lexical/model, lalu **Restart Kernel and Run All**. Root dideteksi melalui `pathlib` sehingga notebook dapat dijalankan dari root atau `notebooks/`, tanpa path absolut komputer pengembang. Letakkan biner asli di `models/cc.id.300.bin` bila belum tersedia; notebook tidak menggantinya dengan `.vec` atau model lain. `RANDOM_SEED=42` digunakan untuk pengacakan validasi dan jitter visual.
 
 Run yang dilaporkan menggunakan environment yang sudah tersedia dan versi paketnya diperiksa. Instalasi ulang pada venv baru belum dijalankan; perintah di atas merupakan panduan setup untuk reproduksi.
+
+Ekstraksi memakai **pdfplumber 0.11.10**, dipin pada `requirements.txt` sesuai versi yang benar-benar digunakan. Untuk **hanya ekstraksi dan audit**, restart kernel lalu jalankan seluruh sel bagian **0. Ekstraksi PDF, pembersihan, dan audit seleksi data**, bertag `extraction`, sampai QC ekstraksi. Impor dan konfigurasi berdiri sendiri; bagian 1–11 serta model tidak diperlukan. CSV keluaran memakai nama tetap pada `data/validasi/`; setiap eksekusi membentuk direktori audit baru di `outputs/ekstraksi_kbji/<run_id>/{tables,audit}`.
 
 Eksekusi noninteraktif dari root dengan environment yang sama:
 
@@ -188,7 +198,7 @@ Keluaran diagnostik menggunakan `outputs/diagnostik/<diagnostic_run_id>/{tables,
 
 ### Run diagnostik dan keluaran aktual
 
-Run **`2026-10-18_02-57-12`** berlangsung **18 Oktober 2026 pukul 02:57:12–02:57:24 WIB**, durasi manifest **11,72 detik**, berstatus `complete`. Notebook kini mempunyai 68 cell: 45 cell utama yang dipertahankan dan 23 tambahan bertag `diagnostics`, termasuk 13 cell kode yang benar-benar dieksekusi pada tambahan ini. [Manifest diagnostik](outputs/diagnostik/2026-10-18_02-57-12/audit/manifest_diagnostik.json) menyatakan `execution_scope=diagnostics_only_from_saved_csv` dan `model_loaded=false`.
+Run **`2026-10-18_02-57-12`** berlangsung **18 Oktober 2026 pukul 02:57:12–02:57:24 WIB**, durasi manifest **11,72 detik**, berstatus `complete`. Pada run tersebut notebook mempunyai 68 cell: 45 cell utama yang dipertahankan dan 23 tambahan bertag `diagnostics`, termasuk 13 cell kode yang benar-benar dieksekusi pada tambahan ini. [Manifest diagnostik](outputs/diagnostik/2026-10-18_02-57-12/audit/manifest_diagnostik.json) menyatakan `execution_scope=diagnostics_only_from_saved_csv` dan `model_loaded=false`.
 
 | Bagian | Tabel penuh | Visual penjelas |
 | --- | --- | --- |

@@ -38,6 +38,27 @@ Flag sumber mencakup `is_valid_code`, `is_duplicate_code`, `is_residual`, `conta
 
 ## Identitas dan representasi jabatan
 
+### CSV validasi ekstraksi ulang
+
+[`data/validasi/kbji_profesional_ekstraksi_ulang.csv`](../data/validasi/kbji_profesional_ekstraksi_ulang.csv) memuat **501 entri**, termasuk 86 entri yang dikecualikan. Seluruh 25 kolom CSV utama dipertahankan dalam urutan yang sama; flag dihitung ulang dari PDF dan normalisasi aktif. `occupation_name` berisi nama asli. `preprocessing_version=ekstraksi_pdf_normalisasi_aktif_v1` dan `source_document=kbji_2014.pdf` mengidentifikasi proses/nama sumber saat ini. `token_count` berasal dari nama analisis, sehingga dapat berbeda dari metadata historis.
+
+| Kolom tambahan | Tipe | Arti |
+| --- | --- | --- |
+| `occupation_text` | string | Nama analisis dengan normalisasi aktif |
+| `tokens` | JSON array string | Token terurut; baca dengan `json.loads()` |
+| `gender_leakage_terms` | JSON array string | Irisan token utuh dengan 16 istilah atribut |
+| `exclusion_reason` | string / kosong | Alasan per entri; kosong untuk 415 entri terpilih |
+| `source_line_pdf` | integer | Nomor baris berbasis satu dalam hasil `pdfplumber.extract_text()` pada halaman terkait |
+| `source_line_text` | string | Teks baris ekstraksi sebelum perapatan whitespace tata letak |
+
+Baca ulang dengan `dtype=str, keep_default_na=False`, lalu parse flag `True`/`False` secara eksplisit. Konversi hanya halaman/jumlah token bila diperlukan; semua kode tetap string.
+
+Audit berada pada `outputs/ekstraksi_kbji/<run_id>/`. `tables/seleksi_per_subgolongan.csv` berisi kode kelompok, `entri_awal`, `residual`, `memuat_atribut_gender`, `jabatan_akhir`, `eksklusi_lain`; `komposisi_token.csv` mencatat jumlah aktual/acuan satu token dan multikata. Pada `audit/`, `batas_heading.csv` menyimpan batas inklusif/eksklusif; `halaman_pdf.csv` menyimpan footer, keberadaan teks dan jumlah jabatan tiap halaman; `hierarki_pdf.csv` menyimpan label pertama beserta halaman/baris. `perbandingan_sumber.csv` meringkas pencocokan, `perbedaan_sumber.csv` menyimpan selisih identitas/seleksi (kosong bila cocok), dan `perbandingan_metadata.csv` mencatat perbedaan metadata historis. `validasi_ekstraksi.csv` berkolom `pemeriksaan`, `aktual`, `acuan`, `status` (PASS/FAIL).
+
+`manifest_ekstraksi.json` mencatat run, `execution_scope=extraction_and_selection_audit_only`, `model_loaded=false`, konfigurasi, input/output SHA-256, versi Python/paket, Git, waktu/durasi, batas halaman, jumlah seleksi dan status QC. `notebook_source.json` menyimpan pasangan tipe/source seluruh notebook tanpa output dengan hash sesuai `notebook_source_sha256`. Manifest tidak mencantumkan checksum dirinya sendiri. Keluaran validasi tidak mengganti input utama atau pointer run analisis.
+
+### Tabel pengukuran utama
+
 Kolom berikut digunakan pada data analisis dan dibawa ke tabel individual ketika diperlukan.
 
 | Kolom | Tipe | Arti / rentang |

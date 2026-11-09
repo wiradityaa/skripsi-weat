@@ -1,0 +1,224 @@
+{
+  "run_id": "2026-11-10_00-12-48",
+  "status": "complete",
+  "start_time": "2026-11-10T00:12:48.532674+07:00",
+  "execution_scope": "extraction_and_selection_audit_only",
+  "model_loaded": false,
+  "config": {
+    "pdf_path": "data/kbji_2014.pdf",
+    "active_csv": "data/kbji_profesional.csv",
+    "verification_csv": "data/validasi/kbji_profesional_sumber.csv",
+    "lexicon_csv": "data/istilah_gender.csv",
+    "output_csv": "data/validasi/kbji_profesional_ekstraksi_ulang.csv",
+    "notebook_path": "notebooks/analisis_scweat_kbji.ipynb",
+    "output_root": "outputs/ekstraksi_kbji",
+    "heading_search_pages_pdf": [
+      158,
+      332
+    ],
+    "historical_scope_pages_pdf": [
+      159,
+      330
+    ],
+    "group_order": [
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26"
+    ],
+    "expected_counts": {
+      "initial": 501,
+      "residual": 85,
+      "gender": 1,
+      "final": 415
+    },
+    "expected_group_counts": {
+      "21": 138,
+      "22": 74,
+      "23": 42,
+      "24": 29,
+      "25": 26,
+      "26": 106
+    },
+    "canonical_pairs": [
+      [
+        "laki-laki",
+        "perempuan"
+      ],
+      [
+        "pria",
+        "wanita"
+      ],
+      [
+        "ayah",
+        "ibu"
+      ],
+      [
+        "suami",
+        "istri"
+      ],
+      [
+        "putra",
+        "putri"
+      ],
+      [
+        "pemuda",
+        "pemudi"
+      ],
+      [
+        "cowok",
+        "cewek"
+      ],
+      [
+        "jejaka",
+        "gadis"
+      ]
+    ],
+    "preprocessing": {
+      "unicode": "NFKC",
+      "lowercase": true,
+      "quotes_deleted": "\"“”„‟‘’'",
+      "separators_to_space": "()/,.",
+      "nonprinting": "Cc/Cf menjadi spasi",
+      "whitespace": "collapse lalu strip",
+      "hyphen": "dipertahankan",
+      "other_punctuation": "dipertahankan"
+    },
+    "preprocessing_version": "ekstraksi_pdf_normalisasi_aktif_v1"
+  },
+  "inputs": [
+    {
+      "path": "data/kbji_2014.pdf",
+      "sha256": "a9831205cf1eaed796f85b29771169f52ce1c9c9a44c911e1ccaed6d31fdc3dc",
+      "bytes": 34550550
+    },
+    {
+      "path": "data/kbji_profesional.csv",
+      "sha256": "83e19246b8490ce0c1ff5b186b0ace7f4ed4130a5fe3d23f519b21fe89875320",
+      "bytes": 134268
+    },
+    {
+      "path": "data/validasi/kbji_profesional_sumber.csv",
+      "sha256": "c0fd92dbd9db6a7a4b259f928bec99c91abd7faa5e3bc0ab764a9cacb1b23cf1",
+      "bytes": 157614
+    },
+    {
+      "path": "data/istilah_gender.csv",
+      "sha256": "47a843ece93828d8bec59a2666fc414accf38a3c6dd66fed7c2b059247b6d4ed",
+      "bytes": 1079
+    }
+  ],
+  "python": "3.13.15 (tags/v3.13.15:4061bc4, Aug  5 2026, 13:05:39) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "dependencies": {
+    "pdfplumber": "0.11.10",
+    "pdfminer.six": "20260107",
+    "pypdfium2": "5.13.0",
+    "pandas": "3.0.5",
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0",
+    "ipykernel": "7.3.0"
+  },
+  "git_commit": "00d6625b6a2ade4b2548c74e7adf730d69b83250",
+  "git_status_at_start": " M notebooks/analisis_scweat_kbji.ipynb\n M requirements.txt\n",
+  "notebook_path": "notebooks/analisis_scweat_kbji.ipynb",
+  "notebook_source_sha256": "6df70919f406fd3a207e5c2605a12a96d6f055f50283718afd1af86a03125674",
+  "finish_time": "2026-11-10T00:12:58.410282+07:00",
+  "duration_seconds": 9.877759600058198,
+  "stage_durations_seconds": {
+    "pdf_extraction_seconds": 9.425672000041232,
+    "normalization_selection_seconds": 0.03831750014796853,
+    "source_comparison_seconds": 0.05967529979534447,
+    "export_validation_seconds": 0.12337770010344684
+  },
+  "counts": {
+    "initial": 501,
+    "residual": 85,
+    "gender": 1,
+    "final": 415
+  },
+  "submajor_group_final_counts": {
+    "21": 138,
+    "22": 74,
+    "23": 42,
+    "24": 29,
+    "25": 26,
+    "26": 106
+  },
+  "pdf_total_pages": 752,
+  "scope_pages_pdf": [
+    159,
+    330
+  ],
+  "next_major_group_page_pdf": 331,
+  "occupation_pages_pdf": [
+    161,
+    327
+  ],
+  "occupation_pages_printed": [
+    121,
+    287
+  ],
+  "source_difference_count": 0,
+  "qc_passed": true,
+  "qc_check_count": 19,
+  "outputs": [
+    {
+      "path": "data/validasi/kbji_profesional_ekstraksi_ulang.csv",
+      "sha256": "5076705c6c0667de5a05a61f27fd739d423c3c28d7dc61131f42d3c63f0a58a0",
+      "bytes": 189547
+    },
+    {
+      "path": "outputs/ekstraksi_kbji/2026-11-10_00-12-48/audit/batas_heading.csv",
+      "sha256": "f023e72850f10fd42887ba634a658c148917a933864822e215dc63dd10eb5f48",
+      "bytes": 159
+    },
+    {
+      "path": "outputs/ekstraksi_kbji/2026-11-10_00-12-48/audit/halaman_pdf.csv",
+      "sha256": "889cef6f29683d1343336bbeace5ac616ec4ba4d5f9ec15d20aaa1cd39a957f6",
+      "bytes": 2814
+    },
+    {
+      "path": "outputs/ekstraksi_kbji/2026-11-10_00-12-48/audit/hierarki_pdf.csv",
+      "sha256": "ca350b54dda0131b54a2273558ea128f89ac8c47899d00fb99af8e4fe562fe6b",
+      "bytes": 6415
+    },
+    {
+      "path": "outputs/ekstraksi_kbji/2026-11-10_00-12-48/audit/notebook_source.json",
+      "sha256": "6df70919f406fd3a207e5c2605a12a96d6f055f50283718afd1af86a03125674",
+      "bytes": 173249
+    },
+    {
+      "path": "outputs/ekstraksi_kbji/2026-11-10_00-12-48/audit/perbandingan_metadata.csv",
+      "sha256": "2aca6f4de171a4044eab0c63e0904e1c1d8f2cd82fc84f290272ebce4d7472ec",
+      "bytes": 460
+    },
+    {
+      "path": "outputs/ekstraksi_kbji/2026-11-10_00-12-48/audit/perbandingan_sumber.csv",
+      "sha256": "89d72455f5ea8940b7ebc50113b21d23cf8aa85553f2fb230ae5f1d25632d828",
+      "bytes": 151
+    },
+    {
+      "path": "outputs/ekstraksi_kbji/2026-11-10_00-12-48/audit/perbedaan_sumber.csv",
+      "sha256": "7142de39fb77233d70babde16b03cbb84928727890afc2e8f1f32350fa3121eb",
+      "bytes": 54
+    },
+    {
+      "path": "outputs/ekstraksi_kbji/2026-11-10_00-12-48/audit/validasi_ekstraksi.csv",
+      "sha256": "34fa16b7d618111ae4203beac7071428b234a25753e21a3f3fa980f6beca0cbc",
+      "bytes": 1740
+    },
+    {
+      "path": "outputs/ekstraksi_kbji/2026-11-10_00-12-48/tables/komposisi_token.csv",
+      "sha256": "59f1c77160db9fdd4a2f43714465eca57877b5dd7d17444cfbd7fbc6ba039ab9",
+      "bytes": 72
+    },
+    {
+      "path": "outputs/ekstraksi_kbji/2026-11-10_00-12-48/tables/seleksi_per_subgolongan.csv",
+      "sha256": "88f7cc27e84a1f9b638a86ea93d3cdc8ccb2c10dbb8f8e91fcf0d7b89c03403e",
+      "bytes": 195
+    }
+  ]
+}

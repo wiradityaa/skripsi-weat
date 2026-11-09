@@ -1,0 +1,5 @@
+pembanding,kolom,jumlah_berbeda,keterangan
+data/kbji_profesional.csv,source_document,501,Nama berkas PDF saat ini; nama jabatan tetap.
+data/kbji_profesional.csv,preprocessing_version,501,Penanda ekstraksi ulang dan normalisasi aktif.
+data/kbji_profesional.csv,token_count,5,Dihitung dari normalisasi aktif; teks historis tidak dipakai.
+data/validasi/kbji_profesional_sumber.csv,token_count,16,Dihitung dari normalisasi aktif; teks historis tidak dipakai.

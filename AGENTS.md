@@ -95,3 +95,11 @@ Prompt lanjutan `PROMPT_VSCODE_DIAGNOSTIK_SCWEAT.md` diotorisasi pengguna untuk 
 - D2 memisahkan jabatan unik yang pernah membalik dari kejadian jabatan–pasangan; gunakan label faktual dan jitter seed42. D3 menghitung ulang mean, pembilang, SD, serta effect size baseline/LOPO. Selama SD positif, tanda skor ditentukan pembilang; perubahan SD tidak membalik tanda.
 - D4 memakai 48 kombinasi kelompok–pasangan dan denominator anggota kelompok. D5 merekonstruksi permutasi baseline tiga contoh dengan toleransi sumber; adjusted p-value diambil dari BH global yang sudah ada, tanpa pengujian baru.
 - Akhiri bagian diagnostik dengan assertion/tabel QC aktual. Dokumentasi harus membedakan eksekusi `diagnostics-only` dari Run All seluruh notebook; jangan mengklaim pemuatan model atau pengukuran utama dijalankan ulang bila hanya diagnostik yang dieksekusi.
+
+## Pemulihan ekstraksi PDF — 10 November 2026
+
+- Bagian **0** notebook aktif memuat sepuluh cell bertag `extraction`, termasuk lima cell kode, untuk ekstraksi dan audit seleksi dari kernel baru tanpa model/variabel utama.
+- Parser mengadaptasi bagian ekstraksi notebook historis yang ditunjuk pengguna. Heading memverifikasi lingkup PDF 159–330, sebelum Golongan Pokok 3 pada 331; baris jabatan berada pada 161–327 (tercetak 121–287). Pertahankan kode string, nama asli, hierarki serta jejak halaman/baris.
+- `data/validasi/kbji_profesional_ekstraksi_ulang.csv` mempertahankan 501 entri, flag/alasan seleksi, dan nama analisis terpisah dari nama asli `occupation_name`. Jangan otomatis mengganti input utama dengan CSV validasi ini.
+- Audit berada pada `outputs/ekstraksi_kbji/<run_id>/{tables,audit}`. Run `2026-11-10_00-18-50` selesai dengan 19 QC PASS dan tanpa perbedaan identitas/seleksi terhadap kedua CSV pembanding. Metadata nama berkas, versi preprocessing, dan jumlah token historis dicatat terpisah.
+- Eksekusi baru hanya ekstraksi/audit; seluruh 68 cell lama beserta outputnya dipertahankan, SC-WEAT/diagnostik tidak dijalankan ulang. Notebook kini 78 cell. Contoh baris untuk naskah Subbab 4.1 tidak dibuat sesuai koreksi pengguna.

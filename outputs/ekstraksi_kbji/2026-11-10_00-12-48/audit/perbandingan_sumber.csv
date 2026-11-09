@@ -1,0 +1,3 @@
+pembanding,kode_diperiksa,kolom_dibandingkan,jumlah_perbedaan
+data/kbji_profesional.csv,501,21,0
+data/validasi/kbji_profesional_sumber.csv,501,21,0

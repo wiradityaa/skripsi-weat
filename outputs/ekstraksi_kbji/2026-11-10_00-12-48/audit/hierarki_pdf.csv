@@ -1,0 +1,126 @@
+level,code,name,source_page_pdf,source_line_pdf
+submajor_group,21,Ahli ilmu pengetahuan dan teknik,159,17
+submajor_group,22,Profesional kesehatan,159,18
+submajor_group,23,Profesional pendidikan,159,19
+submajor_group,24,Profesional bisnis dan administrasi,159,20
+submajor_group,25,Profesional teknologi informasi dan komunikasi,159,21
+submajor_group,26,"Profesional hukum, sosial dan budaya",159,22
+group,211,Ahli Fisika dan Ilmu Bumi,160,3
+subgroup,2111,Ahli Fisika dan Astronomi,160,19
+subgroup,2112,Ahli Meteorologi dan Klimatologi,163,32
+subgroup,2113,Ahli Kimia,165,3
+subgroup,2114,Ahli Geologi dan Geofisika,166,35
+group,212,"Ahli Matematika, Aktuaria Dan Statistika",169,5
+subgroup,2120,"Ahli Matematika, Aktuaria Dan Statistika",169,26
+group,213,Ahli Ilmu Pengetahuan Hayati,172,18
+subgroup,2131,"Ahli Biologi, Botani, Zoologi Dan YBDI",172,32
+subgroup,2132,"Penasihat Pertanian, Kehutanan dan Perikanan",176,27
+subgroup,2133,Ahli Perlindungan Lingkungan,178,43
+group,214,Ahli Teknik (Selain Ahli Teknologi Elektro),181,19
+subgroup,2141,Ahli Teknik Industri dan Produksi,181,42
+subgroup,2142,Ahli Teknik Sipil,183,34
+subgroup,2143,Ahli Teknik Lingkungan,186,25
+subgroup,2144,Ahli Teknik Mekanika,187,35
+subgroup,2145,Ahli Teknik Kimia,190,17
+subgroup,2146,"Ahli Teknik Pertambangan, Metalurgi dan YBDI",191,37
+subgroup,2149,Ahli Teknik Lain YTDL,194,18
+group,215,Ahli Teknik Teknologi Elektro,197,25
+subgroup,2151,Ahli Teknik Listrik,197,40
+subgroup,2152,Ahli Teknik Elektronik,199,14
+subgroup,2153,Ahli Teknik Telekomunikasi,200,32
+group,216,"Arsitek, Perencana, Surveyor dan Desainer",202,3
+subgroup,2161,Arsitek Bangunan,202,24
+subgroup,2162,Arsitek Pertamanan/Lansekap,203,34
+subgroup,2163,Perancang Produk dan Pakaian Jadi,204,42
+subgroup,2164,Perencana Tata Kota dan Lalu Lintas,206,24
+subgroup,2165,Ahli Pemetaan dan Surveyor,207,39
+subgroup,2166,Perancang Grafis dan Multimedia,209,21
+group,221,Dokter Medis,212,42
+subgroup,2211,Praktisi Dokter Umum,213,21
+subgroup,2212,Praktisi Dokter Spesialis,215,3
+group,222,Profesional Keperawatan dan Kebidanan,220,32
+subgroup,2221,Profesional Keperawatan,221,10
+subgroup,2222,Profesional Kebidanan,223,35
+group,223,Profesional Pengobatan Tradisional dan Komplementer,225,5
+subgroup,2230,Profesional Pengobatan Tradisional dan Komplementer,225,24
+group,224,Praktisi Paramedis,227,36
+subgroup,2240,Praktisi Paramedis,228,15
+group,225,Dokter Hewan,229,29
+subgroup,2250,Dokter Hewan,230,3
+group,226,Profesional Kesehatan Lainnya,231,26
+subgroup,2261,Dokter Gigi,232,12
+subgroup,2262,Apoteker,235,3
+subgroup,2263,Ahli Kesehatan dan Kebersihan Lingkungan Kerja,236,11
+subgroup,2264,Ahli Fisioterapi,238,6
+subgroup,2265,Ahli Diet dan Gizi,240,3
+subgroup,2266,Ahli Terapi Pendengaran dan Terapi Bicara,241,17
+subgroup,2267,Ahli Optometrik dan Optik Oftalmik,242,34
+subgroup,2269,Ahli Kesehatan YTDL,243,30
+group,231,Dosen Universitas dan Pendidikan Tinggi,245,24
+subgroup,2310,Dosen Universitas dan Pendidikan Tinggi,245,39
+group,232,Pengajar Pendidikan Kejuruan,249,18
+subgroup,2320,Pengajar Pendidikan Kejuruan,249,40
+group,233,Guru Pendidikan Menengah,251,15
+subgroup,2330,Guru Pendidikan Menengah,251,34
+group,234,Guru Sekolah Dasar dan Anak Usia Dini,252,43
+subgroup,2341,Guru Sekolah Dasar,253,10
+subgroup,2342,Guru Anak Usia Dini,254,5
+group,235,Profesional Bidang Pendidikan Lainnya,255,3
+subgroup,2351,Spesialis Metode Pendidikan,255,25
+subgroup,2352,Guru Siswa Berkebutuhan Khusus,256,40
+subgroup,2353,Guru Kursus Bahasa,258,9
+subgroup,2354,Guru Kursus Musik,259,3
+subgroup,2355,Guru Kursus Seni,260,30
+subgroup,2356,Pengajar Teknologi Informasi,262,5
+subgroup,2359,Profesional Bidang Pendidikan Lainnya YTDL,263,7
+group,241,Profesional Keuangan,264,30
+subgroup,2411,Akuntan,264,42
+subgroup,2412,Konsultan Keuangan dan Investasi,267,3
+subgroup,2413,Analis Keuangan,267,40
+group,242,Profesional Administrasi,269,5
+subgroup,2421,Analis Manajemen dan Organisasi,269,17
+subgroup,2422,Profesional Kebijakan Administrasi,270,35
+subgroup,2423,Profesional Personalia dan Karir,271,28
+subgroup,2424,Profesional Pelatihan dan Pengembangan Staf,273,18
+group,243,"Profesional Penjualan, Pemasaran dan Hubungan Masyarakat",274,29
+subgroup,2431,Profesional Periklanan dan Pemasaran,275,5
+subgroup,2432,Profesional Hubungan Masyarakat,276,17
+subgroup,2433,Profesional Penjualan Produk Teknik dan Kesehatan (Selain TIK),277,8
+subgroup,2434,Profesional Penjualan Produk Teknologi Komunikasi dan Informasi,278,28
+group,251,Analis dan Pengembang Perangkat Lunak dan Aplikasi,279,37
+subgroup,2511,Analis Sistem,280,9
+subgroup,2512,Pengembang Perangkat Lunak,281,17
+subgroup,2513,Pengembang Web dan Multimedia,282,28
+subgroup,2514,Pemrogram Aplikasi,284,20
+subgroup,2519,Analis dan Pengembang Perangkat Lunak Dan Aplikasi YTDL,285,6
+group,252,Profesional Database dan Jaringan,286,14
+subgroup,2521,Pengelola dan Perancang Database,286,32
+subgroup,2522,Pengelola Sistem,288,3
+subgroup,2523,Profesional Jaringan Komputer,289,10
+subgroup,2529,Profesional Database dan Jaringan YTDL,290,12
+group,261,Profesional Hukum,291,29
+subgroup,2611,Pengacara,291,41
+subgroup,2612,Hakim,293,12
+subgroup,2619,Profesional Hukum YTDL,293,40
+group,262,"Pustakawan, Arsiparis dan Kurator",294,31
+subgroup,2621,Arsiparis dan Kurator,295,3
+subgroup,2622,Pustakawan dan Profesional Informasi YBDI,296,18
+group,263,Profesional Sosial dan Keagamaan,297,30
+subgroup,2631,Ahli Ekonomi,298,5
+subgroup,2632,"Ahli Sosiologi, Antropologi dan Profesional YBDI",300,3
+subgroup,2633,"Ahli Filsafat, Sejarawan dan Ahli Politik",302,5
+subgroup,2634,Psikolog,303,32
+subgroup,2635,Profesional Konseling dan Pekerja Sosial,305,29
+subgroup,2636,Profesional Pemimpin Keagamaan,309,20
+group,264,"Penulis, Wartawan dan Ahli Bahasa",310,31
+subgroup,2641,Pengarang dan Penulis YBDI,311,3
+subgroup,2642,Wartawan,313,25
+subgroup,2643,"Penerjemah, Alih Bahasa dan Profesional Bahasa Lainnya",316,12
+group,265,Seniman Kreatif dan Pertunjukan,317,37
+subgroup,2651,Seniman Visual,318,15
+subgroup,2652,"Musisi, Penyanyi dan Komposer",319,33
+subgroup,2653,Penari dan Koreografer,321,5
+subgroup,2654,"Produser dan Sutradara Film, Pementasan Dan YBDI",322,3
+subgroup,2655,Aktor,323,27
+subgroup,2656,"Penyiar Radio, Televisi dan Media Lainnya",324,26
+subgroup,2659,Seniman Kreatif dan Petunjukan YTDL,325,32

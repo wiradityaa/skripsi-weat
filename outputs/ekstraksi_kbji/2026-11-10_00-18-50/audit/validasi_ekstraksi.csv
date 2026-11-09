@@ -1,0 +1,20 @@
+pemeriksaan,aktual,acuan,status
+Batas heading sesuai jejak historis,"[159, 330]","[159, 330]",PASS
+Semua baris kode jabatan dalam lingkup diproses,True,True,PASS
+Jumlah tingkat hierarki 2/3/4 digit,"[6, 27, 92]","[6, 27, 92]",PASS
+Kasus aturan normalisasi,"['ahli fisika umum', 'pertamanan lansekap', 'laki-laki', 'ahli umum a b c', 'ahli umum']","['ahli fisika umum', 'pertamanan lansekap', 'laki-laki', 'ahli umum a b c', 'ahli umum']",PASS
+Checkpoint seleksi dihitung dari PDF,"{'initial': 501, 'residual': 85, 'gender': 1, 'final': 415}","{'initial': 501, 'residual': 85, 'gender': 1, 'final': 415}",PASS
+415 jabatan menurut kelompok 21–26,"{'21': 138, '22': 74, '23': 42, '24': 29, '25': 26, '26': 106}","{'21': 138, '22': 74, '23': 42, '24': 29, '25': 26, '26': 106}",PASS
+"Kode unik, nama terisi, hierarki lengkap/sesuai","[True, True, True, True, True, False]","[True, True, True, True, True, False]",PASS
+Residual bukan .99 yang wajib terdeteksi,"['2353.00', '2359.00']","['2353.00', '2359.00']",PASS
+Kebocoran atribut melalui token utuh,['2635.09'],['2635.09'],PASS
+Substring atribut tidak dianggap token gender,False,False,PASS
+Residual dan atribut tidak tumpang tindih,0,0,PASS
+Komposisi token hasil normalisasi aktual,"[42, 373]","[42, 373]",PASS
+"Identitas, halaman, flag dan seleksi: active_csv",0,0,PASS
+"Identitas, halaman, flag dan seleksi: verification_csv",0,0,PASS
+Round-trip seluruh kolom CSV sebelum ekspor,"(501, 31)","(501, 31)",PASS
+Kode berekor nol tetap string,"['2111.10', '2162.00']","['2111.10', '2162.00']",PASS
+Seluruh nama/kode terlacak ke baris PDF,501,501,PASS
+Seluruh input PDF/CSV/lexical tetap utuh,True,True,PASS
+CSV di disk identik dengan round-trip tervalidasi,True,True,PASS

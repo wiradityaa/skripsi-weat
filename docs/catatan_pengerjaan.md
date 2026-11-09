@@ -2,6 +2,24 @@
 
 Tanggal menggunakan zona waktu Asia/Jakarta. Sumber spesifikasi adalah prompt start fresh yang diotorisasi pengguna pada 14 Oktober 2026; proposal revisi asli belum tersedia dalam repository. Riwayat eksperimen lama disimpan pada arsip dan tidak menjadi hasil aktif.
 
+## 10 November 2026 — pemulihan ekstraksi PDF dan audit seleksi
+
+Bagian **0** ditambahkan pada notebook aktif, sepuluh cell bertag `extraction` termasuk lima cell kode. Kelima cell dijalankan berurutan dari kernel baru melalui `nbclient`, execution count 1–5, tanpa error. Notebook valid menurut `nbformat`, kernelspec Python 3; seluruh 68 cell lama (source dan output) dibandingkan dengan Git dan tetap identik. Notebook kini 78 cell. `pdfplumber==0.11.10` dipin sesuai versi aktual. Eksekusi final juga memverifikasi deteksi root dari direktori kerja kernel `notebooks/`. Lingkup pekerjaan berhenti pada ekstraksi/audit, tanpa contoh baris untuk naskah Subbab 4.1 sesuai koreksi pengguna.
+
+Run [`2026-11-10_00-18-50`](../outputs/ekstraksi_kbji/2026-11-10_00-18-50/audit/manifest_ekstraksi.json) dimulai 00:18:50 WIB, selesai 00:19:00 WIB, durasi manifest 10,03 detik; status `complete`, **19 QC PASS**. PDF dibaca baru: heading Profesional 159, heading Golongan Pokok 3 pada 331, lingkup parser 159–330; baris jabatan 161–327 (tercetak 121–287). Enam Subgolongan Pokok, 27 Golongan dan 92 Subgolongan terisi. Nama asli, semua hierarki, halaman, dan flag/seleksi 501 kode cocok dengan kedua CSV pembanding. Perbedaan metadata nama berkas, versi preprocessing, serta jumlah token (5 baris terhadap CSV utama, 16 terhadap CSV validasi) dicatat terpisah, tanpa memakai teks preprocessing lama.
+
+| Kode | Entri awal | Residual | Atribut gender | Akhir |
+| --- | ---: | ---: | ---: | ---: |
+| 21 | 161 | 23 | 0 | 138 |
+| 22 | 89 | 15 | 0 | 74 |
+| 23 | 52 | 10 | 0 | 42 |
+| 24 | 38 | 9 | 0 | 29 |
+| 25 | 34 | 8 | 0 | 26 |
+| 26 | 127 | 20 | 1 | 106 |
+| Total | 501 | 85 | 1 | 415 |
+
+[`kbji_profesional_ekstraksi_ulang.csv`](../data/validasi/kbji_profesional_ekstraksi_ulang.csv) menyimpan semua 501 entri dengan 25 kolom kompatibel input aktif dan enam kolom audit tambahan. Residual non-`.99` `2353.00`/`2359.00` serta kebocoran token `2635.09` terdeteksi ulang. Nama analisis menghasilkan 42 satu token dan 373 multikata. Round-trip semua kolom, kode berekor nol, boolean dan JSON, serta keterlacakan 501 baris ke PDF lulus. Empat input tetap utuh menurut SHA-256. Tidak ada SC-WEAT, diagnostik, atau Full Run All notebook yang dijalankan ulang pada pekerjaan ini.
+
 ## 14 Oktober 2026 — penataan dan persiapan implementasi
 
 **Perubahan dan alasan.** Arah aktif diselaraskan menjadi satu notebook, satu model fastText, tiga RM, `ddof=0`, permutasi eksak dua sisi 12.870, BH global 415 pengujian, RM 2 deskriptif, dan LOPO tanpa inferensi tambahan. Eksperimen lama diarahkan ke `archive/2026-10-14_eksperimen_lama/`; CSV/PDF/model input tetap di lokasi semula. Pedoman dan hasil lama dipertahankan sebagai sejarah, bukan dibaca kembali untuk menggantikan eksekusi baru.
